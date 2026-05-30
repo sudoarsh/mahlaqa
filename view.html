@@ -1,8 +1,26 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Collation - Diwan of Mah Laqa Bai Chanda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="view.html">View Text</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Diwan of Mah Laqa Bai Chanda</h1>
+        <p>Interactive Textual Collation</p>
+    </div>
+
     <div class="container">
-        <h2>Deewan Witnesses</h2>
+        
         <div class="controls">
             <span class="control-label">Select Witnesses:</span>
             <label><input type="checkbox" class="col-toggle" value="BL" checked> BL (1799)</label>
@@ -10,20 +28,25 @@ layout: default
             <label><input type="checkbox" class="col-toggle" value="SJ" checked> SJ (1818)</label>
             <label><input type="checkbox" class="col-toggle" value="GM" checked> GM (Print)</label>
         </div>
+
         <div class="table-wrapper">
             <table id="deewanTable">
                 <thead>
                     <tr>
                         <th class="id-col">ID</th>
-                        <th class="col-BL">BL</th>
-                        <th class="col-TO">TO</th>
-                        <th class="col-SJ">SJ</th>
-                        <th class="col-GM">GM (Base)</th>
+                        <th class="col-BL">BL (1799)</th>
+                        <th class="col-TO">TO (1811)</th>
+                        <th class="col-SJ">SJ (1818)</th>
+                        <th class="col-GM">GM (Print)</th>
                     </tr>
                 </thead>
-                <tbody id="tableBody"></tbody>
+                <tbody id="tableBody">
+                    </tbody>
             </table>
         </div>
     </div>
+
     <script src="data.js"></script>
     <script src="script.js"></script>
+</body>
+</html>
