@@ -1,63 +1,62 @@
 /* =========================================
-   BASE STYLING & NAVIGATION
+   BASE STYLING & MODERN FONTS
    ========================================= */
 :root {
-    --primary: #2c3e50;
-    --bg-color: #f8f9fa;
-    --text-color: #333;
+    --primary: #0f172a;      /* Deep Slate */
+    --secondary: #334155;    /* Lighter Slate */
+    --bg-color: #f8fafc;     /* Soft App Background */
+    --surface: #ffffff;      /* White Cards */
+    --border: #e2e8f0;       /* Soft Borders */
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Inter', -apple-system, sans-serif;
     margin: 0;
     padding: 0;
     background-color: var(--bg-color);
-    color: var(--text-color);
+    color: var(--secondary);
+    -webkit-font-smoothing: antialiased;
 }
 
+/* =========================================
+   NAVIGATION & HERO
+   ========================================= */
 nav {
-    background-color: #1a252f;
-    padding: 1rem;
+    background-color: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 1.2rem;
     text-align: center;
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 nav a {
-    color: white;
+    color: #cbd5e1;
     text-decoration: none;
     margin: 0 20px;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     font-weight: 600;
-    letter-spacing: 0.5px;
+    transition: color 0.2s ease;
 }
 
-nav a:hover {
-    color: #3498db;
-}
+nav a:hover { color: #ffffff; }
 
-/* =========================================
-   HERO BANNER (Miniature Painting)
-   ========================================= */
 .hero {
-    /* The linear-gradient darkens the image so white text stays readable */
-    background: linear-gradient(rgba(26, 37, 47, 0.7), rgba(26, 37, 47, 0.8)), url('header-bg.jpg');
+    background: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('header-bg.jpg');
     background-size: cover;
     background-position: center 20%;
     color: white;
     text-align: center;
-    padding: 4rem 1rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    margin-bottom: 2rem;
+    padding: 5rem 1rem;
+    margin-bottom: 3rem;
 }
 
-.hero h1 { margin: 0; font-size: 2.8rem; font-weight: 700; letter-spacing: 1px; }
-.hero p { margin-top: 10px; font-size: 1.3rem; opacity: 0.9; font-style: italic; }
+.hero h1 { margin: 0; font-size: 3rem; font-weight: 700; letter-spacing: -0.5px; }
+.hero p { margin-top: 12px; font-size: 1.2rem; font-weight: 400; opacity: 0.9; }
 
 /* =========================================
-   CONTROLS & TABLE LAYOUT
+   MODERN APP CONTROLS
    ========================================= */
 .container {
     max-width: 1400px;
@@ -66,81 +65,119 @@ nav a:hover {
 }
 
 .controls {
-    background: white;
-    padding: 15px 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    margin-bottom: 20px;
+    background: var(--surface);
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
-    border: 1px solid #e0e0e0;
+    border: 1px solid var(--border);
+    flex-wrap: wrap;
 }
 
-.control-label { font-weight: bold; color: var(--primary); }
+.control-label { font-weight: 600; color: var(--primary); margin-right: 10px; }
 
+/* Styled Checkbox "Pills" */
+.controls label {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--secondary);
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.controls label:hover { background-color: #e2e8f0; }
+.controls input[type="checkbox"] {
+    accent-color: #3b82f6; /* Modern blue checkbox */
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/* =========================================
+   SLEEK DATA TABLE
+   ========================================= */
 .table-wrapper {
     overflow-x: auto;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    background: var(--surface);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border);
 }
 
 table {
     width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 15px 20px;
-    border: 1px solid #dee2e6;
-    vertical-align: top;
+    border-collapse: separate;
+    border-spacing: 0;
 }
 
 th {
     background-color: var(--primary);
-    color: white;
-    font-size: 1.1rem;
+    color: #f8fafc;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
     position: sticky;
-    top: 53px; /* Stays right beneath the sticky nav */
+    top: 65px;
     z-index: 10;
+    letter-spacing: 0.5px;
+}
+
+td {
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+}
+
+tr:last-child td { border-bottom: none; }
+tr:hover td { background-color: #f8fafc; } /* Subtle row highlight on hover */
+
+.id-col {
+    text-align: center;
+    color: #64748b;
+    font-family: monospace;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 /* =========================================
-   URDU TYPOGRAPHY & DIFF COLORS
+   PROPER NASTALIQ TYPOGRAPHY & DIFFS
    ========================================= */
 .urdu-text {
-    font-family: "Jameel Noori Nastaleeq", "Nafees Nastaleeq", "Noto Nastaliq Urdu", serif;
-    font-size: 26px;
-    line-height: 2.2;
+    /* Guaranteed Nastaliq via Google Fonts */
+    font-family: 'Noto Nastaliq Urdu', serif; 
+    font-size: 22px;
+    line-height: 2.8;
     text-align: right;
     direction: rtl;
-    /* Forces the text to honor the <br> tags exactly, preventing messy wrapping */
     white-space: nowrap; 
     min-width: 250px;
 }
 
-.id-col {
-    text-align: center;
-    font-weight: bold;
-    background-color: #f1f3f5;
-    font-family: monospace;
-    font-size: 1.1rem;
-    vertical-align: middle;
-}
-
-/* The Colors */
+/* Rounded, Modern Highlight Tags */
 span.diff {
-    padding: 0 4px;
-    border-radius: 4px;
-    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-weight: 700;
 }
 
-span.diff-anchor { background-color: #d4edda; color: #155724; border-bottom: 2px solid #28a745; }
-span.diff-gm { background-color: #f8d7da; color: #721c24; border-bottom: 2px solid #dc3545; }
-span.diff-var1 { background-color: #fff3cd; color: #856404; border-bottom: 2px solid #ffc107; }
-span.diff-var2 { background-color: #cce5ff; color: #004085; border-bottom: 2px solid #007bff; }
-span.diff-var3 { background-color: #e2d9f3; color: #4a2377; border-bottom: 2px solid #6f42c1; }
+/* Softer Variant Colors */
+span.diff-anchor { background-color: #dcfce7; color: #166534; } /* Green */
+span.diff-gm { background-color: #fee2e2; color: #991b1b; }     /* Red */
+span.diff-var1 { background-color: #fef3c7; color: #92400e; }   /* Yellow */
+span.diff-var2 { background-color: #dbeafe; color: #1e40af; }   /* Blue */
+span.diff-var3 { background-color: #f3e8ff; color: #6b21a8; }   /* Purple */
 
 .hide-col { display: none; }
