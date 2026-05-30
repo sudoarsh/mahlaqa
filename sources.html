@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codicological Survey - Diwan of Mah Laqa Bai Chanda</title>
+    <title>Codicological Survey - Diwan of Mah Laqa Bai</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
         .source-grid { display: grid; grid-template-columns: 1fr; gap: 30px; margin-top: 20px; }
-        .source-card { background: var(--surface); padding: 30px; border-radius: 12px; border: 1px solid var(--border); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
-        .source-card h3 { color: var(--primary); margin-top: 0; font-size: 1.5rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; }
-        .sigla { display: inline-block; background: var(--primary); color: white; padding: 4px 12px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; margin-left: 10px; }
+        .source-card { background: #ffffff; padding: 30px; border-radius: 12px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); font-size: 1.05rem; line-height: 1.7; }
+        .source-card h3 { color: #0f172a; margin-top: 0; font-size: 1.5rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 12px; }
+        .sigla { display: inline-block; background: #0f172a; color: white; padding: 3px 12px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; margin-left: 10px; vertical-align: middle; }
         @media (min-width: 768px) { .source-grid { grid-template-columns: 1fr 1fr; } }
     </style>
 </head>
@@ -25,40 +25,37 @@
     </nav>
 
     <div class="hero" style="padding: 4rem 1rem; margin-bottom: 2rem;">
-        <h1>Codicological Survey</h1>
-        <p>Establishing the Hierarchy of Truth in the Deccani Tradition</p>
+        <h1 style="font-size: 3rem;">Codicological Survey</h1>
+        <p style="font-size: 1.3rem;">Establishing the Hierarchy of Truth in the Deccani Tradition</p>
     </div>
 
     <div class="container">
-        <div class="source-card" style="margin-bottom: 30px;">
-            <h3 style="border-bottom: none; margin-bottom: 10px;">The Core Academic Thesis</h3>
-            <p style="font-size: 1.1rem; line-height: 1.8;">For over 120 years, modern scholarship has misread Mah Laqa Bai Chanda’s poetic evolution, assuming textual variations were the result of artistic instability. By conducting a forensic word-level collation, this edition proves her original authorial voice was remarkably stable. The heavy variations and linguistic normalizations previously attributed to her are actually late textual corruptions introduced by an anonymous 1906 print editor, effectively erasing her 18th-century Delhi-Deccani synthesis to fit colonial-era standard Urdu.</p>
-        </div>
-
         <div class="source-grid">
+            
             <div class="source-card">
                 <h3>Salar Jung (1818) <span class="sigla">SJ</span></h3>
                 <p><strong>Role:</strong> Matn-e-Asas (The Base Text)</p>
-                <p>Compiled in the final decade of her life, this manuscript represents her final authorial intention. It exhibits highly stable orthography, deliberate structural curation, and mature aesthetic choices. It serves as the primary anchor line for our structural alignment.</p>
+                <p>Commissioned just six years prior to her death, this manuscript represents Mah Laqa Bai's final authorial intention. Containing 125 ghazals, it exhibits highly stable orthography and preserves the pure Deccani dialect. Despite minor scribal errors, its supreme authorial authority makes it the anchor line for our structural alignment.</p>
             </div>
             
             <div class="source-card">
                 <h3>British Library (1799) <span class="sigla">BL</span></h3>
                 <p><strong>Role:</strong> Primary Genetic Witness</p>
-                <p>Compiled during her youth under immediate courtly supervision. It is an invaluable document for tracking early authorial variants (Ikhtilaf-e-Nuskha) and serves as the source for repairing physical lacunae in SJ. Crucially, it preserves the original Persian <em>Dibacha</em> detailing state patronage, which was scrubbed from later prints.</p>
+                <p>An early authorial presentation copy containing 97 ghazals, originally gifted to British Resident Sir John Malcolm. It acts as an invaluable document for tracking early variants and repairing physical lacunae in SJ. Crucially, it preserves a detailed Persian <em>Dibacha</em> proving the Diwan was a state-sanctioned project.</p>
             </div>
 
             <div class="source-card">
                 <h3>Telangana Archives (1811) <span class="sigla">TO</span></h3>
                 <p><strong>Role:</strong> Intermediate Witness</p>
-                <p>A crucial chronological bridge between her early courtly output and her final compiled works, allowing us to accurately date when specific verses were added, removed, or revised.</p>
+                <p>Containing 98 ghazals, this manuscript acts as a chronological bridge. Its textual harmony with the 1799 London manuscript definitively proves that Mah Laqa Bai's early Deccani poetic tradition remained remarkably stable for over a decade before the final 1818 compilation.</p>
             </div>
 
             <div class="source-card" style="border-left: 4px solid #ef4444;">
                 <h3>Print Edition (1906) <span class="sigla">GM</span></h3>
                 <p><strong>Role:</strong> The Corrupted Tradition</p>
-                <p>Published anonymously in Hyderabad. This witness is isolated to document textual distortion. The 1906 editor systematically modernized her vocabulary, stripped Deccani inflections, and restructured entire lines to fit early 20th-century standard grammar of the Delhi and Lucknow schools.</p>
+                <p>Published anonymously in Hyderabad, this print edition is a direct but heavily corrupted derivative of SJ. The 1906 editor systematically replaced archaic Deccani vocabulary, stripped away cultural references, and altered meters to forcefully fit the poetry into early 20th-century standard Northern Urdu grammar.</p>
             </div>
+
         </div>
     </div>
 </body>
