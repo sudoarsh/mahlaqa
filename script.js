@@ -29,12 +29,12 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // 3. Dynamic Historical Context Panel
+    // 3. Dynamic Historical Context Panel (English Summaries)
     const witnessData = {
-        'BL': '<strong>British Library (1799):</strong> Early authorial copy. Tracks early variants and preserves the original Persian <em>Dibacha</em>.',
-        'TO': '<strong>Telangana Archives (1811):</strong> Intermediate chronological witness capturing the mid-career textual state.',
-        'SJ': '<strong>Salar Jung (1818):</strong> The Base Text (Matn-e-Asas). Represents final authorial intent with highly stable orthography.',
-        'GM': '<strong>Print Edition (1906):</strong> The Corrupted Tradition. Features unauthorized 20th-century linguistic modernization and structural censorship.'
+        'BL': '<strong>British Library (1799):</strong> Early authorial copy (97 ghazals). Preserves original Deccani features and the crucial Persian Dibacha.',
+        'TO': '<strong>Telangana Archives (1811):</strong> Intermediate witness (98 ghazals). Confirms the stability of the early Deccani textual tradition.',
+        'SJ': '<strong>Salar Jung (1818):</strong> The Base Text (Matn-e-Asas). Represents the poetess\'s final authorial intent (125 ghazals).',
+        'GM': '<strong>Print Edition (1906):</strong> The Corrupted Tradition. Features unauthorized 20th-century linguistic modernization and ideological censorship.'
     };
 
     const infoBox = document.getElementById('witness-info');
@@ -44,6 +44,8 @@ document.addEventListener("DOMContentLoaded", () => {
         label.addEventListener('mouseenter', () => {
             const witnessId = label.getAttribute('data-witness');
             infoBox.innerHTML = witnessData[witnessId];
+            
+            // Stylize the box based on the witness type
             infoBox.style.background = witnessId === 'GM' ? '#fee2e2' : '#e0f2fe';
             infoBox.style.color = witnessId === 'GM' ? '#991b1b' : '#0369a1';
             infoBox.style.borderColor = witnessId === 'GM' ? '#fca5a5' : '#bae6fd';
