@@ -1,14 +1,14 @@
 /* =========================================
-   BASE STYLING & DECCANI MINIATURE PALETTE
+   BASE STYLING & REFINED PALETTE
    ========================================= */
 :root {
-    /* Colors extracted directly from the Deccani miniature painting */
-    --primary: #223868;      /* Deep Lapis Blue (from the night sky) */
-    --secondary: #334155;    /* Slate Grey (for highly readable body text) */
-    --bg-color: #F4EFE6;     /* Terrace Cream/Parchment (from the lower wall/floor) */
+    /* Refined Primary: Deep Midnight Charcoal (Premium & Modern) */
+    --primary: #1A222C;      
+    --secondary: #334155;    /* Slate Grey for body text */
+    --bg-color: #F4EFE6;     /* Terrace Cream/Parchment */
     --surface: #ffffff;      /* Pure white for table/cards */
-    --border: #DCD3C6;       /* Warm Stone (borders matching the terrace shadow) */
-    --accent: #C49A45;       /* Muted Gold/Mustard (from Chanda's dupatta) */
+    --border: #DCD3C6;       /* Warm Stone borders */
+    --accent: #C49A45;       /* Mustard Gold (from Chanda's dupatta) */
 }
 
 body {
@@ -21,39 +21,69 @@ body {
 }
 
 /* =========================================
-   NAVIGATION & HERO (Miniature Background)
+   MODERN THICK NAVIGATION BAR
    ========================================= */
 nav {
-    background-color: rgba(34, 56, 104, 0.95); /* Semi-transparent Lapis Blue */
-    backdrop-filter: blur(10px);
-    padding: 1.2rem;
-    text-align: center;
+    background-color: rgba(26, 34, 44, 0.98); 
+    backdrop-filter: blur(12px);
+    padding: 1.5rem 2rem; 
     position: sticky;
     top: 0;
     z-index: 100;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem; 
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 }
 
 nav a {
-    color: #cbd5e1; 
+    color: #94A3B8; 
     text-decoration: none;
-    margin: 0 20px;
     font-size: 1.05rem;
     font-weight: 600;
-    transition: color 0.2s ease;
+    letter-spacing: 0.5px;
+    padding-bottom: 6px;
+    position: relative;
+    transition: color 0.3s ease;
 }
 
-nav a:hover { color: #ffffff; }
+/* Hover and Active State Text Color */
+nav a:hover, 
+nav a.active { 
+    color: #ffffff; 
+}
 
+/* The Animated Gold Underline */
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--accent);
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 2px;
+}
+
+/* Trigger the underline on hover or if it has the .active class */
+nav a:hover::after,
+nav a.active::after {
+    width: 100%;
+}
+
+/* =========================================
+   HERO (Miniature Background)
+   ========================================= */
 .hero {
-    /* Uses your uploaded header.jpg with a dark blue tint so white text is readable */
-    background: linear-gradient(rgba(34, 56, 104, 0.7), rgba(34, 56, 104, 0.85)), url('header.jpg');
+    background: linear-gradient(rgba(26, 34, 44, 0.75), rgba(26, 34, 44, 0.9)), url('header.jpg');
     background-size: cover;
     background-position: center 20%;
     color: white;
     text-align: center;
     padding: 5rem 1rem;
     margin-bottom: 3rem;
-    border-bottom: 5px solid var(--accent); /* Gold Accent strip */
+    border-bottom: 5px solid var(--accent); 
 }
 
 .hero h1 { margin: 0; font-size: 3.2rem; font-weight: 700; letter-spacing: -0.5px; }
@@ -128,7 +158,7 @@ table {
 }
 
 th {
-    background-color: var(--primary); /* Lapis Blue */
+    background-color: var(--primary); 
     color: #f8fafc;
     font-size: 1rem;
     font-weight: 600;
