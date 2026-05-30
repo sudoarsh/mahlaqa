@@ -1,16 +1,18 @@
 /* =========================================
-   BASE STYLING & MODERN FONTS
+   BASE STYLING & DECCANI MINIATURE PALETTE
    ========================================= */
 :root {
-    --primary: #0f172a;      /* Deep Slate */
-    --secondary: #334155;    /* Lighter Slate */
-    --bg-color: #f8fafc;     /* Soft App Background */
-    --surface: #ffffff;      /* White Cards */
-    --border: #e2e8f0;       /* Soft Borders */
+    /* Colors extracted directly from the Deccani miniature painting */
+    --primary: #223868;      /* Deep Lapis Blue (from the night sky) */
+    --secondary: #334155;    /* Slate Grey (for highly readable body text) */
+    --bg-color: #F4EFE6;     /* Terrace Cream/Parchment (from the lower wall/floor) */
+    --surface: #ffffff;      /* Pure white for table/cards */
+    --border: #DCD3C6;       /* Warm Stone (borders matching the terrace shadow) */
+    --accent: #C49A45;       /* Muted Gold/Mustard (from Chanda's dupatta) */
 }
 
 body {
-    font-family: 'Inter', -apple-system, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     margin: 0;
     padding: 0;
     background-color: var(--bg-color);
@@ -19,10 +21,10 @@ body {
 }
 
 /* =========================================
-   NAVIGATION & HERO
+   NAVIGATION & HERO (Miniature Background)
    ========================================= */
 nav {
-    background-color: rgba(15, 23, 42, 0.95);
+    background-color: rgba(34, 56, 104, 0.95); /* Semi-transparent Lapis Blue */
     backdrop-filter: blur(10px);
     padding: 1.2rem;
     text-align: center;
@@ -32,7 +34,7 @@ nav {
 }
 
 nav a {
-    color: #cbd5e1;
+    color: #cbd5e1; 
     text-decoration: none;
     margin: 0 20px;
     font-size: 1.05rem;
@@ -43,20 +45,22 @@ nav a {
 nav a:hover { color: #ffffff; }
 
 .hero {
-    background: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('header-bg.jpg');
+    /* Uses your uploaded header.jpg with a dark blue tint so white text is readable */
+    background: linear-gradient(rgba(34, 56, 104, 0.7), rgba(34, 56, 104, 0.85)), url('header.jpg');
     background-size: cover;
     background-position: center 20%;
     color: white;
     text-align: center;
     padding: 5rem 1rem;
     margin-bottom: 3rem;
+    border-bottom: 5px solid var(--accent); /* Gold Accent strip */
 }
 
-.hero h1 { margin: 0; font-size: 3rem; font-weight: 700; letter-spacing: -0.5px; }
+.hero h1 { margin: 0; font-size: 3.2rem; font-weight: 700; letter-spacing: -0.5px; }
 .hero p { margin-top: 12px; font-size: 1.2rem; font-weight: 400; opacity: 0.9; }
 
 /* =========================================
-   MODERN APP CONTROLS
+   MODERN APP CONTROLS 
    ========================================= */
 .container {
     max-width: 1400px;
@@ -85,8 +89,8 @@ nav a:hover { color: #ffffff; }
     display: flex;
     align-items: center;
     padding: 8px 16px;
-    background-color: #f1f5f9;
-    border: 1px solid #cbd5e1;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border);
     border-radius: 30px;
     cursor: pointer;
     font-size: 0.95rem;
@@ -96,9 +100,10 @@ nav a:hover { color: #ffffff; }
     user-select: none;
 }
 
-.controls label:hover { background-color: #e2e8f0; }
+.controls label:hover { background-color: #fbebc8; border-color: var(--accent); }
+
 .controls input[type="checkbox"] {
-    accent-color: #3b82f6; /* Modern blue checkbox */
+    accent-color: var(--accent);
     width: 16px;
     height: 16px;
     margin-right: 8px;
@@ -106,7 +111,7 @@ nav a:hover { color: #ffffff; }
 }
 
 /* =========================================
-   SLEEK DATA TABLE
+   SLEEK DATA TABLE 
    ========================================= */
 .table-wrapper {
     overflow-x: auto;
@@ -123,7 +128,7 @@ table {
 }
 
 th {
-    background-color: var(--primary);
+    background-color: var(--primary); /* Lapis Blue */
     color: #f8fafc;
     font-size: 1rem;
     font-weight: 600;
@@ -142,7 +147,7 @@ td {
 }
 
 tr:last-child td { border-bottom: none; }
-tr:hover td { background-color: #f8fafc; } /* Subtle row highlight on hover */
+tr:hover td { background-color: #FAFCFF; } 
 
 .id-col {
     text-align: center;
@@ -156,9 +161,8 @@ tr:hover td { background-color: #f8fafc; } /* Subtle row highlight on hover */
    PROPER NASTALIQ TYPOGRAPHY & DIFFS
    ========================================= */
 .urdu-text {
-    /* Guaranteed Nastaliq via Google Fonts */
     font-family: 'Noto Nastaliq Urdu', serif; 
-    font-size: 22px;
+    font-size: 24px;
     line-height: 2.8;
     text-align: right;
     direction: rtl;
@@ -166,18 +170,17 @@ tr:hover td { background-color: #f8fafc; } /* Subtle row highlight on hover */
     min-width: 250px;
 }
 
-/* Rounded, Modern Highlight Tags */
 span.diff {
     padding: 2px 8px;
     border-radius: 6px;
     font-weight: 700;
 }
 
-/* Softer Variant Colors */
-span.diff-anchor { background-color: #dcfce7; color: #166534; } /* Green */
-span.diff-gm { background-color: #fee2e2; color: #991b1b; }     /* Red */
-span.diff-var1 { background-color: #fef3c7; color: #92400e; }   /* Yellow */
-span.diff-var2 { background-color: #dbeafe; color: #1e40af; }   /* Blue */
-span.diff-var3 { background-color: #f3e8ff; color: #6b21a8; }   /* Purple */
+/* Diff Colors mapped to the painting's pigments */
+span.diff-anchor { background-color: #E2EFE5; color: #275734; } /* Forest Green (Seated Musician) */
+span.diff-gm { background-color: #FADEDE; color: #962828; }     /* Crimson (Carpet/GM Corruption) */
+span.diff-var1 { background-color: #FBEBC8; color: #8A611C; }   /* Mustard Gold (Dupatta) */
+span.diff-var2 { background-color: #DBE6FE; color: #1A2B56; }   /* Lapis Blue (Night Sky) */
+span.diff-var3 { background-color: #F9E1E8; color: #832247; }   /* Magenta/Pink (Standing Musician) */
 
 .hide-col { display: none; }
