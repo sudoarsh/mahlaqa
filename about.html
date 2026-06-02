@@ -16,10 +16,12 @@
             box-shadow: 0 4px 15px -5px rgba(0,0,0,0.05);
             border: 1px solid var(--border);
             max-width: 900px;
-            margin: 40px auto 60px auto;
+            margin: -20px auto 60px auto; /* Pulls the box slightly up towards the hero */
             font-size: 1.15rem;
             line-height: 1.8;
             color: var(--secondary);
+            position: relative;
+            z-index: 10;
         }
         .reading-pane h2 {
             color: #903b35;
@@ -29,31 +31,15 @@
             margin-top: 40px;
             font-size: 1.8rem;
         }
-        .reading-pane h1 {
-            color: var(--primary);
-            font-family: 'Playfair Display', serif;
-            font-size: 2.8rem;
-            text-align: center;
-            margin-bottom: 10px;
-            margin-top: 0;
-        }
-        .reading-pane .subtitle {
-            text-align: center;
-            font-style: italic;
-            color: #64748b;
-            margin-bottom: 40px;
-            font-family: 'Playfair Display', serif;
-            font-size: 1.2rem;
-        }
         .thesis-highlight {
             background-color: var(--bg-color);
-            padding: 20px;
+            padding: 20px 25px;
             border-left: 4px solid #903b35;
-            margin: 25px 0;
+            margin: 35px 0;
             border-radius: 0 8px 8px 0;
         }
         @media screen and (max-width: 850px) {
-            .reading-pane { padding: 30px 20px; margin: 20px 10px; }
+            .reading-pane { padding: 30px 20px; margin: -20px 10px 20px 10px; }
         }
     </style>
 </head>
@@ -69,7 +55,7 @@
             <li><a href="index.html">Home</a></li>
             
             <li class="dropdown">
-                <a href="#" class="dropbtn active">Context ▾</a>
+                <a href="#" class="dropbtn active" style="color: #ffffff;">Context ▾</a>
                 <div class="dropdown-content">
                     <a href="about.html">About Mah Laqa</a>
                     <a href="bibliography.html">Bibliography & Links</a>
@@ -90,13 +76,17 @@
         </ul>
     </nav>
 
+    <!-- RESTORED HERO SECTION -->
+    <div class="hero" style="padding: 6rem 1rem 8rem 1rem;">
+        <h1 style="font-family: 'Playfair Display', serif; font-size: 3.8rem; margin-bottom: 5px;">Mah Laqa Bai Chanda</h1>
+        <p style="font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-top: 0; font-style: italic; opacity: 0.9;">c. 1768–1824</p>
+    </div>
+
     <!-- CONTENT -->
     <div class="container">
         <div class="reading-pane">
-            <h1>Mah Laqa Bai Chanda</h1>
-            <div class="subtitle">(c. 1768–1824)</div>
-
-            <p><strong>Mah Laqa Bai</strong>, born Chanda Bibi on April 4, 1768, in Hyderabad, was a groundbreaking Urdu poet, a highly influential courtesan, and a devoted Shiʿi Muslim. Emerging from a family of marginalized outsiders, she navigated the complex hierarchies of the court to become one of the wealthiest and most powerful women in the Deccan during the reign of the Asaf-Jahi nizams.</p>
+            
+            <p><span style="font-size: 3rem; float: left; line-height: 0.8; padding-right: 8px; color: #903b35; font-family: 'Playfair Display', serif;">M</span><strong>ah Laqa Bai</strong>, born Chanda Bibi on April 4, 1768, in Hyderabad, was a groundbreaking Urdu poet, a highly influential courtesan, and a devoted Shiʿi Muslim. Emerging from a family of marginalized outsiders, she navigated the complex hierarchies of the court to become one of the wealthiest and most powerful women in the Deccan during the reign of the Asaf-Jahi nizams.</p>
 
             <h2>Early Life and Education</h2>
             <p>Her mother, Mida Bibi (later known by her stage name Raj Kanvar Bai), was a courtesan who had fled poverty in Gujarat, traveling with minstrel dancers before becoming a concubine to a Rajput prince and later entertaining the nizam's army. Later in life, Raj Kanvar Bai entered into a legal, albeit informal, marriage with Basalat Khan, the treasurer of the nizam's funds, making Chanda Bibi the legitimate child of a nobleman.</p>
