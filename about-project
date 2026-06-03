@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Project - A Critical Edition</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .reading-pane {
+            background: white;
+            padding: 50px 80px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px -5px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+            max-width: 900px;
+            margin: -20px auto 40px auto;
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: var(--secondary);
+            position: relative;
+            z-index: 10;
+        }
+        .reading-pane h2 {
+            color: #903b35;
+            font-family: 'Playfair Display', serif;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 10px;
+            margin-top: 40px;
+            font-size: 1.8rem;
+        }
+        .support-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            background: #FAFCFF; /* Slight blue/grey tint to stand out */
+            padding: 40px;
+            border-radius: 12px;
+            border: 2px solid var(--border);
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+            max-width: 900px;
+            margin: 0 auto 60px auto;
+        }
+        .qr-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 8px;
+            object-fit: contain;
+            border: 2px solid var(--accent);
+            background: white;
+            flex-shrink: 0;
+        }
+        @media screen and (max-width: 850px) {
+            .reading-pane { padding: 30px 20px; margin: -20px 10px 20px 10px; }
+            .support-card { flex-direction: column-reverse; text-align: center; padding: 30px 20px; margin: 0 10px 40px 10px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="site-nav">
+        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
+            ☰
+        </button>
+        
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            
+            <li class="dropdown">
+                <a href="#" class="dropbtn active" style="color: #ffffff;">Context ▾</a>
+                <div class="dropdown-content">
+                    <a href="about.html">About Mah Laqa</a>
+                    <a href="bibliography.html">Bibliography & Links</a>
+                    <a href="gallery.html">Visual Archive</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="dropbtn">The Text ▾</a>
+                <div class="dropdown-content">
+                    <a href="sources.html">The Witnesses</a>
+                    <a href="view.html">Interactive Collation</a>
+                    <a href="analysis.html">Computational Analysis</a>
+                </div>
+            </li>
+            <li><a href="project.html">About the Project</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero" style="padding: 6rem 1rem 8rem 1rem;">
+        <h1 style="font-family: 'Playfair Display', serif; font-size: 3.8rem; margin-bottom: 5px;">The Rescue Mission</h1>
+        <p style="font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-top: 0; font-style: italic; opacity: 0.9;">Reconstructing the Authentic Voice of Mah Laqa Bai</p>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="container">
+        <div class="reading-pane">
+            
+            <p>For over a century, modern scholarship has operated under the assumption that Mah Laqa Bai Chanda systematically revised her poetry over time to replace regional Deccani idioms with northern Urdu standards. This narrative was deeply entrenched in academic literature, positing that she deliberately excised her native dialect to align her work with the increasingly prestigious, Persianized standards of the Nizam's court.</p>
+
+            <h2>The Initial Hypothesis</h2>
+            <p>The genesis of this project was rooted in that very assumption. Following the methodology established in my previous book, <em>Sher Behtar Kaise Hua</em>—which examined the art of poetic correction and linguistic evolution—my initial goal was simply to document Mah Laqa Bai's authorial revisions. I intended to trace the older textual layers of her work and present them alongside the "standardized" text to demonstrate how her poetics evolved over her lifetime.</p>
+            <p>To execute this, it was necessary to bypass the widely circulated 1906 print edition (<em>Gulzar-e-Mah Laqa</em>, compiled by Ghulam Samdani Khan Gawhar) and directly consult her lifetime manuscripts. I initiated a comprehensive effort to acquire the three primary witnesses of her <em>Diwan</em>: the 1799 British Library presentation copy, the 1811 Telangana Archives copy, and the definitive 1818 Salar Jung manuscript.</p>
+
+            <h2>A Startling Discovery</h2>
+            <p>The expectation was clear: a systematic collation of these three manuscripts would reveal a gradual erasure of Deccani vocabulary between 1799 and 1818. </p>
+            <p><strong>The empirical results completely contradicted this hypothesis.</strong> Not only were the ghazals from the 1799 London manuscript perfectly preserved in the 1818 Salar Jung manuscript without Deccani erasure, but the newer ghazals added exclusively to the 1818 manuscript still maintained a heavily dominant Deccani flavor. While minor poetic adjustments and transpositions exist between the manuscripts, there is not a single instance of Mah Laqa Bai actively removing Deccani words or regional idioms.</p>
+
+            <h2>From Tracing to Reconstruction</h2>
+            <p>This discovery necessitated a paradigm shift. What began as a project to recover the older, "unrevised" layers of her text quickly turned into a full-scale textual reconstruction. It became overwhelmingly clear that the later linguistic normalizations were not authorial, but editorial. The systematic erasure of her Deccani heritage was a posthumous textual corruption introduced by the anonymous 1906 print editor.</p>
+            <p>Consequently, all modern scholarship for the past 120 years—including the foundational editions by Shafqat Rizvi, Samina Shawkat, Rahat Azmi, and others—has been based on a heavily mediated and sanitized text derived entirely from the flawed 1906 lithograph.</p>
+
+            <h2>A Digital Companion</h2>
+            <p>Because institutional repository restrictions often prohibit the direct reproduction of physical manuscript folios, this digital platform was built to democratize access to the primary source data. </p>
+            <p>It is important to note that <strong>this website is a companion site</strong>, not the fully reconstructed critical edition itself. This site does not host the final reconstructed text, nor does it apply the necessary editorial emendations or conjectures required to fix scribal errors. Instead, it presents the raw, unedited collation data exactly as it exists within each individual witness. This open-access framework allows independent researchers to independently verify the textual variants and replicate the computational findings that will underpin the forthcoming printed edition.</p>
+        </div>
+
+        <!-- SUPPORT CARD (QR CODE) -->
+        <div class="support-card">
+            <div>
+                <h3 style="color: var(--primary); margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.8rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px; display: inline-block;">Support the Edition</h3>
+                <p style="font-size: 1.1rem; line-height: 1.6; color: var(--secondary); margin-bottom: 15px;">
+                    This critical edition is a completely independent scholarly endeavor, conducted without institutional funding or university grants. The extensive costs of travel across India, repository access fees, and thousands of hours of collation and coding were borne entirely by the editor without pay.
+                </p>
+                <p style="font-size: 1.1rem; line-height: 1.6; color: var(--secondary); margin-bottom: 0;">
+                    Believing that primary source data should not sit in dusty libraries or behind academic paywalls, I have taken a strict copyleft approach to make these findings freely accessible to the public. If you find value in this research and wish to support ongoing open-access humanities work, please consider making a contribution.
+                </p>
+            </div>
+            <!-- Blank square image ready for your QR Code -->
+            <img src="qr-code.png" alt="Scan to Support" class="qr-image">
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer style="padding: 40px 20px; background-color: var(--primary); color: #cbd5e1; text-align: center; font-size: 0.95rem; border-top: 3px solid var(--accent); line-height: 1.6; font-family: 'Inter', sans-serif;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <p style="margin: 0 0 10px 0;">All code and prose for this digital critical edition are open source.</p>
+            <p style="margin: 0; font-size: 0.9rem; opacity: 0.9;">
+                The code is available under the <a href="https://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: underline; font-weight: 600;">GNU GPL v3 License</a>, and the text is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: underline; font-weight: 600;">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>.
+            </p>
+        </div>
+    </footer>
+
+    <!-- MOBILE MENU SCRIPT -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const mobileMenuBtn = document.getElementById('mobile-menu');
+            const navLinks = document.getElementById('nav-links');
+
+            if (mobileMenuBtn && navLinks) {
+                ['click', 'touchstart'].forEach(function(evt) {
+                    mobileMenuBtn.addEventListener(evt, function(e) {
+                        e.preventDefault(); 
+                        navLinks.classList.toggle('show');
+                    }, { passive: false });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
