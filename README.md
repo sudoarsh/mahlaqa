@@ -1,106 +1,188 @@
-# Diwan of Mah Laqa Bai Chanda: A Digital Critical & Genetic Edition
+# Deewan of Mah Laqa Bai Chanda: Digital Collation Archive
+
+A companion repository housing the complete collation dataset of four primary manuscript witnesses for Mah Laqa Bai Chanda's poetic works. This repository enables scholars to independently verify editorial conclusions and reproduce the textual analysis presented in the published critical edition.
+
+**Live website**: https://sudoarsh.github.io/deewan
 
 ## Overview
 
-This project presents the first systematic, forensically verified critical edition of the complete poetic works of **Mah Laqa Bai Chanda** (1768–1824), a pioneering Urdu poet and courtesan from Hyderabad. Moving beyond passive reliance on late print traditions, this digital edition provides transparent, auditable textual scholarship through a comprehensive Apparatus Criticus.
+This repository contains:
 
-## About the Project
+- **Complete four-witness collation** (BL 1799, TO 1811, SJ 1818, GM 1906) as structured data
+- **Interactive web interface** for comparing textual variants across all sources
+- **Downloadable datasets** in multiple formats for computational analysis
+- **Full transparency** of the editorial process and textual transmission history
 
-Mah Laqa Bai Chanda was a significant figure in Urdu literary history, but her works have been subject to textual corruption, unauthorized modifications, and literary erasure over centuries. This critical edition aims to:
+The actual critical text, apparatus criticus with full notes, and editorial commentary are published separately in the physical critical edition. This digital archive serves as the **reproducible research foundation** allowing scholars to:
 
-- **Restore textual authenticity** through comparison of multiple manuscript witnesses
-- **Document textual variants** across different historical versions
-- **Preserve original intent** by tracking editorial interventions and censorship
-- **Enable transparent scholarship** by making the editorial process auditable and reproducible
+- Verify editorial decisions against primary sources
+- Conduct independent textual analysis
+- Recheck variant collations
+- Extract data for their own research
 
-## The Witnesses (Textual Sources)
+## The Four Witnesses
 
-This edition compares four primary witnesses spanning over a century:
+| Witness | Date | Source | Coverage |
+|---------|------|--------|----------|
+| **BL** | 1799 | British Library MS | 97 ghazals + Persian Dibacha |
+| **TO** | 1811 | Telangana State Archives | 98 ghazals |
+| **SJ** | 1818 | Salar Jung Library | 125 ghazals (base text) |
+| **GM** | 1906 | Print Edition | 125 ghazals (editorial layer) |
 
-| Witness | Date | Description |
-|---------|------|-------------|
-| **BL** (British Library) | 1799 | Early authorial copy; tracks early variants and preserves the original Persian *Dibacha* (preface) |
-| **TO** (Telangana Archives) | 1811 | Intermediate witness capturing the mid-career textual state |
-| **SJ** (Salar Jung) | 1818 | **The Base Text** (*Matn-e-Asas*); represents final authorial intent with stable orthography |
-| **GM** (Print Edition) | 1906 | The corrupted print tradition featuring unauthorized 20th-century linguistic modernization and structural censorship |
+## Repository Contents
 
-## Features
+```
+├── index.html              # Project landing page
+├── view.html              # Interactive collation viewer
+├── sources.html           # Witness documentation & provenance
+├── analysis.html          # Computational variant analysis
+├── about.html             # Historical context for Mah Laqa
+├── about-project.html     # Editorial methodology
+├── downloads.html         # Data export options
+│
+├── data.js                # Complete collation dataset (JSON-like structure)
+├── script.js              # Interactivity: table rendering, filtering
+├── style.css              # Responsive styling
+│
+├── _config.yml            # GitHub Pages config
+├── LICENSE                # GNU GPL v3.0
+└── README.md              # This file
+```
 
-- **Interactive Text Viewer**: Compare variants across all four witnesses side-by-side
-- **Column Toggling**: Toggle manuscript witnesses on/off to focus on specific textual traditions
-- **Historical Context**: Hover-based information panels explaining the provenance and significance of each witness
-- **Apparatus Criticus**: Line-by-line notation of textual variants and editorial decisions
-- **Open Data**: All textual data is freely available for scholarly reuse
+## Quick Start
 
-## Navigation
+1. **View online**: https://sudoarsh.github.io/deewan
+2. **Explore collation**: Click "Interactive Collation" to see all four witnesses side-by-side
+3. **Toggle witnesses**: Show/hide specific sources to compare textual traditions
+4. **Download data**: Export complete dataset via the Downloads page
 
-- **[Home](index.html)** - Project introduction and overview
-- **[The Witnesses](sources.html)** - Detailed information about each manuscript source
-- **[View Text](view.html)** - Interactive critical edition with variant comparison
+No installation or build process required—static HTML/CSS/JavaScript.
 
-## How to Use
+## Using the Collation Data
 
-1. Navigate to **View Text** to open the interactive text viewer
-2. Use the witness toggles to show/hide specific manuscripts
-3. Hover over witness names to view historical context and provenance information
-4. Compare textual variants across different versions
-5. Consult the **Sources** page for detailed bibliographic information
+### Interactive Web Interface
 
-## Technical Stack
+- **Side-by-side comparison** of all four witnesses
+- **Real-time filtering**: Toggle witnesses on/off to focus on specific textual traditions
+- **Hover contextual info**: See manuscript provenance and archival details
+- **Mobile responsive**: Works on all devices
 
-- **HTML5** - Semantic markup
-- **CSS3** - Responsive styling with modern design
-- **JavaScript** - Dynamic text rendering and interactivity
-- **Static Site** - Easy to host, no server requirements
+### Programmatic Access
 
-## The Methodology: Tadveen-e-Matn
+The complete collation is available in `data.js` as a structured array:
 
-This edition employs *Tadveen-e-Matn* (structural textual criticism), which:
+```javascript
+const deewanData = [
+    {
+        id: "1.1",
+        BL: "متن برائے شاہد اول",
+        TO: "متن برائے شاہد دوم",
+        SJ: "متن برائے شاہد سوم (base text)",
+        GM: "متن برائے شاہد چہارم"
+    },
+    // ... 125+ entries covering complete corpus
+];
+```
 
-- Moves textual criticism from unverifiable monolith to transparent, auditable scholarship
-- Provides line-by-line comparison of all major witnesses
-- Documents every editorial decision and its rationale
-- Enables readers to form their own textual conclusions
+Each entry represents a poetic unit with parallel texts from all sources, enabling:
+- Variant frequency analysis
+- Textual genealogy studies
+- Pattern detection across transmission stages
+- Independent verification of editorial selections
 
-## Files
+### Data Export
 
-- `index.html` - Homepage and project introduction
-- `view.html` - Interactive critical edition viewer
-- `sources.html` - Detailed source documentation
-- `data.js` - Complete textual data (all witnesses and variants)
-- `script.js` - Interactive functionality for text viewing and toggling
-- `style.css` - Styling for the entire site
-- `_config.yml` - Site configuration
-- `LICENSE` - Project license (GNU GPL v3)
+Visit the Downloads page to access:
+- Raw `data.js` file
+- JSON/CSV exports
+- Metadata and collation indices
+- Downloadable analysis results
 
-## Editor
+## Reproducibility & Verification
 
-**Akash Tiwari**
+This repository supports scholarly reproducibility by:
 
-## License
+1. **Publishing all source texts** exactly as they appear in manuscripts
+2. **Providing structured data** suitable for computational analysis
+3. **Documenting all four witnesses** with archival provenance
+4. **Enabling independent collation** of published editorial conclusions
+5. **Supporting open verification** of textual decisions
 
-This project is licensed under the **GNU General Public License v3.0** (GPL-3.0). All textual data and critical apparatus are freely available for scholarly research and reuse.
+Scholars using the published critical edition can:
+- Cross-check every editorial decision against the primary sources
+- Conduct alternative collation strategies
+- Extract specific variant patterns
+- Build derivative analyses on the same foundation
 
-## Getting Started
+## Technical Details
 
-Simply open `index.html` in a modern web browser to explore the critical edition. No installation or build process is required.
+- **Static site**: No backend server required
+- **Technologies**: HTML5, CSS3, vanilla JavaScript
+- **Fonts**: Inter (English UI), Noto Nastaliq Urdu (Urdu text)
+- **Responsive**: Mobile-optimized across all screen sizes
+- **Accessibility**: Semantic HTML, keyboard navigation, ARIA labels
+- **Hosting**: GitHub Pages
+
+## How Editorial Conclusions Map to This Data
+
+The published critical edition:
+- Selects the 1818 Salar Jung manuscript as the base text
+- Documents significant variants in the apparatus criticus
+- Provides contextual notes on textual transmission
+- Explains editorial rationale for variant selection
+
+Scholars can verify these conclusions by:
+1. Visiting https://sudoarsh.github.io/deewan
+2. Comparing the SJ (base text) against BL, TO, and GM
+3. Identifying the same variants documented in the printed apparatus
+4. Assessing whether alternative editorial choices were justified
+5. Potentially proposing different base texts or collation strategies
 
 ## Contributing
 
-This is an open scholarly project. Contributions, corrections, and improvements are welcome. Please open an issue or submit a pull request to contribute to the edition.
+This is an open research archive. We welcome:
+- Corrections to transcriptions
+- Additional witness discovery
+- Alternative collation analyses
+- Computational studies
+- Interface improvements
+
+Please [open an issue](https://github.com/sudoarsh/deewan/issues) or submit a pull request.
+
+## License
+
+GNU General Public License v3.0. All code and collation data are freely available for academic research and reuse.
 
 ## Citation
 
-If you use this critical edition in your research, please cite it as:
+For this digital collation archive, cite as:
 
+```bibtex
+@dataset{tiwari_deewan_collation_2026,
+  title={Deewan of {M}ah {L}aqa {B}ai {C}handa: {D}igital {C}ollation {A}rchive},
+  author={Tiwari, Akash},
+  url={https://sudoarsh.github.io/deewan},
+  year={2026}
+}
 ```
-Tiwari, Akash (Ed.). (n.d.). Diwan of Mah Laqa Bai Chanda: A Digital Critical & Genetic Edition. Retrieved from https://github.com/sudoarsh/deewan
-```
 
-## Support & Feedback
+For the complete critical edition with apparatus criticus and editorial notes, see the published physical edition.
 
-For questions, corrections, or feedback about the edition, please [open an issue](https://github.com/sudoarsh/deewan/issues) on GitHub.
+## Related Resources
+
+- **Published Critical Edition**: [Details on publication, ISBN, etc.]
+- **The Witnesses**: See the "The Witnesses" page for archival holding information
+- **Bibliography**: See the "About Mah Laqa" page for scholarly context
+
+## Support
+
+For questions about the collation data or reproducibility:
+- [Open an issue](https://github.com/sudoarsh/deewan/issues)
 
 ---
 
-**Note**: This is a scholarly project dedicated to preserving and making accessible the literary legacy of Mah Laqa Bai Chanda, a pivotal but often overlooked figure in Urdu literary history.
+**Last Updated**: June 2026  
+**Repository**: https://github.com/sudoarsh/deewan  
+**Live Site**: https://sudoarsh.github.io/deewan  
+**Project**: Deewan of Mah Laqa Bai Chanda (Critical Edition Companion)  
+**License**: GNU General Public License v3.0
