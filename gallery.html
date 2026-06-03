@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Archive - A Critical Edition</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* =========================================
+           GALLERY SPECIFIC STYLES
+           ========================================= */
+        
+        /* Filter Controls */
+        .filter-controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            background-color: white;
+            border: 1px solid var(--border);
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--secondary);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .filter-btn:hover {
+            border-color: var(--accent);
+            color: #903b35;
+        }
+
+        .filter-btn.active {
+            background-color: #903b35;
+            color: white;
+            border-color: #903b35;
+        }
+
+        /* Gallery Grid */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 60px;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            border: 1px solid var(--border);
+            aspect-ratio: 1 / 1;
+            background: white;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: opacity 0.3s ease;
+        }
+
+        /* Interactive Lightbox / Modal */
+        .modal {
+            display: none; 
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(26, 34, 44, 0.95); /* Deep midnight backdrop */
+            backdrop-filter: blur(5px);
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .modal-content {
+            display: flex;
+            background-color: var(--bg-color); /* Parchment */
+            border-radius: 12px;
+            overflow: hidden;
+            max-width: 1200px;
+            width: 100%;
+            max-height: 90vh;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        }
+
+        .modal-image-container {
+            flex: 1.5;
+            background-color: #111;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .modal-image-container img {
+            max-width: 100%;
+            max-height: 85vh;
+            object-fit: contain;
+            border-radius: 4px;
+        }
+
+        .modal-sidebar {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+            position: relative;
+            border-left: 3px solid var(--accent);
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 2rem;
+            color: var(--secondary);
+            cursor: pointer;
+            line-height: 1;
+            transition: color 0.2s;
+        }
+
+        .close-modal:hover { color: #903b35; }
+
+        .modal-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--primary);
+            margin-top: 0;
+            margin-bottom: 10px;
+            padding-right: 30px; /* Make room for close button */
+        }
+
+        .modal-meta {
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-bottom: 25px;
+            font-family: 'Inter', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 15px;
+        }
+
+        .modal-desc {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--secondary);
+        }
+
+        /* Mobile Adjustments */
+        @media screen and (max-width: 850px) {
+            .modal-content {
+                flex-direction: column;
+            }
+            .modal-image-container {
+                flex: none;
+                height: 45vh;
+                padding: 10px;
+            }
+            .modal-sidebar {
+                border-left: none;
+                border-top: 3px solid var(--accent);
+                padding: 25px;
+            }
+            .modal-title { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="site-nav">
+        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
+            ☰
+        </button>
+        
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            
+            <li class="dropdown">
+                <a href="#" class="dropbtn active" style="color: #ffffff;">Context ▾</a>
+                <div class="dropdown-content">
+                    <a href="about.html">About Mah Laqa</a>
+                    <a href="bibliography.html">Bibliography & Links</a>
+                    <a href="gallery.html">Visual Archive</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="dropbtn">The Text ▾</a>
+                <div class="dropdown-content">
+                    <a href="sources.html">The Witnesses</a>
+                    <a href="view.html">Interactive Collation</a>
+                    <a href="analysis.html">Computational Analysis</a>
+                </div>
+            </li>
+
+            <li><a href="project.html">About the Project</a></li>
+            <li><a href="downloads.html">Downloads</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero" style="padding: 5rem 1rem 6rem 1rem;">
+        <h1 style="font-family: 'Playfair Display', serif; font-size: 3.5rem; margin-bottom: 5px;">Visual Archive</h1>
+        <p style="font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-top: 0; font-style: italic; opacity: 0.9;">Documenting the Era of Mah Laqa Bai</p>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <div class="container" style="max-width: 1200px;">
+        
+        <!-- FILTER BUTTONS -->
+        <div class="filter-controls" id="filter-container">
+            <button class="filter-btn active" data-filter="all">All Items</button>
+            <button class="filter-btn" data-filter="manuscript">Manuscripts</button>
+            <button class="filter-btn" data-filter="painting">Paintings</button>
+            <button class="filter-btn" data-filter="architecture">Architecture</button>
+            <button class="filter-btn" data-filter="inscription">Inscriptions</button>
+        </div>
+
+        <!-- GALLERY GRID -->
+        <div class="gallery-grid" id="gallery-grid">
+            
+            <!-- ITEM 1: MANUSCRIPT -->
+            <div class="gallery-item" data-category="manuscript" 
+                 data-fullimg="manuscript-highres.jpg" 
+                 data-title="British Library Manuscript (1799)" 
+                 data-meta="Location: British Library, London | IO Islamic 2768"
+                 data-desc="The earliest known compilation of Mah Laqa Bai Chanda's ghazals, presented to Sir John Kirkpatrick. This folio demonstrates the early orthography and lack of distinction between Kaf and Gaf.">
+                <!-- THUMBNAIL IMAGE -->
+                <img src="portrait.png" alt="BL Manuscript"> 
+            </div>
+
+            <!-- ITEM 2: PAINTING -->
+            <div class="gallery-item" data-category="painting" 
+                 data-fullimg="portrait.png" 
+                 data-title="Portrait with Musicians" 
+                 data-meta="Deccani Miniature | c. 1800"
+                 data-desc="A classic depiction of Mah Laqa Bai Chanda seated among her musicians. The mustard gold of her dupatta and the lapis blue background are characteristic of the Hyderabad artistic synthesis during the reign of Nizam Ali Khan.">
+                <!-- THUMBNAIL IMAGE -->
+                <img src="portrait.png" alt="Painting"> 
+            </div>
+
+            <!-- ITEM 3: ARCHITECTURE -->
+            <div class="gallery-item" data-category="architecture" 
+                 data-fullimg="stepwell-highres.jpg" 
+                 data-title="The Step-Well at Mawla Ali" 
+                 data-meta="Location: Hyderabad | Built c. 1820"
+                 data-desc="Financed entirely by Mah Laqa Bai, this step-well was constructed to provide water for pilgrims visiting the Mawla Ali shrine. It stands as a testament to her syncretic religious patronage and immense personal wealth.">
+                <!-- THUMBNAIL IMAGE -->
+                <img src="portrait.png" alt="Step Well"> 
+            </div>
+
+            <!-- ITEM 4: INSCRIPTION -->
+            <div class="gallery-item" data-category="inscription" 
+                 data-fullimg="inscription-highres.jpg" 
+                 data-title="Dedication Plaque" 
+                 data-meta="Medium: Carved Stone | Mawla Ali Shrine"
+                 data-desc="This stone inscription publicly records Mah Laqa Bai's devotion to Imam Ali and officially documents her financing of the pavilion constructed at the base of the hill.">
+                <!-- THUMBNAIL IMAGE -->
+                <img src="portrait.png" alt="Inscription"> 
+            </div>
+            
+            <!-- You can easily copy and paste more <div class="gallery-item"> blocks here -->
+
+        </div>
+    </div>
+
+    <!-- THE MODAL (LIGHTBOX) -->
+    <div id="image-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-image-container">
+                <img id="modal-img" src="" alt="Enlarged view">
+            </div>
+            <div class="modal-sidebar">
+                <span class="close-modal" id="close-modal">&times;</span>
+                <h3 class="modal-title" id="modal-title">Title Here</h3>
+                <div class="modal-meta" id="modal-meta">Metadata Here</div>
+                <div class="modal-desc" id="modal-desc">Description goes here.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer style="margin-top: 40px; padding: 40px 20px; background-color: var(--primary); color: #cbd5e1; text-align: center; font-size: 0.95rem; border-top: 3px solid var(--accent); line-height: 1.6; font-family: 'Inter', sans-serif;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <p style="margin: 0 0 10px 0;">All code and prose for this digital critical edition are open source.</p>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVITY SCRIPTS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            
+            // --- MOBILE MENU ---
+            const mobileMenuBtn = document.getElementById('mobile-menu');
+            const navLinks = document.getElementById('nav-links');
+            if (mobileMenuBtn && navLinks) {
+                mobileMenuBtn.addEventListener('click', (e) => {
+                    e.preventDefault(); 
+                    navLinks.classList.toggle('show');
+                });
+            }
+
+            // --- GALLERY FILTERING ---
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Update active button
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+
+                    // Filter logic
+                    const filterValue = btn.getAttribute('data-filter');
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // --- MODAL / LIGHTBOX LOGIC ---
+            const modal = document.getElementById('image-modal');
+            const modalImg = document.getElementById('modal-img');
+            const modalTitle = document.getElementById('modal-title');
+            const modalMeta = document.getElementById('modal-meta');
+            const modalDesc = document.getElementById('modal-desc');
+            const closeBtn = document.getElementById('close-modal');
+
+            // Open Modal
+            galleryItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    // Pull data from the HTML attributes
+                    modalImg.src = item.getAttribute('data-fullimg');
+                    modalTitle.textContent = item.getAttribute('data-title');
+                    modalMeta.textContent = item.getAttribute('data-meta');
+                    modalDesc.innerHTML = item.getAttribute('data-desc'); // Allows HTML like <em> in descriptions
+                    
+                    // Show modal
+                    modal.style.display = 'flex';
+                    document.body.style.overflow = 'hidden'; // Prevents background scrolling
+                });
+            });
+
+            // Close Modal (Clicking the X)
+            closeBtn.addEventListener('click', () => {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto'; // Restore scrolling
+            });
+
+            // Close Modal (Clicking outside the box)
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
