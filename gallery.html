@@ -192,7 +192,6 @@
 </head>
 <body>
 
-    <!-- NAVIGATION -->
     <nav class="site-nav">
         <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
             ☰
@@ -224,16 +223,13 @@
         </ul>
     </nav>
 
-    <!-- HERO SECTION -->
     <div class="hero" style="padding: 5rem 1rem 6rem 1rem;">
         <h1 style="font-family: 'Playfair Display', serif; font-size: 3.5rem; margin-bottom: 5px;">Visual Archive</h1>
         <p style="font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-top: 0; font-style: italic; opacity: 0.9;">Documenting the Era of Mah Laqa Bai</p>
     </div>
 
-    <!-- MAIN CONTAINER -->
     <div class="container" style="max-width: 1200px;">
         
-        <!-- FILTER BUTTONS -->
         <div class="filter-controls" id="filter-container">
             <button class="filter-btn active" data-filter="all">All Items</button>
             <button class="filter-btn" data-filter="painting">Paintings</button>
@@ -241,66 +237,77 @@
             <button class="filter-btn" data-filter="inscription">Inscriptions</button>
         </div>
 
-        <!-- GALLERY GRID -->
         <div class="gallery-grid" id="gallery-grid">
             
-            <!-- ITEM 1: MAH LAQA BAI PLAYING HOLI -->
             <div class="gallery-item" data-category="painting" 
-                 data-fullimg="https://upload.wikimedia.org/wikipedia/commons/1/13/Mah_Laqa_Bai_playing_Holi_detail_Ragadarshan.png" 
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Mah_Laqa_Bai_playing_Holi_detail_Ragadarshan.png" 
                  data-title="Mah Laqa Bai Playing Holi" 
                  data-meta="LJS 63, fol. 23v | Hyderabad, c. 1804"
                  data-credit="Haji Mir Ghulam Hasan (Court Artist)"
                  data-source-name="Wikimedia Commons / UPenn OpenNN"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Mah_Laqa_Bai_playing_Holi_detail_Ragadarshan.png"
                  data-desc="A detail showing the courtesan-poet Mah Laqa Bai Chanda playing Holi with Raja Rao Ranbha Bahadur. Both figures, along with the text's author, Khushhal Khan, are explicitly identified by contemporary inscriptions at the top of the miniature. Cropped from the <em>Rāg darshan</em> manuscript.">
-                <!-- THUMBNAIL IMAGE (Live from Wikimedia) -->
-                <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Mah_Laqa_Bai_playing_Holi_detail_Ragadarshan.png" alt="Mah Laqa Bai playing Holi"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mah_Laqa_Bai_playing_Holi_detail_Ragadarshan.png?width=960" alt="Mah Laqa Bai playing Holi"> 
             </div>
 
-             <!-- ITEM: MAH LAQA BAI DANCING -->
-            <div class="gallery-item" data-category="painting" 
+             <div class="gallery-item" data-category="painting" 
                  data-fullimg="header.jpg" 
                  data-title="Chanda Bibi Dancing for the Raja" 
                  data-meta="LJS 63, fol. 24r | Hyderabad, c. 1799–1804"
                  data-credit="Haji Mir Ghulam Hasan (Court Artist)"
-                 data-source-name="Wikimedia Commons / UPenn OpenNN"
+                 data-source-name="UPenn OpenNN"
                  data-source-url="https://openn.library.upenn.edu/Data/0001/html/ljs63.html"
-                 data-desc="A cropped miniature from the <em>Rāg darshan</em> manuscript (Oversize LJS 63) commissioned by the Maratha military commander Raja Rao Rambha. It depicts Mah Laqa Bai Chanda dancing for the Raja. The paintings in this manuscript were executed by the court artist Haji Mir Ghulam Hasan. Currently held at the University of Pennsylvania (Kislak Center).">
-                
-                <!-- THUMBNAIL IMAGE -->
+                 data-desc="A cropped miniature from the <em>Rāg darshan</em> manuscript (Oversize LJS 63) commissioned by the Maratha military commander Raja Rao Rambha. It depicts Mah Laqa Bai Chanda dancing for the Raja. Currently held at the University of Pennsylvania (Kislak Center).">
                 <img src="header.jpg" alt="Chanda Bibi Dancing"> 
             </div>
 
-            <!-- ITEM 3: ARCHITECTURE PLACEHOLDER -->
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="stepwell-highres.jpg" 
-                 data-title="The Step-Well at Mawla Ali" 
-                 data-meta="Location: Hyderabad | Built c. 1820"
-                 data-credit="Akash Tiwari (Editor)"
-                 data-source-name="Wikimedia Commons Archive"
-                 data-source-url="#"
-                 data-desc="Financed entirely by Mah Laqa Bai, this step-well was constructed to provide water for pilgrims visiting the Mawla Ali shrine. It stands as a testament to her syncretic religious patronage and immense personal wealth.">
-                <!-- THUMBNAIL IMAGE -->
-                <img src="portrait.png" alt="Step Well"> 
+            <div class="gallery-item" data-category="inscription" 
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_inscription_on_the_Dalan_built_by_Mah_Laqa_Bai_Chanda_adjoining_Maula_Ali_Shrine_in_Hyderabad.jpg" 
+                 data-title="Dalan Inscription at Maula Ali" 
+                 data-meta="Location: Maula Ali Shrine | Photographed 2026"
+                 data-credit="Akash Tiwari (Project Editor)"
+                 data-source-name="Project Archive / Wikimedia Commons"
+                 data-source-url="https://commons.wikimedia.org/wiki/File:Persian_inscription_on_the_Dalan_built_by_Mah_Laqa_Bai_Chanda_adjoining_Maula_Ali_Shrine_in_Hyderabad.jpg"
+                 data-desc="Persian inscription located on the Dalan (pavilion) constructed by Mah Laqa Bai Chanda adjoining the Maula Ali Shrine in Hyderabad. Documented as part of the primary source collection for this critical edition.">
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_inscription_on_the_Dalan_built_by_Mah_Laqa_Bai_Chanda_adjoining_Maula_Ali_Shrine_in_Hyderabad.jpg?width=960" alt="Dalan Inscription at Maula Ali"> 
             </div>
 
-            <!-- ITEM 4: INSCRIPTION PLACEHOLDER -->
             <div class="gallery-item" data-category="inscription" 
-                 data-fullimg="inscription-highres.jpg" 
-                 data-title="Dedication Plaque" 
-                 data-meta="Medium: Carved Stone | Mawla Ali Shrine"
-                 data-credit="Akash Tiwari (Editor)"
-                 data-source-name="Wikimedia Commons Archive"
-                 data-source-url="#"
-                 data-desc="This stone inscription publicly records Mah Laqa Bai's devotion to Imam Ali and officially documents her financing of the pavilion constructed at the base of the hill.">
-                <!-- THUMBNAIL IMAGE -->
-                <img src="portrait.png" alt="Inscription"> 
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_on_carved_teakwood_over_the_door_outside_the_mausoleum_of_Mah_Laqa_Bai.jpg" 
+                 data-title="Teakwood Door Inscription" 
+                 data-meta="Location: Mah Laqa Bai Mausoleum | Photographed 2026"
+                 data-credit="Akash Tiwari (Project Editor)"
+                 data-source-name="Project Archive / Wikimedia Commons"
+                 data-source-url="https://commons.wikimedia.org/wiki/File:Persian_Inscription_on_carved_teakwood_over_the_door_outside_the_mausoleum_of_Mah_Laqa_Bai.jpg"
+                 data-desc="Persian inscription carved into teakwood, situated over the entrance door to the mausoleum of Mah Laqa Bai. Documented as part of the primary source collection for this critical edition.">
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_on_carved_teakwood_over_the_door_outside_the_mausoleum_of_Mah_Laqa_Bai.jpg?width=960" alt="Teakwood Door Inscription"> 
+            </div>
+
+            <div class="gallery-item" data-category="inscription" 
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Grave_of_Khushhal_Khan_%22Anoop%22_with_an_inscribed_headstone.jpg" 
+                 data-title="Grave of Khushhal Khan 'Anoop'" 
+                 data-meta="Location: Hyderabad | Photographed 2026"
+                 data-credit="Akash Tiwari (Project Editor)"
+                 data-source-name="Project Archive / Wikimedia Commons"
+                 data-source-url="https://commons.wikimedia.org/wiki/File:Grave_of_Khushhal_Khan_%22Anoop%22_with_an_inscribed_headstone.jpg"
+                 data-desc="The grave and inscribed headstone of Khushhal Khan 'Anoop', the author of the <em>Rāg darshan</em> text. Documented in situ as part of the primary source collection for this critical edition.">
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Grave_of_Khushhal_Khan_%22Anoop%22_with_an_inscribed_headstone.jpg?width=960" alt="Grave of Khushhal Khan Anoop"> 
+            </div>
+
+            <div class="gallery-item" data-category="inscription" 
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Stone-slab_inscription_attached_to_Mah_Laqa_Bai's_Grave_in_Hyderabad.jpg" 
+                 data-title="Stone-Slab Grave Inscription" 
+                 data-meta="Location: Mah Laqa Bai Mausoleum | Photographed 2026"
+                 data-credit="Akash Tiwari (Project Editor)"
+                 data-source-name="Project Archive / Wikimedia Commons"
+                 data-source-url="https://commons.wikimedia.org/wiki/File:Stone-slab_inscription_attached_to_Mah_Laqa_Bai's_Grave_in_Hyderabad.jpg"
+                 data-desc="Stone-slab inscription physically attached to the grave of Mah Laqa Bai Chanda in Hyderabad. Documented as part of the primary source collection for this critical edition.">
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stone-slab_inscription_attached_to_Mah_Laqa_Bai's_Grave_in_Hyderabad.jpg?width=960" alt="Stone-slab inscription attached to Mah Laqa Bai Grave"> 
             </div>
 
         </div>
     </div>
 
-    <!-- THE MODAL (LIGHTBOX) -->
     <div id="image-modal" class="modal">
         <div class="modal-content">
             <div class="modal-image-container">
@@ -311,7 +318,6 @@
                 <h3 class="modal-title" id="modal-title">Title Here</h3>
                 <div class="modal-meta" id="modal-meta">Metadata Here</div>
                 
-                <!-- Short, Elegant Source Block -->
                 <div style="font-size: 0.9rem; margin-bottom: 20px; padding: 12px; background: rgba(0,0,0,0.02); border-radius: 6px; border: 1px solid var(--border);">
                     <div style="margin-bottom: 4px;"><strong>Attribution:</strong> <span id="modal-credit"></span></div>
                     <div><strong>Source:</strong> <a id="modal-source-link" href="#" target="_blank" style="color: #903b35; text-decoration: underline; font-weight: 600;"></a></div>
@@ -322,14 +328,12 @@
         </div>
     </div>
 
-    <!-- FOOTER -->
     <footer style="margin-top: 40px; padding: 40px 20px; background-color: var(--primary); color: #cbd5e1; text-align: center; font-size: 0.95rem; border-top: 3px solid var(--accent); line-height: 1.6; font-family: 'Inter', sans-serif;">
         <div style="max-width: 1200px; margin: 0 auto;">
             <p style="margin: 0 0 10px 0;">All code and prose for this digital critical edition are open source.</p>
         </div>
     </footer>
 
-    <!-- INTERACTIVITY SCRIPTS -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             
