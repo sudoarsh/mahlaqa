@@ -15,10 +15,10 @@ const deewanData = [
   },
   {
     "id": 1.3,
-    "BL": "ثنا کی راہ میں ہرگز نہ پہنچنے پائے مقصد کو <br>چلے اس دشت میں سر سے اگر پیر و جواں گویا",
-    "TO": "ثنا کی راہ میں ہرگز نہ پہنچنے پائے مقصد کو <br>چلے اس دشت میں سر سے اگر پیر و جواں گویا",
-    "SJ": "ثنا کی راہ میں ہرگز نہ پہنچنے پائے مقصد کو <br>چلے اس دشت میں سر سے اگر پیر و جواں گویا",
-    "GM": "ثنا کی راہ میں ہرگز نہ پہنچنے پائے مقصد کو <br>چلے اس دشت میں سر سے اگر پیر و جواں گویا"
+    "BL": "ثنا کی راہ میں ہرگز نہ پہنچنے پائے مقصد کو<br>چلے اس دشت میں سر <span class=\"diff diff-anchor\">سے</span> اگر پیر و جواں گویا",
+    "TO": "ثنا کی راہ میں ہرگز نہ پہنچنے پائے مقصد کو<br>چلے اس دشت میں سر <span class=\"diff diff-anchor\">سے</span> اگر پیر و جواں گویا",
+    "SJ": "ثنا کی راہ میں ہرگز نہ پہنچنے پائے مقصد کو<br>چلے اس دشت میں سر <span class=\"diff diff-var1\">سیں</span> اگر پیر و جواں گویا",
+    "GM": "ثنا کی راہ میں ہرگز نہ پہنچنے پائے مقصد کو<br>چلے اس دشت میں سر <span class=\"diff diff-anchor\">سے</span> اگر پیر و جواں گویا"
   },
   {
     "id": 1.4,
@@ -32,21 +32,21 @@ const deewanData = [
     "BL": "<span class=\"diff diff-anchor\">سواۓ</span> حق کے کب <span class=\"diff diff-anchor\">کوئی</span> واصف وصف ائمہ ہو<br>رہا چندا <span class=\"diff diff-anchor\">ملک</span> پر بھی یہی نکته نہاں گویا",
     "TO": "<span class=\"diff diff-anchor\">سواۓ</span> حق کے کب <span class=\"diff diff-anchor\">کوئی</span> واصف وصف ائمہ ہو<br>رہا چندا <span class=\"diff diff-anchor\">ملک</span> پر بھی یہی نکته نہاں گویا",
     "SJ": "<span class=\"diff diff-anchor\">سواۓ</span> حق کے کب <span class=\"diff diff-anchor\">کوئی</span> واصف وصف ائمہ ہو<br>رہا چندا <span class=\"diff diff-anchor\">ملک</span> پر بھی یہی نکته نہاں گویا",
-    "GM": "<span class=\"diff diff-gm\">بجز</span> حق کے <span class=\"diff diff-gm\">کوئی</span> کب  واصف وصف ائمہ ہو<br>رہا چندا <span class=\"diff diff-gm\">فلک</span> پر بھی یہی نکته نہاں گویا"
+    "GM": "<span class=\"diff diff-gm\">بجز</span> حق کے <span class=\"diff diff-gm\">کوئی</span> کب واصف وصف ائمہ ہو<br>رہا چندا <span class=\"diff diff-gm\">فلک</span> پر بھی یہی نکته نہاں گویا"
   },
   {
     "id": 2.1,
-    "BL": "دل <span class=\"diff diff-anchor\">دوانہ</span> ہے ازل سے زلف کی زنجیر کا<br>کب بندھا <span class=\"diff diff-anchor\">چھوٹے</span> ہی <span class=\"diff diff-anchor\">شانے</span> ایک مو تقدیر کا",
-    "TO": "دل <span class=\"diff diff-anchor\">دوانہ</span> ہے ازل سے زلف کی زنجیر کا<br>کب بندھا <span class=\"diff diff-anchor\">چھوٹے</span> ہی <span class=\"diff diff-anchor\">شانے</span> ایک مو تقدیر کا",
-    "SJ": "دل <span class=\"diff diff-anchor\">دوانہ</span> ہے ازل سے زلف کی زنجیر کا<br>کب بندھا <span class=\"diff diff-var1\">چھوتے</span> ہی <span class=\"diff diff-anchor\">شانے</span> ایک مو تقدیر کا",
-    "GM": "دل  ہے <span class=\"diff diff-gm\">دیوانہ</span> ازل سے زلف کی زنجیر کا<br>کب بندھا <span class=\"diff diff-gm\">چھوتے</span> ہی <span class=\"diff diff-gm\">شانہ</span> ایک مو تقدیر کا"
+    "BL": "دل <span class=\"diff diff-anchor\">دوانہ</span> ہے ازل سے زلف کی زنجیر کا<br>کب بندھا <span class=\"diff diff-anchor\">چھوٹے ہے شانے</span> ایک مو تقدیر کا",
+    "TO": "دل <span class=\"diff diff-anchor\">دوانہ</span> ہے ازل سے زلف کی زنجیر کا<br>کب بندھا <span class=\"diff diff-anchor\">چھوٹے ہے شانے</span> ایک مو تقدیر کا",
+    "SJ": "دل <span class=\"diff diff-anchor\">دوانہ</span> ہے ازل سے زلف کی زنجیر کا<br>کب بندھا <span class=\"diff diff-var1\">چھوتے ہے شانے</span> ایک مو تقدیر کا",
+    "GM": "دل ہے <span class=\"diff diff-gm\">دیوانہ</span> ازل سے زلف کی زنجیر کا<br>کب بندھا <span class=\"diff diff-gm\">چھوتے ہی شانہ</span> ایک مو تقدیر کا"
   },
   {
     "id": 2.2,
-    "BL": "ہاتھ میں کب آئی ہے <span class=\"diff diff-anchor\">افسوں</span> سے <span class=\"diff diff-anchor\"> یہ</span> اقلیم دل<br>جز تواضع کے نہ دیکھا چٹکلا تسخیر کا",
-    "TO": "ہاتھ میں کب آئی ہے <span class=\"diff diff-var1\">افسون</span> سے  اقلیم دل<br>جز تواضع کے نہ دیکھا چٹکلا تسخیر کا",
-    "SJ": "ہاتھ میں کب آئی ہے <span class=\"diff diff-var1\">افسون</span> سے  اقلیم دل<br>جز تواضع کے نہ دیکھا چٹکلا تسخیر کا",
-    "GM": "ہاتھ میں کب آئی ہے <span class=\"diff diff-anchor\">افسوں</span> سے <span class=\"diff diff-anchor\"> یہ</span> اقلیم دل<br>جز تواضع کے نہ دیکھا چٹکلا تسخیر کا"
+    "BL": "ہاتھ میں کب آئی ہے <span class=\"diff diff-anchor\">افسوں</span> سے <span class=\"diff diff-anchor\">یہ</span> اقلیم دل<br>جز تواضع کے نہ دیکھا چٹکلا تسخیر کا",
+    "TO": "ہاتھ میں کب آئی ہے <span class=\"diff diff-var2\">افسون</span> سے اقلیم دل<br>جز تواضع کے نہ دیکھا چٹکلا تسخیر کا",
+    "SJ": "ہاتھ میں کب آئی ہے <span class=\"diff diff-var1\">افسون</span> سے اقلیم دل<br>جز تواضع کے نہ دیکھا چٹکلا تسخیر کا",
+    "GM": "ہاتھ میں کب آئی ہے <span class=\"diff diff-anchor\">افسوں</span> سے <span class=\"diff diff-anchor\">یہ</span> اقلیم دل<br>جز تواضع کے نہ دیکھا چٹکلا تسخیر کا"
   },
   {
     "id": 2.3,
@@ -85,10 +85,10 @@ const deewanData = [
   },
   {
     "id": 3.3,
-    "BL": "یک عمر ماہ رو سے ز بس ہم نشین ہوں <br>قابو کبھو <span class=\"diff diff-anchor\">پڑا</span> نہیں بوس و کنار کا",
-    "TO": "یک عمر ماہ رو سے ز بس ہم نشین ہوں <br>قابو کبھو <span class=\"diff diff-anchor\">پڑا</span> نہیں بوس و کنار کا",
-    "SJ": "یک عمر ماہ رو سے ز بس ہم نشین ہوں <br>قابو کبھو <span class=\"diff diff-anchor\">پڑا</span> نہیں بوس و کنار کا",
-    "GM": "یک عمر ماہ رو سے ز بس ہم نشین ہوں <br>قابو <span class=\"diff diff-gm\">پڑا</span> کبھو  نہیں بوس و کنار کا"
+    "BL": "یک عمر ماہ رو سے ز بس ہم نشین ہوں<br>قابو کبھو <span class=\"diff diff-anchor\">پڑا</span> نہیں بوس و کنار کا",
+    "TO": "یک عمر ماہ رو سے ز بس ہم نشین ہوں<br>قابو کبھو <span class=\"diff diff-anchor\">پڑا</span> نہیں بوس و کنار کا",
+    "SJ": "یک عمر ماہ رو سے ز بس ہم نشین ہوں<br>قابو کبھو <span class=\"diff diff-anchor\">پڑا</span> نہیں بوس و کنار کا",
+    "GM": "یک عمر ماہ رو سے ز بس ہم نشین ہوں<br>قابو <span class=\"diff diff-gm\">پڑا</span> کبھو نہیں بوس و کنار کا"
   },
   {
     "id": 3.4,
@@ -114,7 +114,7 @@ const deewanData = [
   {
     "id": 4.2,
     "BL": "نظر آتا نہیں وہ بت نہ کچھ الفت ہی ٹوٹی ہے<br>چھپا منکے میں <span class=\"diff diff-anchor\">منکے</span> رشتۂ زنار ہے کس کا",
-    "TO": "نظر آتا نہیں وہ بت نہ کچھ الفت ہی ٹوٹی ہے<br>چھپا منکے میں <span class=\"diff diff-var1\">[من کے]</span> رشتۂ زنار ہے کس کا",
+    "TO": "نظر آتا نہیں وہ بت نہ کچھ الفت ہی ٹوٹی ہے<br>چھپا منکے میں <span class=\"diff diff-var2\">[من کے]</span> رشتۂ زنار ہے کس کا",
     "SJ": "نظر آتا نہیں وہ بت نہ کچھ الفت ہی ٹوٹی ہے<br>چھپا منکے میں <span class=\"diff diff-anchor\">منکے</span> رشتۂ زنار ہے کس کا",
     "GM": "نظر آتا نہیں وہ بت نہ کچھ الفت ہی ٹوٹی ہے<br>چھپا منکے میں <span class=\"diff diff-anchor\">منکے</span> رشتۂ زنار ہے کس کا"
   },
@@ -134,10 +134,10 @@ const deewanData = [
   },
   {
     "id": 4.5,
-    "BL": "<span class=\"diff diff-anchor\">سنا نئیں</span> مدح مولا کے <span class=\"diff diff-anchor\">سوا</span> کوئی سخن لب سے<br>دل چندا الٰہی  مخزن اسرار ہے کس کا",
-    "TO": "<span class=\"diff diff-anchor\">سنا نئیں</span> مدح مولا کے <span class=\"diff diff-anchor\">سوا</span> کوئی سخن لب سے<br>دل چندا الٰہی  مخزن اسرار ہے کس کا",
-    "SJ": "<span class=\"diff diff-anchor\">سنا نئیں</span> مدح مولا کے <span class=\"diff diff-anchor\">سوا</span> کوئی سخن لب سے<br>دل چندا الٰہی  مخزن اسرار ہے کس کا",
-    "GM": "<span class=\"diff diff-gm\">نہیں جز</span> مدح مولا کے <span class=\"diff diff-gm\">سنا</span> کوئی سخن لب سے<br>دل چندا الٰہی  مخزن اسرار ہے کس کا"
+    "BL": "<span class=\"diff diff-anchor\">سنا نئیں</span> مدح مولا کے <span class=\"diff diff-anchor\">سوا</span> کوئی سخن لب سے<br>دل چندا الٰہی مخزن اسرار ہے کس کا",
+    "TO": "<span class=\"diff diff-anchor\">سنا نئیں</span> مدح مولا کے <span class=\"diff diff-anchor\">سوا</span> کوئی سخن لب سے<br>دل چندا الٰہی مخزن اسرار ہے کس کا",
+    "SJ": "<span class=\"diff diff-anchor\">سنا نئیں</span> مدح مولا کے <span class=\"diff diff-anchor\">سوا</span> کوئی سخن لب سے<br>دل چندا الٰہی مخزن اسرار ہے کس کا",
+    "GM": "<span class=\"diff diff-gm\">نہیں جز</span> مدح مولا کے <span class=\"diff diff-gm\">سنا</span> کوئی سخن لب سے<br>دل چندا الٰہی مخزن اسرار ہے کس کا"
   },
   {
     "id": 5.1,
@@ -177,16 +177,16 @@ const deewanData = [
   {
     "id": 6.1,
     "BL": "ہم سے کرے ہے یار بیاں اپنی <span class=\"diff diff-anchor\">جاہ</span> کا<br>حاضر ہیں ہم بھی گر ہو ارادہ نباہ کا",
-    "TO": "ہم سے کرے ہے یار بیاں اپنی <span class=\"diff diff-var1\">چاہ</span> کا<br>حاضر ہیں ہم بھی گر ہو ارادہ نباہ کا",
+    "TO": "ہم سے کرے ہے یار بیاں اپنی <span class=\"diff diff-var2\">چاہ</span> کا<br>حاضر ہیں ہم بھی گر ہو ارادہ نباہ کا",
     "SJ": "ہم سے کرے ہے یار بیاں اپنی <span class=\"diff diff-var1\">چاہ</span> کا<br>حاضر ہیں ہم بھی گر ہو ارادہ نباہ کا",
     "GM": "ہم سے کرے ہے یار بیاں اپنی <span class=\"diff diff-gm\">چاہ</span> کا<br>حاضر ہیں ہم بھی گر ہو ارادہ نباہ کا"
   },
   {
     "id": 6.2,
-    "BL": "ابرو کماں کو کھینچ کے <span class=\"diff diff-anchor\">[کی]</span> اس طرف نظر <br>تب سے پڑا ہے کھٹکے <span class=\"diff diff-anchor\">ہے</span> ناوک نگاہ کا",
-    "TO": "ابرو کماں کو کھینچ کے <span class=\"diff diff-anchor\">[کی]</span> اس طرف نظر <br>تب سے پڑا ہے کھٹکے <span class=\"diff diff-anchor\">ہے</span> ناوک نگاہ کا",
-    "SJ": "ابرو کماں کو کھینچ کے <span class=\"diff diff-var1\">کی</span> اس طرف نظر <br>تب سے پڑا ہے کھٹکے <span class=\"diff diff-anchor\">ہے</span> ناوک نگاہ کا",
-    "GM": "ابرو کماں کو کھینچ کے <span class=\"diff diff-gm\">کی</span> اس طرف نظر <br>تب سے پڑا ہے کھٹکے <span class=\"diff diff-gm\">میں</span> ناوک نگاہ کا"
+    "BL": "ابرو کماں کو کھینچ کے <span class=\"diff diff-anchor\">[کی]</span> اس طرف نظر<br>تب سے پڑا ہے کھٹکے <span class=\"diff diff-anchor\">ہے</span> ناوک نگاہ کا",
+    "TO": "ابرو کماں کو کھینچ کے <span class=\"diff diff-anchor\">[کی]</span> اس طرف نظر<br>تب سے پڑا ہے کھٹکے <span class=\"diff diff-anchor\">ہے</span> ناوک نگاہ کا",
+    "SJ": "ابرو کماں کو کھینچ کے <span class=\"diff diff-var1\">کی</span> اس طرف نظر<br>تب سے پڑا ہے کھٹکے <span class=\"diff diff-anchor\">ہے</span> ناوک نگاہ کا",
+    "GM": "ابرو کماں کو کھینچ کے <span class=\"diff diff-gm\">کی</span> اس طرف نظر<br>تب سے پڑا ہے کھٹکے <span class=\"diff diff-gm\">میں</span> ناوک نگاہ کا"
   },
   {
     "id": 6.3,
@@ -206,8 +206,8 @@ const deewanData = [
     "id": 6.5,
     "BL": "چندا کے دیکھنے <span class=\"diff diff-anchor\">ہی</span> کی خواہش کرے <span class=\"diff diff-anchor\">جو</span> کوئی<br>رکھتا ہو وصف اپنے میں <span class=\"diff diff-anchor\">حشمت</span> و جاہ کا",
     "TO": "چندا کے دیکھنے <span class=\"diff diff-anchor\">ہی</span> کی خواہش کرے <span class=\"diff diff-anchor\">جو</span> کوئی<br>رکھتا ہو وصف اپنے میں <span class=\"diff diff-anchor\">حشمت</span> و جاہ کا",
-    "SJ": "چندا کے دیکھنے <span class=\"diff diff-anchor\">ہی</span> کی خواہش کرے <span class=\"diff diff-anchor\">جو</span> کوئی<br>رکھتا ہو وصف اپنے میں <span class=\"diff diff-anchor\">حشمت</span> و جاہ کا",
-    "GM": "چندا کے دیکھنے  کی <span class=\"diff diff-gm\">جو</span> خواہش کرے  کوئی<br>رکھتا ہو وصف اپنے میں <span class=\"diff diff-gm\">وہ عز</span> و جاہ کا"
+    "SJ": "چندا کے دیکھنے <span class=\"diff diff-var1\">[ہی]</span> کی خواہش کرے <span class=\"diff diff-anchor\">جو</span> کوئی<br>رکھتا ہو وصف اپنے میں <span class=\"diff diff-anchor\">حشمت</span> و جاہ کا",
+    "GM": "چندا کے دیکھنے کی <span class=\"diff diff-gm\">جو</span> خواہش کرے کوئی<br>رکھتا ہو وصف اپنے میں <span class=\"diff diff-gm\">وہ عز</span> و جاہ کا"
   },
   {
     "id": 7.1,
@@ -226,37 +226,37 @@ const deewanData = [
   {
     "id": 7.3,
     "BL": "گردش سے <span class=\"diff diff-anchor\">تیری</span> چشم کے مدت سے ہوں خراب<br>تس پر کرے ہے مجھ سے یہ اقرار دیکھنا",
-    "TO": "گردش سے <span class=\"diff diff-var1\">تیر</span> چشم کے مدت سے ہوں خراب<br>تس پر کرے ہے مجھ سے یہ اقرار دیکھنا",
+    "TO": "گردش سے <span class=\"diff diff-var2\">تیر</span> چشم کے مدت سے ہوں خراب<br>تس پر کرے ہے مجھ سے یہ اقرار دیکھنا",
     "SJ": "گردش سے <span class=\"diff diff-anchor\">تیری</span> چشم کے مدت سے ہوں خراب<br>تس پر کرے ہے مجھ سے یہ اقرار دیکھنا",
     "GM": "گردش سے <span class=\"diff diff-anchor\">تیری</span> چشم کے مدت سے ہوں خراب<br>تس پر کرے ہے مجھ سے یہ اقرار دیکھنا"
   },
   {
     "id": 7.4,
     "BL": "ناصح عبث کرے ہے <span class=\"diff diff-anchor\">مجھے</span> منع عشق سے<br>آ <span class=\"diff diff-anchor\">جائے</span> وہ نظر تو پھر انکار دیکھنا",
-    "TO": "ناصح عبث کرے ہے <span class=\"diff diff-anchor\">مجھے</span> منع عشق سے<br>آ <span class=\"diff diff-var1\">جاوے</span> وہ نظر تو پھر انکار دیکھنا",
+    "TO": "ناصح عبث کرے ہے <span class=\"diff diff-anchor\">مجھے</span> منع عشق سے<br>آ <span class=\"diff diff-var2\">جاوے</span> وہ نظر تو پھر انکار دیکھنا",
     "SJ": "ناصح عبث کرے ہے <span class=\"diff diff-anchor\">مجھے</span> منع عشق سے<br>آ <span class=\"diff diff-anchor\">جائے</span> وہ نظر تو پھر انکار دیکھنا",
-    "GM": "ناصح عبث کرے ہے  منع <span class=\"diff diff-gm\">مجھ کو</span> عشق سے<br>آ <span class=\"diff diff-anchor\">جائے</span> وہ نظر تو پھر انکار دیکھنا"
+    "GM": "ناصح عبث کرے ہے منع <span class=\"diff diff-gm\">مجھ کو</span> عشق سے<br>آ <span class=\"diff diff-anchor\">جائے</span> وہ نظر تو پھر انکار دیکھنا"
   },
   {
     "id": 7.5,
-    "BL": "چندا کو تم سے چشم ہے <span class=\"diff diff-anchor\">یہ</span> یا علی کہ ہو<br>خاک نجف کو سرمۂ  ابصار دیکھنا",
-    "TO": "چندا کو تم سے چشم ہے <span class=\"diff diff-anchor\">یہ</span> یا علی کہ ہو<br>خاک نجف کو سرمۂ  ابصار دیکھنا",
-    "SJ": "چندا کو تم سے چشم ہے <span class=\"diff diff-anchor\">یہ</span> یا علی کہ ہو<br>خاک نجف کو سرمۂ  ابصار دیکھنا",
-    "GM": "چندا کو تم سے چشم <span class=\"diff diff-gm\">یہ</span> ہے  یا علی کہ ہو<br>خاک نجف کو سرمۂ  ابصار دیکھنا"
+    "BL": "چندا کو تم سے چشم ہے <span class=\"diff diff-anchor\">یہ</span> یا علی کہ ہو<br>خاک نجف کو سرمۂ ابصار دیکھنا",
+    "TO": "چندا کو تم سے چشم ہے <span class=\"diff diff-anchor\">یہ</span> یا علی کہ ہو<br>خاک نجف کو سرمۂ ابصار دیکھنا",
+    "SJ": "چندا کو تم سے چشم ہے <span class=\"diff diff-anchor\">یہ</span> یا علی کہ ہو<br>خاک نجف کو سرمۂ ابصار دیکھنا",
+    "GM": "چندا کو تم سے چشم <span class=\"diff diff-gm\">یہ</span> ہے یا علی کہ ہو<br>خاک نجف کو سرمۂ ابصار دیکھنا"
   },
   {
     "id": 8.1,
     "BL": "",
     "TO": "",
-    "SJ": "اٹھا جو چله کش ابرو کماں دلگیر ہو گویا <br>کھٹکتا دل میں وہ بیٹھا نگہ کا تیر ہو گویا",
-    "GM": "اٹھا جو چله کش ابرو کماں دلگیر ہو گویا <br>کھٹکتا دل میں وہ بیٹھا نگہ کا تیر ہو گویا"
+    "SJ": "اٹھا جو چله کش ابرو کماں دلگیر ہو گویا<br>کھٹکتا دل میں وہ بیٹھا نگہ کا تیر ہو گویا",
+    "GM": "اٹھا جو چله کش ابرو کماں دلگیر ہو گویا<br>کھٹکتا دل میں وہ بیٹھا نگہ کا تیر ہو گویا"
   },
   {
     "id": 8.2,
     "BL": "",
     "TO": "",
-    "SJ": "ترے <span class=\"diff diff-anchor\">زنداں میں کاہیدہ ہوں اتنا غم سے اے ظالم <br>کرے داد طلب یہاں</span> حلقۂ زنجیر ہو گویا",
-    "GM": "<span class=\"diff diff-gm\">ہوا ہوں اس طرح زندان غم میں گھل کے کاہیدہ <br></span> ترے <span class=\"diff diff-gm\">مجنوں پہ خنداں</span> حلقۂ زنجیر ہو گویا"
+    "SJ": "ترے <span class=\"diff diff-anchor\">زنداں میں کاہیدہ ہوں اتنا غم سے اے ظالم<br>کرے داد طلب یہاں</span> حلقۂ زنجیر ہو گویا",
+    "GM": "<span class=\"diff diff-gm\">ہوا ہوں اس طرح زندان غم میں گھل کے کاہیدہ<br></span> ترے <span class=\"diff diff-gm\">مجنوں پہ خنداں</span> حلقۂ زنجیر ہو گویا"
   },
   {
     "id": 8.3,
@@ -297,7 +297,7 @@ const deewanData = [
     "id": 9.3,
     "BL": "",
     "TO": "",
-    "SJ": "نہ سمجھا تھا محبت کی لڑی توڑے گا آخر تو<br>اوایل <span class=\"diff diff-anchor\">کان</span> الفت میں سخن تیرا تو گوہر تھا",
+    "SJ": "نہ سمجھا تھا محبت کی لڑی توڑے گا آخر تو<br>اوایل <span class=\"diff diff-anchor\">گان</span> الفت میں سخن تیرا تو گوہر تھا",
     "GM": "نہ سمجھا تھا محبت کی لڑی توڑے گا آخر تو<br>اوایل <span class=\"diff diff-gm\">كان</span> الفت میں سخن تیرا تو گوہر تھا"
   },
   {
@@ -311,8 +311,8 @@ const deewanData = [
     "id": 9.5,
     "BL": "",
     "TO": "",
-    "SJ": "شناسائی ہوئی ذات الٰہی  سے تو کیا باعث<br>تجھے  چندا شہنشاہ نجف کا عشق رہبر تھا",
-    "GM": "شناسائی ہوئی ذات الٰہی  سے تو کیا باعث<br>تجھے  چندا شہنشاہ نجف کا عشق رہبر تھا"
+    "SJ": "شناسائی ہوئی ذات الٰہی سے تو کیا باعث<br>تجھے چندا شہنشاہ نجف کا عشق رہبر تھا",
+    "GM": "شناسائی ہوئی ذات الٰہی سے تو کیا باعث<br>تجھے چندا شہنشاہ نجف کا عشق رہبر تھا"
   },
   {
     "id": 10.1,
@@ -340,49 +340,49 @@ const deewanData = [
     "BL": "",
     "TO": "",
     "SJ": "<span class=\"diff diff-anchor\">موالی کی</span> دعا ہے یہ <span class=\"diff diff-anchor\">ہی صدقے</span> سے ائمہ کے<br>رکھے سائے میں اپنے لطف کے تجھ کو علی مولا",
-    "GM": " دعا ہے یہ <span class=\"diff diff-gm\">موالی کی تصدق</span> سے ائمہ کے<br>رکھے سائے میں اپنے لطف کے تجھ کو علی مولا"
+    "GM": "دعا ہے یہ <span class=\"diff diff-gm\">موالی کی تصدق</span> سے ائمہ کے<br>رکھے سائے میں اپنے لطف کے تجھ کو علی مولا"
   },
   {
     "id": 10.5,
     "BL": "",
     "TO": "",
-    "SJ": "نہیں کچھ زیب اے مہر سپہر معدلت اس میں<br>عیاں چندا پہ جو کچھ ہے نوازش یہ کرم فرما",
-    "GM": "نہیں کچھ زیب اے مہر سپہر معدلت اس میں<br>عیاں چندا پہ جو کچھ ہے نوازش یہ کرم فرما"
+    "SJ": "نہیں کچھ <span class=\"diff diff-anchor\">ریب</span> اے مہر سپہر معدلت اس میں<br>عیاں چندا پہ جو کچھ ہے نوازش یہ کرم فرما",
+    "GM": "نہیں کچھ <span class=\"diff diff-gm\">زیب</span> اے مہر سپہر معدلت اس میں<br>عیاں چندا پہ جو کچھ ہے نوازش یہ کرم فرما"
   },
   {
     "id": 11.1,
     "BL": "",
     "TO": "",
     "SJ": "<span class=\"diff diff-anchor\">جوں</span> عمر خضر <span class=\"diff diff-anchor\">کا ہو اجمال راؤ رنبھا</span><br>تیری گرہ ہو <span class=\"diff diff-anchor\">ایسی ہر</span> سال <span class=\"diff diff-anchor\">راؤ رنبھا</span>",
-    "GM": "<span class=\"diff diff-gm\">ہو تری</span> عمر خضر <span class=\"diff diff-gm\">ماه جمال</span><br><span class=\"diff diff-gm\">یوں ہی</span> تیری گرہ ہو  سال <span class=\"diff diff-gm\">بہ سال</span>"
+    "GM": "<span class=\"diff diff-gm\">ہو تری</span> عمر خضر <span class=\"diff diff-gm\">ماه جمال</span><br><span class=\"diff diff-gm\">یوں ہی</span> تیری گرہ ہو سال <span class=\"diff diff-gm\">بہ سال</span>"
   },
   {
     "id": 11.2,
     "BL": "",
     "TO": "",
     "SJ": "تار دم مسیحا <span class=\"diff diff-anchor\">رشتہ ہے اس گرہ کا</span><br><span class=\"diff diff-anchor\">ہوے</span> تجھے <span class=\"diff diff-anchor\">مبارک</span> یہ فال <span class=\"diff diff-anchor\">راؤ رنبھا</span>",
-    "GM": "<span class=\"diff diff-gm\">رشتہ</span> تار دم مسیحا <span class=\"diff diff-gm\">ہو</span><br><span class=\"diff diff-gm\">ہو مبارک</span> تجھے  یہ <span class=\"diff diff-gm\">فرخ</span> فال "
+    "GM": "<span class=\"diff diff-gm\">رشتہ</span> تار دم مسیحا <span class=\"diff diff-gm\">ہو</span><br><span class=\"diff diff-gm\">ہو مبارک</span> تجھے یہ <span class=\"diff diff-gm\">فرخ</span> فال"
   },
   {
     "id": 11.3,
     "BL": "",
     "TO": "",
     "SJ": "<span class=\"diff diff-anchor\">کونین میں ہمیشہ بخشش سے</span> پنج تن <span class=\"diff diff-anchor\">کی</span><br><span class=\"diff diff-anchor\">رہوے خدا</span> کا <span class=\"diff diff-anchor\">تجھ پر</span> افضال <span class=\"diff diff-anchor\">راؤ رنبھا</span>",
-    "GM": " پنج تن <span class=\"diff diff-gm\">تجھ پہ ہوں کرم گستر</span><br><span class=\"diff diff-gm\">اور اللہ</span> کا <span class=\"diff diff-gm\">رہے</span> افضال "
+    "GM": "پنج تن <span class=\"diff diff-gm\">تجھ پہ ہوں کرم گستر</span><br><span class=\"diff diff-gm\">اور اللہ</span> کا <span class=\"diff diff-gm\">رہے</span> افضال"
   },
   {
     "id": 11.4,
     "BL": "",
     "TO": "",
     "SJ": "<span class=\"diff diff-anchor\">تیرے کرم کی شہرت ہے</span> شش جہت میں <span class=\"diff diff-anchor\">جب سے</span><br>حاتم <span class=\"diff diff-anchor\">کے کب</span> تھے <span class=\"diff diff-anchor\">ایسے</span> افعال <span class=\"diff diff-anchor\">راؤ رنبھا</span>",
-    "GM": " شش جہت میں <span class=\"diff diff-gm\">ہے شہرۂ بخشش</span><br><span class=\"diff diff-gm\">کہاں</span> حاتم <span class=\"diff diff-gm\">میں ایسے</span> تھے  افعال "
+    "GM": "شش جہت میں <span class=\"diff diff-gm\">ہے شہرۂ بخشش</span><br><span class=\"diff diff-gm\">کہاں</span> حاتم <span class=\"diff diff-gm\">میں ایسے</span> تھے افعال"
   },
   {
     "id": 11.5,
     "BL": "",
     "TO": "",
     "SJ": "<span class=\"diff diff-anchor\">چندا کی ہے تمنا</span> سرکار مرتضیٰ <span class=\"diff diff-anchor\">سے</span><br>دونوں جہاں کا <span class=\"diff diff-anchor\">پاوے تو</span> مال <span class=\"diff diff-anchor\">راؤ رنبھا</span>",
-    "GM": "<span class=\"diff diff-gm\">عرض</span> سرکار مرتضیٰ <span class=\"diff diff-gm\">میں یہ ہے</span><br><span class=\"diff diff-gm\">پائے</span> دونوں جہاں کا <span class=\"diff diff-gm\">چندا</span> مال "
+    "GM": "<span class=\"diff diff-gm\">عرض</span> سرکار مرتضیٰ <span class=\"diff diff-gm\">میں یہ ہے</span><br><span class=\"diff diff-gm\">پائے</span> دونوں جہاں کا <span class=\"diff diff-gm\">چندا</span> مال"
   },
   {
     "id": 12.1,
@@ -414,15 +414,15 @@ const deewanData = [
   },
   {
     "id": 12.5,
-    "BL": "نہ  چندا کو طمع جنت کی نے خوف جہنم ہے<br>رکھے ہے دو جہاں میں حیدر کرار سے مطلب",
-    "TO": "نہ  چندا کو طمع جنت کی نے خوف جہنم ہے<br>رکھے ہے دو جہاں میں حیدر کرار سے مطلب",
-    "SJ": "نہ  چندا کو طمع جنت کی نے خوف جہنم ہے<br>رکھے ہے دو جہاں میں حیدر کرار سے مطلب",
-    "GM": "نہ  چندا کو طمع جنت کی نے خوف جہنم ہے<br>رکھے ہے دو جہاں میں حیدر کرار سے مطلب"
+    "BL": "نہ چندا کو طمع جنت کی نے خوف جہنم ہے<br>رکھے ہے دو جہاں میں حیدر کرار سے مطلب",
+    "TO": "نہ چندا کو طمع جنت کی نے خوف جہنم ہے<br>رکھے ہے دو جہاں میں حیدر کرار سے مطلب",
+    "SJ": "نہ چندا کو طمع جنت کی نے خوف جہنم ہے<br>رکھے ہے دو جہاں میں حیدر کرار سے مطلب",
+    "GM": "نہ چندا کو طمع جنت کی نے خوف جہنم ہے<br>رکھے ہے دو جہاں میں حیدر کرار سے مطلب"
   },
   {
     "id": 13.1,
     "BL": "ہو سکے ہے کب ترے <span class=\"diff diff-anchor\">مکھڑے</span> کے ہمسر آفتاب<br>گو رکھے ہے نور کی خلعت کو در <span class=\"diff diff-anchor\">بر</span> آفتاب",
-    "TO": "ہو سکے ہے کب ترے <span class=\"diff diff-anchor\">مکھڑے</span> کے ہمسر آفتاب<br>گو رکھے ہے نور کی خلعت کو در <span class=\"diff diff-var1\">پر</span> آفتاب",
+    "TO": "ہو سکے ہے کب ترے <span class=\"diff diff-anchor\">مکھڑے</span> کے ہمسر آفتاب<br>گو رکھے ہے نور کی خلعت کو در <span class=\"diff diff-var2\">پر</span> آفتاب",
     "SJ": "ہو سکے ہے کب ترے <span class=\"diff diff-anchor\">مکھڑے</span> کے ہمسر آفتاب<br>گو رکھے ہے نور کی خلعت کو در <span class=\"diff diff-var1\">پر</span> آفتاب",
     "GM": "ہو سکے ہے کب ترے <span class=\"diff diff-gm\">چہرے</span> کے ہمسر آفتاب<br>گو رکھے ہے نور کی خلعت کو در <span class=\"diff diff-anchor\">بر</span> آفتاب"
   },
@@ -450,7 +450,7 @@ const deewanData = [
   {
     "id": 13.5,
     "BL": "<span class=\"diff diff-anchor\">خوف</span> ذرہ <span class=\"diff diff-anchor\">نئیں ہے</span> چندا ظلمت امکان سے<br>ہے ترا حامی علی دو جگ <span class=\"diff diff-anchor\">کا</span> مظہر آفتاب",
-    "TO": "<span class=\"diff diff-anchor\">خوف</span> ذرہ <span class=\"diff diff-anchor\">نئیں ہے</span> چندا ظلمت امکان سے<br>ہے ترا حامی علی دو جگ <span class=\"diff diff-var1\">[کا]</span> مظہر آفتاب",
+    "TO": "<span class=\"diff diff-anchor\">خوف</span> ذرہ <span class=\"diff diff-anchor\">نئیں ہے</span> چندا ظلمت امکان سے<br>ہے ترا حامی علی دو جگ <span class=\"diff diff-var2\">[کا]</span> مظہر آفتاب",
     "SJ": "<span class=\"diff diff-anchor\">خوف</span> ذرہ <span class=\"diff diff-anchor\">نئیں ہے</span> چندا ظلمت امکان سے<br>ہے ترا حامی علی دو جگ <span class=\"diff diff-anchor\">کا</span> مظہر آفتاب",
     "GM": "<span class=\"diff diff-gm\">ڈر نہ</span> ذرہ <span class=\"diff diff-gm\">بھر بھی</span> چندا ظلمت امکان سے<br>ہے ترا حامی علی دو جگ <span class=\"diff diff-anchor\">کا</span> مظہر آفتاب"
   },
@@ -463,17 +463,17 @@ const deewanData = [
   },
   {
     "id": 14.2,
-    "BL": "قتل پر <span class=\"diff diff-anchor\">آج</span> کس کے <span class=\"diff diff-anchor\"> ہووے</span> ہے<br>توسن حسن پر سوار شراب",
-    "TO": "قتل پر <span class=\"diff diff-anchor\">آج</span> کس کے <span class=\"diff diff-anchor\"> ہووے</span> ہے<br>توسن حسن پر سوار شراب",
-    "SJ": "قتل پر <span class=\"diff diff-anchor\">آج</span> کس کے  <span class=\"diff diff-var1\">ہوے</span> ہے<br>توسن حسن پر سوار شراب",
-    "GM": "قتل پر  کس کے <span class=\"diff diff-gm\">آج ہوتی</span> ہے<br>توسن حسن پر سوار شراب"
+    "BL": "قتل پر <span class=\"diff diff-anchor\">آج</span> کس کے <span class=\"diff diff-anchor\">ہووے</span> ہے<br>توسن حسن پر سوار شراب",
+    "TO": "قتل پر <span class=\"diff diff-anchor\">آج</span> کس کے <span class=\"diff diff-anchor\">ہووے</span> ہے<br>توسن حسن پر سوار شراب",
+    "SJ": "قتل پر <span class=\"diff diff-anchor\">آج</span> کس کے <span class=\"diff diff-var1\">ہوے</span> ہے<br>توسن حسن پر سوار شراب",
+    "GM": "قتل پر کس کے <span class=\"diff diff-gm\">آج ہوتی</span> ہے<br>توسن حسن پر سوار شراب"
   },
   {
     "id": 14.3,
-    "BL": "رکھ کرم <span class=\"diff diff-anchor\">پر</span> ترے نظر مجرم<br>نوش کرتے ہیں بے شمار  شراب",
-    "TO": "رکھ کرم <span class=\"diff diff-var1\">[پر]</span> ترے نظر مجرم<br>نوش کرتے ہیں بے شمار  شراب",
-    "SJ": "رکھ کرم <span class=\"diff diff-anchor\">پر</span> ترے نظر مجرم<br>نوش کرتے ہیں بے شمار  شراب",
-    "GM": "رکھ کرم <span class=\"diff diff-anchor\">پر</span> ترے نظر مجرم<br>نوش کرتے ہیں بے شمار  شراب"
+    "BL": "رکھ کرم <span class=\"diff diff-anchor\">پر</span> ترے نظر مجرم<br>نوش کرتے ہیں بے شمار شراب",
+    "TO": "رکھ کرم <span class=\"diff diff-var2\">[پر]</span> ترے نظر مجرم<br>نوش کرتے ہیں بے شمار شراب",
+    "SJ": "رکھ کرم <span class=\"diff diff-anchor\">پر</span> ترے نظر مجرم<br>نوش کرتے ہیں بے شمار شراب",
+    "GM": "رکھ کرم <span class=\"diff diff-anchor\">پر</span> ترے نظر مجرم<br>نوش کرتے ہیں بے شمار شراب"
   },
   {
     "id": 14.4,
@@ -535,13 +535,13 @@ const deewanData = [
     "id": 16.2,
     "BL": "شمشاد و سرو <span class=\"diff diff-anchor\">گو ہیں سفینے</span> میں <span class=\"diff diff-anchor\">باغ</span> کے<br><span class=\"diff diff-anchor\">دل پر چڑھا وہ</span> مصرع قد انتخاب خوب",
     "TO": "شمشاد و سرو <span class=\"diff diff-anchor\">گو ہیں سفینے</span> میں <span class=\"diff diff-anchor\">باغ</span> کے<br><span class=\"diff diff-anchor\">دل پر چڑھا وہ</span> مصرع قد انتخاب خوب",
-    "SJ": "شمشاد و سرو <span class=\"diff diff-anchor\">گو ہیں سفینے</span> میں <span class=\"diff diff-anchor\">باغ</span> کے<br><span class=\"diff diff-anchor\">دل پر چڑھا</span> <span class=\"diff diff-var1\">و</span> مصرع قد انتخاب خوب",
+    "SJ": "شمشاد و سرو <span class=\"diff diff-anchor\">گو ہیں سفینے</span> میں <span class=\"diff diff-anchor\">باغ</span> کے<br><span class=\"diff diff-var1\">دل پر چڑھا و</span> مصرع قد انتخاب خوب",
     "GM": "شمشاد و سرو <span class=\"diff diff-gm\">باغ</span> میں <span class=\"diff diff-gm\">کیا دب</span> کے <span class=\"diff diff-gm\">رہ گئے</span><br><span class=\"diff diff-gm\">دیکھا جو اس کا</span> مصرع قد انتخاب خوب"
   },
   {
     "id": 16.3,
     "BL": "ذرے کی کیا مجال گلے مہر کے <span class=\"diff diff-anchor\">لگے</span><br>بس ہے یہ ایک <span class=\"diff diff-anchor\">بوسۂ لب</span> بے حجاب خوب",
-    "TO": "ذرے کی کیا مجال گلے مہر کے <span class=\"diff diff-anchor\">لگے</span><br>بس ہے یہ ایک <span class=\"diff diff-var1\">بوسہ اب</span> بے حجاب خوب",
+    "TO": "ذرے کی کیا مجال گلے مہر کے <span class=\"diff diff-anchor\">لگے</span><br>بس ہے یہ ایک <span class=\"diff diff-var2\">بوسہ اب</span> بے حجاب خوب",
     "SJ": "ذرے کی کیا مجال گلے مہر کے <span class=\"diff diff-anchor\">لگے</span><br>بس ہے یہ ایک <span class=\"diff diff-anchor\">بوسۂ لب</span> بے حجاب خوب",
     "GM": "ذرے کی کیا مجال گلے مہر کے <span class=\"diff diff-gm\">ملے</span><br>بس ہے یہ ایک <span class=\"diff diff-anchor\">بوسۂ لب</span> بے حجاب خوب"
   },
@@ -561,73 +561,73 @@ const deewanData = [
   },
   {
     "id": 17.1,
-    "BL": "گرچہ گل کی سیج ہو تس پر بھی <span class=\"diff diff-anchor\">اڑجاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span><br>سر رکھوں قدموں پہ جب تیرے مجھے <span class=\"diff diff-anchor\">آتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "TO": "گرچہ گل کی سیج ہو تس پر بھی <span class=\"diff diff-anchor\">اڑجاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span><br>سر رکھوں قدموں پہ جب تیرے مجھے <span class=\"diff diff-anchor\">آتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "SJ": "گرچہ گل کی سیج ہو تس پر بھی <span class=\"diff diff-anchor\">اڑجاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span><br>سر رکھوں قدموں پہ جب تیرے مجھے <span class=\"diff diff-anchor\">آتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "GM": "گرچہ گل کی سیج ہو تس پر بھی <span class=\"diff diff-gm\">اڑ جاتی</span> ہے <span class=\"diff diff-gm\">نیند</span><br>سر رکھوں قدموں پہ جب تیرے مجھے <span class=\"diff diff-gm\">آتی</span> ہے <span class=\"diff diff-gm\">نیند</span>"
+    "BL": "",
+    "TO": "",
+    "SJ": "سوتا ہے <span class=\"diff diff-anchor\">سات</span> اپنے وہ گل عذار ہر شب<br>صد شکر دیکھتے ہیں کیا <span class=\"diff diff-anchor\">ہی</span> بہار ہر شب",
+    "GM": "سوتا ہے <span class=\"diff diff-gm\">ساتھ</span> اپنے وہ گل عذار ہر شب<br>صد شکر دیکھتے ہیں کیا <span class=\"diff diff-gm\">کیا</span> بہار ہر شب"
   },
   {
     "id": 17.2,
-    "BL": "دیکھ سکتا ہی نہیں آنکھوں سے ٹک آنکھیں ملا<br>منتظر سے مثل نرگس <span class=\"diff diff-anchor\">تیرے شرماتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "TO": "دیکھ سکتا ہی نہیں آنکھوں سے ٹک آنکھیں ملا<br>منتظر سے مثل نرگس <span class=\"diff diff-anchor\">تیرے شرماتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "SJ": "دیکھ سکتا ہی نہیں آنکھوں سے ٹک آنکھیں ملا<br>منتظر سے مثل نرگس <span class=\"diff diff-anchor\">تیرے شرماتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "GM": "دیکھ سکتا ہی نہیں آنکھوں سے ٹک آنکھیں ملا<br>منتظر سے مثل نرگس <span class=\"diff diff-gm\">تیری شرماتی</span> ہے <span class=\"diff diff-gm\">نیند</span>"
-  },
-  {
-    "id": 17.3,
-    "BL": "جب سے یہ مژگاں ہوئے در پر ترے جاروب کش<br><span class=\"diff diff-anchor\">رو برو</span> تب سے مری آنکھوں کے ٹل <span class=\"diff diff-anchor\">جاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "TO": "جب سے یہ مژگاں ہوئے در پر ترے جاروب کش<br><span class=\"diff diff-anchor\">رو برو</span> تب سے مری آنکھوں کے ٹل <span class=\"diff diff-anchor\">جاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "SJ": "جب سے یہ مژگاں ہوئے در پر ترے جاروب کش<br><span class=\"diff diff-anchor\">رو برو</span> تب سے مری آنکھوں کے ٹل <span class=\"diff diff-anchor\">جاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "GM": "جب سے یہ مژگاں ہوئے در پر ترے جاروب کش<br><span class=\"diff diff-gm\">روبرو</span> تب سے مری آنکھوں کے ٹل <span class=\"diff diff-gm\">جاتی</span> ہے <span class=\"diff diff-gm\">نیند</span>"
-  },
-  {
-    "id": 17.4,
-    "BL": "دھیان میں گل رو <span class=\"diff diff-anchor\">کی</span> چین آتا نہیں افسانہ گر<br>لے صبا سے <span class=\"diff diff-anchor\">گاہ</span> بوئے <span class=\"diff diff-anchor\">یاربہلاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "TO": "دھیان میں گل رو <span class=\"diff diff-anchor\">کی</span> چین آتا نہیں افسانہ گر<br>لے صبا سے <span class=\"diff diff-anchor\">گاہ</span> بوئے <span class=\"diff diff-anchor\">یاربہلاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "SJ": "دھیان میں گل رو <span class=\"diff diff-anchor\">کی</span> چین آتا نہیں افسانہ گر<br>لے صبا سے <span class=\"diff diff-anchor\">گاہ</span> بوئے <span class=\"diff diff-anchor\">یاربہلاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "GM": "دھیان میں گل رو <span class=\"diff diff-gm\">کے</span> چین آتا نہیں افسانہ گر<br>لے صبا سے <span class=\"diff diff-gm\">گاه</span> بوئے <span class=\"diff diff-gm\">یار بہلاتی</span> ہے <span class=\"diff diff-gm\">نیند</span>"
-  },
-  {
-    "id": 17.5,
-    "BL": "اشک <span class=\"diff diff-anchor\">ریزاں</span> تو <span class=\"diff diff-anchor\">نہیں</span> چندا <span class=\"diff diff-anchor\">کہ</span> چشم خلق سے<br>قرة العین علی کے غم میں بہہ <span class=\"diff diff-anchor\">جاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "TO": "اشک <span class=\"diff diff-anchor\">ریزاں</span> تو <span class=\"diff diff-anchor\">نہیں</span> چندا <span class=\"diff diff-anchor\">کہ</span> چشم خلق سے<br>قرة العین علی کے غم میں بہہ <span class=\"diff diff-anchor\">جاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "SJ": "اشک <span class=\"diff diff-anchor\">ریزاں</span> تو <span class=\"diff diff-anchor\">نہیں</span> چندا <span class=\"diff diff-var1\">کی</span> چشم خلق سے<br>قرة العین علی کے غم میں بہہ <span class=\"diff diff-anchor\">جاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
-    "GM": "اشک  تو <span class=\"diff diff-gm\">اتنے بہے</span> چندا <span class=\"diff diff-anchor\">کہ</span> چشم خلق سے<br>قرة العین علی کے غم میں بہہ <span class=\"diff diff-gm\">جاتی</span> ہے <span class=\"diff diff-gm\">نیند</span>"
-  },
-  {
-    "id": 18.1,
-    "BL": "",
-    "TO": "",
-    "SJ": "سوتا ہے ساتھ اپنے وہ گل عذار ہر شب<br>صد شکر دیکھتے ہیں کیا <span class=\"diff diff-anchor\">ہی</span> بہار ہر شب",
-    "GM": "سوتا ہے ساتھ اپنے وہ گل عذار ہر شب<br>صد شکر دیکھتے ہیں کیا <span class=\"diff diff-gm\">کیا</span> بہار ہر شب"
-  },
-  {
-    "id": 18.2,
     "BL": "",
     "TO": "",
     "SJ": "شاید کہ میرے گھر میں وہ رشک ماه آوے<br>رہتا ہوں اس لئے میں امیدوار ہر شب",
     "GM": "شاید کہ میرے گھر میں وہ رشک ماه آوے<br>رہتا ہوں اس لئے میں امیدوار ہر شب"
   },
   {
-    "id": 18.3,
+    "id": 17.3,
     "BL": "",
     "TO": "",
     "SJ": "پھر لو لگی ہے مجھ کو کس شمع رو کی ہے ہے<br>دل ان دنوں رہے ہے کچھ بے قرار ہر شب",
     "GM": "پھر لو لگی ہے مجھ کو کس شمع رو کی ہے ہے<br>دل ان دنوں رہے ہے کچھ بے قرار ہر شب"
   },
   {
-    "id": 18.4,
+    "id": 17.4,
     "BL": "",
     "TO": "",
     "SJ": "خود صید ہو <span class=\"diff diff-anchor\">گئی میں</span> اب دام میں <span class=\"diff diff-anchor\">کسو</span> کے<br>کرتے تھے <span class=\"diff diff-anchor\">اب</span> باہم تازه شکار ہر شب",
     "GM": "خود صید ہو <span class=\"diff diff-gm\">گئے ہیں</span> اب دام میں <span class=\"diff diff-gm\">کسی</span> کے<br>کرتے تھے <span class=\"diff diff-gm\">آپ</span> باہم تازه شکار ہر شب"
   },
   {
-    "id": 18.5,
+    "id": 17.5,
     "BL": "",
     "TO": "",
     "SJ": "میدان حشر میں تم چندا کے <span class=\"diff diff-anchor\">ہونا باور</span><br>بس <span class=\"diff diff-anchor\">یہ ہی</span> التجا ہے دلدل سوار ہر شب",
-    "GM": "میدان حشر میں تم چندا کے <span class=\"diff diff-gm\">کام آنا</span><br>بس  التجا ہے <span class=\"diff diff-gm\">اتنی</span> دلدل سوار ہر شب"
+    "GM": "میدان حشر میں تم چندا کے <span class=\"diff diff-gm\">کام آنا</span><br>بس التجا ہے <span class=\"diff diff-gm\">اتنی</span> دلدل سوار ہر شب"
+  },
+  {
+    "id": 18.1,
+    "BL": "گرچہ گل کی سیج ہو تس پر بھی <span class=\"diff diff-anchor\">اڑجاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span><br>سر رکھوں قدموں پہ جب تیرے مجھے <span class=\"diff diff-anchor\">آتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "TO": "گرچہ گل کی سیج ہو تس پر بھی <span class=\"diff diff-anchor\">اڑجاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span><br>سر رکھوں قدموں پہ جب تیرے مجھے <span class=\"diff diff-anchor\">آتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "SJ": "گرچہ گل کی سیج ہو تس پر بھی <span class=\"diff diff-anchor\">اڑجاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span><br>سر رکھوں قدموں پہ جب تیرے مجھے <span class=\"diff diff-anchor\">آتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "GM": "گرچہ گل کی سیج ہو تس پر بھی <span class=\"diff diff-gm\">اڑ جاتی</span> ہے <span class=\"diff diff-gm\">نیند</span><br>سر رکھوں قدموں پہ جب تیرے مجھے <span class=\"diff diff-gm\">آتی</span> ہے <span class=\"diff diff-gm\">نیند</span>"
+  },
+  {
+    "id": 18.2,
+    "BL": "دیکھ سکتا ہی نہیں آنکھوں سے ٹک آنکھیں ملا<br>منتظر سے مثل نرگس <span class=\"diff diff-anchor\">تیرے شرماتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "TO": "دیکھ سکتا ہی نہیں آنکھوں سے ٹک آنکھیں ملا<br>منتظر سے مثل نرگس <span class=\"diff diff-anchor\">تیرے شرماتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "SJ": "دیکھ سکتا ہی نہیں آنکھوں سے ٹک آنکھیں ملا<br>منتظر سے مثل نرگس <span class=\"diff diff-anchor\">تیرے شرماتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "GM": "دیکھ سکتا ہی نہیں آنکھوں سے ٹک آنکھیں ملا<br>منتظر سے مثل نرگس <span class=\"diff diff-gm\">تیری شرماتی</span> ہے <span class=\"diff diff-gm\">نیند</span>"
+  },
+  {
+    "id": 18.3,
+    "BL": "جب سے یہ مژگاں ہوئے در پر ترے جاروب کش<br><span class=\"diff diff-anchor\">رو برو</span> تب سے مری آنکھوں کے ٹل <span class=\"diff diff-anchor\">جاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "TO": "جب سے یہ مژگاں ہوئے در پر ترے جاروب کش<br><span class=\"diff diff-anchor\">رو برو</span> تب سے مری آنکھوں کے ٹل <span class=\"diff diff-anchor\">جاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "SJ": "جب سے یہ مژگاں ہوئے در پر ترے جاروب کش<br><span class=\"diff diff-anchor\">رو برو</span> تب سے مری آنکھوں کے ٹل <span class=\"diff diff-anchor\">جاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "GM": "جب سے یہ مژگاں ہوئے در پر ترے جاروب کش<br><span class=\"diff diff-gm\">روبرو</span> تب سے مری آنکھوں کے ٹل <span class=\"diff diff-gm\">جاتی</span> ہے <span class=\"diff diff-gm\">نیند</span>"
+  },
+  {
+    "id": 18.4,
+    "BL": "دھیان میں گل رو <span class=\"diff diff-anchor\">کی</span> چین آتا نہیں افسانہ گر<br>لے صبا سے <span class=\"diff diff-anchor\">گاہ</span> بوئے <span class=\"diff diff-anchor\">یاربہلاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "TO": "دھیان میں گل رو <span class=\"diff diff-anchor\">کی</span> چین آتا نہیں افسانہ گر<br>لے صبا سے <span class=\"diff diff-anchor\">گاہ</span> بوئے <span class=\"diff diff-anchor\">یاربہلاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "SJ": "دھیان میں گل رو <span class=\"diff diff-anchor\">کی</span> چین آتا نہیں افسانہ گر<br>لے صبا سے <span class=\"diff diff-anchor\">گاہ</span> بوئے <span class=\"diff diff-anchor\">یاربہلاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "GM": "دھیان میں گل رو <span class=\"diff diff-gm\">کے</span> چین آتا نہیں افسانہ گر<br>لے صبا سے <span class=\"diff diff-gm\">گاه</span> بوئے <span class=\"diff diff-gm\">یار بہلاتی</span> ہے <span class=\"diff diff-gm\">نیند</span>"
+  },
+  {
+    "id": 18.5,
+    "BL": "اشک <span class=\"diff diff-anchor\">ریزاں</span> تو <span class=\"diff diff-anchor\">نہیں</span> چندا <span class=\"diff diff-anchor\">کہ</span> چشم خلق سے<br>قرة العین علی کے غم میں بہہ <span class=\"diff diff-anchor\">جاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "TO": "اشک <span class=\"diff diff-anchor\">ریزاں</span> تو <span class=\"diff diff-anchor\">نہیں</span> چندا <span class=\"diff diff-anchor\">کہ</span> چشم خلق سے<br>قرة العین علی کے غم میں بہہ <span class=\"diff diff-anchor\">جاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "SJ": "اشک <span class=\"diff diff-anchor\">ریزاں</span> تو <span class=\"diff diff-anchor\">نہیں</span> چندا <span class=\"diff diff-var1\">کی</span> چشم خلق سے<br>قرة العین علی کے غم میں بہہ <span class=\"diff diff-anchor\">جاتا</span> ہے <span class=\"diff diff-anchor\">خواب</span>",
+    "GM": "اشک تو <span class=\"diff diff-gm\">اتنے بہے</span> چندا <span class=\"diff diff-anchor\">کہ</span> چشم خلق سے<br>قرة العین علی کے غم میں بہہ <span class=\"diff diff-gm\">جاتی</span> ہے <span class=\"diff diff-gm\">نیند</span>"
   },
   {
     "id": 19.1,
@@ -640,8 +640,8 @@ const deewanData = [
     "id": 19.2,
     "BL": "",
     "TO": "",
-    "SJ": "جھلک جو دیکھی <span class=\"diff diff-anchor\">تھی گیسو کی تیرے سپنے میں</span><br><span class=\"diff diff-anchor\">پھرے</span> ہیں رات سے <span class=\"diff diff-anchor\">مجھ</span> دیدۂ  پر آب میں سانپ",
-    "GM": "جھلک جو <span class=\"diff diff-gm\">زلف معنبر کی خواب میں</span> دیکھی <br><span class=\"diff diff-gm\">بھرے</span> ہیں رات سے <span class=\"diff diff-gm\">اس</span> دیدۂ  پر آب میں سانپ"
+    "SJ": "جھلک جو دیکھی <span class=\"diff diff-anchor\">تھی گیسو کی تیرے سپنے میں</span><br><span class=\"diff diff-anchor\">پھرے</span> ہیں رات سے <span class=\"diff diff-anchor\">مجھ</span> دیدۂ پر آب میں سانپ",
+    "GM": "جھلک جو <span class=\"diff diff-gm\">زلف معنبر کی خواب میں</span> دیکھی<br><span class=\"diff diff-gm\">بھرے</span> ہیں رات سے <span class=\"diff diff-gm\">اس</span> دیدۂ پر آب میں سانپ"
   },
   {
     "id": 19.3,
@@ -675,15 +675,15 @@ const deewanData = [
     "id": 20.2,
     "BL": "",
     "TO": "",
-    "SJ": "آنکھ بھی پھڑکے ہے اور بھوں <span class=\"diff diff-anchor\">[بھی]</span> ہلی جاتی ہے<br>ان کی چتون کو ذرا دیکھو اشارات کے وقت",
-    "GM": "آنکھ بھی پھڑکے ہے اور بھوں <span class=\"diff diff-gm\">بھی</span> ہلی جاتی ہے<br>ان کی چتون کو ذرا دیکھو اشارات کے وقت"
+    "SJ": "آنکھ بھی پھڑکے ہے اور <span class=\"diff diff-anchor\">بھون٘ہہ</span> ہلی جاتی ہے<br>ان کی چتون کو ذرا دیکھو اشارات کے وقت",
+    "GM": "آنکھ بھی پھڑکے ہے اور <span class=\"diff diff-gm\">بھوں بھی</span> ہلی جاتی ہے<br>ان کی چتون کو ذرا دیکھو اشارات کے وقت"
   },
   {
     "id": 20.3,
     "BL": "",
     "TO": "",
-    "SJ": "چشم بد دور <span class=\"diff diff-anchor\">[ہم]</span> ہوتی ہیں کیا کیا چہلیں<br>بلکہ <span class=\"diff diff-anchor\">ہٹکر [؟]</span> کی <span class=\"diff diff-anchor\">پہرنی [؟]</span> ہے ملاقات کے وقت",
-    "GM": "چشم بد دور <span class=\"diff diff-gm\">بہم</span> ہوتی ہیں کیا کیا چہلیں<br>بلکہ <span class=\"diff diff-gm\">الفت</span> کی <span class=\"diff diff-gm\">ترقی</span> ہے ملاقات کے وقت"
+    "SJ": "چشم بد دور <span class=\"diff diff-anchor\">ہم</span> ہوتی ہیں کیا کیا چہلیں<br>بلکہ <span class=\"diff diff-anchor\">بڑھ کر کے پہرنی</span> ہے ملاقات کے وقت",
+    "GM": "چشم بد دور <span class=\"diff diff-gm\">بہم</span> ہوتی ہیں کیا کیا چہلیں<br>بلکہ <span class=\"diff diff-gm\">الفت کی ترقی</span> ہے ملاقات کے وقت"
   },
   {
     "id": 20.4,
@@ -723,7 +723,7 @@ const deewanData = [
   {
     "id": 21.4,
     "BL": "میں دیکھا تھا <span class=\"diff diff-anchor\">کہیں بازی</span> میں اس ناداں کو چکر سے<br><span class=\"diff diff-anchor\">گھٹی</span> آتی ہے وہ <span class=\"diff diff-anchor\">ہی</span> ہر نگہ کی تار میں صورت",
-    "TO": "میں دیکھا تھا <span class=\"diff diff-anchor\">کہیں</span> <span class=\"diff diff-var1\">باری</span> میں اس ناداں کو چکر سے<br><span class=\"diff diff-anchor\">گھٹی</span> آتی ہے وہ <span class=\"diff diff-anchor\">ہی</span> ہر نگہ کی تار میں صورت",
+    "TO": "میں دیکھا تھا <span class=\"diff diff-var2\">کہیں باری</span> میں اس ناداں کو چکر سے<br><span class=\"diff diff-anchor\">گھٹی</span> آتی ہے وہ <span class=\"diff diff-anchor\">ہی</span> ہر نگہ کی تار میں صورت",
     "SJ": "میں دیکھا تھا <span class=\"diff diff-anchor\">کہیں بازی</span> میں اس ناداں کو چکر سے<br><span class=\"diff diff-anchor\">گھٹی</span> آتی ہے وہ <span class=\"diff diff-anchor\">ہی</span> ہر نگہ کی تار میں صورت",
     "GM": "میں دیکھا تھا <span class=\"diff diff-gm\">کئی باری</span> میں اس ناداں کو چکر سے<br><span class=\"diff diff-gm\">کبھی</span> آتی ہے وہ <span class=\"diff diff-gm\">بھی</span> ہر نگہ کی تار میں صورت"
   },
@@ -780,7 +780,7 @@ const deewanData = [
     "id": 23.2,
     "BL": "گر تجھے عار ہے ملنے <span class=\"diff diff-anchor\">سے</span> مرے اے ظالم<br>کیوں کیا <span class=\"diff diff-anchor\">ہوش</span> کو تو مجھ سے جدا صد رحمت",
     "TO": "گر تجھے عار ہے ملنے <span class=\"diff diff-anchor\">سے</span> مرے اے ظالم<br>کیوں کیا <span class=\"diff diff-anchor\">ہوش</span> کو تو مجھ سے جدا صد رحمت",
-    "SJ": "گر تجھے عار ہے ملنے <span class=\"diff diff-var1\">دھی [؟]</span> مرے اے ظالم<br>کیوں کیا <span class=\"diff diff-anchor\">ہوش</span> کو تو مجھ سے جدا صد رحمت",
+    "SJ": "گر تجھے عار ہے ملنے <span class=\"diff diff-var1\">وہی</span> مرے اے ظالم<br>کیوں کیا <span class=\"diff diff-anchor\">ہوش</span> کو تو مجھ سے جدا صد رحمت",
     "GM": "گر تجھے عار ہے ملنے <span class=\"diff diff-anchor\">سے</span> مرے اے ظالم<br>کیوں کیا <span class=\"diff diff-gm\">عقل</span> کو تو مجھ سے جدا صد رحمت"
   },
   {
@@ -794,7 +794,7 @@ const deewanData = [
     "id": 23.4,
     "BL": "غمزه و ناز و ادا کر کے مرے دل کو لیا<br>اس لئے کرتا ہے بیدل <span class=\"diff diff-anchor\">پہ</span> جفا صد رحمت",
     "TO": "غمزه و ناز و ادا کر کے مرے دل کو لیا<br>اس لئے کرتا ہے بیدل <span class=\"diff diff-anchor\">پہ</span> جفا صد رحمت",
-    "SJ": "غمزه و ناز و ادا کر کے مرے دل کو لیا<br>اس لئے کرتا ہے بیدل <span class=\"diff diff-var1\">تو</span> جفا صد رحمت",
+    "SJ": "غمزه و ناز و ادا کر کے مرے دل کو لیا<br>اس لئے کرتا ہے بیدل <span class=\"diff diff-var1\">ٮو</span> جفا صد رحمت",
     "GM": "غمزه و ناز و ادا کر کے مرے دل کو لیا<br>اس لئے کرتا ہے بیدل <span class=\"diff diff-anchor\">پہ</span> جفا صد رحمت"
   },
   {
@@ -807,7 +807,7 @@ const deewanData = [
   {
     "id": 24.1,
     "BL": "روبرو کب ہو لب لعل کے تاب یاقوت<br>نام <span class=\"diff diff-anchor\">سن</span> جس کا اتر جائے ہے آب یاقوت",
-    "TO": "روبرو کب ہو لب لعل کے تاب یاقوت<br>نام <span class=\"diff diff-var1\">سے</span> جس کا اتر جائے ہے آب یاقوت",
+    "TO": "روبرو کب ہو لب لعل کے تاب یاقوت<br>نام <span class=\"diff diff-var2\">سے</span> جس کا اتر جائے ہے آب یاقوت",
     "SJ": "روبرو کب ہو لب لعل کے تاب یاقوت<br>نام <span class=\"diff diff-anchor\">سن</span> جس کا اتر جائے ہے آب یاقوت",
     "GM": "روبرو کب ہو لب لعل کے تاب یاقوت<br>نام <span class=\"diff diff-anchor\">سن</span> جس کا اتر جائے ہے آب یاقوت"
   },
@@ -820,10 +820,10 @@ const deewanData = [
   },
   {
     "id": 24.3,
-    "BL": "<span class=\"diff diff-anchor\">کر</span>  کے عاشق کی طرف چیں بہ جبیں دی گالی<br>مثل نیلم کے ہوا رنگ خراب یاقوت",
-    "TO": "<span class=\"diff diff-anchor\">کر</span>  کے عاشق کی طرف چیں بہ جبیں دی گالی<br>مثل نیلم کے ہوا رنگ خراب یاقوت",
-    "SJ": "<span class=\"diff diff-var1\">کو</span>  کے عاشق کی طرف چیں بہ جبیں دی گالی<br>مثل نیلم کے ہوا رنگ خراب یاقوت",
-    "GM": "<span class=\"diff diff-anchor\">کر</span>  کے عاشق کی طرف چیں بہ جبیں دی گالی<br>مثل نیلم کے ہوا رنگ خراب یاقوت"
+    "BL": "<span class=\"diff diff-anchor\">کر</span> کے عاشق کی طرف چیں بہ جبیں دی گالی<br>مثل نیلم کے ہوا رنگ خراب یاقوت",
+    "TO": "<span class=\"diff diff-anchor\">کر</span> کے عاشق کی طرف چیں بہ جبیں دی گالی<br>مثل نیلم کے ہوا رنگ خراب یاقوت",
+    "SJ": "<span class=\"diff diff-var1\">کو</span> کے عاشق کی طرف چیں بہ جبیں دی گالی<br>مثل نیلم کے ہوا رنگ خراب یاقوت",
+    "GM": "<span class=\"diff diff-anchor\">کر</span> کے عاشق کی طرف چیں بہ جبیں دی گالی<br>مثل نیلم کے ہوا رنگ خراب یاقوت"
   },
   {
     "id": 24.4,
@@ -855,15 +855,15 @@ const deewanData = [
   },
   {
     "id": 25.3,
-    "BL": "پری رو نشہ بخشے ہے نگاہ مست سے اپنے<br>پریشاں دل تھا  زلفوں <span class=\"diff diff-anchor\">کا دیا تس پر</span> جدا غفلت",
-    "TO": "پری رو نشہ بخشے ہے نگاہ مست سے اپنے<br>پریشاں دل تھا  زلفوں <span class=\"diff diff-anchor\">کا دیا تس پر</span> جدا غفلت",
-    "SJ": "پری رو نشہ بخشے ہے نگاہ مست سے اپنے<br>پریشاں دل تھا  زلفوں <span class=\"diff diff-anchor\">کا دیا تس پر</span> جدا غفلت",
+    "BL": "پری رو نشہ بخشے ہے نگاہ مست سے اپنے<br>پریشاں دل تھا زلفوں <span class=\"diff diff-anchor\">کا دیا تس پر</span> جدا غفلت",
+    "TO": "پری رو نشہ بخشے ہے نگاہ مست سے اپنے<br>پریشاں دل تھا زلفوں <span class=\"diff diff-anchor\">کا دیا تس پر</span> جدا غفلت",
+    "SJ": "پری رو نشہ بخشے ہے نگاہ مست سے اپنے<br>پریشاں دل تھا زلفوں <span class=\"diff diff-anchor\">کا دیا تس پر</span> جدا غفلت",
     "GM": "پری رو نشہ بخشے ہے نگاہ مست سے اپنے<br>پریشاں دل تھا <span class=\"diff diff-gm\">اپنا اس پہ</span> زلفوں <span class=\"diff diff-gm\">کی</span> جدا غفلت"
   },
   {
     "id": 25.4,
     "BL": "بڑی جرات ہے ان کی جو ہیں تیری ہم نشیی میں<br><span class=\"diff diff-anchor\">کئے ہیں</span> یک نگہ نے دل پہ میرے <span class=\"diff diff-anchor\">آ بسا</span> غفلت",
-    "TO": "بڑی جرات ہے ان کی جو ہیں تیری ہم نشیی میں<br><span class=\"diff diff-anchor\">کئے ہیں</span> یک نگہ نے دل پہ میرے <span class=\"diff diff-anchor\">آ</span> <span class=\"diff diff-var1\">ب [سا]</span> غفلت",
+    "TO": "بڑی جرات ہے ان کی جو ہیں تیری ہم نشیی میں<br><span class=\"diff diff-anchor\">کئے ہیں</span> یک نگہ نے دل پہ میرے <span class=\"diff diff-var2\">آب [سا]</span> غفلت",
     "SJ": "بڑی جرات ہے ان کی جو ہیں تیری ہم نشیی میں<br><span class=\"diff diff-anchor\">کئے ہیں</span> یک نگہ نے دل پہ میرے <span class=\"diff diff-anchor\">آ بسا</span> غفلت",
     "GM": "بڑی جرات ہے ان کی جو ہیں تیری ہم نشیی میں<br><span class=\"diff diff-gm\">یہ تیری</span> یک نگہ نے دل پہ میرے <span class=\"diff diff-gm\">کی ہے کیا</span> غفلت"
   },
@@ -946,10 +946,10 @@ const deewanData = [
   },
   {
     "id": 28.1,
-    "BL": "صرف ہو گر عیش میں پیری  جوانی ہے عبث<br>گر نہ ہووے تو بغل میں زندگانی ہے عبث",
-    "TO": "صرف ہو گر عیش میں پیری  جوانی ہے عبث<br>گر نہ ہووے تو بغل میں زندگانی ہے عبث",
-    "SJ": "صرف ہو گر عیش میں پیری  جوانی ہے عبث<br>گر نہ ہووے تو بغل میں زندگانی ہے عبث",
-    "GM": "صرف ہو گر عیش میں پیری  جوانی ہے عبث<br>گر نہ ہووے تو بغل میں زندگانی ہے عبث"
+    "BL": "صرف ہو گر عیش میں پیری جوانی ہے عبث<br>گر نہ ہووے تو بغل میں زندگانی ہے عبث",
+    "TO": "صرف ہو گر عیش میں پیری جوانی ہے عبث<br>گر نہ ہووے تو بغل میں زندگانی ہے عبث",
+    "SJ": "صرف ہو گر عیش میں پیری جوانی ہے عبث<br>گر نہ ہووے تو بغل میں زندگانی ہے عبث",
+    "GM": "صرف ہو گر عیش میں پیری جوانی ہے عبث<br>گر نہ ہووے تو بغل میں زندگانی ہے عبث"
   },
   {
     "id": 28.2,
@@ -962,7 +962,7 @@ const deewanData = [
     "id": 28.3,
     "BL": "آه <span class=\"diff diff-anchor\">نالے</span> پر مرے <span class=\"diff diff-anchor\">یہ</span> داد دی <span class=\"diff diff-anchor\">ہو</span> مہرباں<br>وائے قسمت سن <span class=\"diff diff-anchor\">کہا یہ</span> قصہ خوانی ہے عبث",
     "TO": "آه <span class=\"diff diff-anchor\">نالے</span> پر مرے <span class=\"diff diff-anchor\">یہ</span> داد دی <span class=\"diff diff-anchor\">ہو</span> مہرباں<br>وائے قسمت سن <span class=\"diff diff-anchor\">کہا یہ</span> قصہ خوانی ہے عبث",
-    "SJ": "آه <span class=\"diff diff-var1\">و</span> <span class=\"diff diff-anchor\">نالے</span> پر مرے <span class=\"diff diff-anchor\">یہ</span> داد دی <span class=\"diff diff-anchor\">ہو</span> مہرباں<br>وائے قسمت سن <span class=\"diff diff-anchor\">کہا یہ</span> قصہ خوانی ہے عبث",
+    "SJ": "آه <span class=\"diff diff-var1\">و نالے</span> پر مرے <span class=\"diff diff-anchor\">یہ</span> داد دی <span class=\"diff diff-anchor\">ہو</span> مہرباں<br>وائے قسمت سن <span class=\"diff diff-anchor\">کہا یہ</span> قصہ خوانی ہے عبث",
     "GM": "آه <span class=\"diff diff-gm\">و نالہ</span> پر مرے <span class=\"diff diff-gm\">کیا</span> داد دی <span class=\"diff diff-gm\">ہے</span> مہرباں<br>وائے قسمت سن <span class=\"diff diff-gm\">کے بولے</span> قصہ خوانی ہے عبث"
   },
   {
@@ -976,7 +976,7 @@ const deewanData = [
     "id": 28.5,
     "BL": "<span class=\"diff diff-anchor\">بخش دے</span> ہے ہر گدا کو تو دو عالم یا علی<br>در پہ کب <span class=\"diff diff-anchor\">چندا</span> کو تیرے <span class=\"diff diff-anchor\">داربانی</span> ہے عبث",
     "TO": "<span class=\"diff diff-anchor\">بخش دے</span> ہے ہر گدا کو تو دو عالم یا علی<br>در پہ کب <span class=\"diff diff-anchor\">چندا</span> کو تیرے <span class=\"diff diff-anchor\">داربانی</span> ہے عبث",
-    "SJ": "<span class=\"diff diff-anchor\">بخش دے</span> ہے ہر گدا کو تو دو عالم یا علی<br>در پہ کب <span class=\"diff diff-var1\">[چندا]</span> کو تیرے <span class=\"diff diff-var2\">دربانی</span> ہے عبث",
+    "SJ": "<span class=\"diff diff-anchor\">بخش دے</span> ہے ہر گدا کو تو دو عالم یا علی<br>در پہ کب <span class=\"diff diff-var1\">[چندا]</span> کو تیرے <span class=\"diff diff-var1\">دربانی</span> ہے عبث",
     "GM": "<span class=\"diff diff-gm\">بخشتا</span> ہے ہر گدا کو تو دو عالم یا علی<br>در پہ کب <span class=\"diff diff-anchor\">چندا</span> کو تیرے <span class=\"diff diff-gm\">پاسبانی</span> ہے عبث"
   },
   {
@@ -1002,10 +1002,10 @@ const deewanData = [
   },
   {
     "id": 29.4,
-    "BL": "نہیں نقصان <span class=\"diff diff-anchor\">کی کس کی نظر ہے قتل پر تجھ کو</span><br><span class=\"diff diff-anchor\">کرے تو اس لئے شاید کہ ہووے انتفا</span> باعث",
-    "TO": "نہیں نقصان <span class=\"diff diff-anchor\">کی کس کی نظر</span> <span class=\"diff diff-var1\">بھی</span> <span class=\"diff diff-anchor\">قتل پر تجھ کو</span><br><span class=\"diff diff-anchor\">کرے تو اس لئے شاید کہ ہووے انتفا</span> باعث",
-    "SJ": "نہیں نقصان <span class=\"diff diff-anchor\">کی کس کی نظر ہے قتل پر تجھ کو</span><br><span class=\"diff diff-anchor\">کرے تو اس لئے شاید کہ ہووے انتفا</span> باعث",
-    "GM": "نہیں <span class=\"diff diff-gm\">ہے کچھ مرا</span> نقصان <span class=\"diff diff-gm\">گو غیروں کے ملنے سے</span><br><span class=\"diff diff-gm\">نہیں ملتے ہو مجھ سے کیا سبب کیا وجہ کیا</span> باعث"
+    "BL": "نہیں نقصان کے <span class=\"diff diff-anchor\">کس کی نظر ہے قتل پر تجھ کو</span><br><span class=\"diff diff-anchor\">کرے تو اس لئے شاید کہ ہووے انتفا</span> باعث",
+    "TO": "نہیں نقصان کے <span class=\"diff diff-anchor\">کس کی نظر ہے قتل پر تجھ کو</span><br><span class=\"diff diff-anchor\">کرے تو اس لئے شاید کہ ہووے انتفا</span> باعث",
+    "SJ": "نہیں نقصان کے <span class=\"diff diff-anchor\">کس کی نظر ہے قتل پر تجھ کو</span><br><span class=\"diff diff-anchor\">کرے تو اس لئے شاید کہ ہووے انتفا</span> باعث",
+    "GM": "نہیں <span class=\"diff diff-gm\">ہے کچھ مرا</span> نقصان <span class=\"diff diff-gm\">گو غیروں</span> کے <span class=\"diff diff-gm\">ملنے سے</span><br><span class=\"diff diff-gm\">نہیں ملتے ہو مجھ سے کیا سبب کیا وجہ کیا</span> باعث"
   },
   {
     "id": 29.5,
@@ -1017,7 +1017,7 @@ const deewanData = [
   {
     "id": 30.1,
     "BL": "دل میں میرے <span class=\"diff diff-anchor\">یہ</span> خیال آتاہے آج<br><span class=\"diff diff-anchor\">کوئی</span> دلبر بے مثال آتا ہے آج",
-    "TO": "دل میں میرے <span class=\"diff diff-anchor\">یہ</span> خیال آتاہے آج<br><span class=\"diff diff-var1\">کو</span> دلبر بے مثال آتا ہے آج",
+    "TO": "دل میں میرے <span class=\"diff diff-anchor\">یہ</span> خیال آتاہے آج<br><span class=\"diff diff-var2\">کو</span> دلبر بے مثال آتا ہے آج",
     "SJ": "دل میں میرے <span class=\"diff diff-anchor\">یہ</span> خیال آتاہے آج<br><span class=\"diff diff-anchor\">کوئی</span> دلبر بے مثال آتا ہے آج",
     "GM": "دل میں میرے <span class=\"diff diff-gm\">پھر</span> خیال آتاہے آج<br><span class=\"diff diff-anchor\">کوئی</span> دلبر بے مثال آتا ہے آج"
   },
@@ -1032,8 +1032,8 @@ const deewanData = [
     "id": 30.3,
     "BL": "سنگ رہ ہوں ایک ٹھوکر کے لئے<br>تس په وه دامن <span class=\"diff diff-anchor\">کو</span> سنبھال آتا ہے آج",
     "TO": "سنگ رہ ہوں ایک ٹھوکر کے لئے<br>تس په وه دامن <span class=\"diff diff-anchor\">کو</span> سنبھال آتا ہے آج",
-    "SJ": "سنگ رہ ہوں ایک ٹھوکر کے لئے<br>تس په وه دامن  سنبھال آتا ہے آج",
-    "GM": "سنگ رہ ہوں ایک ٹھوکر کے لئے<br>تس په وه دامن  سنبھال آتا ہے آج"
+    "SJ": "سنگ رہ ہوں ایک ٹھوکر کے لئے<br>تس په وه دامن سنبھال آتا ہے آج",
+    "GM": "سنگ رہ ہوں ایک ٹھوکر کے لئے<br>تس په وه دامن سنبھال آتا ہے آج"
   },
   {
     "id": 30.4,
@@ -1093,9 +1093,9 @@ const deewanData = [
   },
   {
     "id": 32.2,
-    "BL": "کیمیا <span class=\"diff diff-anchor\">کے</span> لئے ناحق نہ <span class=\"diff diff-anchor\">جلاویں دل کو </span><br>جو چمک عشق میں ہے کب ہے وہ سیاب کے بیچ",
-    "TO": "کیمیا <span class=\"diff diff-anchor\">کے</span> لئے ناحق نہ <span class=\"diff diff-anchor\">جلاویں دل کو </span><br>جو چمک عشق میں ہے کب ہے وہ سیاب کے بیچ",
-    "SJ": "کیمیا <span class=\"diff diff-anchor\">کے</span> لئے ناحق نہ <span class=\"diff diff-anchor\">جلاویں دل کو </span><br>جو چمک عشق میں ہے کب ہے وہ سیاب کے بیچ",
+    "BL": "کیمیا <span class=\"diff diff-anchor\">کے</span> لئے ناحق نہ <span class=\"diff diff-anchor\">جلاویں دل کو</span><br>جو چمک عشق میں ہے کب ہے وہ سیاب کے بیچ",
+    "TO": "کیمیا <span class=\"diff diff-anchor\">کے</span> لئے ناحق نہ <span class=\"diff diff-anchor\">جلاویں دل کو</span><br>جو چمک عشق میں ہے کب ہے وہ سیاب کے بیچ",
+    "SJ": "کیمیا <span class=\"diff diff-anchor\">کے</span> لئے ناحق نہ <span class=\"diff diff-anchor\">جلاویں دل کو</span><br>جو چمک عشق میں ہے کب ہے وہ سیاب کے بیچ",
     "GM": "کیمیا <span class=\"diff diff-gm\">کس</span> لئے ناحق نہ <span class=\"diff diff-gm\">مہوس ہو خراب</span><br>جو چمک عشق میں ہے کب ہے وہ سیاب کے بیچ"
   },
   {
@@ -1103,7 +1103,7 @@ const deewanData = [
     "BL": "عشق کی موج رکھے ہے کئی دریا بکنار<br>دل تو <span class=\"diff diff-anchor\">نادان سمجھ مت گرے</span> گرداب کے بیچ",
     "TO": "عشق کی موج رکھے ہے کئی دریا بکنار<br>دل تو <span class=\"diff diff-anchor\">نادان سمجھ مت گرے</span> گرداب کے بیچ",
     "SJ": "عشق کی موج رکھے ہے کئی دریا بکنار<br>دل تو <span class=\"diff diff-anchor\">نادان سمجھ مت گرے</span> گرداب کے بیچ",
-    "GM": "عشق کی موج رکھے ہے کئی دریا بکنار<br>دل <span class=\"diff diff-gm\">نادان نہ پڑھ دیکھ</span> تو  گرداب کے بیچ"
+    "GM": "عشق کی موج رکھے ہے کئی دریا بکنار<br>دل <span class=\"diff diff-gm\">نادان نہ پڑھ دیکھ</span> تو گرداب کے بیچ"
   },
   {
     "id": 32.4,
@@ -1121,17 +1121,17 @@ const deewanData = [
   },
   {
     "id": 33.1,
-    "BL": "مرغ دل زلف کے <span class=\"diff diff-anchor\">بے طرح پھنسا</span> دام کے بیچ <span class=\"diff diff-anchor\"><br> نئیں رہائی جسے یہاں صبح نہ ہو شام کے بیچ</span>",
-    "TO": "مرغ دل زلف کے <span class=\"diff diff-anchor\">بے طرح پھنسا</span> دام کے بیچ <span class=\"diff diff-anchor\"><br> نئیں رہائی جسے یہاں صبح نہ ہو شام کے بیچ</span>",
-    "SJ": "مرغ دل زلف کے <span class=\"diff diff-anchor\">بے طرح پھنسا</span> دام کے بیچ <span class=\"diff diff-anchor\"><br> نئیں رہائی جسے یہاں صبح نہ ہو شام کے بیچ</span>",
-    "GM": "مرغ دل <span class=\"diff diff-gm\">پھنس گیا ہے</span> زلف <span class=\"diff diff-gm\">سیہ فام</span> کے <span class=\"diff diff-gm\">بیچ<br>کوئی صورت ہے رہائی کی نہ اس</span> دام کے بیچ "
+    "BL": "مرغ دل زلف کے <span class=\"diff diff-anchor\">بے طرح پھنسا</span> دام کے بیچ <span class=\"diff diff-anchor\"><br>نئیں رہائی جسے یہاں صبح نہ ہو شام کے بیچ</span>",
+    "TO": "مرغ دل زلف کے <span class=\"diff diff-anchor\">بے طرح پھنسا</span> دام کے بیچ <span class=\"diff diff-anchor\"><br>نئیں رہائی جسے یہاں صبح نہ ہو شام کے بیچ</span>",
+    "SJ": "مرغ دل زلف کے <span class=\"diff diff-anchor\">بے طرح پھنسا</span> دام کے بیچ <span class=\"diff diff-anchor\"><br>نئیں رہائی جسے یہاں صبح نہ ہو شام کے بیچ</span>",
+    "GM": "مرغ دل <span class=\"diff diff-gm\">پھنس گیا ہے</span> زلف <span class=\"diff diff-gm\">سیہ فام</span> کے <span class=\"diff diff-gm\">بیچ<br>کوئی صورت ہے رہائی کی نہ اس</span> دام کے بیچ"
   },
   {
     "id": 33.2,
     "BL": "بزم میں <span class=\"diff diff-anchor\">ہیں</span> سبھی سرشار <span class=\"diff diff-anchor\">پہ</span> ساقی دے مجھے<br>تیرے پینے سے جو باقی ہو الش جام کے بیچ",
     "TO": "بزم میں <span class=\"diff diff-anchor\">ہیں</span> سبھی سرشار <span class=\"diff diff-anchor\">پہ</span> ساقی دے مجھے<br>تیرے پینے سے جو باقی ہو الش جام کے بیچ",
     "SJ": "بزم میں <span class=\"diff diff-anchor\">ہیں</span> سبھی سرشار <span class=\"diff diff-anchor\">پہ</span> ساقی دے مجھے<br>تیرے پینے سے جو باقی ہو الش جام کے بیچ",
-    "GM": "بزم <span class=\"diff diff-gm\">مے</span> میں  سبھی سرشار <span class=\"diff diff-gm\">ہیں</span> ساقی دے مجھے<br>تیرے پینے سے جو باقی ہو الش جام کے بیچ"
+    "GM": "بزم <span class=\"diff diff-gm\">مے</span> میں سبھی سرشار <span class=\"diff diff-gm\">ہیں</span> ساقی دے مجھے<br>تیرے پینے سے جو باقی ہو الش جام کے بیچ"
   },
   {
     "id": 33.3,
@@ -1173,7 +1173,7 @@ const deewanData = [
     "BL": "جور و جفا سوائے نہیں ذرہ تجھ کو رحم<br><span class=\"diff diff-anchor\">تس پر جو دم رکھوں</span> ہوں <span class=\"diff diff-anchor\">سو</span> تیری رضا کے بیچ",
     "TO": "جور و جفا سوائے نہیں ذرہ تجھ کو رحم<br><span class=\"diff diff-anchor\">تس پر جو دم رکھوں</span> ہوں <span class=\"diff diff-anchor\">سو</span> تیری رضا کے بیچ",
     "SJ": "جور و جفا سوائے نہیں ذرہ تجھ کو رحم<br><span class=\"diff diff-anchor\">تس پر جو دم رکھوں</span> ہوں <span class=\"diff diff-anchor\">سو</span> تیری رضا کے بیچ",
-    "GM": "جور و جفا سوائے نہیں ذرہ تجھ کو رحم<br><span class=\"diff diff-gm\">یہ میرا صبر دیکھ</span> ہوں  تیری رضا کے بیچ"
+    "GM": "جور و جفا سوائے نہیں ذرہ تجھ کو رحم<br><span class=\"diff diff-gm\">یہ میرا صبر دیکھ</span> ہوں تیری رضا کے بیچ"
   },
   {
     "id": 34.4,
@@ -1199,14 +1199,14 @@ const deewanData = [
   {
     "id": 35.2,
     "BL": "<span class=\"diff diff-anchor\">رہوے کو</span> درپئے ایذا <span class=\"diff diff-anchor\">کے</span> ہر اک وقت مرے<br><span class=\"diff diff-anchor\">پر کھبی</span> دل میں ہمارے <span class=\"diff diff-anchor\">یہ</span> ستم گار <span class=\"diff diff-anchor\">کے بیچ</span>",
-    "TO": "<span class=\"diff diff-anchor\">رہوے کو</span> درپئے ایذا <span class=\"diff diff-anchor\">کے</span> ہر اک وقت مرے<br><span class=\"diff diff-anchor\">پر</span> <span class=\"diff diff-var1\">گھٹی</span> دل میں ہمارے <span class=\"diff diff-anchor\">یہ</span> ستم گار <span class=\"diff diff-var2\">کی طرح</span>",
-    "SJ": "<span class=\"diff diff-anchor\">رہوے کو</span> درپئے ایذا <span class=\"diff diff-anchor\">کے</span> ہر اک وقت مرے<br><span class=\"diff diff-anchor\">پر</span> <span class=\"diff diff-var3\">کئے</span> دل میں ہمارے <span class=\"diff diff-anchor\">یہ</span> ستم گار <span class=\"diff diff-var2\">کی طرح</span>",
-    "GM": "<span class=\"diff diff-gm\">رہتے ہیں</span> درپئے ایذا <span class=\"diff diff-gm\">وہ</span> ہر اک وقت مرے<br> دل میں <span class=\"diff diff-gm\">ساکن ہیں</span> ہمارے <span class=\"diff diff-gm\">وہ</span> ستم گار <span class=\"diff diff-gm\">کی طرح</span>"
+    "TO": "<span class=\"diff diff-anchor\">رہوے کو</span> درپئے ایذا <span class=\"diff diff-anchor\">کے</span> ہر اک وقت مرے<br><span class=\"diff diff-var2\">پر گھٹی</span> دل میں ہمارے <span class=\"diff diff-anchor\">یہ</span> ستم گار <span class=\"diff diff-var2\">کی طرح</span>",
+    "SJ": "<span class=\"diff diff-anchor\">رہوے کو</span> درپئے ایذا <span class=\"diff diff-anchor\">کے</span> ہر اک وقت مرے<br><span class=\"diff diff-var1\">پر کئے</span> دل میں ہمارے <span class=\"diff diff-anchor\">یہ</span> ستم گار <span class=\"diff diff-var1\">کی طرح</span>",
+    "GM": "<span class=\"diff diff-gm\">رہتے ہیں</span> درپئے ایذا <span class=\"diff diff-gm\">وہ</span> ہر اک وقت مرے<br>دل میں <span class=\"diff diff-gm\">ساکن ہیں</span> ہمارے <span class=\"diff diff-gm\">وہ</span> ستم گار <span class=\"diff diff-gm\">کی طرح</span>"
   },
   {
     "id": 35.3,
     "BL": "زہد و تقویٰ <span class=\"diff diff-anchor\">کو ہے</span> رخصت <span class=\"diff diff-anchor\">کہ</span> میں بے ہوش ہوا<br>کچھ جمی آنکھوں میں بے طرح وہ میخوار کی طرح",
-    "TO": "زہد و تقویٰ <span class=\"diff diff-anchor\">کو ہے</span> رخصت <span class=\"diff diff-var1\">[کہ]</span> میں بے ہوش ہوا<br>کچھ جمی آنکھوں میں بے طرح وہ میخوار کی طرح",
+    "TO": "زہد و تقویٰ <span class=\"diff diff-anchor\">کو ہے</span> رخصت <span class=\"diff diff-var2\">[کہ]</span> میں بے ہوش ہوا<br>کچھ جمی آنکھوں میں بے طرح وہ میخوار کی طرح",
     "SJ": "زہد و تقویٰ <span class=\"diff diff-anchor\">کو ہے</span> رخصت <span class=\"diff diff-anchor\">کہ</span> میں بے ہوش ہوا<br>کچھ جمی آنکھوں میں بے طرح وہ میخوار کی طرح",
     "GM": "زہد و تقویٰ <span class=\"diff diff-gm\">ہوئے</span> رخصت <span class=\"diff diff-anchor\">کہ</span> میں بے ہوش ہوا<br>کچھ جمی آنکھوں میں بے طرح وہ میخوار کی طرح"
   },
@@ -1275,10 +1275,10 @@ const deewanData = [
   },
   {
     "id": 37.3,
-    "BL": "<span class=\"diff diff-anchor\">نہ پوچھو انتہا کی کوئی اس کے</span><br><span class=\"diff diff-anchor\">خرابی کا ہوا جو ابتدا</span> رخ",
-    "TO": "<span class=\"diff diff-var1\">اگر گل رو نہیں ملتا ہے کھل کر</span><br><span class=\"diff diff-var2\">بھلا تو مت چھپا مجھ سے صبا</span> رخ",
-    "SJ": "<span class=\"diff diff-anchor\">نہ پوچھو انتہا کی کوئی اس کے</span><br><span class=\"diff diff-anchor\">خرابی کا ہوا جو ابتدا</span> رخ",
-    "GM": "<span class=\"diff diff-anchor\">نہ پوچھو انتہا کی کوئی اس کے</span><br><span class=\"diff diff-gm\">خدائی</span> <span class=\"diff diff-anchor\">کا ہوا جو ابتدا</span> رخ"
+    "BL": "نہ پوچھو انتہا کی کوئی اس کے<br><span class=\"diff diff-anchor\">خرابی</span> کا ہوا جو ابتدا رخ",
+    "TO": "نہ پوچھو انتہا کی کوئی اس کے<br><span class=\"diff diff-anchor\">خرابی</span> کا ہوا جو ابتدا رخ",
+    "SJ": "نہ پوچھو انتہا کی کوئی اس کے<br><span class=\"diff diff-anchor\">خرابی</span> کا ہوا جو ابتدا رخ",
+    "GM": "نہ پوچھو انتہا کی کوئی اس کے<br><span class=\"diff diff-gm\">خدائی</span> کا ہوا جو ابتدا رخ"
   },
   {
     "id": 37.4,
@@ -1299,7 +1299,7 @@ const deewanData = [
     "BL": "<span class=\"diff diff-anchor\">ہر وقت کیوں کرے ہے تو</span> مجھ پر نگاه شوخ<br>اوروں سے کب کیا ہے بھلا تو نباه شوخ",
     "TO": "<span class=\"diff diff-anchor\">ہر وقت کیوں کرے ہے تو</span> مجھ پر نگاه شوخ<br>اوروں سے کب کیا ہے بھلا تو نباه شوخ",
     "SJ": "<span class=\"diff diff-anchor\">ہر وقت کیوں کرے ہے تو</span> مجھ پر نگاه شوخ<br>اوروں سے کب کیا ہے بھلا تو نباه شوخ",
-    "GM": " مجھ پر <span class=\"diff diff-gm\">نہ کیوں رہے تری ترچھی</span> نگاه شوخ<br>اوروں سے کب کیا ہے بھلا تو نباه شوخ"
+    "GM": "مجھ پر <span class=\"diff diff-gm\">نہ کیوں رہے تری ترچھی</span> نگاه شوخ<br>اوروں سے کب کیا ہے بھلا تو نباه شوخ"
   },
   {
     "id": 38.2,
@@ -1310,16 +1310,16 @@ const deewanData = [
   },
   {
     "id": 38.3,
-    "BL": "<span class=\"diff diff-anchor\">دونو</span> طرح <span class=\"diff diff-anchor\">اس کو پھبے</span> دلبری کے ڈھب<br>مجوب ہم سے خواہ رہے یار خواه شوخ",
-    "TO": "<span class=\"diff diff-anchor\">دونو</span> طرح <span class=\"diff diff-anchor\">اس کو پھبے</span> دلبری کے ڈھب<br>مجوب ہم سے خواہ رہے یار خواه شوخ",
-    "SJ": "<span class=\"diff diff-var1\">دونوں</span> طرح <span class=\"diff diff-anchor\">اس کو پھبے</span> دلبری کے ڈھب<br>مجوب ہم سے خواہ رہے یار خواه شوخ",
+    "BL": "<span class=\"diff diff-anchor\">دونو</span> طرح <span class=\"diff diff-anchor\">سے اس کو پھبے</span> دلبری کے ڈھب<br>مجوب ہم سے خواہ رہے یار خواه شوخ",
+    "TO": "<span class=\"diff diff-anchor\">دونو</span> طرح <span class=\"diff diff-anchor\">سے اس کو پھبے</span> دلبری کے ڈھب<br>مجوب ہم سے خواہ رہے یار خواه شوخ",
+    "SJ": "<span class=\"diff diff-var1\">دونوں</span> طرح <span class=\"diff diff-anchor\">سے اس کو پھبے</span> دلبری کے ڈھب<br>مجوب ہم سے خواہ رہے یار خواه شوخ",
     "GM": "<span class=\"diff diff-gm\">دونوں</span> طرح <span class=\"diff diff-gm\">ہیں یاد اسے</span> دلبری کے ڈھب<br>مجوب ہم سے خواہ رہے یار خواه شوخ"
   },
   {
     "id": 38.4,
-    "BL": "کسریٰ سے لے کے <span class=\"diff diff-anchor\">یہاں تھیں</span> چشم <span class=\"diff diff-anchor\">جہان</span> میں<br>دیکھا نہ تجھ سا اور کوئی اہل جاہ شوخ",
-    "TO": "کسریٰ سے لے کے <span class=\"diff diff-anchor\">یہاں</span> <span class=\"diff diff-var1\">نہیں</span> چشم <span class=\"diff diff-anchor\">جہان</span> میں<br>دیکھا نہ تجھ سا اور کوئی اہل جاہ شوخ",
-    "SJ": "کسریٰ سے لے کے <span class=\"diff diff-anchor\">یہاں تھیں</span> چشم <span class=\"diff diff-anchor\">جہان</span> میں<br>دیکھا نہ تجھ سا اور کوئی اہل جاہ شوخ",
+    "BL": "کسریٰ سے لے کے <span class=\"diff diff-anchor\">یہاں تئیں</span> چشم <span class=\"diff diff-anchor\">جہان</span> میں<br>دیکھا نہ تجھ سا اور کوئی اہل جاہ شوخ",
+    "TO": "کسریٰ سے لے کے <span class=\"diff diff-var2\">یہاں نہیں</span> چشم <span class=\"diff diff-anchor\">جہان</span> میں<br>دیکھا نہ تجھ سا اور کوئی اہل جاہ شوخ",
+    "SJ": "کسریٰ سے لے کے <span class=\"diff diff-anchor\">یہاں تئیں</span> چشم <span class=\"diff diff-anchor\">جہان</span> میں<br>دیکھا نہ تجھ سا اور کوئی اہل جاہ شوخ",
     "GM": "کسریٰ سے لے کے <span class=\"diff diff-gm\">آج تلک</span> چشم <span class=\"diff diff-gm\">دہر</span> میں<br>دیکھا نہ تجھ سا اور کوئی اہل جاہ شوخ"
   },
   {
@@ -1348,21 +1348,21 @@ const deewanData = [
     "BL": "جو <span class=\"diff diff-anchor\">آئے</span> جی میں سو کہہ لے میں وہ <span class=\"diff diff-anchor\">ہوں</span> اے پیارے<br>رہوں ہزار حضوری میں پر ہوں کم گستاخ",
     "TO": "جو <span class=\"diff diff-anchor\">آئے</span> جی میں سو کہہ لے میں وہ <span class=\"diff diff-anchor\">ہوں</span> اے پیارے<br>رہوں ہزار حضوری میں پر ہوں کم گستاخ",
     "SJ": "جو <span class=\"diff diff-anchor\">آئے</span> جی میں سو کہہ لے میں وہ <span class=\"diff diff-anchor\">ہوں</span> اے پیارے<br>رہوں ہزار حضوری میں پر ہوں کم گستاخ",
-    "GM": "جو <span class=\"diff diff-gm\">آوے</span> جی میں سو کہہ لے میں <span class=\"diff diff-gm\">ہوں</span> وہ  اے پیارے<br>رہوں ہزار حضوری میں پر ہوں کم گستاخ"
+    "GM": "جو <span class=\"diff diff-gm\">آوے</span> جی میں سو کہہ لے میں <span class=\"diff diff-gm\">ہوں</span> وہ اے پیارے<br>رہوں ہزار حضوری میں پر ہوں کم گستاخ"
   },
   {
     "id": 39.4,
     "BL": "کہا گلے سے لگا لے <span class=\"diff diff-anchor\">کبھو</span> تو <span class=\"diff diff-anchor\">سنتا نئیں</span><br><span class=\"diff diff-anchor\">رکھے</span> ہےتس پہ مجھے کیوں تو دم بہ دم گستاخ",
     "TO": "کہا گلے سے لگا لے <span class=\"diff diff-anchor\">کبھو</span> تو <span class=\"diff diff-anchor\">سنتا نئیں</span><br><span class=\"diff diff-anchor\">رکھے</span> ہےتس پہ مجھے کیوں تو دم بہ دم گستاخ",
     "SJ": "کہا گلے سے لگا لے <span class=\"diff diff-anchor\">کبھو</span> تو <span class=\"diff diff-anchor\">سنتا نئیں</span><br><span class=\"diff diff-anchor\">رکھے</span> ہےتس پہ مجھے کیوں تو دم بہ دم گستاخ",
-    "GM": "کہا گلے سے لگا لے  تو <span class=\"diff diff-gm\">التفات نہیں</span><br><span class=\"diff diff-gm\">کہے</span> ہےتس پہ مجھے کیوں تو دم بہ دم گستاخ"
+    "GM": "کہا گلے سے لگا لے تو <span class=\"diff diff-gm\">التفات نہیں</span><br><span class=\"diff diff-gm\">کہے</span> ہےتس پہ مجھے کیوں تو دم بہ دم گستاخ"
   },
   {
     "id": 39.5,
-    "BL": "یہی امید ہے چندا کو <span class=\"diff diff-anchor\">جگ کے خوبوں پر</span><br>رکھے ہمیشہ ترا یا علی کرم  گستاخ",
-    "TO": "یہی امید ہے چندا کو <span class=\"diff diff-anchor\">جگ کے خوبوں پر</span><br>رکھے ہمیشہ ترا یا علی کرم  گستاخ",
-    "SJ": "یہی امید ہے چندا کو <span class=\"diff diff-anchor\">جگ کے خوبوں پر</span><br>رکھے ہمیشہ ترا یا علی کرم  گستاخ",
-    "GM": "یہی امید ہے چندا کو <span class=\"diff diff-gm\">خوب رویوں میں</span><br>رکھے ہمیشہ ترا یا علی کرم  گستاخ"
+    "BL": "یہی امید ہے چندا کو <span class=\"diff diff-anchor\">جگ کے خوبوں پر</span><br>رکھے ہمیشہ ترا یا علی کرم گستاخ",
+    "TO": "یہی امید ہے چندا کو <span class=\"diff diff-anchor\">جگ کے خوبوں پر</span><br>رکھے ہمیشہ ترا یا علی کرم گستاخ",
+    "SJ": "یہی امید ہے چندا کو <span class=\"diff diff-anchor\">جگ کے خوبوں پر</span><br>رکھے ہمیشہ ترا یا علی کرم گستاخ",
+    "GM": "یہی امید ہے چندا کو <span class=\"diff diff-gm\">خوب رویوں میں</span><br>رکھے ہمیشہ ترا یا علی کرم گستاخ"
   },
   {
     "id": 40.1,
@@ -1408,10 +1408,10 @@ const deewanData = [
   },
   {
     "id": 41.2,
-    "BL": "اب مژده بہار آنے کا سنتے ہی قفس میں<br> تڑپا <span class=\"diff diff-anchor\">ہے</span> کہ کچھ بال و پر اپنے نہ رکھا صید",
-    "TO": "اب مژده بہار آنے کا سنتے ہی قفس میں<br> تڑپا <span class=\"diff diff-anchor\">ہے</span> کہ کچھ بال و پر اپنے نہ رکھا صید",
-    "SJ": "اب مژده بہار آنے کا سنتے ہی قفس میں<br> تڑپا <span class=\"diff diff-anchor\">ہے</span> کہ کچھ بال و پر اپنے نہ رکھا صید",
-    "GM": "اب مژده بہار آنے کا سنتے ہی قفس میں<br> تڑپا <span class=\"diff diff-gm\">یہ</span> کہ کچھ بال و پر اپنے نہ رکھا صید"
+    "BL": "اب مژده بہار آنے کا سنتے ہی قفس میں<br>تڑپا <span class=\"diff diff-anchor\">ہے</span> کہ کچھ بال و پر اپنے نہ رکھا صید",
+    "TO": "اب مژده بہار آنے کا سنتے ہی قفس میں<br>تڑپا <span class=\"diff diff-anchor\">ہے</span> کہ کچھ بال و پر اپنے نہ رکھا صید",
+    "SJ": "اب مژده بہار آنے کا سنتے ہی قفس میں<br>تڑپا <span class=\"diff diff-anchor\">ہے</span> کہ کچھ بال و پر اپنے نہ رکھا صید",
+    "GM": "اب مژده بہار آنے کا سنتے ہی قفس میں<br>تڑپا <span class=\"diff diff-gm\">یہ</span> کہ کچھ بال و پر اپنے نہ رکھا صید"
   },
   {
     "id": 41.3,
@@ -1423,9 +1423,9 @@ const deewanData = [
   {
     "id": 41.4,
     "BL": "دیکھے ہے سوا تیرے نہ <span class=\"diff diff-anchor\">بھر</span> آنکھ <span class=\"diff diff-anchor\">کسو پر</span><br>اس <span class=\"diff diff-anchor\">آہو</span> کو <span class=\"diff diff-anchor\">تو آئنے کہہ کب سے</span> کیا صید",
-    "TO": "دیکھے ہے سوا تیرے نہ <span class=\"diff diff-anchor\">بھر</span> آنکھ <span class=\"diff diff-anchor\">کسو پر</span><br>اس <span class=\"diff diff-anchor\">آہو</span> کو <span class=\"diff diff-var1\">[تو]</span> <span class=\"diff diff-anchor\">آئنے کہہ کب سے</span> کیا صید",
-    "SJ": "دیکھے ہے سوا تیرے نہ <span class=\"diff diff-var2\">پھر</span> آنکھ <span class=\"diff diff-anchor\">کسو پر</span><br>اس <span class=\"diff diff-anchor\">آہو</span> کو <span class=\"diff diff-anchor\">تو آئنے کہہ کب سے</span> کیا صید",
-    "GM": "دیکھے ہے سوا تیرے نہ <span class=\"diff diff-gm\">پھر</span> آنکھ <span class=\"diff diff-gm\">کسی کو</span><br>اس <span class=\"diff diff-gm\">آہوئے دل</span> کو <span class=\"diff diff-gm\">مرے</span> <span class=\"diff diff-anchor\">تو</span> <span class=\"diff diff-gm\">کیسے</span> کیا صید"
+    "TO": "دیکھے ہے سوا تیرے نہ <span class=\"diff diff-anchor\">بھر</span> آنکھ <span class=\"diff diff-anchor\">کسو پر</span><br>اس <span class=\"diff diff-anchor\">آہو</span> کو <span class=\"diff diff-var2\">[تو] آئنے کہہ کب سے</span> کیا صید",
+    "SJ": "دیکھے ہے سوا تیرے نہ <span class=\"diff diff-var1\">پھر</span> آنکھ <span class=\"diff diff-anchor\">کسو پر</span><br>اس <span class=\"diff diff-anchor\">آہو</span> کو <span class=\"diff diff-anchor\">تو آئنے کہہ کب سے</span> کیا صید",
+    "GM": "دیکھے ہے سوا تیرے نہ <span class=\"diff diff-gm\">پھر</span> آنکھ <span class=\"diff diff-gm\">کسی کو</span><br>اس <span class=\"diff diff-gm\">آہوئے دل</span> کو <span class=\"diff diff-gm\">مرے تو کیسے</span> کیا صید"
   },
   {
     "id": 41.5,
@@ -1443,24 +1443,24 @@ const deewanData = [
   },
   {
     "id": 42.2,
-    "BL": "میں اپنے آپ ہی سے دام میں <span class=\"diff diff-anchor\">پھنسا</span> لیکن<br>تری کہاں تھی مرے صید پر نظر صیاد",
-    "TO": "میں اپنے آپ ہی سے دام میں <span class=\"diff diff-anchor\">پھنسا</span> لیکن<br>تری کہاں تھی مرے صید پر نظر صیاد",
-    "SJ": "میں اپنے آپ ہی سے دام میں <span class=\"diff diff-var1\">نہا</span> لیکن<br>تری کہاں تھی مرے صید پر نظر صیاد",
-    "GM": "میں اپنے آپ ہی سے دام میں <span class=\"diff diff-anchor\">پھنسا</span> لیکن<br>تری کہاں تھی مرے صید پر نظر صیاد"
+    "BL": "میں اپنے آپ ہی سے دام میں پھنسا لیکن<br>تری کہاں تھی مرے صید پر نظر صیاد",
+    "TO": "میں اپنے آپ ہی سے دام میں پھنسا لیکن<br>تری کہاں تھی مرے صید پر نظر صیاد",
+    "SJ": "میں اپنے آپ ہی سے دام میں پھنسا لیکن<br>تری کہاں تھی مرے صید پر نظر صیاد",
+    "GM": "میں اپنے آپ ہی سے دام میں پھنسا لیکن<br>تری کہاں تھی مرے صید پر نظر صیاد"
   },
   {
     "id": 42.3,
-    "BL": "ازل سے مرغ دل اپنا ہوا ہے صید ترا<br><span class=\"diff diff-anchor\">کبھو تو</span> بھولے سے <span class=\"diff diff-anchor\">ایدھر بھی کرگزر</span> صیاد",
-    "TO": "ازل سے مرغ دل اپنا ہوا ہے صید ترا<br><span class=\"diff diff-anchor\">کبھو تو</span> بھولے سے <span class=\"diff diff-anchor\">ایدھر</span> <span class=\"diff diff-var1\">[بھی]</span> <span class=\"diff diff-anchor\">کرگزر</span> صیاد",
-    "SJ": "ازل سے مرغ دل اپنا ہوا ہے صید ترا<br><span class=\"diff diff-anchor\">کبھو تو</span> بھولے سے <span class=\"diff diff-anchor\">ایدھر بھی کرگزر</span> صیاد",
-    "GM": "ازل سے مرغ دل اپنا ہوا ہے صید ترا<br><span class=\"diff diff-gm\">کبھی نہ</span> بھولے سے <span class=\"diff diff-gm\">کر اس طرف گزر</span> صیاد"
+    "BL": "ازل سے مرغ دل اپنا ہوا ہے صید ترا<br><span class=\"diff diff-anchor\">کبھو تو</span> بھولے سے <span class=\"diff diff-anchor\">ایدھر بھی</span> کر گزر صیاد",
+    "TO": "ازل سے مرغ دل اپنا ہوا ہے صید ترا<br><span class=\"diff diff-anchor\">کبھو تو</span> بھولے سے <span class=\"diff diff-var2\">ایدھر [بھی]</span> کر گزر صیاد",
+    "SJ": "ازل سے مرغ دل اپنا ہوا ہے صید ترا<br><span class=\"diff diff-anchor\">کبھو تو</span> بھولے سے <span class=\"diff diff-anchor\">ایدھر بھی</span> کر گزر صیاد",
+    "GM": "ازل سے مرغ دل اپنا ہوا ہے صید ترا<br><span class=\"diff diff-gm\">کبھی نہ</span> بھولے سے کر <span class=\"diff diff-gm\">اس طرف</span> گزر صیاد"
   },
   {
     "id": 42.4,
     "BL": "تڑپ کے جان تو <span class=\"diff diff-anchor\">اب</span> دے <span class=\"diff diff-anchor\">چلا</span> ہے تیرا صید<br><span class=\"diff diff-anchor\">پھرے ہے اب بھی</span> جو <span class=\"diff diff-anchor\">اتنے میں</span> بے خبر صیاد",
     "TO": "تڑپ کے جان تو <span class=\"diff diff-anchor\">اب</span> دے <span class=\"diff diff-anchor\">چلا</span> ہے تیرا صید<br><span class=\"diff diff-anchor\">پھرے ہے اب بھی</span> جو <span class=\"diff diff-anchor\">اتنے میں</span> بے خبر صیاد",
-    "SJ": "تڑپ کے جان تو <span class=\"diff diff-anchor\">اب</span> دے <span class=\"diff diff-anchor\">چلا</span> ہے تیرا صید<br><span class=\"diff diff-anchor\">پھرے ہے</span> <span class=\"diff diff-var1\">[اب]</span> <span class=\"diff diff-anchor\">بھی</span> جو <span class=\"diff diff-anchor\">اتنے میں</span> بے خبر صیاد",
-    "GM": "تڑپ کے جان تو <span class=\"diff diff-gm\">یوں</span> دے <span class=\"diff diff-gm\">رہا</span> ہے تیرا صید<br><span class=\"diff diff-gm\">جئے گا اور کوئی دم</span> جو  بے خبر صیاد"
+    "SJ": "تڑپ کے جان تو <span class=\"diff diff-anchor\">اب</span> دے <span class=\"diff diff-anchor\">چلا</span> ہے تیرا صید<br><span class=\"diff diff-var1\">پھرے [ہے] اب بھی</span> جو <span class=\"diff diff-anchor\">اتنے میں</span> بے خبر صیاد",
+    "GM": "تڑپ کے جان تو <span class=\"diff diff-gm\">یوں</span> دے <span class=\"diff diff-gm\">رہا</span> ہے تیرا صید<br><span class=\"diff diff-gm\">جئے گا اور کوئی دم</span> جو بے خبر صیاد"
   },
   {
     "id": 42.5,
@@ -1479,8 +1479,8 @@ const deewanData = [
   {
     "id": 43.2,
     "BL": "<span class=\"diff diff-anchor\">کبھو</span> اے غنچہ لب <span class=\"diff diff-anchor\">رشک چمن</span> نرگس <span class=\"diff diff-anchor\">میں ٹک</span> تو<br>نظر کیجو کہ تا ہووے ہمارا گلستاں مقصد",
-    "TO": "<span class=\"diff diff-anchor\">کبھو</span> اے غنچہ لب <span class=\"diff diff-anchor\">رشک چمن</span> نرگس  <span class=\"diff diff-anchor\">ٹک</span> تو <span class=\"diff diff-var1\">میں</span><br>نظر کیجو کہ تا ہووے ہمارا گلستاں مقصد",
-    "SJ": "<span class=\"diff diff-anchor\">کبھو</span> اے غنچہ لب <span class=\"diff diff-anchor\">رشک چمن</span> نرگس <span class=\"diff diff-var2\">تئیں</span> <span class=\"diff diff-anchor\">ٹک</span> تو<br>نظر کیجو کہ تا ہووے ہمارا گلستاں مقصد",
+    "TO": "<span class=\"diff diff-anchor\">کبھو</span> اے غنچہ لب <span class=\"diff diff-anchor\">رشک چمن</span> نرگس <span class=\"diff diff-var2\">ٹک</span> تو <span class=\"diff diff-var2\">میں</span><br>نظر کیجو کہ تا ہووے ہمارا گلستاں مقصد",
+    "SJ": "<span class=\"diff diff-anchor\">کبھو</span> اے غنچہ لب <span class=\"diff diff-anchor\">رشک چمن</span> نرگس <span class=\"diff diff-var1\">تئیں ٹک</span> تو<br>نظر کیجو کہ تا ہووے ہمارا گلستاں مقصد",
     "GM": "<span class=\"diff diff-gm\">کبھی</span> اے غنچہ لب <span class=\"diff diff-gm\">اے چشم</span> نرگس <span class=\"diff diff-gm\">اس طرف بھی</span> تو<br>نظر کیجو کہ تا ہووے ہمارا گلستاں مقصد"
   },
   {
@@ -1495,14 +1495,14 @@ const deewanData = [
     "BL": "<span class=\"diff diff-anchor\">لیا</span> پیر فلک سے <span class=\"diff diff-anchor\">کب کسو نے</span> فائدہ اب تک<br>وہی دے داد الفت کی جو ہووے <span class=\"diff diff-anchor\">نو</span> جواں مقصد",
     "TO": "<span class=\"diff diff-anchor\">لیا</span> پیر فلک سے <span class=\"diff diff-anchor\">کب کسو نے</span> فائدہ اب تک<br>وہی دے داد الفت کی جو ہووے <span class=\"diff diff-anchor\">نو</span> جواں مقصد",
     "SJ": "<span class=\"diff diff-anchor\">لیا</span> پیر فلک سے <span class=\"diff diff-anchor\">کب کسو نے</span> فائدہ اب تک<br>وہی دے داد الفت کی جو ہووے <span class=\"diff diff-anchor\">نو</span> جواں مقصد",
-    "GM": "<span class=\"diff diff-gm\">اٹھایا کب کوئی</span> پیر فلک سے  فائدہ اب تک<br>وہی دے داد <span class=\"diff diff-gm\">بھی</span> الفت کی جو ہووے  جواں مقصد"
+    "GM": "<span class=\"diff diff-gm\">اٹھایا کب کوئی</span> پیر فلک سے فائدہ اب تک<br>وہی دے داد <span class=\"diff diff-gm\">بھی</span> الفت کی جو ہووے جواں مقصد"
   },
   {
     "id": 43.5,
     "BL": "ازل سے یا على <span class=\"diff diff-anchor\">المرتضیٰ نئیں شک و ریب اس</span> میں<br><span class=\"diff diff-anchor\">سر سجدے</span> کو <span class=\"diff diff-anchor\">چندا کے</span> ہے تیرا آستاں مقصد",
-    "TO": "ازل سے یا على <span class=\"diff diff-anchor\">المرتضیٰ نئیں شک و ریب اس</span> میں<br><span class=\"diff diff-anchor\">سر</span> <span class=\"diff diff-var1\">سجدہ</span> کو <span class=\"diff diff-anchor\">چندا کے</span> ہے تیرا آستاں مقصد",
-    "SJ": "ازل سے یا على <span class=\"diff diff-var2\">مرتضیٰ</span> <span class=\"diff diff-anchor\">نئیں شک و ریب اس</span> میں<br><span class=\"diff diff-anchor\">سر سجدے</span> کو <span class=\"diff diff-anchor\">چندا کے</span> ہے تیرا آستاں مقصد",
-    "GM": "ازل سے یا على <span class=\"diff diff-gm\">مرتضیٰ تجھ پر فدا ہوں</span> میں<br><span class=\"diff diff-gm\">ہر اک</span> <span class=\"diff diff-anchor\">سجدے</span> <span class=\"diff diff-gm\">سے چندا</span> کو  ہے تیرا آستاں مقصد"
+    "TO": "ازل سے یا على <span class=\"diff diff-anchor\">المرتضیٰ نئیں شک و ریب اس</span> میں<br><span class=\"diff diff-var2\">سر سجدہ</span> کو <span class=\"diff diff-anchor\">چندا کے</span> ہے تیرا آستاں مقصد",
+    "SJ": "ازل سے یا على <span class=\"diff diff-var1\">مرتضیٰ نئیں شک و ریب اس</span> میں<br><span class=\"diff diff-anchor\">سر سجدے</span> کو <span class=\"diff diff-anchor\">چندا کے</span> ہے تیرا آستاں مقصد",
+    "GM": "ازل سے یا على <span class=\"diff diff-gm\">مرتضیٰ تجھ پر فدا ہوں</span> میں<br><span class=\"diff diff-gm\">ہر اک سجدے سے چندا</span> کو ہے تیرا آستاں مقصد"
   },
   {
     "id": 44.1,
@@ -1516,13 +1516,13 @@ const deewanData = [
     "BL": "لکھا خون جگر سے نامۂ رنگیں <span class=\"diff diff-anchor\">لئے اس کے</span><br>کہ تا دل پر کہیں بے رحم کے ہووے اثر قاصد",
     "TO": "لکھا خون جگر سے نامۂ رنگیں <span class=\"diff diff-anchor\">لئے اس کے</span><br>کہ تا دل پر کہیں بے رحم کے ہووے اثر قاصد",
     "SJ": "لکھا خون جگر سے نامۂ رنگیں <span class=\"diff diff-anchor\">لئے اس کے</span><br>کہ تا دل پر کہیں بے رحم کے ہووے اثر قاصد",
-    "GM": "لکھا <span class=\"diff diff-gm\">اس کے لئے</span> خون جگر سے نامۂ رنگیں <br>کہ تا دل پر کہیں بے رحم کے ہووے اثر قاصد"
+    "GM": "لکھا <span class=\"diff diff-gm\">اس کے لئے</span> خون جگر سے نامۂ رنگیں<br>کہ تا دل پر کہیں بے رحم کے ہووے اثر قاصد"
   },
   {
     "id": 44.3,
     "BL": "کہاں <span class=\"diff diff-anchor\">پائیں</span> خبر دل کی <span class=\"diff diff-anchor\">کرام</span> کاتبیں حق ہے<br>رسائی غیر کی کب <span class=\"diff diff-anchor\">ہے</span> نہ ہو جب تک نظر قاصد",
     "TO": "کہاں <span class=\"diff diff-anchor\">پائیں</span> خبر دل کی <span class=\"diff diff-anchor\">کرام</span> کاتبیں حق ہے<br>رسائی غیر کی کب <span class=\"diff diff-anchor\">ہے</span> نہ ہو جب تک نظر قاصد",
-    "SJ": "کہاں <span class=\"diff diff-anchor\">پائیں</span> خبر دل کی <span class=\"diff diff-anchor\">کرام</span> <span class=\"diff diff-var1\">و</span> کاتبیں حق ہے<br>رسائی غیر کی کب <span class=\"diff diff-anchor\">ہے</span> نہ ہو جب تک نظر قاصد",
+    "SJ": "کہاں <span class=\"diff diff-anchor\">پائیں</span> خبر دل کی <span class=\"diff diff-var1\">کرام و</span> کاتبیں حق ہے<br>رسائی غیر کی کب <span class=\"diff diff-anchor\">ہے</span> نہ ہو جب تک نظر قاصد",
     "GM": "کہاں <span class=\"diff diff-gm\">پاویں</span> خبر دل کی <span class=\"diff diff-gm\">کراماً</span> کاتبیں حق ہے<br>رسائی غیر کی کب <span class=\"diff diff-gm\">ہو</span> نہ ہو جب تک نظر قاصد"
   },
   {
@@ -1653,9 +1653,9 @@ const deewanData = [
   },
   {
     "id": 48.2,
-    "BL": "یہ کہاں طاقت ترے <span class=\"diff diff-anchor\">مکھڑے</span> کے <span class=\"diff diff-anchor\">سمّکھ</span> ہو سکے<br>گرچہ کہنے کو سدا جوبن <span class=\"diff diff-anchor\">کی ماتی</span> ہے بہار",
-    "TO": "یہ کہاں طاقت ترے <span class=\"diff diff-anchor\">مکھڑے</span> کے <span class=\"diff diff-anchor\">سمّکھ</span> ہو سکے<br>گرچہ کہنے کو سدا جوبن <span class=\"diff diff-anchor\">کی ماتی</span> ہے بہار",
-    "SJ": "یہ کہاں طاقت ترے <span class=\"diff diff-anchor\">مکھڑے</span> کے <span class=\"diff diff-var1\">سنمکھ</span> ہو سکے<br>گرچہ کہنے کو سدا جوبن <span class=\"diff diff-anchor\">کی ماتی</span> ہے بہار",
+    "BL": "یہ کہاں طاقت ترے <span class=\"diff diff-anchor\">مکھڑے</span> کے <span class=\"diff diff-anchor\">سنمکھ</span> ہو سکے<br>گرچہ کہنے کو سدا جوبن <span class=\"diff diff-anchor\">کی ماتی</span> ہے بہار",
+    "TO": "یہ کہاں طاقت ترے <span class=\"diff diff-anchor\">مکھڑے</span> کے <span class=\"diff diff-anchor\">سنمکھ</span> ہو سکے<br>گرچہ کہنے کو سدا جوبن <span class=\"diff diff-anchor\">کی ماتی</span> ہے بہار",
+    "SJ": "یہ کہاں طاقت ترے <span class=\"diff diff-anchor\">مکھڑے</span> کے <span class=\"diff diff-anchor\">سنمکھ</span> ہو سکے<br>گرچہ کہنے کو سدا جوبن <span class=\"diff diff-anchor\">کی ماتی</span> ہے بہار",
     "GM": "یہ کہاں طاقت ترے <span class=\"diff diff-gm\">رخ</span> کے <span class=\"diff diff-gm\">برابر</span> ہو سکے<br>گرچہ کہنے کو سدا جوبن <span class=\"diff diff-gm\">دکھاتی</span> ہے بہار"
   },
   {
@@ -1663,7 +1663,7 @@ const deewanData = [
     "BL": "کون ہے گم گشتہ مجھ سا <span class=\"diff diff-anchor\">اب دوانہ</span> فصل میں<br>کھوج کو جس کے چراغ گل لے آتی ہے بہار",
     "TO": "کون ہے گم گشتہ مجھ سا <span class=\"diff diff-anchor\">اب دوانہ</span> فصل میں<br>کھوج کو جس کے چراغ گل لے آتی ہے بہار",
     "SJ": "کون ہے گم گشتہ مجھ سا <span class=\"diff diff-anchor\">اب دوانہ</span> فصل میں<br>کھوج کو جس کے چراغ گل لے آتی ہے بہار",
-    "GM": "کون ہے گم گشتہ <span class=\"diff diff-gm\">اب دیوانہ</span> مجھ سا  فصل میں<br>کھوج کو جس کے چراغ گل لے آتی ہے بہار"
+    "GM": "کون ہے گم گشتہ <span class=\"diff diff-gm\">اب دیوانہ</span> مجھ سا فصل میں<br>کھوج کو جس کے چراغ گل لے آتی ہے بہار"
   },
   {
     "id": 48.4,
@@ -1695,10 +1695,10 @@ const deewanData = [
   },
   {
     "id": 49.3,
-    "BL": "یاد میں <span class=\"diff diff-anchor\">اس</span> پر <span class=\"diff diff-anchor\">جفا</span> برق تجلی کے <span class=\"diff diff-anchor\">نپٹ</span><br>اشک سے  میرے گھٹا ہے سخت باراں کا وفور",
-    "TO": "یاد میں <span class=\"diff diff-anchor\">اس</span> پر <span class=\"diff diff-anchor\">جفا</span> برق تجلی کے <span class=\"diff diff-anchor\">نپٹ</span><br>اشک سے  میرے گھٹا ہے سخت باراں کا وفور",
-    "SJ": "یاد میں <span class=\"diff diff-anchor\">اس</span> پر <span class=\"diff diff-var1\">خفا</span> برق تجلی کے <span class=\"diff diff-anchor\">نپٹ</span><br>اشک سے  میرے گھٹا ہے سخت باراں کا وفور",
-    "GM": "یاد میں <span class=\"diff diff-gm\">کس</span> پر <span class=\"diff diff-anchor\">جفا</span> برق تجلی کے <span class=\"diff diff-gm\">ہوں میں</span><br>اشک سے  میرے گھٹا ہے سخت باراں کا وفور"
+    "BL": "یاد میں <span class=\"diff diff-anchor\">اس</span> پر <span class=\"diff diff-anchor\">جفا</span> برق تجلی کے <span class=\"diff diff-anchor\">نپٹ</span><br>اشک سے میرے گھٹا ہے سخت باراں کا وفور",
+    "TO": "یاد میں <span class=\"diff diff-anchor\">اس</span> پر <span class=\"diff diff-anchor\">جفا</span> برق تجلی کے <span class=\"diff diff-anchor\">نپٹ</span><br>اشک سے میرے گھٹا ہے سخت باراں کا وفور",
+    "SJ": "یاد میں <span class=\"diff diff-anchor\">اس</span> پر <span class=\"diff diff-var1\">خفا</span> برق تجلی کے <span class=\"diff diff-anchor\">نپٹ</span><br>اشک سے میرے گھٹا ہے سخت باراں کا وفور",
+    "GM": "یاد میں <span class=\"diff diff-gm\">کس</span> پر <span class=\"diff diff-anchor\">جفا</span> برق تجلی کے <span class=\"diff diff-gm\">ہوں میں</span><br>اشک سے میرے گھٹا ہے سخت باراں کا وفور"
   },
   {
     "id": 49.4,
@@ -1709,10 +1709,10 @@ const deewanData = [
   },
   {
     "id": 49.5,
-    "BL": "سرفرو ہرگز نہ ہو چندا <span class=\"diff diff-anchor\">کسو</span> سے دہر میں<br>یہ جناب مرتضیٰ  کی ہے کنیزی کا غرور",
-    "TO": "سرفرو ہرگز نہ ہو چندا <span class=\"diff diff-anchor\">کسو</span> سے دہر میں<br>یہ جناب مرتضیٰ  کی ہے کنیزی کا غرور",
-    "SJ": "سرفرو ہرگز نہ ہو چندا <span class=\"diff diff-anchor\">کسو</span> سے دہر میں<br>یہ جناب مرتضیٰ  کی ہے کنیزی کا غرور",
-    "GM": "سرفرو ہرگز نہ ہو چندا <span class=\"diff diff-gm\">کسی</span> سے دہر میں<br>یہ جناب مرتضیٰ  کی ہے کنیزی کا غرور"
+    "BL": "سرفرو ہرگز نہ ہو چندا <span class=\"diff diff-anchor\">کسو</span> سے دہر میں<br>یہ جناب مرتضیٰ کی ہے کنیزی کا غرور",
+    "TO": "سرفرو ہرگز نہ ہو چندا <span class=\"diff diff-anchor\">کسو</span> سے دہر میں<br>یہ جناب مرتضیٰ کی ہے کنیزی کا غرور",
+    "SJ": "سرفرو ہرگز نہ ہو چندا <span class=\"diff diff-anchor\">کسو</span> سے دہر میں<br>یہ جناب مرتضیٰ کی ہے کنیزی کا غرور",
+    "GM": "سرفرو ہرگز نہ ہو چندا <span class=\"diff diff-gm\">کسی</span> سے دہر میں<br>یہ جناب مرتضیٰ کی ہے کنیزی کا غرور"
   },
   {
     "id": 50.1,
@@ -1737,10 +1737,10 @@ const deewanData = [
   },
   {
     "id": 50.4,
-    "BL": "گل بدن غنچه دہن وه سرو قد  یک بار بھی<br>خوش خرام آوے <span class=\"diff diff-anchor\">اِدھر</span> کو جی کروں اپنا نثار",
-    "TO": "گل بدن غنچه دہن وه سرو قد  یک بار بھی<br>خوش خرام آوے <span class=\"diff diff-anchor\">اِدھر</span> کو جی کروں اپنا نثار",
-    "SJ": "گل بدن غنچه دہن وه سرو قد  یک بار بھی<br>خوش خرام آوے <span class=\"diff diff-var1\">ادھر</span> کو جی کروں اپنا نثار",
-    "GM": "گل بدن غنچه دہن وه سرو قد  یک بار بھی<br>خوش خرام آوے <span class=\"diff diff-anchor\">اِدھر</span> کو جی کروں اپنا نثار"
+    "BL": "گل بدن غنچه دہن وه سرو قد یک بار بھی<br>خوش خرام آوے <span class=\"diff diff-anchor\">اِدھر</span> کو جی کروں اپنا نثار",
+    "TO": "گل بدن غنچه دہن وه سرو قد یک بار بھی<br>خوش خرام آوے <span class=\"diff diff-anchor\">اِدھر</span> کو جی کروں اپنا نثار",
+    "SJ": "گل بدن غنچه دہن وه سرو قد یک بار بھی<br>خوش خرام آوے <span class=\"diff diff-var1\">ادھر</span> کو جی کروں اپنا نثار",
+    "GM": "گل بدن غنچه دہن وه سرو قد یک بار بھی<br>خوش خرام آوے <span class=\"diff diff-anchor\">اِدھر</span> کو جی کروں اپنا نثار"
   },
   {
     "id": 50.5,
@@ -1754,14 +1754,14 @@ const deewanData = [
     "BL": "ساقی دے مجھ کو جام مئے ارغوان بھر<br><span class=\"diff diff-anchor\">افسردہ</span> دل میں <span class=\"diff diff-anchor\">آئے جو شعلے سی</span> جان بھر",
     "TO": "ساقی دے مجھ کو جام مئے ارغوان بھر<br><span class=\"diff diff-anchor\">افسردہ</span> دل میں <span class=\"diff diff-anchor\">آئے جو شعلے سی</span> جان بھر",
     "SJ": "ساقی دے مجھ کو جام مئے ارغوان بھر<br><span class=\"diff diff-anchor\">افسردہ</span> دل میں <span class=\"diff diff-anchor\">آئے جو شعلے سی</span> جان بھر",
-    "GM": "ساقی دے مجھ کو جام مئے ارغوان بھر<br><span class=\"diff diff-gm\">ہے تن میں مردہ</span> دل <span class=\"diff diff-gm\">مرا تو اس</span> میں  جان بھر"
+    "GM": "ساقی دے مجھ کو جام مئے ارغوان بھر<br><span class=\"diff diff-gm\">ہے تن میں مردہ</span> دل <span class=\"diff diff-gm\">مرا تو اس</span> میں جان بھر"
   },
   {
     "id": 51.2,
     "BL": "خالی متاع حسن سے ہوں منتظر <span class=\"diff diff-anchor\">کی چشم</span><br>اور مفت ہی میں آئینہ لے یوں دوکان بھر",
     "TO": "خالی متاع حسن سے ہوں منتظر <span class=\"diff diff-anchor\">کی چشم</span><br>اور مفت ہی میں آئینہ لے یوں دوکان بھر",
     "SJ": "خالی متاع حسن سے ہوں منتظر <span class=\"diff diff-anchor\">کی چشم</span><br>اور مفت ہی میں آئینہ لے یوں دوکان بھر",
-    "GM": "خالی متاع حسن سے ہوں <span class=\"diff diff-gm\">چشم</span> منتظر <br>اور مفت ہی میں آئینہ لے یوں دوکان بھر"
+    "GM": "خالی متاع حسن سے ہوں <span class=\"diff diff-gm\">چشم</span> منتظر<br>اور مفت ہی میں آئینہ لے یوں دوکان بھر"
   },
   {
     "id": 51.3,
@@ -1774,7 +1774,7 @@ const deewanData = [
     "id": 51.4,
     "BL": "شاه و گدا <span class=\"diff diff-anchor\">[تو] چھک ہے گئے</span> رقص پر ترے<br>عاشق ہے نیم جان نئی لے سے تان بھر",
     "TO": "شاه و گدا <span class=\"diff diff-anchor\">[تو] چھک ہے گئے</span> رقص پر ترے<br>عاشق ہے نیم جان نئی لے سے تان بھر",
-    "SJ": "شاه و گدا <span class=\"diff diff-var1\">تو جھک</span> <span class=\"diff diff-anchor\">ہے گئے</span> رقص پر ترے<br>عاشق ہے نیم جان نئی لے سے تان بھر",
+    "SJ": "شاه و گدا <span class=\"diff diff-var1\">تو جھک ہے گئے</span> رقص پر ترے<br>عاشق ہے نیم جان نئی لے سے تان بھر",
     "GM": "شاه و گدا <span class=\"diff diff-gm\">تو دنگ ہوئے</span> رقص پر ترے<br>عاشق ہے نیم جان نئی لے سے تان بھر"
   },
   {
@@ -1782,7 +1782,7 @@ const deewanData = [
     "BL": "چندا کو یہ امید ہے یا مرتضیٰ علی<br><span class=\"diff diff-anchor\">حسنین کے دے</span> صدقے <span class=\"diff diff-anchor\">میں</span> موتی سے خوان بھر",
     "TO": "چندا کو یہ امید ہے یا مرتضیٰ علی<br><span class=\"diff diff-anchor\">حسنین کے دے</span> صدقے <span class=\"diff diff-anchor\">میں</span> موتی سے خوان بھر",
     "SJ": "چندا کو یہ امید ہے یا مرتضیٰ علی<br><span class=\"diff diff-anchor\">حسنین کے دے</span> صدقے <span class=\"diff diff-var1\">[میں]</span> موتی سے خوان بھر",
-    "GM": "چندا کو یہ امید ہے یا مرتضیٰ علی<br> صدقے <span class=\"diff diff-anchor\">میں</span> <span class=\"diff diff-gm\">دے حسین کے</span> موتی سے خوان بھر"
+    "GM": "چندا کو یہ امید ہے یا مرتضیٰ علی<br>صدقے <span class=\"diff diff-gm\">میں دے حسین کے</span> موتی سے خوان بھر"
   },
   {
     "id": 52.1,
@@ -1795,8 +1795,8 @@ const deewanData = [
     "id": 52.2,
     "BL": "<span class=\"diff diff-anchor\">ہم کئے بت خانہ آخرکعبۂ</span> دل توڑ کر<br><span class=\"diff diff-anchor\">پر نہ تھی تجھ سے</span> صنم <span class=\"diff diff-anchor\">کچھ</span> بے وفائی کی خبر",
     "TO": "<span class=\"diff diff-anchor\">ہم کئے بت خانہ آخرکعبۂ</span> دل توڑ کر<br><span class=\"diff diff-anchor\">پر نہ تھی تجھ سے</span> صنم <span class=\"diff diff-anchor\">کچھ</span> بے وفائی کی خبر",
-    "SJ": "<span class=\"diff diff-anchor\">ہم کئے بت خانہ آخرکعبۂ</span> دل توڑ کر<br><span class=\"diff diff-anchor\">پر نہ تھی تجھ سے</span> صنم <span class=\"diff diff-anchor\">کچھ</span> بے وفائی کی خبر",
-    "GM": "<span class=\"diff diff-gm\">کعبۂ</span> دل توڑ کر <span class=\"diff diff-gm\">کرتے نہ ہم بت خانہ اب </span><br><span class=\"diff diff-gm\">ہوتی گر ہم کو</span> صنم <span class=\"diff diff-gm\">کی</span> بے وفائی کی خبر"
+    "SJ": "<span class=\"diff diff-anchor\">ہم کئے بت خانہ آخرکعبۂ</span> دل توڑ کر<br><span class=\"diff diff-var1\">پر نہیں تجھ سے</span> صنم <span class=\"diff diff-anchor\">کچھ</span> بے وفائی کی خبر",
+    "GM": "<span class=\"diff diff-gm\">کعبۂ</span> دل توڑ کر <span class=\"diff diff-gm\">کرتے نہ ہم بت خانہ اب</span><br><span class=\"diff diff-gm\">ہوتی گر ہم کو</span> صنم <span class=\"diff diff-gm\">کی</span> بے وفائی کی خبر"
   },
   {
     "id": 52.3,
@@ -1807,10 +1807,10 @@ const deewanData = [
   },
   {
     "id": 52.4,
-    "BL": "بال و پر ہم نے نکالے آشیاں سے دام میں<br><span class=\"diff diff-anchor\"> اب تلک نئیں</span> ہم صفیرو <span class=\"diff diff-anchor\">کچھ</span> رہائی کی خبر",
-    "TO": "بال و پر ہم نے نکالے آشیاں سے دام میں<br><span class=\"diff diff-anchor\"> اب تلک نئیں</span> ہم صفیرو <span class=\"diff diff-anchor\">کچھ</span> رہائی کی خبر",
-    "SJ": "بال و پر ہم نے نکالے آشیاں سے دام میں<br><span class=\"diff diff-anchor\"> اب تلک نئیں</span> ہم صفیرو <span class=\"diff diff-anchor\">کچھ</span> رہائی کی خبر",
-    "GM": "بال و پر ہم نے نکالے آشیاں سے دام میں<br> ہم صفیرو <span class=\"diff diff-gm\">پر نہیں اب تک</span> رہائی کی خبر"
+    "BL": "بال و پر ہم نے نکالے آشیاں سے دام میں<br><span class=\"diff diff-anchor\">اب تلک نئیں</span> ہم صفیرو <span class=\"diff diff-anchor\">کچھ</span> رہائی کی خبر",
+    "TO": "بال و پر ہم نے نکالے آشیاں سے دام میں<br><span class=\"diff diff-anchor\">اب تلک نئیں</span> ہم صفیرو <span class=\"diff diff-anchor\">کچھ</span> رہائی کی خبر",
+    "SJ": "بال و پر ہم نے نکالے آشیاں سے دام میں<br><span class=\"diff diff-anchor\">اب تلک نئیں</span> ہم صفیرو <span class=\"diff diff-anchor\">کچھ</span> رہائی کی خبر",
+    "GM": "بال و پر ہم نے نکالے آشیاں سے دام میں<br>ہم صفیرو <span class=\"diff diff-gm\">پر نہیں اب تک</span> رہائی کی خبر"
   },
   {
     "id": 52.5,
@@ -1830,8 +1830,8 @@ const deewanData = [
     "id": 53.2,
     "BL": "",
     "TO": "",
-    "SJ": "سن کے یہ آواز خوش دل نے کہا مجھ سے کہ چل <span class=\"diff diff-anchor\"><br> بیٹھ مت اب کے</span> بسنتی پوش ہو دیکھیں بہار",
-    "GM": "سن کے یہ آواز خوش دل نے کہا مجھ سے کہ <span class=\"diff diff-gm\">اٹھ <br></span> چل  بسنتی پوش ہو <span class=\"diff diff-gm\">کر تو بھی اب</span> دیکھیں بہار"
+    "SJ": "سن کے یہ آواز خوش دل نے کہا مجھ سے کہ چل <span class=\"diff diff-anchor\"><br>بیٹھ مت اب کے</span> بسنتی پوش ہو دیکھیں بہار",
+    "GM": "سن کے یہ آواز خوش دل نے کہا مجھ سے کہ <span class=\"diff diff-gm\">اٹھ<br></span> چل بسنتی پوش ہو <span class=\"diff diff-gm\">کر تو بھی اب</span> دیکھیں بہار"
   },
   {
     "id": 53.3,
@@ -1845,14 +1845,14 @@ const deewanData = [
     "BL": "",
     "TO": "",
     "SJ": "وه نتیجہ <span class=\"diff diff-anchor\">کی و</span> خسرو کا <span class=\"diff diff-anchor\">ہے</span> جس کے روبرو<br><span class=\"diff diff-anchor\">ہوے کب</span> نام سخاوت <span class=\"diff diff-anchor\">لیوے</span> حاتم زینہار",
-    "GM": "وه نتیجہ <span class=\"diff diff-gm\">ہے کئے</span> خسرو کا  جس کے روبرو<br><span class=\"diff diff-gm\">رعب سے</span> نام سخاوت <span class=\"diff diff-gm\">لے نہ</span> حاتم زینہار"
+    "GM": "وه نتیجہ <span class=\"diff diff-gm\">ہے کئے</span> خسرو کا جس کے روبرو<br><span class=\"diff diff-gm\">رعب سے</span> نام سخاوت <span class=\"diff diff-gm\">لے نہ</span> حاتم زینہار"
   },
   {
     "id": 53.5,
     "BL": "",
     "TO": "",
-    "SJ": "مدعا چندا کا ہے یہ <span class=\"diff diff-anchor\">ہی</span> ارسطو جاه سے<br> فیل و زر بخشش تو کی جاگیر کا بھی ہو شمار",
-    "GM": "مدعا چندا کا ہے یہ <span class=\"diff diff-gm\">اب</span> ارسطو جاه سے<br> فیل و زر بخشش تو کی جاگیر کا بھی ہو شمار"
+    "SJ": "مدعا چندا کا ہے یہ <span class=\"diff diff-anchor\">ہی</span> ارسطو جاه سے<br>فیل و زر بخشش تو کی جاگیر کا بھی ہو شمار",
+    "GM": "مدعا چندا کا ہے یہ <span class=\"diff diff-gm\">اب</span> ارسطو جاه سے<br>فیل و زر بخشش تو کی جاگیر کا بھی ہو شمار"
   },
   {
     "id": 54.1,
@@ -1879,7 +1879,7 @@ const deewanData = [
     "id": 54.4,
     "BL": "<span class=\"diff diff-anchor\">یک دم رکھے</span> تھا چشم توقع <span class=\"diff diff-anchor\">میں</span> یار سے<br>اب تک ہوا نہ راست وہ ابرو کا خم ہنوز",
     "TO": "<span class=\"diff diff-anchor\">یک دم رکھے</span> تھا چشم توقع <span class=\"diff diff-anchor\">میں</span> یار سے<br>اب تک ہوا نہ راست وہ ابرو کا خم ہنوز",
-    "SJ": "<span class=\"diff diff-anchor\">یک دم</span> <span class=\"diff diff-var1\">رکھا</span> تھا چشم توقع <span class=\"diff diff-anchor\">میں</span> یار سے<br>اب تک ہوا نہ راست وہ ابرو کا خم ہنوز",
+    "SJ": "<span class=\"diff diff-var1\">یک دم رکھا</span> تھا چشم توقع <span class=\"diff diff-anchor\">میں</span> یار سے<br>اب تک ہوا نہ راست وہ ابرو کا خم ہنوز",
     "GM": "<span class=\"diff diff-gm\">کیا کیا رکھا</span> تھا چشم توقع <span class=\"diff diff-gm\">نہ</span> یار سے<br>اب تک ہوا نہ راست وہ ابرو کا خم ہنوز"
   },
   {
@@ -1894,14 +1894,14 @@ const deewanData = [
     "BL": "نہیں کنج قفس میں کچھ <span class=\"diff diff-anchor\">گلہ</span> صیاد سے ہرگز<br>نہ بھولے اتنا وہ ظالم پر اپنی یاد ہرگز",
     "TO": "نہیں کنج قفس میں کچھ <span class=\"diff diff-anchor\">گلہ</span> صیاد سے ہرگز<br>نہ بھولے اتنا وہ ظالم پر اپنی یاد ہرگز",
     "SJ": "نہیں کنج قفس میں کچھ <span class=\"diff diff-anchor\">گلہ</span> صیاد سے ہرگز<br>نہ بھولے اتنا وہ ظالم پر اپنی یاد ہرگز",
-    "GM": "نہیں کنج قفس میں <span class=\"diff diff-gm\">رنج</span> کچھ  صیاد سے ہرگز<br>نہ بھولے اتنا وہ ظالم پر اپنی یاد ہرگز"
+    "GM": "نہیں کنج قفس میں <span class=\"diff diff-gm\">رنج</span> کچھ صیاد سے ہرگز<br>نہ بھولے اتنا وہ ظالم پر اپنی یاد ہرگز"
   },
   {
     "id": 55.2,
     "BL": "کیا ہوں ضبط آه و نالہ فرقت میں <span class=\"diff diff-anchor\">لئے اس کے</span><br>نہ وہ شکوہ کرے ظاہر مری فریاد سے ہرگز",
     "TO": "کیا ہوں ضبط آه و نالہ فرقت میں <span class=\"diff diff-anchor\">لئے اس کے</span><br>نہ وہ شکوہ کرے ظاہر مری فریاد سے ہرگز",
     "SJ": "کیا ہوں ضبط آه و نالہ فرقت میں <span class=\"diff diff-anchor\">لئے اس کے</span><br>نہ وہ شکوہ کرے ظاہر مری فریاد سے ہرگز",
-    "GM": "کیا <span class=\"diff diff-gm\">اس کے لئے</span> ہوں ضبط آه و نالہ فرقت میں <br>نہ وہ شکوہ کرے ظاہر مری فریاد سے ہرگز"
+    "GM": "کیا <span class=\"diff diff-gm\">اس کے لئے</span> ہوں ضبط آه و نالہ فرقت میں<br>نہ وہ شکوہ کرے ظاہر مری فریاد سے ہرگز"
   },
   {
     "id": 55.3,
@@ -1928,7 +1928,7 @@ const deewanData = [
     "id": 56.1,
     "BL": "<span class=\"diff diff-anchor\">آج کچھ ایسے سجا اپنی</span> طرح <span class=\"diff diff-anchor\">یار</span> کہ بس<br>جان و دل <span class=\"diff diff-anchor\">ہوے</span> گیا دیکھ گرفتار کہ بس",
     "TO": "<span class=\"diff diff-anchor\">آج کچھ ایسے سجا اپنی</span> طرح <span class=\"diff diff-anchor\">یار</span> کہ بس<br>جان و دل <span class=\"diff diff-anchor\">ہوے</span> گیا دیکھ گرفتار کہ بس",
-    "SJ": "<span class=\"diff diff-anchor\">آج کچھ ایسے</span> <span class=\"diff diff-var1\">سجیا</span> <span class=\"diff diff-anchor\">اپنی</span> طرح <span class=\"diff diff-anchor\">یار</span> کہ بس<br>جان و دل <span class=\"diff diff-var2\">ہو ہی</span> گیا دیکھ گرفتار کہ بس",
+    "SJ": "<span class=\"diff diff-var1\">آج کچھ ایسے سجیا اپنی</span> طرح <span class=\"diff diff-anchor\">یار</span> کہ بس<br>جان و دل <span class=\"diff diff-var1\">ہو ہی</span> گیا دیکھ گرفتار کہ بس",
     "GM": "<span class=\"diff diff-gm\">سج کے اس</span> طرح <span class=\"diff diff-gm\">سے نکلا وہ طرح دار</span> کہ بس<br>جان و دل <span class=\"diff diff-gm\">ہو ہی</span> گیا دیکھ گرفتار کہ بس"
   },
   {
@@ -1947,10 +1947,10 @@ const deewanData = [
   },
   {
     "id": 56.4,
-    "BL": "<span class=\"diff diff-anchor\">ہے</span> جفا کار  <span class=\"diff diff-anchor\">وہ نادانی سے تا بد و شعور</span><br>چشم عالم نے نہ دیکھا یہ ستم گار کہ بس",
-    "TO": "<span class=\"diff diff-anchor\">ہے</span> جفا کار  <span class=\"diff diff-anchor\">وہ نادانی سے تا بد و شعور</span><br>چشم عالم نے نہ دیکھا یہ ستم گار کہ بس",
-    "SJ": "<span class=\"diff diff-anchor\">ہے</span> جفا کار  <span class=\"diff diff-anchor\">وہ نادانی سے تا بد و شعور</span><br>چشم عالم نے نہ دیکھا یہ ستم گار کہ بس",
-    "GM": "<span class=\"diff diff-gm\">ہیں</span> جفا کار  <span class=\"diff diff-gm\">دل آزار ہزاروں لیکن</span><br>چشم عالم نے نہ دیکھا یہ ستم گار کہ بس"
+    "BL": "<span class=\"diff diff-anchor\">ہے</span> جفا کار <span class=\"diff diff-anchor\">وہ نادانی سے تا بد و شعور</span><br>چشم عالم نے نہ دیکھا یہ ستم گار کہ بس",
+    "TO": "<span class=\"diff diff-anchor\">ہے</span> جفا کار <span class=\"diff diff-anchor\">وہ نادانی سے تا بد و شعور</span><br>چشم عالم نے نہ دیکھا یہ ستم گار کہ بس",
+    "SJ": "<span class=\"diff diff-anchor\">ہے</span> جفا کار <span class=\"diff diff-anchor\">وہ نادانی سے تا بد و شعور</span><br>چشم عالم نے نہ دیکھا یہ ستم گار کہ بس",
+    "GM": "<span class=\"diff diff-gm\">ہیں</span> جفا کار <span class=\"diff diff-gm\">دل آزار ہزاروں لیکن</span><br>چشم عالم نے نہ دیکھا یہ ستم گار کہ بس"
   },
   {
     "id": 56.5,
@@ -1968,10 +1968,10 @@ const deewanData = [
   },
   {
     "id": 57.2,
-    "BL": "مقابل اب ہوا چاہے ہے اس <span class=\"diff diff-anchor\">کی</span> چشم شہلا کے<br>نہیں رکھتی <span class=\"diff diff-anchor\">ہے</span> آنکھوں میں مگر کچھ اپنے نم نرگس",
-    "TO": "مقابل اب ہوا چاہے ہے اس <span class=\"diff diff-anchor\">کی</span> چشم شہلا کے<br>نہیں رکھتی <span class=\"diff diff-anchor\">ہے</span> آنکھوں میں مگر کچھ اپنے نم نرگس",
-    "SJ": "مقابل اب ہوا چاہے ہے اس <span class=\"diff diff-var1\">[کی]</span> چشم شہلا کے<br>نہیں رکھتی <span class=\"diff diff-var2\">ان</span> آنکھوں میں مگر کچھ اپنے نم نرگس",
-    "GM": "مقابل اب ہوا چاہے ہے اس <span class=\"diff diff-anchor\">کی</span> چشم شہلا کے<br>نہیں رکھتی <span class=\"diff diff-anchor\">ہے</span> آنکھوں میں مگر کچھ اپنے نم نرگس"
+    "BL": "مقابل اب ہوا چاہے ہے <span class=\"diff diff-anchor\">اس کی</span> چشم شہلا کے<br>نہیں رکھتی <span class=\"diff diff-anchor\">ہے</span> آنکھوں میں مگر کچھ اپنے نم نرگس",
+    "TO": "مقابل اب ہوا چاہے ہے <span class=\"diff diff-anchor\">اس کی</span> چشم شہلا کے<br>نہیں رکھتی <span class=\"diff diff-anchor\">ہے</span> آنکھوں میں مگر کچھ اپنے نم نرگس",
+    "SJ": "مقابل اب ہوا چاہے ہے <span class=\"diff diff-var1\">[اس کی]</span> چشم شہلا کے<br>نہیں رکھتی <span class=\"diff diff-var1\">ان</span> آنکھوں میں مگر کچھ اپنے نم نرگس",
+    "GM": "مقابل اب ہوا چاہے ہے <span class=\"diff diff-anchor\">اس کی</span> چشم شہلا کے<br>نہیں رکھتی <span class=\"diff diff-anchor\">ہے</span> آنکھوں میں مگر کچھ اپنے نم نرگس"
   },
   {
     "id": 57.3,
@@ -1989,17 +1989,17 @@ const deewanData = [
   },
   {
     "id": 57.5,
-    "BL": "یہ دو آنکھیں تو کیا ہوں چار پر چندا کو خواہش ہے<br>جناب مرتضیٰ میں ہو  چلے سر تا قدم نرگس",
-    "TO": "یہ دو آنکھیں تو کیا ہوں چار پر چندا کو خواہش ہے<br>جناب مرتضیٰ میں ہو  چلے سر تا قدم نرگس",
-    "SJ": "یہ دو آنکھیں تو کیا ہوں چار پر چندا کو خواہش ہے<br>جناب مرتضیٰ میں ہو  چلے سر تا قدم نرگس",
-    "GM": "یہ دو آنکھیں تو کیا ہوں چار پر چندا کو خواہش ہے<br>جناب مرتضیٰ میں ہو  چلے سر تا قدم نرگس"
+    "BL": "یہ دو آنکھیں تو کیا ہوں چار پر چندا کو خواہش ہے<br>جناب مرتضیٰ میں ہو چلے سر تا قدم نرگس",
+    "TO": "یہ دو آنکھیں تو کیا ہوں چار پر چندا کو خواہش ہے<br>جناب مرتضیٰ میں ہو چلے سر تا قدم نرگس",
+    "SJ": "یہ دو آنکھیں تو کیا ہوں چار پر چندا کو خواہش ہے<br>جناب مرتضیٰ میں ہو چلے سر تا قدم نرگس",
+    "GM": "یہ دو آنکھیں تو کیا ہوں چار پر چندا کو خواہش ہے<br>جناب مرتضیٰ میں ہو چلے سر تا قدم نرگس"
   },
   {
     "id": 58.1,
     "BL": "<span class=\"diff diff-anchor\">کسو</span> کو <span class=\"diff diff-anchor\">رتبے پر</span> جم <span class=\"diff diff-anchor\">کے کسو</span> کو جام کی خواہش<br>مجھے <span class=\"diff diff-anchor\">بہ آستاں بوسی ہے</span> صبح و شام کی خواہش",
     "TO": "<span class=\"diff diff-anchor\">کسو</span> کو <span class=\"diff diff-anchor\">رتبے پر</span> جم <span class=\"diff diff-anchor\">کے کسو</span> کو جام کی خواہش<br>مجھے <span class=\"diff diff-anchor\">بہ آستاں بوسی ہے</span> صبح و شام کی خواہش",
-    "SJ": "<span class=\"diff diff-anchor\">کسو</span> کو <span class=\"diff diff-var1\">رتبۂ</span> جم <span class=\"diff diff-var2\">ہے</span> <span class=\"diff diff-anchor\">کسو</span> کو جام کی خواہش<br>مجھے <span class=\"diff diff-var3\">یہ آشنایوں سے</span> <span class=\"diff diff-anchor\">ہے</span> صبح و شام کی خواہش",
-    "GM": "<span class=\"diff diff-gm\">کسی</span> کو <span class=\"diff diff-gm\">رتبۂ</span> جم <span class=\"diff diff-gm\">کی کسی</span> کو جام کی خواہش<br>مجھے <span class=\"diff diff-gm\">ہے</span> <span class=\"diff diff-anchor\">آستاں بوسی</span> <span class=\"diff diff-gm\">سے</span> صبح و شام کی خواہش"
+    "SJ": "<span class=\"diff diff-anchor\">کسو</span> کو <span class=\"diff diff-var1\">رتبۂ</span> جم <span class=\"diff diff-var1\">ہے کسو</span> کو جام کی خواہش<br>مجھے <span class=\"diff diff-var1\">یہ آشنایوں سے ہے</span> صبح و شام کی خواہش",
+    "GM": "<span class=\"diff diff-gm\">کسی</span> کو <span class=\"diff diff-gm\">رتبۂ</span> جم <span class=\"diff diff-gm\">کی کسی</span> کو جام کی خواہش<br>مجھے <span class=\"diff diff-gm\">ہے آستاں بوسی سے</span> صبح و شام کی خواہش"
   },
   {
     "id": 58.2,
@@ -2017,10 +2017,10 @@ const deewanData = [
   },
   {
     "id": 58.4,
-    "BL": "سوائے بندگی <span class=\"diff diff-anchor\">واللہ کب</span> کچھ مطلب دل ہے<br>غرض اکرام سے مجھ کو نہ ہے انعام کی خواہش",
-    "TO": "سوائے بندگی <span class=\"diff diff-anchor\">واللہ کب</span> کچھ مطلب دل ہے<br>غرض اکرام سے مجھ کو نہ ہے انعام کی خواہش",
-    "SJ": "سوائے بندگی <span class=\"diff diff-var1\">و ہو</span> کچھ مطلب دل ہے<br>غرض اکرام سے مجھ کو نہ ہے انعام کی خواہش",
-    "GM": "سوائے بندگی <span class=\"diff diff-gm\">رب نہیں</span> کچھ مطلب دل ہے<br>غرض اکرام سے مجھ کو نہ ہے انعام کی خواہش"
+    "BL": "سوائے بندگی <span class=\"diff diff-anchor\">واللہ کب کچھ</span> مطلب دل ہے<br>غرض اکرام سے مجھ کو نہ ہے انعام کی خواہش",
+    "TO": "سوائے بندگی <span class=\"diff diff-anchor\">واللہ کب کچھ</span> مطلب دل ہے<br>غرض اکرام سے مجھ کو نہ ہے انعام کی خواہش",
+    "SJ": "سوائے بندگی <span class=\"diff diff-var1\">و ہو کچھ کب</span> مطلب دل ہے<br>غرض اکرام سے مجھ کو نہ ہے انعام کی خواہش",
+    "GM": "سوائے بندگی <span class=\"diff diff-gm\">رب نہیں کچھ</span> مطلب دل ہے<br>غرض اکرام سے مجھ کو نہ ہے انعام کی خواہش"
   },
   {
     "id": 58.5,
@@ -2039,8 +2039,8 @@ const deewanData = [
   {
     "id": 59.2,
     "BL": "<span class=\"diff diff-anchor\">تکڑے</span> دل و جگر <span class=\"diff diff-anchor\">کے</span> کیا جس نے بار ہا<br>ہے مجھ کو اب <span class=\"diff diff-anchor\">تلک</span> اسی خونخوار کی تلاش",
-    "TO": "<span class=\"diff diff-anchor\">تکڑے</span> دل و جگر <span class=\"diff diff-anchor\">کے</span> کیا جس نے بار ہا<br>ہے مجھ کو اب <span class=\"diff diff-var1\">تک</span> اسی خونخوار کی تلاش",
-    "SJ": "<span class=\"diff diff-anchor\">تکڑے</span> دل و جگر <span class=\"diff diff-var2\">کو</span> کیا جس نے بار ہا<br>ہے مجھ کو اب <span class=\"diff diff-anchor\">تلک</span> اسی خونخوار کی تلاش",
+    "TO": "<span class=\"diff diff-anchor\">تکڑے</span> دل و جگر <span class=\"diff diff-anchor\">کے</span> کیا جس نے بار ہا<br>ہے مجھ کو اب <span class=\"diff diff-var2\">تک</span> اسی خونخوار کی تلاش",
+    "SJ": "<span class=\"diff diff-anchor\">تکڑے</span> دل و جگر <span class=\"diff diff-var1\">کو</span> کیا جس نے بار ہا<br>ہے مجھ کو اب <span class=\"diff diff-anchor\">تلک</span> اسی خونخوار کی تلاش",
     "GM": "<span class=\"diff diff-gm\">ٹکڑے</span> دل و جگر <span class=\"diff diff-gm\">کو</span> کیا جس نے بار ہا<br>ہے مجھ کو اب <span class=\"diff diff-anchor\">تلک</span> اسی خونخوار کی تلاش"
   },
   {
@@ -2143,10 +2143,10 @@ const deewanData = [
   },
   {
     "id": 62.2,
-    "BL": "بزم میں تیری مہیا  چاہئے جو عیش ہے<br>پر ہمیں یہاں بس ہے اپنے دیدۂ <span class=\"diff diff-anchor\">تر</span> سے غرض",
-    "TO": "بزم میں تیری مہیا  چاہئے جو عیش ہے<br>پر ہمیں یہاں بس ہے اپنے دیدۂ <span class=\"diff diff-anchor\">تر</span> سے غرض",
-    "SJ": "بزم میں تیری مہیا  چاہئے جو عیش ہے<br>پر ہمیں یہاں بس ہے اپنے دیدۂ <span class=\"diff diff-var1\">سر</span> سے غرض",
-    "GM": "بزم میں تیری مہیا  چاہئے جو عیش ہے<br>پر ہمیں یہاں بس ہے اپنے دیدۂ <span class=\"diff diff-anchor\">تر</span> سے غرض"
+    "BL": "بزم میں تیری مہیا چاہئے جو عیش ہے<br>پر ہمیں یہاں بس ہے اپنے دیدۂ <span class=\"diff diff-anchor\">تر</span> سے غرض",
+    "TO": "بزم میں تیری مہیا چاہئے جو عیش ہے<br>پر ہمیں یہاں بس ہے اپنے دیدۂ <span class=\"diff diff-anchor\">تر</span> سے غرض",
+    "SJ": "بزم میں تیری مہیا چاہئے جو عیش ہے<br>پر ہمیں یہاں بس ہے اپنے دیدۂ <span class=\"diff diff-var1\">سر</span> سے غرض",
+    "GM": "بزم میں تیری مہیا چاہئے جو عیش ہے<br>پر ہمیں یہاں بس ہے اپنے دیدۂ <span class=\"diff diff-anchor\">تر</span> سے غرض"
   },
   {
     "id": 62.3,
@@ -2158,7 +2158,7 @@ const deewanData = [
   {
     "id": 62.4,
     "BL": "دولت دنیا ملے لیکن پری رخسار کے<br><span class=\"diff diff-anchor\">میں</span> تصور <span class=\"diff diff-anchor\">میں</span> عرق کے گنج گوہر سے غرض",
-    "TO": "دولت دنیا ملے لیکن پری رخسار کے<br><span class=\"diff diff-anchor\">میں</span> تصور <span class=\"diff diff-var1\">کے</span> عرق کے گنج گوہر سے غرض",
+    "TO": "دولت دنیا ملے لیکن پری رخسار کے<br><span class=\"diff diff-anchor\">میں</span> تصور <span class=\"diff diff-var2\">کے</span> عرق کے گنج گوہر سے غرض",
     "SJ": "دولت دنیا ملے لیکن پری رخسار کے<br><span class=\"diff diff-anchor\">میں</span> تصور <span class=\"diff diff-var1\">کے</span> عرق کے گنج گوہر سے غرض",
     "GM": "دولت <span class=\"diff diff-gm\">و</span> دنیا ملے لیکن پری رخسار کے<br><span class=\"diff diff-gm\">ہے</span> تصور <span class=\"diff diff-anchor\">میں</span> عرق کے گنج گوہر سے غرض"
   },
@@ -2173,7 +2173,7 @@ const deewanData = [
     "id": 63.1,
     "BL": "رکھتے ہیں مرے اشک سے یہ دیدۂ تر فیض<br>دامن میں لیا <span class=\"diff diff-anchor\">بحر</span> نے <span class=\"diff diff-anchor\">جس سیتی بہر</span> فیض",
     "TO": "رکھتے ہیں مرے اشک سے یہ دیدۂ تر فیض<br>دامن میں لیا <span class=\"diff diff-anchor\">بحر</span> نے <span class=\"diff diff-anchor\">جس سیتی بہر</span> فیض",
-    "SJ": "رکھتے ہیں مرے اشک سے یہ دیدۂ تر فیض<br>دامن میں لیا <span class=\"diff diff-anchor\">بحر</span> نے <span class=\"diff diff-var1\">بھی</span> <span class=\"diff diff-anchor\">جس</span> <span class=\"diff diff-var2\">سے</span> <span class=\"diff diff-anchor\">بہر</span> فیض",
+    "SJ": "رکھتے ہیں مرے اشک سے یہ دیدۂ تر فیض<br>دامن میں لیا <span class=\"diff diff-anchor\">بحر</span> نے <span class=\"diff diff-var1\">بھی جس سے بہر</span> فیض",
     "GM": "رکھتے ہیں مرے اشک سے یہ دیدۂ تر فیض<br>دامن میں لیا <span class=\"diff diff-gm\">اپنے ہے دریا</span> نے <span class=\"diff diff-gm\">گہر</span> فیض"
   },
   {
@@ -2181,14 +2181,14 @@ const deewanData = [
     "BL": "<span class=\"diff diff-anchor\">منظور رکھے</span> مجھ کو <span class=\"diff diff-anchor\">عجب نئیں ہے</span> کرم سے<br>رکھتی ہے دو عالم پہ تری ایک نظر فیض",
     "TO": "<span class=\"diff diff-anchor\">منظور رکھے</span> مجھ کو <span class=\"diff diff-anchor\">عجب نئیں ہے</span> کرم سے<br>رکھتی ہے دو عالم پہ تری ایک نظر فیض",
     "SJ": "<span class=\"diff diff-anchor\">منظور رکھے</span> مجھ کو <span class=\"diff diff-anchor\">عجب نئیں ہے</span> کرم سے<br>رکھتی ہے دو عالم پہ تری ایک نظر فیض",
-    "GM": "<span class=\"diff diff-gm\">پر نور عجب کیا ہے کرے</span> مجھ کو  کرم سے<br>رکھتی ہے دو عالم پہ تری ایک نظر فیض"
+    "GM": "<span class=\"diff diff-gm\">پر نور عجب کیا ہے کرے</span> مجھ کو کرم سے<br>رکھتی ہے دو عالم پہ تری ایک نظر فیض"
   },
   {
     "id": 63.3,
-    "BL": "بخشے ہے <span class=\"diff diff-anchor\">بہ یک جام </span> یہاں رتبۂ جم کو<br>کس کی نگہ مست سے رکھتی ہے خمر فیض",
-    "TO": "بخشے ہے <span class=\"diff diff-anchor\">بہ یک جام </span> یہاں رتبۂ جم کو<br>کس کی نگہ مست سے رکھتی ہے خمر فیض",
-    "SJ": "بخشے ہے <span class=\"diff diff-anchor\">بہ یک جام </span> یہاں رتبۂ جم کو<br>کس کی نگہ مست سے رکھتی ہے خمر فیض",
-    "GM": "<span class=\"diff diff-gm\">اک جام پہ</span> بخشے ہے  یہاں رتبۂ جم کو<br>کس کی نگہ مست سے رکھتی ہے خمر فیض"
+    "BL": "بخشے ہے <span class=\"diff diff-anchor\">بہ یک جام</span> یہاں رتبۂ جم کو<br>کس کی نگہ مست سے رکھتی ہے خمر فیض",
+    "TO": "بخشے ہے <span class=\"diff diff-anchor\">بہ یک جام</span> یہاں رتبۂ جم کو<br>کس کی نگہ مست سے رکھتی ہے خمر فیض",
+    "SJ": "بخشے ہے <span class=\"diff diff-anchor\">بہ یک جام</span> یہاں رتبۂ جم کو<br>کس کی نگہ مست سے رکھتی ہے خمر فیض",
+    "GM": "<span class=\"diff diff-gm\">اک جام پہ</span> بخشے ہے یہاں رتبۂ جم کو<br>کس کی نگہ مست سے رکھتی ہے خمر فیض"
   },
   {
     "id": 63.4,
@@ -2209,7 +2209,7 @@ const deewanData = [
     "BL": "<span class=\"diff diff-anchor\">کچھ ہوا</span> جب سے <span class=\"diff diff-anchor\">مرے</span> دل کو <span class=\"diff diff-anchor\">وہ بیداد</span> سے ربط<br>تب سے رہوے ہے سدا نالہ و فریاد سے ربط",
     "TO": "<span class=\"diff diff-anchor\">کچھ ہوا</span> جب سے <span class=\"diff diff-anchor\">مرے</span> دل کو <span class=\"diff diff-anchor\">وہ بیداد</span> سے ربط<br>تب سے رہوے ہے سدا نالہ و فریاد سے ربط",
     "SJ": "<span class=\"diff diff-anchor\">کچھ ہوا</span> جب سے <span class=\"diff diff-anchor\">مرے</span> دل کو <span class=\"diff diff-anchor\">وہ بیداد</span> سے ربط<br>تب سے رہوے ہے سدا نالہ و فریاد سے ربط",
-    "GM": " جب سے <span class=\"diff diff-gm\">ہے</span> دل کو <span class=\"diff diff-gm\">مرے اس ستم ایجاد</span> سے ربط<br>تب سے رہوے ہے سدا نالہ و فریاد سے ربط"
+    "GM": "جب سے <span class=\"diff diff-gm\">ہے</span> دل کو <span class=\"diff diff-gm\">مرے اس ستم ایجاد</span> سے ربط<br>تب سے رہوے ہے سدا نالہ و فریاد سے ربط"
   },
   {
     "id": 64.2,
@@ -2230,7 +2230,7 @@ const deewanData = [
     "BL": "حال <span class=\"diff diff-anchor\">سر کرنے کو چاہا</span> تھا <span class=\"diff diff-anchor\">میں</span> اس کے آگے<br><span class=\"diff diff-anchor\">لیک فرصت نہ دیا دم</span> جو ہو جلاد سے ربط",
     "TO": "حال <span class=\"diff diff-anchor\">سر کرنے کو چاہا</span> تھا <span class=\"diff diff-anchor\">میں</span> اس کے آگے<br><span class=\"diff diff-anchor\">لیک فرصت نہ دیا دم</span> جو ہو جلاد سے ربط",
     "SJ": "حال <span class=\"diff diff-anchor\">سر کرنے کو چاہا</span> تھا <span class=\"diff diff-anchor\">میں</span> اس کے آگے<br><span class=\"diff diff-anchor\">لیک فرصت نہ دیا دم</span> جو ہو جلاد سے ربط",
-    "GM": "حال <span class=\"diff diff-gm\">دل عرض کروں دل میں</span> تھا  اس کے آگے<br><span class=\"diff diff-gm\">مرگ نے دی نہیں مہلت</span> جو ہو جلاد سے ربط"
+    "GM": "حال <span class=\"diff diff-gm\">دل عرض کروں دل میں</span> تھا اس کے آگے<br><span class=\"diff diff-gm\">مرگ نے دی نہیں مہلت</span> جو ہو جلاد سے ربط"
   },
   {
     "id": 64.5,
@@ -2284,7 +2284,7 @@ const deewanData = [
   {
     "id": 66.2,
     "BL": "جو اختلاط تو غیروں سے <span class=\"diff diff-anchor\">جان</span> کرتا ہے<br>مگر ہے صبح و مسا مجھ پہ کچھ <span class=\"diff diff-anchor\">جفا</span> ملحوظ",
-    "TO": "جو اختلاط تو غیروں سے <span class=\"diff diff-anchor\">جان</span> کرتا ہے<br>مگر ہے صبح و مسا مجھ پہ کچھ <span class=\"diff diff-var1\">خفا</span> ملحوظ",
+    "TO": "جو اختلاط تو غیروں سے <span class=\"diff diff-anchor\">جان</span> کرتا ہے<br>مگر ہے صبح و مسا مجھ پہ کچھ <span class=\"diff diff-var2\">خفا</span> ملحوظ",
     "SJ": "جو اختلاط تو غیروں سے <span class=\"diff diff-anchor\">جان</span> کرتا ہے<br>مگر ہے صبح و مسا مجھ پہ کچھ <span class=\"diff diff-anchor\">جفا</span> ملحوظ",
     "GM": "جو اختلاط تو غیروں سے <span class=\"diff diff-gm\">روز</span> کرتا ہے<br>مگر ہے صبح و مسا مجھ پہ کچھ <span class=\"diff diff-anchor\">جفا</span> ملحوظ"
   },
@@ -2292,8 +2292,8 @@ const deewanData = [
     "id": 66.3,
     "BL": "<span class=\"diff diff-anchor\">اگرچہ</span> جان سے <span class=\"diff diff-anchor\">ہوں اپنی سب</span> طرح حاضر<br>کروں میں کیا ترے دل میں نہیں وفا ملحوظ",
     "TO": "<span class=\"diff diff-anchor\">اگرچہ</span> جان سے <span class=\"diff diff-anchor\">ہوں اپنی سب</span> طرح حاضر<br>کروں میں کیا ترے دل میں نہیں وفا ملحوظ",
-    "SJ": "<span class=\"diff diff-var1\">اگر ہوں</span> جان سے  <span class=\"diff diff-anchor\">اپنی</span> <span class=\"diff diff-var2\">سبھی</span> طرح حاضر<br>کروں میں کیا ترے دل میں نہیں وفا ملحوظ",
-    "GM": "<span class=\"diff diff-anchor\">اگرچہ</span> جان سے <span class=\"diff diff-gm\">اپنی</span> <span class=\"diff diff-anchor\">ہوں</span>  <span class=\"diff diff-anchor\">سب</span> طرح حاضر<br>کروں میں کیا ترے دل میں نہیں وفا ملحوظ"
+    "SJ": "<span class=\"diff diff-var1\">اگر ہوں</span> جان سے <span class=\"diff diff-var1\">اپنی سبھی</span> طرح حاضر<br>کروں میں کیا ترے دل میں نہیں وفا ملحوظ",
+    "GM": "<span class=\"diff diff-anchor\">اگرچہ</span> جان سے <span class=\"diff diff-gm\">اپنی ہوں سب</span> طرح حاضر<br>کروں میں کیا ترے دل میں نہیں وفا ملحوظ"
   },
   {
     "id": 66.4,
@@ -2319,7 +2319,7 @@ const deewanData = [
   {
     "id": 67.2,
     "BL": "دریغ چشم کرم سے نہ رکھ کہ اے ظالم<br>کرے ہے دل کو مرے تیری <span class=\"diff diff-anchor\">یک</span> نظر محظوظ",
-    "TO": "دریغ چشم کرم سے نہ رکھ کہ اے ظالم<br>کرے ہے دل کو مرے تیری <span class=\"diff diff-var1\">اک</span> نظر محظوظ",
+    "TO": "دریغ چشم کرم سے نہ رکھ کہ اے ظالم<br>کرے ہے دل کو مرے تیری <span class=\"diff diff-var2\">اک</span> نظر محظوظ",
     "SJ": "دریغ چشم کرم سے نہ رکھ کہ اے ظالم<br>کرے ہے دل کو مرے تیری <span class=\"diff diff-anchor\">یک</span> نظر محظوظ",
     "GM": "دریغ چشم کرم سے نہ رکھ کہ اے ظالم<br>کرے ہے دل کو مرے تیری <span class=\"diff diff-anchor\">یک</span> نظر محظوظ"
   },
@@ -2363,7 +2363,7 @@ const deewanData = [
     "BL": "چشم تر اور جاں بلب ہے <span class=\"diff diff-anchor\">آ شتابی</span> ماہ رو<br><span class=\"diff diff-anchor\">نئیں</span> سحر <span class=\"diff diff-anchor\">گو کوئی دم میں</span> جان سے جاتی ہے شمع",
     "TO": "چشم تر اور جاں بلب ہے <span class=\"diff diff-anchor\">آ شتابی</span> ماہ رو<br><span class=\"diff diff-anchor\">نئیں</span> سحر <span class=\"diff diff-anchor\">گو کوئی دم میں</span> جان سے جاتی ہے شمع",
     "SJ": "چشم تر اور جاں بلب ہے <span class=\"diff diff-anchor\">آ شتابی</span> ماہ رو<br><span class=\"diff diff-anchor\">نئیں</span> سحر <span class=\"diff diff-anchor\">گو کوئی دم میں</span> جان سے جاتی ہے شمع",
-    "GM": "چشم تر اور جاں بلب ہے  ماہ رو <span class=\"diff diff-gm\">کے عشق میں</span><br><span class=\"diff diff-gm\">دیکھئے وقت</span> سحر <span class=\"diff diff-gm\">اب</span> جان سے جاتی ہے شمع"
+    "GM": "چشم تر اور جاں بلب ہے ماہ رو <span class=\"diff diff-gm\">کے عشق میں</span><br><span class=\"diff diff-gm\">دیکھئے وقت</span> سحر <span class=\"diff diff-gm\">اب</span> جان سے جاتی ہے شمع"
   },
   {
     "id": 68.4,
@@ -2419,7 +2419,7 @@ const deewanData = [
     "BL": "کیوں <span class=\"diff diff-anchor\">تو رکھے ہے دیکھ مجھے</span> جستجوئے تیغ<br>سر ہے مرا حباب کف آب جوئے تیغ",
     "TO": "کیوں <span class=\"diff diff-anchor\">تو رکھے ہے دیکھ مجھے</span> جستجوئے تیغ<br>سر ہے مرا حباب کف آب جوئے تیغ",
     "SJ": "کیوں <span class=\"diff diff-anchor\">تو رکھے ہے دیکھ مجھے</span> جستجوئے تیغ<br>سر ہے مرا حباب کف آب جوئے تیغ",
-    "GM": "<span class=\"diff diff-gm\">کرتا ہے مجھ کو دیکھ کے</span> کیوں  جستجوئے تیغ<br>سر ہے مرا حباب کف آب جوئے تیغ"
+    "GM": "<span class=\"diff diff-gm\">کرتا ہے مجھ کو دیکھ کے</span> کیوں جستجوئے تیغ<br>سر ہے مرا حباب کف آب جوئے تیغ"
   },
   {
     "id": 70.2,
@@ -2474,7 +2474,7 @@ const deewanData = [
     "id": 71.4,
     "BL": "مجھ کو بہار باغ سے <span class=\"diff diff-anchor\">نئیں</span> کام عندلیب<br>دل ہے <span class=\"diff diff-anchor\">وہ گل بدن کی</span> ملاقات کی طرف",
     "TO": "مجھ کو بہار باغ سے <span class=\"diff diff-anchor\">نئیں</span> کام عندلیب<br>دل ہے <span class=\"diff diff-anchor\">وہ گل بدن کی</span> ملاقات کی طرف",
-    "SJ": "مجھ کو بہار باغ سے <span class=\"diff diff-anchor\">نئیں</span> کام عندلیب<br><span class=\"diff diff-var1\">اس گل بدن کے</span> دل ہے  ملاقات کی طرف",
+    "SJ": "مجھ کو بہار باغ سے <span class=\"diff diff-anchor\">نئیں</span> کام عندلیب<br><span class=\"diff diff-var1\">اس گل بدن کے</span> دل ہے ملاقات کی طرف",
     "GM": "مجھ کو بہار باغ سے <span class=\"diff diff-gm\">کیا</span> کام عندلیب<br>دل ہے <span class=\"diff diff-anchor\">وہ گل بدن کی</span> ملاقات کی طرف"
   },
   {
@@ -2510,7 +2510,7 @@ const deewanData = [
     "BL": "ہے <span class=\"diff diff-anchor\">بر آمد</span> کار <span class=\"diff diff-anchor\">سب کے اول و آخر تلک</span><br><span class=\"diff diff-anchor\">کوئی نہ دیکھا</span> جو <span class=\"diff diff-anchor\">نہ ہو</span> محتاج سرکار نجف",
     "TO": "ہے <span class=\"diff diff-anchor\">بر آمد</span> کار <span class=\"diff diff-anchor\">سب کے اول و آخر تلک</span><br><span class=\"diff diff-anchor\">کوئی نہ دیکھا</span> جو <span class=\"diff diff-anchor\">نہ ہو</span> محتاج سرکار نجف",
     "SJ": "ہے <span class=\"diff diff-anchor\">بر آمد</span> کار <span class=\"diff diff-anchor\">سب کے اول و آخر تلک</span><br><span class=\"diff diff-anchor\">کوئی نہ دیکھا</span> جو <span class=\"diff diff-anchor\">نہ ہو</span> محتاج سرکار نجف",
-    "GM": "<span class=\"diff diff-gm\">خلق کی</span> ہے  کار <span class=\"diff diff-gm\">برآری اسی کی ذات سے</span><br><span class=\"diff diff-gm\">کون ہے وہ</span> جو <span class=\"diff diff-gm\">نہیں</span> محتاج سرکار نجف"
+    "GM": "<span class=\"diff diff-gm\">خلق کی</span> ہے کار <span class=\"diff diff-gm\">برآری اسی کی ذات سے</span><br><span class=\"diff diff-gm\">کون ہے وہ</span> جو <span class=\"diff diff-gm\">نہیں</span> محتاج سرکار نجف"
   },
   {
     "id": 72.5,
@@ -2573,7 +2573,7 @@ const deewanData = [
     "BL": "آہ نے <span class=\"diff diff-anchor\">زور ہی</span> کھولی گرہ <span class=\"diff diff-anchor\">اب</span> طالع کی<br>مجھ سے دل تنگ ہو ملتا ہے جو شاہ معشوق",
     "TO": "آہ نے <span class=\"diff diff-anchor\">زور ہی</span> کھولی گرہ <span class=\"diff diff-anchor\">اب</span> طالع کی<br>مجھ سے دل تنگ ہو ملتا ہے جو شاہ معشوق",
     "SJ": "آہ نے <span class=\"diff diff-anchor\">زور ہی</span> کھولی گرہ <span class=\"diff diff-anchor\">اب</span> طالع کی<br>مجھ سے دل تنگ ہو ملتا ہے جو شاہ معشوق",
-    "GM": "آہ <span class=\"diff diff-gm\">پر زور</span> نے  کھولی <span class=\"diff diff-gm\">نہ</span> گرہ  طالع کی<br>مجھ سے دل تنگ ہو ملتا ہے جو شاہ معشوق"
+    "GM": "آہ <span class=\"diff diff-gm\">پر زور</span> نے کھولی <span class=\"diff diff-gm\">نہ</span> گرہ طالع کی<br>مجھ سے دل تنگ ہو ملتا ہے جو شاہ معشوق"
   },
   {
     "id": 74.4,
@@ -2593,7 +2593,7 @@ const deewanData = [
     "id": 75.1,
     "BL": "<span class=\"diff diff-anchor\">یہاں تک اپنے مکھڑے</span> پر ہے طفل تند خو عاشق<br>کہ ہو سکتا نہیں جز آئنے کے روبرو عاشق",
     "TO": "<span class=\"diff diff-anchor\">یہاں تک اپنے مکھڑے</span> پر ہے طفل تند خو عاشق<br>کہ ہو سکتا نہیں جز آئنے کے روبرو عاشق",
-    "SJ": "<span class=\"diff diff-anchor\">یہاں تک</span> <span class=\"diff diff-var1\">[اپنے]</span> <span class=\"diff diff-anchor\">مکھڑے</span> پر ہے طفل تند خو عاشق<br>کہ ہو سکتا نہیں جز آئنے کے روبرو عاشق",
+    "SJ": "<span class=\"diff diff-var1\">یہاں تک [اپنے] مکھڑے</span> پر ہے طفل تند خو عاشق<br>کہ ہو سکتا نہیں جز آئنے کے روبرو عاشق",
     "GM": "<span class=\"diff diff-gm\">وہ یوں دستار</span> پر <span class=\"diff diff-gm\">اپنی</span> ہے طفل تند خو عاشق<br>کہ ہو سکتا نہیں جز آئنے کے روبرو عاشق"
   },
   {
@@ -2614,29 +2614,29 @@ const deewanData = [
     "id": 75.4,
     "BL": "نہ <span class=\"diff diff-anchor\">ہو</span> کیوں بلبل <span class=\"diff diff-anchor\">و</span> رضوان جنت تیری شیدائی<br>کہ تجھ پر ہے مرے گل رو ترا ہی رنگ و بو عاشق",
     "TO": "نہ <span class=\"diff diff-anchor\">ہو</span> کیوں بلبل <span class=\"diff diff-anchor\">و</span> رضوان جنت تیری شیدائی<br>کہ تجھ پر ہے مرے گل رو ترا ہی رنگ و بو عاشق",
-    "SJ": "نہ <span class=\"diff diff-var1\">ہوں</span> کیوں بلبل  رضوان جنت تیری شیدائی<br>کہ تجھ پر ہے مرے گل رو ترا ہی رنگ و بو عاشق",
-    "GM": "نہ <span class=\"diff diff-gm\">ہوں</span> کیوں بلبل  رضوان جنت تیری شیدائی<br>کہ تجھ پر ہے مرے گل رو ترا ہی رنگ و بو عاشق"
+    "SJ": "نہ <span class=\"diff diff-var1\">ہوں</span> کیوں بلبل رضوان جنت تیری شیدائی<br>کہ تجھ پر ہے مرے گل رو ترا ہی رنگ و بو عاشق",
+    "GM": "نہ <span class=\"diff diff-gm\">ہوں</span> کیوں بلبل رضوان جنت تیری شیدائی<br>کہ تجھ پر ہے مرے گل رو ترا ہی رنگ و بو عاشق"
   },
   {
     "id": 75.5,
     "BL": "نہ ہو سو جان سے تجھ پر تصدق یا علی کیوں کر<br>بہ دل ہے نام پر چندا <span class=\"diff diff-anchor\">ترے</span> بے گفتگو عاشق",
     "TO": "نہ ہو سو جان سے تجھ پر تصدق یا علی کیوں کر<br>بہ دل ہے نام پر چندا <span class=\"diff diff-anchor\">ترے</span> بے گفتگو عاشق",
-    "SJ": "نہ ہو سو جان سے تجھ پر تصدق یا علی کیوں کر<br>بہ دل ہے نام پر <span class=\"diff diff-var1\">ترے</span> چندا  بے گفتگو عاشق",
+    "SJ": "نہ ہو سو جان سے تجھ پر تصدق یا علی کیوں کر<br>بہ دل ہے نام پر <span class=\"diff diff-var1\">ترے</span> چندا بے گفتگو عاشق",
     "GM": "نہ ہو سو جان سے تجھ پر تصدق یا علی کیوں کر<br>بہ دل ہے نام پر چندا <span class=\"diff diff-anchor\">ترے</span> بے گفتگو عاشق"
   },
   {
     "id": 76.1,
     "BL": "",
-    "TO": "تجھ بغیر آنکھوں میں میرے شب ہوا <span class=\"diff diff-anchor\">وہ</span> خواب برق<br>ڈر سے بادل نے لیا پہلو میں <span class=\"diff diff-anchor\">جس کے</span> داب برق",
-    "SJ": "تجھ بغیر آنکھوں میں میرے شب ہوا <span class=\"diff diff-anchor\">وہ</span> خواب برق<br>ڈر سے بادل نے لیا پہلو میں <span class=\"diff diff-anchor\">جس کے</span> داب برق",
-    "GM": "تجھ بغیر آنکھوں میں میرے شب ہوا <span class=\"diff diff-gm\">یوں</span> خواب برق<br>ڈر سے بادل نے لیا پہلو میں <span class=\"diff diff-gm\">اپنے</span> داب برق"
+    "TO": "تجھ <span class=\"diff diff-anchor\">بنا</span> آنکھوں میں میرے شب ہوا <span class=\"diff diff-anchor\">وہ</span> خواب برق<br>ڈر سے بادل نے لیا پہلو میں <span class=\"diff diff-anchor\">جس کے</span> داب برق",
+    "SJ": "تجھ <span class=\"diff diff-anchor\">بنا</span> آنکھوں میں میرے شب ہوا <span class=\"diff diff-anchor\">وہ</span> خواب برق<br>ڈر سے بادل نے لیا پہلو میں <span class=\"diff diff-anchor\">جس کے</span> داب برق",
+    "GM": "تجھ <span class=\"diff diff-gm\">بغیر</span> آنکھوں میں میرے شب ہوا <span class=\"diff diff-gm\">یوں</span> خواب برق<br>ڈر سے بادل نے لیا پہلو میں <span class=\"diff diff-gm\">اپنے</span> داب برق"
   },
   {
     "id": 76.2,
     "BL": "",
-    "TO": "سرسری ہرگز سمجھ مت <span class=\"diff diff-anchor\">اپنے دل سردوں کی </span> آہ<br>جس کی گرمی سے <span class=\"diff diff-anchor\">سدا</span> ڈالے ہے بر خود آب برق",
-    "SJ": "سرسری ہرگز سمجھ مت  <span class=\"diff diff-anchor\">دل سردوں کی</span> <span class=\"diff diff-var1\">اپنے</span> آہ<br>جس کی گرمی سے <span class=\"diff diff-var2\">[سدا]</span> ڈالے ہے بر خود آب برق",
-    "GM": "سرسری ہرگز سمجھ مت <span class=\"diff diff-gm\">دل جلوں کی</span> <span class=\"diff diff-anchor\">اپنے</span>  آہ<br>جس کی گرمی سے <span class=\"diff diff-anchor\">سدا</span> ڈالے ہے بر خود آب برق"
+    "TO": "سرسری ہرگز سمجھ مت <span class=\"diff diff-anchor\">اپنے دل سردوں کی</span> آہ<br>جس کی گرمی سے <span class=\"diff diff-anchor\">سدا</span> ڈالے ہے بر خود آب برق",
+    "SJ": "سرسری ہرگز سمجھ مت <span class=\"diff diff-var1\">دل سردوں کی اپنے</span> آہ<br>جس کی گرمی سے <span class=\"diff diff-var1\">[سدا]</span> ڈالے ہے بر خود آب برق",
+    "GM": "سرسری ہرگز سمجھ مت <span class=\"diff diff-gm\">دل جلوں کی اپنے</span> آہ<br>جس کی گرمی سے <span class=\"diff diff-anchor\">سدا</span> ڈالے ہے بر خود آب برق"
   },
   {
     "id": 76.3,
@@ -2661,10 +2661,10 @@ const deewanData = [
   },
   {
     "id": 77.1,
-    "BL": "<span class=\"diff diff-anchor\">آتا</span> نہیں ہے خواب میں <span class=\"diff diff-anchor\">بھی یار</span> اب تلک<br>ہیں منتظر <span class=\"diff diff-anchor\">کے</span> دیدۂ  بیدار اب تلک",
-    "TO": "<span class=\"diff diff-anchor\">آتا</span> نہیں ہے خواب میں <span class=\"diff diff-anchor\">بھی یار</span> اب تلک<br>ہیں منتظر <span class=\"diff diff-anchor\">کے</span> دیدۂ  بیدار اب تلک",
-    "SJ": "<span class=\"diff diff-anchor\">آتا</span> نہیں ہے خواب میں <span class=\"diff diff-var1\">باران</span> اب تلک<br>ہیں منتظر <span class=\"diff diff-anchor\">کے</span> دیدۂ  بیدار اب تلک",
-    "GM": "<span class=\"diff diff-gm\">آیا</span> نہیں ہے خواب میں <span class=\"diff diff-anchor\">بھی یار</span> اب تلک<br>ہیں منتظر <span class=\"diff diff-gm\">یہ</span> دیدۂ  بیدار اب تلک"
+    "BL": "<span class=\"diff diff-anchor\">آتا</span> نہیں ہے خواب میں <span class=\"diff diff-anchor\">بھی یار</span> اب تلک<br>ہیں منتظر <span class=\"diff diff-anchor\">کے</span> دیدۂ بیدار اب تلک",
+    "TO": "<span class=\"diff diff-anchor\">آتا</span> نہیں ہے خواب میں <span class=\"diff diff-anchor\">بھی یار</span> اب تلک<br>ہیں منتظر <span class=\"diff diff-anchor\">کے</span> دیدۂ بیدار اب تلک",
+    "SJ": "<span class=\"diff diff-anchor\">آتا</span> نہیں ہے خواب میں <span class=\"diff diff-var1\">باران</span> اب تلک<br>ہیں منتظر <span class=\"diff diff-anchor\">کے</span> دیدۂ بیدار اب تلک",
+    "GM": "<span class=\"diff diff-gm\">آیا</span> نہیں ہے خواب میں <span class=\"diff diff-anchor\">بھی یار</span> اب تلک<br>ہیں منتظر <span class=\"diff diff-gm\">یہ</span> دیدۂ بیدار اب تلک"
   },
   {
     "id": 77.2,
@@ -2691,7 +2691,7 @@ const deewanData = [
     "id": 77.5,
     "BL": "<span class=\"diff diff-anchor\">نئیں دور یا علی جو کہیں دیکھ اہل</span> حشر<br>چندا مئے ولا سے ہے سرشار اب تلک",
     "TO": "<span class=\"diff diff-anchor\">نئیں دور یا علی جو کہیں دیکھ اہل</span> حشر<br>چندا مئے ولا سے ہے سرشار اب تلک",
-    "SJ": "<span class=\"diff diff-var1\">میں</span> <span class=\"diff diff-anchor\">دور یا علی جو کہیں دیکھ اہل</span> حشر<br>چندا مئے ولا سے ہے سرشار اب تلک",
+    "SJ": "<span class=\"diff diff-var1\">میں دور یا علی جو کہیں دیکھ اہل</span> حشر<br>چندا مئے ولا سے ہے سرشار اب تلک",
     "GM": "<span class=\"diff diff-gm\">بولیں گے لوگ ساقی کوثر سے</span> حشر <span class=\"diff diff-gm\">میں</span><br>چندا مئے ولا سے ہے سرشار اب تلک"
   },
   {
@@ -2703,36 +2703,36 @@ const deewanData = [
   },
   {
     "id": 78.2,
-    "BL": "کب اُٹھ سکے سوائے عصا کے زمین سے<br>نرگس ہے تیرے چشم <span class=\"diff diff-anchor\">سے</span>  بیمار یہاں تلک",
-    "TO": "کب اُٹھ سکے سوائے عصا کے زمین سے<br>نرگس ہے تیرے چشم <span class=\"diff diff-anchor\">سے</span>  بیمار یہاں تلک",
-    "SJ": "کب اُٹھ سکے سوائے عصا کے زمین سے<br>نرگس ہے تیرے چشم <span class=\"diff diff-anchor\">سے</span>  بیمار یہاں تلک",
-    "GM": "کب اُٹھ سکے سوائے عصا کے زمین سے<br>نرگس ہے تیرے چشم <span class=\"diff diff-gm\">کی</span>  بیمار یہاں تلک"
+    "BL": "کب اُٹھ سکے سوائے عصا کے زمین سے<br>نرگس ہے تیرے چشم <span class=\"diff diff-anchor\">سے</span> بیمار یہاں تلک",
+    "TO": "کب اُٹھ سکے سوائے عصا کے زمین سے<br>نرگس ہے تیرے چشم <span class=\"diff diff-anchor\">سے</span> بیمار یہاں تلک",
+    "SJ": "کب اُٹھ سکے سوائے عصا کے زمین سے<br>نرگس ہے تیرے چشم <span class=\"diff diff-anchor\">سے</span> بیمار یہاں تلک",
+    "GM": "کب اُٹھ سکے سوائے عصا کے زمین سے<br>نرگس ہے تیرے چشم <span class=\"diff diff-gm\">کی</span> بیمار یہاں تلک"
   },
   {
     "id": 78.3,
-    "BL": "<span class=\"diff diff-anchor\">تکڑے</span> دل و جگر <span class=\"diff diff-anchor\">کے</span> کیا پر یہی ہے عرض<br> پھر آئے وہ <span class=\"diff diff-anchor\">کبھو</span> تو ستم گار یہاں تلک",
-    "TO": "<span class=\"diff diff-anchor\">تکڑے</span> دل و جگر <span class=\"diff diff-anchor\">کے</span> کیا پر یہی ہے عرض<br> پھر آئے وہ <span class=\"diff diff-anchor\">کبھو</span> تو ستم گار یہاں تلک",
-    "SJ": "<span class=\"diff diff-anchor\">تکڑے</span> دل و جگر <span class=\"diff diff-var1\">تو</span> کیا پر یہی ہے عرض<br> پھر آئے وہ <span class=\"diff diff-anchor\">کبھو</span> تو ستم گار یہاں تلک",
-    "GM": "<span class=\"diff diff-gm\">ٹکڑے</span> دل و جگر <span class=\"diff diff-gm\">تو</span> کیا پر یہی ہے عرض<br> پھر آئے وہ <span class=\"diff diff-gm\">کبھی</span> تو ستم گار یہاں تلک"
+    "BL": "<span class=\"diff diff-anchor\">تکڑے</span> دل و جگر <span class=\"diff diff-anchor\">کے</span> کیا پر یہی ہے عرض<br>پھر آئے وہ <span class=\"diff diff-anchor\">کبھو</span> تو ستم گار یہاں تلک",
+    "TO": "<span class=\"diff diff-anchor\">تکڑے</span> دل و جگر <span class=\"diff diff-anchor\">کے</span> کیا پر یہی ہے عرض<br>پھر آئے وہ <span class=\"diff diff-anchor\">کبھو</span> تو ستم گار یہاں تلک",
+    "SJ": "<span class=\"diff diff-anchor\">تکڑے</span> دل و جگر <span class=\"diff diff-var1\">تو</span> کیا پر یہی ہے عرض<br>پھر آئے وہ <span class=\"diff diff-anchor\">کبھو</span> تو ستم گار یہاں تلک",
+    "GM": "<span class=\"diff diff-gm\">ٹکڑے</span> دل و جگر <span class=\"diff diff-gm\">تو</span> کیا پر یہی ہے عرض<br>پھر آئے وہ <span class=\"diff diff-gm\">کبھی</span> تو ستم گار یہاں تلک"
   },
   {
     "id": 78.4,
-    "BL": "شبنم سے کچھ غرض نہیں چشم امید <span class=\"diff diff-anchor\">کی</span><br> ہے تازہ میرے اشک سے گلزار یہاں تلک",
-    "TO": "شبنم سے کچھ غرض نہیں چشم امید <span class=\"diff diff-anchor\">کی</span><br> ہے تازہ میرے اشک سے گلزار یہاں تلک",
-    "SJ": "شبنم سے کچھ غرض نہیں چشم امید <span class=\"diff diff-anchor\">کی</span><br> ہے تازہ میرے اشک سے گلزار یہاں تلک",
-    "GM": "شبنم سے کچھ غرض نہیں چشم امید <span class=\"diff diff-gm\">کو</span><br> ہے تازہ میرے اشک سے گلزار یہاں تلک"
+    "BL": "شبنم سے کچھ غرض نہیں چشم امید <span class=\"diff diff-anchor\">کی</span><br>ہے تازہ میرے اشک سے گلزار یہاں تلک",
+    "TO": "شبنم سے کچھ غرض نہیں چشم امید <span class=\"diff diff-anchor\">کی</span><br>ہے تازہ میرے اشک سے گلزار یہاں تلک",
+    "SJ": "شبنم سے کچھ غرض نہیں چشم امید <span class=\"diff diff-anchor\">کی</span><br>ہے تازہ میرے اشک سے گلزار یہاں تلک",
+    "GM": "شبنم سے کچھ غرض نہیں چشم امید <span class=\"diff diff-gm\">کو</span><br>ہے تازہ میرے اشک سے گلزار یہاں تلک"
   },
   {
     "id": 78.5,
-    "BL": "چندا دماغ جائے فلک پر سنے سے نام<br>دل ہے <span class=\"diff diff-anchor\">مرا </span> علی کا طلب گار یہاں تلک",
-    "TO": "چندا دماغ جائے فلک پر سنے سے نام<br>دل ہے <span class=\"diff diff-anchor\">مرا </span> علی کا طلب گار یہاں تلک",
-    "SJ": "چندا دماغ جائے فلک پر سنے سے نام<br>دل <span class=\"diff diff-var1\">میرا</span> ہے  علی کا طلب گار یہاں تلک",
-    "GM": "چندا دماغ جائے فلک پر سنے سے نام<br>دل <span class=\"diff diff-gm\">میرا</span> ہے  علی کا طلب گار یہاں تلک"
+    "BL": "چندا دماغ جائے فلک پر سنے سے نام<br>دل ہے <span class=\"diff diff-anchor\">مرا</span> علی کا طلب گار یہاں تلک",
+    "TO": "چندا دماغ جائے فلک پر سنے سے نام<br>دل ہے <span class=\"diff diff-anchor\">مرا</span> علی کا طلب گار یہاں تلک",
+    "SJ": "چندا دماغ جائے فلک پر سنے سے نام<br>دل <span class=\"diff diff-var1\">میرا</span> ہے علی کا طلب گار یہاں تلک",
+    "GM": "چندا دماغ جائے فلک پر سنے سے نام<br>دل <span class=\"diff diff-gm\">میرا</span> ہے علی کا طلب گار یہاں تلک"
   },
   {
     "id": 79.1,
     "BL": "ساغر سے کس کے چشم کے <span class=\"diff diff-anchor\">پی</span> کر شراب دل<br>پھرتا ہے بے خودانہ سا مست و خراب دل",
-    "TO": "ساغر سے کس کے چشم کے <span class=\"diff diff-var1\">لے</span> کر شراب دل<br>پھرتا ہے بے خودانہ سا مست و خراب دل",
+    "TO": "ساغر سے کس کے چشم کے <span class=\"diff diff-var2\">لے</span> کر شراب دل<br>پھرتا ہے بے خودانہ سا مست و خراب دل",
     "SJ": "ساغر سے کس کے چشم کے <span class=\"diff diff-anchor\">پی</span> کر شراب دل<br>پھرتا ہے بے خودانہ سا مست و خراب دل",
     "GM": "ساغر سے کس کے چشم کے <span class=\"diff diff-anchor\">پی</span> کر شراب دل<br>پھرتا ہے بے خودانہ سا مست و خراب دل"
   },
@@ -2740,7 +2740,7 @@ const deewanData = [
     "id": 79.2,
     "BL": "تیری نگاہ گرم سے <span class=\"diff diff-anchor\">باقی</span> نہیں ہے کچھ<br><span class=\"diff diff-anchor\">یہ</span> شعلہ رو <span class=\"diff diff-anchor\">جلا کہ</span> ہوا ہے کباب دل",
     "TO": "تیری نگاہ گرم سے <span class=\"diff diff-anchor\">باقی</span> نہیں ہے کچھ<br><span class=\"diff diff-anchor\">یہ</span> شعلہ رو <span class=\"diff diff-anchor\">جلا کہ</span> ہوا ہے کباب دل",
-    "SJ": "تیری نگاہ گرم سے <span class=\"diff diff-anchor\">باقی</span> نہیں ہے کچھ<br><span class=\"diff diff-anchor\">یہ</span> شعلہ رو <span class=\"diff diff-anchor\">جلا</span> <span class=\"diff diff-var1\">کی</span> ہوا ہے کباب دل",
+    "SJ": "تیری نگاہ گرم سے <span class=\"diff diff-anchor\">باقی</span> نہیں ہے کچھ<br><span class=\"diff diff-anchor\">یہ</span> شعلہ رو <span class=\"diff diff-var1\">جلا کی</span> ہوا ہے کباب دل",
     "GM": "تیری نگاہ گرم سے <span class=\"diff diff-gm\">ساقی</span> نہیں ہے کچھ<br><span class=\"diff diff-gm\">اس</span> شعلہ رو <span class=\"diff diff-gm\">سے جل کے</span> ہوا ہے کباب دل"
   },
   {
@@ -2783,7 +2783,7 @@ const deewanData = [
     "BL": "اس غنچہ لب کی یاد میں <span class=\"diff diff-anchor\">نت</span> اشک <span class=\"diff diff-anchor\">کے</span> گہر<br>شبنم کی طرح <span class=\"diff diff-anchor\">کیجئے</span> ہر دم نثار گل",
     "TO": "اس غنچہ لب کی یاد میں <span class=\"diff diff-anchor\">نت</span> اشک <span class=\"diff diff-anchor\">کے</span> گہر<br>شبنم کی طرح <span class=\"diff diff-anchor\">کیجئے</span> ہر دم نثار گل",
     "SJ": "اس غنچہ لب کی یاد میں <span class=\"diff diff-anchor\">نت</span> اشک <span class=\"diff diff-anchor\">کے</span> گہر<br>شبنم کی طرح <span class=\"diff diff-anchor\">کیجئے</span> ہر دم نثار گل",
-    "GM": "اس غنچہ لب کی یاد میں  اشک  گہر <span class=\"diff diff-gm\">مرے</span><br>شبنم کی طرح <span class=\"diff diff-gm\">ہوتے ہیں</span> ہر دم نثار گل"
+    "GM": "اس غنچہ لب کی یاد میں اشک گہر <span class=\"diff diff-gm\">مرے</span><br>شبنم کی طرح <span class=\"diff diff-gm\">ہوتے ہیں</span> ہر دم نثار گل"
   },
   {
     "id": 80.4,
@@ -2794,10 +2794,10 @@ const deewanData = [
   },
   {
     "id": 80.5,
-    "BL": "چندا نہ ہووے کیوں ترے قربان یا علی<br>تو جان عندلیب ہے  تو اعتبار گل",
-    "TO": "چندا نہ ہووے کیوں ترے قربان یا علی<br>تو جان عندلیب ہے  تو اعتبار گل",
-    "SJ": "چندا نہ ہووے کیوں ترے قربان یا علی<br>تو جان عندلیب ہے  تو اعتبار گل",
-    "GM": "چندا نہ ہووے کیوں ترے قربان یا علی<br>تو جان عندلیب ہے  تو اعتبار گل"
+    "BL": "چندا نہ ہووے کیوں ترے قربان یا علی<br>تو جان عندلیب ہے تو اعتبار گل",
+    "TO": "چندا نہ ہووے کیوں ترے قربان یا علی<br>تو جان عندلیب ہے تو اعتبار گل",
+    "SJ": "چندا نہ ہووے کیوں ترے قربان یا علی<br>تو جان عندلیب ہے تو اعتبار گل",
+    "GM": "چندا نہ ہووے کیوں ترے قربان یا علی<br>تو جان عندلیب ہے تو اعتبار گل"
   },
   {
     "id": 81.1,
@@ -2818,7 +2818,7 @@ const deewanData = [
     "BL": "<span class=\"diff diff-anchor\">ظالم</span> تری <span class=\"diff diff-anchor\">ہی</span> یک <span class=\"diff diff-anchor\">نگہ</span> گرم سے <span class=\"diff diff-anchor\">جیوں شمع</span><br>رہتے ہیں یہاں عمر سے با دیدۂ نم ہم",
     "TO": "<span class=\"diff diff-anchor\">ظالم</span> تری <span class=\"diff diff-anchor\">ہی</span> یک <span class=\"diff diff-anchor\">نگہ</span> گرم سے <span class=\"diff diff-anchor\">جیوں شمع</span><br>رہتے ہیں یہاں عمر سے با دیدۂ نم ہم",
     "SJ": "<span class=\"diff diff-anchor\">ظالم</span> تری <span class=\"diff diff-anchor\">ہی</span> یک <span class=\"diff diff-anchor\">نگہ</span> گرم سے <span class=\"diff diff-anchor\">جیوں شمع</span><br>رہتے ہیں یہاں عمر سے با دیدۂ نم ہم",
-    "GM": "<span class=\"diff diff-gm\">جوں شمع</span> تری  یک <span class=\"diff diff-gm\">نکہ</span> گرم سے <span class=\"diff diff-gm\">ظالم</span><br>رہتے ہیں یہاں عمر سے با دیدۂ نم ہم"
+    "GM": "<span class=\"diff diff-gm\">جوں شمع</span> تری یک <span class=\"diff diff-gm\">نکہ</span> گرم سے <span class=\"diff diff-gm\">ظالم</span><br>رہتے ہیں یہاں عمر سے با دیدۂ نم ہم"
   },
   {
     "id": 81.4,
@@ -2851,23 +2851,23 @@ const deewanData = [
   {
     "id": 82.3,
     "BL": "نہ ہم کو چین گلچیں سے نہ تجھ کو گل <span class=\"diff diff-anchor\">پہ</span> راحت ہے<br><span class=\"diff diff-anchor\">محبت سے ہی</span> ہم گزرے <span class=\"diff diff-anchor\">ہیں</span> تو بھی درگزر شبنم",
-    "TO": "نہ ہم کو چین گلچیں سے نہ تجھ کو گل <span class=\"diff diff-anchor\">پہ</span> راحت ہے<br><span class=\"diff diff-var1\">کہ</span> ہم گزرے <span class=\"diff diff-anchor\">ہیں</span> <span class=\"diff diff-var2\">اس الفت سے</span> تو بھی درگزر شبنم",
-    "SJ": "نہ ہم کو چین گلچیں سے نہ تجھ کو گل <span class=\"diff diff-anchor\">پہ</span> راحت ہے<br><span class=\"diff diff-anchor\">محبت سے ہی</span> ہم گزرے <span class=\"diff diff-var3\">اور</span> تو بھی درگزر شبنم",
+    "TO": "نہ ہم کو چین گلچیں سے نہ تجھ کو گل <span class=\"diff diff-anchor\">پہ</span> راحت ہے<br><span class=\"diff diff-var2\">کہ</span> ہم گزرے <span class=\"diff diff-var2\">ہیں اس الفت سے</span> تو بھی درگزر شبنم",
+    "SJ": "نہ ہم کو چین گلچیں سے نہ تجھ کو گل <span class=\"diff diff-anchor\">پہ</span> راحت ہے<br><span class=\"diff diff-anchor\">محبت سے ہی</span> ہم گزرے <span class=\"diff diff-var1\">اور</span> تو بھی درگزر شبنم",
     "GM": "نہ ہم کو چین گلچیں سے نہ تجھ کو گل <span class=\"diff diff-gm\">سے</span> راحت ہے<br><span class=\"diff diff-anchor\">محبت سے ہی</span> ہم گزرے <span class=\"diff diff-anchor\">ہیں</span> تو بھی درگزر شبنم"
   },
   {
     "id": 82.4,
     "BL": "ہماری آہ کی تاثیر <span class=\"diff diff-anchor\">یہاں تک ہوے کہ</span> گلشن سے<br>اڑے ہے <span class=\"diff diff-anchor\">رنگ</span> سے گل کے لگا کر بال و پر شبنم",
-    "TO": "ہماری آہ کی تاثیر <span class=\"diff diff-anchor\">یہاں تک ہوے کہ</span> گلشن سے<br>اڑے ہے <span class=\"diff diff-var1\">ایک</span> سے گل کے لگا کر بال و پر شبنم",
-    "SJ": "ہماری آہ کی تاثیر <span class=\"diff diff-anchor\">یہاں تک ہوے</span>  گلشن سے<br>اڑے ہے <span class=\"diff diff-anchor\">رنگ</span> سے گل کے لگا کر بال و پر شبنم",
+    "TO": "ہماری آہ کی تاثیر <span class=\"diff diff-anchor\">یہاں تک ہوے کہ</span> گلشن سے<br>اڑے ہے <span class=\"diff diff-var2\">ایک</span> سے گل کے لگا کر بال و پر شبنم",
+    "SJ": "ہماری آہ کی تاثیر <span class=\"diff diff-var1\">یہاں تک ہوے</span> گلشن سے<br>اڑے ہے <span class=\"diff diff-anchor\">رنگ</span> سے گل کے لگا کر بال و پر شبنم",
     "GM": "ہماری آہ کی تاثیر <span class=\"diff diff-gm\">پنہاں ہووے</span> گلشن سے<br>اڑے ہے <span class=\"diff diff-anchor\">رنگ</span> سے گل کے لگا کر بال و پر شبنم"
   },
   {
     "id": 82.5,
-    "BL": "تصدق جان و دل <span class=\"diff diff-anchor\">اور</span> دین سے  ایمان سے اپنے<br><span class=\"diff diff-anchor\">اے</span> چندا اپنے مولا کی تو ہو خورشید پر شبنم",
-    "TO": "تصدق جان و دل <span class=\"diff diff-anchor\">اور</span> دین سے  ایمان سے اپنے<br><span class=\"diff diff-var1\">یہ</span> چندا اپنے مولا کی تو ہو خورشید پر شبنم",
-    "SJ": "تصدق جان و دل <span class=\"diff diff-anchor\">اور</span> دین سے  ایمان سے اپنے<br><span class=\"diff diff-anchor\">اے</span> چندا اپنے مولا کی تو ہو خورشید پر شبنم",
-    "GM": "تصدق جان و دل <span class=\"diff diff-gm\">سے</span> دین سے  ایمان سے اپنے<br><span class=\"diff diff-gm\">ہے</span> چندا اپنے مولا کی تو ہو خورشید پر شبنم"
+    "BL": "تصدق جان و دل <span class=\"diff diff-anchor\">اور</span> دین سے ایمان سے اپنے<br><span class=\"diff diff-anchor\">اے</span> چندا اپنے مولا کی تو ہو خورشید پر شبنم",
+    "TO": "تصدق جان و دل <span class=\"diff diff-anchor\">اور</span> دین سے ایمان سے اپنے<br><span class=\"diff diff-var2\">یہ</span> چندا اپنے مولا کی تو ہو خورشید پر شبنم",
+    "SJ": "تصدق جان و دل <span class=\"diff diff-anchor\">اور</span> دین سے ایمان سے اپنے<br><span class=\"diff diff-anchor\">اے</span> چندا اپنے مولا کی تو ہو خورشید پر شبنم",
+    "GM": "تصدق جان و دل <span class=\"diff diff-gm\">سے</span> دین سے ایمان سے اپنے<br><span class=\"diff diff-gm\">ہے</span> چندا اپنے مولا کی تو ہو خورشید پر شبنم"
   },
   {
     "id": 83.1,
@@ -2922,29 +2922,29 @@ const deewanData = [
     "id": 84.3,
     "BL": "",
     "TO": "",
-    "SJ": "کسی <span class=\"diff diff-anchor\">نشے</span> کی نظر چڑھ گئی چتون یارو<br>لڑتے ہی آنکھ کے کچھ ہو گئے سرشار سے ہم",
-    "GM": "کسی <span class=\"diff diff-gm\">نشیلی</span> کی نظر چڑھ گئی چتون یارو<br>لڑتے ہی آنکھ کے کچھ ہو گئے سرشار سے ہم"
+    "SJ": "<span class=\"diff diff-anchor\">کسی نشے</span> کی نظر چڑھ گئی چتون یارو<br>لڑتے ہی آنکھ کے کچھ ہو گئے سرشار سے ہم",
+    "GM": "<span class=\"diff diff-gm\">کس نشیلی</span> کی نظر چڑھ گئی چتون یارو<br>لڑتے ہی آنکھ کے کچھ ہو گئے سرشار سے ہم"
   },
   {
     "id": 84.4,
     "BL": "",
     "TO": "",
     "SJ": "<span class=\"diff diff-anchor\">بس کہ</span> منظور <span class=\"diff diff-anchor\">ہے پھر عمر</span> محبت کا <span class=\"diff diff-anchor\">تباہ</span><br>نہیں انکار کبھی کرنے کے اقرار سے ہم",
-    "GM": "<span class=\"diff diff-gm\">عمر بھر ہم کو ہے</span> منظور  محبت کا <span class=\"diff diff-gm\">نباہ</span><br>نہیں انکار کبھی کرنے کے اقرار سے ہم"
+    "GM": "<span class=\"diff diff-gm\">عمر بھر ہم کو ہے</span> منظور محبت کا <span class=\"diff diff-gm\">نباہ</span><br>نہیں انکار کبھی کرنے کے اقرار سے ہم"
   },
   {
     "id": 84.5,
     "BL": "",
     "TO": "",
     "SJ": "یوں ہی <span class=\"diff diff-anchor\">پھر عمر</span> رہے حسن کا چندا جلوہ<br>آرزو رکھتے ہیں یہ حیدر کرار سے ہم",
-    "GM": "<span class=\"diff diff-gm\">عمر بھر</span> یوں ہی  رہے حسن کا چندا جلوہ<br>آرزو رکھتے ہیں یہ حیدر کرار سے ہم"
+    "GM": "<span class=\"diff diff-gm\">عمر بھر</span> یوں ہی رہے حسن کا چندا جلوہ<br>آرزو رکھتے ہیں یہ حیدر کرار سے ہم"
   },
   {
     "id": 85.1,
     "BL": "",
     "TO": "",
-    "SJ": "ظاہر میں یا کہ خواب میں صورت دکھا کہیں<br>تڑپے ہوں انتظار میں  اے شوخ آ کہیں",
-    "GM": "ظاہر میں یا کہ خواب میں صورت دکھا کہیں<br>تڑپے ہوں انتظار میں  اے شوخ آ کہیں"
+    "SJ": "ظاہر میں یا کہ خواب میں صورت دکھا کہیں<br>تڑپے ہوں انتظار میں اے شوخ آ کہیں",
+    "GM": "ظاہر میں یا کہ خواب میں صورت دکھا کہیں<br>تڑپے ہوں انتظار میں اے شوخ آ کہیں"
   },
   {
     "id": 85.2,
@@ -2964,8 +2964,8 @@ const deewanData = [
     "id": 85.4,
     "BL": "",
     "TO": "",
-    "SJ": "کی کوہ کن نے کوہ کنی  میں نے جاں کنی<br>جاں باز تو نے اور بھی مجھ سا سنا کہیں",
-    "GM": "کی کوہ کن نے کوہ کنی  میں نے جاں کنی<br>جاں باز تو نے اور بھی مجھ سا سنا کہیں"
+    "SJ": "کی کوہ کن نے کوہ کنی میں نے جاں کنی<br>جاں باز تو نے اور بھی مجھ سا سنا کہیں",
+    "GM": "کی کوہ کن نے کوہ کنی میں نے جاں کنی<br>جاں باز تو نے اور بھی مجھ سا سنا کہیں"
   },
   {
     "id": 85.5,
@@ -2985,15 +2985,15 @@ const deewanData = [
     "id": 86.2,
     "BL": "",
     "TO": "",
-    "SJ": "جو اہل دل <span class=\"diff diff-anchor\">کی</span> صاحب درد ہے  آگاہ ہے وہ ہی<br>مزہ جو کچھ کہ ہے پچھلے پہر کی اشک باری میں",
-    "GM": "جو اہل دل <span class=\"diff diff-gm\">کہ</span> صاحب درد ہے  آگاہ ہے وہ ہی<br>مزہ جو کچھ کہ ہے پچھلے پہر کی اشک باری میں"
+    "SJ": "جو اہل دل <span class=\"diff diff-anchor\">کی</span> صاحب درد ہے آگاہ ہے وہ ہی<br>مزہ جو کچھ کہ ہے پچھلے پہر کی اشک باری میں",
+    "GM": "جو اہل دل <span class=\"diff diff-gm\">کہ</span> صاحب درد ہے آگاہ ہے وہ ہی<br>مزہ جو کچھ کہ ہے پچھلے پہر کی اشک باری میں"
   },
   {
     "id": 86.3,
     "BL": "",
     "TO": "",
     "SJ": "نہ <span class=\"diff diff-anchor\">او</span> ہوش و حواس اب ہے <span class=\"diff diff-anchor\">پہ وہ ہی واشد خاطر</span><br>عجب حالت ہماری ہے <span class=\"diff diff-anchor\">ہوئی فرقت</span> تمہاری میں",
-    "GM": "نہ <span class=\"diff diff-gm\">وہ</span> ہوش و حواس اب <span class=\"diff diff-gm\">ہیں نہ وہ اب تاب و طاقت</span> ہے <br>عجب حالت ہماری ہے  تمہاری <span class=\"diff diff-gm\">انتظاری</span> میں"
+    "GM": "نہ <span class=\"diff diff-gm\">وہ</span> ہوش و حواس اب <span class=\"diff diff-gm\">ہیں نہ وہ اب تاب و طاقت</span> ہے<br>عجب حالت ہماری ہے تمہاری <span class=\"diff diff-gm\">انتظاری</span> میں"
   },
   {
     "id": 86.4,
@@ -3011,17 +3011,17 @@ const deewanData = [
   },
   {
     "id": 87.1,
-    "BL": "حاکم کے کہنے کا <span class=\"diff diff-anchor\">بھی تجھے نئیں</span> اثر کہیں<br>محکوم ایسا دیکھا <span class=\"diff diff-anchor\">نہ</span> کوئی <span class=\"diff diff-anchor\">خبر</span> کہیں",
-    "TO": "حاکم کے کہنے کا <span class=\"diff diff-anchor\">بھی تجھے نئیں</span> اثر کہیں<br>محکوم ایسا دیکھا <span class=\"diff diff-anchor\">نہ</span> کوئی <span class=\"diff diff-var1\">[خبر]</span> کہیں",
-    "SJ": "حاکم کے کہنے کا <span class=\"diff diff-anchor\">بھی تجھے</span> <span class=\"diff diff-var2\">میں</span> اثر کہیں<br>محکوم ایسا دیکھا <span class=\"diff diff-anchor\">نہ</span> کوئی <span class=\"diff diff-var3\">بے</span> <span class=\"diff diff-anchor\">خبر</span> کہیں",
-    "GM": "حاکم کے کہنے کا <span class=\"diff diff-gm\">نہیں تجھ کو</span> اثر کہیں<br>محکوم ایسا دیکھا  کوئی <span class=\"diff diff-gm\">بے</span> <span class=\"diff diff-anchor\">خبر</span> کہیں"
+    "BL": "حاکم کے کہنے کا <span class=\"diff diff-anchor\">بھی تجھے نئیں</span> اثر کہیں<br>محکوم ایسا دیکھا <span class=\"diff diff-anchor\">نہ</span> کوئی <span class=\"diff diff-anchor\">[بے] خبر</span> کہیں",
+    "TO": "حاکم کے کہنے کا <span class=\"diff diff-anchor\">بھی تجھے نئیں</span> اثر کہیں<br>محکوم ایسا دیکھا <span class=\"diff diff-anchor\">نہ</span> کوئی <span class=\"diff diff-var2\">[بے خبر]</span> کہیں",
+    "SJ": "حاکم کے کہنے کا <span class=\"diff diff-var1\">بھی تجھے میں</span> اثر کہیں<br>محکوم ایسا دیکھا <span class=\"diff diff-anchor\">نہ</span> کوئی <span class=\"diff diff-var1\">بے خبر</span> کہیں",
+    "GM": "حاکم کے کہنے کا <span class=\"diff diff-gm\">نہیں تجھ کو</span> اثر کہیں<br>محکوم ایسا دیکھا کوئی <span class=\"diff diff-gm\">بے خبر</span> کہیں"
   },
   {
     "id": 87.2,
     "BL": "اس وضع <span class=\"diff diff-anchor\">بد پہ مجھ کو نہیں</span> تیرا اعتبار<br><span class=\"diff diff-anchor\">کرتا</span> ہے <span class=\"diff diff-anchor\">صبح و</span> شام کو <span class=\"diff diff-anchor\">ہر جا گزر</span> کہیں",
     "TO": "اس وضع <span class=\"diff diff-anchor\">بد پہ مجھ کو نہیں</span> تیرا اعتبار<br><span class=\"diff diff-anchor\">کرتا</span> ہے <span class=\"diff diff-anchor\">صبح و</span> شام کو <span class=\"diff diff-anchor\">ہر جا گزر</span> کہیں",
-    "SJ": "اس وضع <span class=\"diff diff-var1\">پر یہ</span> <span class=\"diff diff-anchor\">مجھ کو نہیں</span> تیرا اعتبار<br><span class=\"diff diff-anchor\">کرتا</span> ہے <span class=\"diff diff-anchor\">صبح و</span> شام کو <span class=\"diff diff-anchor\">ہر جا گزر</span> کہیں",
-    "GM": "اس وضع <span class=\"diff diff-gm\">پر ہو کیا مجھے پھر</span> تیرا اعتبار<br><span class=\"diff diff-gm\">رہتا</span> ہے  شام کو <span class=\"diff diff-gm\">تو</span> کہیں <span class=\"diff diff-gm\">اور سحر کہیں</span>"
+    "SJ": "اس وضع <span class=\"diff diff-var1\">پر یہ مجھ کو نہیں</span> تیرا اعتبار<br><span class=\"diff diff-anchor\">کرتا</span> ہے <span class=\"diff diff-anchor\">صبح و</span> شام کو <span class=\"diff diff-anchor\">ہر جا گزر</span> کہیں",
+    "GM": "اس وضع <span class=\"diff diff-gm\">پر ہو کیا مجھے پھر</span> تیرا اعتبار<br><span class=\"diff diff-gm\">رہتا</span> ہے شام کو <span class=\"diff diff-gm\">تو</span> کہیں <span class=\"diff diff-gm\">اور سحر کہیں</span>"
   },
   {
     "id": 87.3,
@@ -3075,16 +3075,16 @@ const deewanData = [
   {
     "id": 88.5,
     "BL": "چندا سمجھ کے کعبۂ دل یا علی ولی<br>اس کو سوائے <span class=\"diff diff-anchor\">طوف</span> نجف مدعا نہیں",
-    "TO": "چندا سمجھ کے کعبۂ دل یا علی ولی<br>اس کو سوائے <span class=\"diff diff-var1\">طرف</span> نجف مدعا نہیں",
+    "TO": "چندا سمجھ کے کعبۂ دل یا علی ولی<br>اس کو سوائے <span class=\"diff diff-var2\">طرف</span> نجف مدعا نہیں",
     "SJ": "چندا سمجھ کے کعبۂ دل یا علی ولی<br>اس کو سوائے <span class=\"diff diff-anchor\">طوف</span> نجف مدعا نہیں",
     "GM": "چندا سمجھ کے کعبۂ دل یا علی ولی<br>اس کو سوائے <span class=\"diff diff-anchor\">طوف</span> نجف مدعا نہیں"
   },
   {
     "id": 89.1,
-    "BL": "حلوه گر ان دنوں کچھ اشک <span class=\"diff diff-anchor\">ہے</span> کم آنکھوں میں<br>اس لئے خون رہا آن کے جم آنکھوں میں",
-    "TO": "حلوه گر ان دنوں کچھ اشک <span class=\"diff diff-anchor\">ہے</span> کم آنکھوں میں<br>اس لئے خون رہا آن کے جم آنکھوں میں",
-    "SJ": "حلوه گر ان دنوں کچھ اشک <span class=\"diff diff-anchor\">ہے</span> کم آنکھوں میں<br>اس لئے خون رہا آن کے جم آنکھوں میں",
-    "GM": "حلوه گر ان دنوں کچھ اشک <span class=\"diff diff-gm\">ہیں</span> کم آنکھوں میں<br>اس لئے خون رہا آن کے جم آنکھوں میں"
+    "BL": "جلوہ گر ان دنوں کچھ اشک <span class=\"diff diff-anchor\">ہے</span> کم آنکھوں میں<br>اس لئے خون رہا آن کے جم آنکھوں میں",
+    "TO": "جلوہ گر ان دنوں کچھ اشک <span class=\"diff diff-anchor\">ہے</span> کم آنکھوں میں<br>اس لئے خون رہا آن کے جم آنکھوں میں",
+    "SJ": "جلوہ گر ان دنوں کچھ اشک <span class=\"diff diff-anchor\">ہے</span> کم آنکھوں میں<br>اس لئے خون رہا آن کے جم آنکھوں میں",
+    "GM": "جلوہ گر ان دنوں کچھ اشک <span class=\"diff diff-gm\">ہیں</span> کم آنکھوں میں<br>اس لئے خون رہا آن کے جم آنکھوں میں"
   },
   {
     "id": 89.2,
@@ -3104,15 +3104,15 @@ const deewanData = [
     "id": 89.4,
     "BL": "نظریں <span class=\"diff diff-anchor\">وہ بدلے ہے</span> بے طرح گراں خاطر ہو<br>یوں فلک کب تھے سبک یار کی ہم آنکھوں میں",
     "TO": "نظریں <span class=\"diff diff-anchor\">وہ بدلے ہے</span> بے طرح گراں خاطر ہو<br>یوں فلک کب تھے سبک یار کی ہم آنکھوں میں",
-    "SJ": "نظریں <span class=\"diff diff-var1\">بدلیں</span> <span class=\"diff diff-anchor\">ہے</span> <span class=\"diff diff-var2\">[وہ]</span> بے طرح گراں خاطر ہو<br>یوں فلک کب تھے سبک یار کی ہم آنکھوں میں",
+    "SJ": "نظریں <span class=\"diff diff-var1\">بدلیں ہے [وہ]</span> بے طرح گراں خاطر ہو<br>یوں فلک کب تھے سبک یار کی ہم آنکھوں میں",
     "GM": "نظریں <span class=\"diff diff-gm\">بدلی ہیں</span> بے طرح گراں خاطر ہو<br>یوں فلک کب تھے سبک یار کی ہم آنکھوں میں"
   },
   {
     "id": 89.5,
-    "BL": "باغباں سے نہیں منت <span class=\"diff diff-anchor\">بہ</span> نیاز مولا <br>دل کے واشد سے ہے چندا کے ارم آنکھوں میں",
-    "TO": "باغباں سے نہیں منت <span class=\"diff diff-anchor\">بہ</span> نیاز مولا <br>دل کے واشد سے ہے چندا کے ارم آنکھوں میں",
-    "SJ": "باغباں سے نہیں منت <span class=\"diff diff-anchor\">بہ</span> نیاز مولا <br>دل کے واشد سے ہے چندا کے ارم آنکھوں میں",
-    "GM": "باغباں سے نہیں منت <span class=\"diff diff-gm\">پہ</span> نیاز مولا <br>دل کے واشد سے ہے چندا کے ارم آنکھوں میں"
+    "BL": "باغباں سے نہیں منت <span class=\"diff diff-anchor\">بہ</span> نیاز مولا<br>دل کے واشد سے ہے چندا کے ارم آنکھوں میں",
+    "TO": "باغباں سے نہیں منت <span class=\"diff diff-anchor\">بہ</span> نیاز مولا<br>دل کے واشد سے ہے چندا کے ارم آنکھوں میں",
+    "SJ": "باغباں سے نہیں منت <span class=\"diff diff-anchor\">بہ</span> نیاز مولا<br>دل کے واشد سے ہے چندا کے ارم آنکھوں میں",
+    "GM": "باغباں سے نہیں منت <span class=\"diff diff-gm\">پہ</span> نیاز مولا<br>دل کے واشد سے ہے چندا کے ارم آنکھوں میں"
   },
   {
     "id": 90.1,
@@ -3132,7 +3132,7 @@ const deewanData = [
     "id": 90.3,
     "BL": "نہیں <span class=\"diff diff-anchor\">اس کی بد وضعی کچھ آج کل سے</span><br><span class=\"diff diff-anchor\">یوں ہی ہم تو سارا جنم</span> دیکھتے ہیں",
     "TO": "نہیں <span class=\"diff diff-anchor\">اس کی بد وضعی کچھ آج کل سے</span><br><span class=\"diff diff-anchor\">یوں ہی ہم تو سارا جنم</span> دیکھتے ہیں",
-    "SJ": "نہیں <span class=\"diff diff-anchor\">اس کی</span> <span class=\"diff diff-var1\">کچھ</span> <span class=\"diff diff-anchor\">بد وضعی</span>  <span class=\"diff diff-anchor\">آج کل سے</span><br><span class=\"diff diff-anchor\">یوں ہی ہم تو سارا جنم</span> دیکھتے ہیں",
+    "SJ": "نہیں <span class=\"diff diff-var1\">اس کی کچھ بد وضعی آج کل سے</span><br><span class=\"diff diff-anchor\">یوں ہی ہم تو سارا جنم</span> دیکھتے ہیں",
     "GM": "نہیں <span class=\"diff diff-gm\">تیری آتی ہے اک بات ان میں</span><br><span class=\"diff diff-gm\">حسینوں کو تیری قسم</span> دیکھتے ہیں"
   },
   {
@@ -3151,10 +3151,10 @@ const deewanData = [
   },
   {
     "id": 91.1,
-    "BL": "کٹی ہے ہجر کی شب  اب ہے وصل یار کا دن<br>خدا نے ہم کو دکھایا پھر <span class=\"diff diff-anchor\">اس</span> بہار کا دن",
-    "TO": "کٹی ہے ہجر کی شب  اب ہے وصل یار کا دن<br>خدا نے ہم کو دکھایا پھر <span class=\"diff diff-anchor\">اس</span> بہار کا دن",
-    "SJ": "کٹی ہے ہجر کی شب  اب ہے وصل یار کا دن<br>خدا نے ہم کو دکھایا پھر <span class=\"diff diff-anchor\">اس</span> بہار کا دن",
-    "GM": "کٹی ہے ہجر کی شب  اب ہے وصل یار کا دن<br>خدا نے ہم کو دکھایا <span class=\"diff diff-gm\">ہے</span> پھر  بہار کا دن"
+    "BL": "کٹی ہے ہجر کی شب اب ہے وصل یار کا دن<br>خدا نے ہم کو دکھایا پھر <span class=\"diff diff-anchor\">اس</span> بہار کا دن",
+    "TO": "کٹی ہے ہجر کی شب اب ہے وصل یار کا دن<br>خدا نے ہم کو دکھایا پھر <span class=\"diff diff-anchor\">اس</span> بہار کا دن",
+    "SJ": "کٹی ہے ہجر کی شب اب ہے وصل یار کا دن<br>خدا نے ہم کو دکھایا پھر <span class=\"diff diff-anchor\">اس</span> بہار کا دن",
+    "GM": "کٹی ہے ہجر کی شب اب ہے وصل یار کا دن<br>خدا نے ہم کو دکھایا <span class=\"diff diff-gm\">ہے</span> پھر بہار کا دن"
   },
   {
     "id": 91.2,
@@ -3181,8 +3181,8 @@ const deewanData = [
     "id": 91.5,
     "BL": "<span class=\"diff diff-anchor\">کھٹے</span> ہے جو <span class=\"diff diff-anchor\">دم</span> چندا <span class=\"diff diff-anchor\">کی</span> یاد مولا میں<br><span class=\"diff diff-anchor\">گنے</span> ہے عمر میں اپنے <span class=\"diff diff-anchor\">وہ ہی</span> شمار کا دن",
     "TO": "<span class=\"diff diff-anchor\">کھٹے</span> ہے جو <span class=\"diff diff-anchor\">دم</span> چندا <span class=\"diff diff-anchor\">کی</span> یاد مولا میں<br><span class=\"diff diff-anchor\">گنے</span> ہے عمر میں اپنے <span class=\"diff diff-anchor\">وہ ہی</span> شمار کا دن",
-    "SJ": "<span class=\"diff diff-var1\">کتے</span> ہے جو <span class=\"diff diff-anchor\">دم</span> چندا <span class=\"diff diff-anchor\">کی</span> یاد مولا میں<br><span class=\"diff diff-var2\">کٹے</span> ہے عمر میں اپنے <span class=\"diff diff-var3\">وہی</span> شمار کا دن",
-    "GM": "<span class=\"diff diff-gm\">کٹے</span> ہے <span class=\"diff diff-gm\">دم یہ</span> جو  چندا <span class=\"diff diff-gm\">کا</span> یاد مولا میں<br><span class=\"diff diff-anchor\">گنے</span> ہے عمر میں اپنے <span class=\"diff diff-anchor\">وہ ہی</span> شمار کا دن"
+    "SJ": "<span class=\"diff diff-var1\">کتے</span> ہے جو <span class=\"diff diff-anchor\">دم</span> چندا <span class=\"diff diff-anchor\">کی</span> یاد مولا میں<br><span class=\"diff diff-var1\">کٹے</span> ہے عمر میں اپنے <span class=\"diff diff-var1\">وہی</span> شمار کا دن",
+    "GM": "<span class=\"diff diff-gm\">کٹے</span> ہے <span class=\"diff diff-gm\">دم یہ</span> جو چندا <span class=\"diff diff-gm\">کا</span> یاد مولا میں<br><span class=\"diff diff-anchor\">گنے</span> ہے عمر میں اپنے <span class=\"diff diff-anchor\">وہ ہی</span> شمار کا دن"
   },
   {
     "id": 92.1,
@@ -3217,7 +3217,7 @@ const deewanData = [
     "BL": "",
     "TO": "",
     "SJ": "بیدار <span class=\"diff diff-anchor\">طالعی</span> ہے <span class=\"diff diff-anchor\">یہ</span> چندا <span class=\"diff diff-anchor\">کی</span> یا علی<br>جو <span class=\"diff diff-anchor\">گلشن نجف کے ہیں یہاں</span> رنگ خواب میں",
-    "GM": "بیدار <span class=\"diff diff-gm\">کیا نصیب</span> ہے  چندا <span class=\"diff diff-gm\">کا</span> یا علی<br><span class=\"diff diff-gm\">باغ نجف کا دیکھا ہے</span> جو  رنگ خواب میں"
+    "GM": "بیدار <span class=\"diff diff-gm\">کیا نصیب</span> ہے چندا <span class=\"diff diff-gm\">کا</span> یا علی<br><span class=\"diff diff-gm\">باغ نجف کا دیکھا ہے</span> جو رنگ خواب میں"
   },
   {
     "id": 93.1,
@@ -3231,28 +3231,28 @@ const deewanData = [
     "BL": "",
     "TO": "",
     "SJ": "<span class=\"diff diff-anchor\">نہیں</span> کوئی شان و شوکت میں ترا ہمسر <span class=\"diff diff-anchor\">لئے اس کے</span><br><span class=\"diff diff-anchor\">رہے ہے</span> دست بستہ سامنے <span class=\"diff diff-anchor\">نت</span> قیصر و خاقاں",
-    "GM": "<span class=\"diff diff-gm\">بھلا اب</span> کوئی <span class=\"diff diff-gm\">ہو کیا</span> شان و شوکت میں ترا ہمسر <br><span class=\"diff diff-gm\">کھڑے ہوں</span> دست بستہ سامنے <span class=\"diff diff-gm\">جب</span> قیصر و خاقاں"
+    "GM": "<span class=\"diff diff-gm\">بھلا اب</span> کوئی <span class=\"diff diff-gm\">ہو کیا</span> شان و شوکت میں ترا ہمسر<br><span class=\"diff diff-gm\">کھڑے ہوں</span> دست بستہ سامنے <span class=\"diff diff-gm\">جب</span> قیصر و خاقاں"
   },
   {
     "id": 93.3,
     "BL": "",
     "TO": "",
-    "SJ": "نہیں کچھ حاجت اظہار شاہا حال دل میرا<br> برنگ ذرہ کب مہر کرم سے ہے ترے پنہاں",
-    "GM": "نہیں کچھ حاجت اظہار شاہا حال دل میرا<br> برنگ ذرہ کب مہر کرم سے ہے ترے پنہاں"
+    "SJ": "نہیں کچھ حاجت اظہار شاہا حال دل میرا<br>برنگ ذرہ کب مہر کرم سے ہے ترے پنہاں",
+    "GM": "نہیں کچھ حاجت اظہار شاہا حال دل میرا<br>برنگ ذرہ کب مہر کرم سے ہے ترے پنہاں"
   },
   {
     "id": 93.4,
     "BL": "",
     "TO": "",
     "SJ": "یہی مشہور عالم <span class=\"diff diff-anchor\">میں</span> گدا سے شاہ تک باہم<br>ترے خوان کرم پر کون <span class=\"diff diff-anchor\">سا</span> ہے جو نہیں میہماں",
-    "GM": "یہی مشہور عالم <span class=\"diff diff-gm\">ہے</span> گدا سے شاہ تک باہم<br>ترے خوان کرم پر کون  ہے <span class=\"diff diff-gm\">وہ</span> جو نہیں میہماں"
+    "GM": "یہی مشہور عالم <span class=\"diff diff-gm\">ہے</span> گدا سے شاہ تک باہم<br>ترے خوان کرم پر کون ہے <span class=\"diff diff-gm\">وہ</span> جو نہیں میہماں"
   },
   {
     "id": 93.5,
     "BL": "",
     "TO": "",
     "SJ": "سدا پلتے ہیں چندا سے ہزاروں جس کے سایہ میں<br>نظام الدولہ شاہ <span class=\"diff diff-anchor\">دکّن</span> ہے <span class=\"diff diff-anchor\">وہ</span> رستم دوراں",
-    "GM": "سدا پلتے ہیں چندا سے ہزاروں جس کے سایہ میں<br>نظام الدولہ <span class=\"diff diff-gm\">و</span> شاہ <span class=\"diff diff-gm\">دکن</span> ہے  رستم دوراں"
+    "GM": "سدا پلتے ہیں چندا سے ہزاروں جس کے سایہ میں<br>نظام الدولہ <span class=\"diff diff-gm\">و</span> شاہ <span class=\"diff diff-gm\">دکن</span> ہے رستم دوراں"
   },
   {
     "id": 94.1,
@@ -3272,7 +3272,7 @@ const deewanData = [
     "id": 94.3,
     "BL": "سوا گل رو کے اے بلیل جو <span class=\"diff diff-anchor\">ٹک</span> آغوش خالی ہو<br>لگا ہی <span class=\"diff diff-anchor\">دیجے یکسر آگ اس</span> سیر گلستاں کو",
     "TO": "سوا گل رو کے اے بلیل جو <span class=\"diff diff-anchor\">ٹک</span> آغوش خالی ہو<br>لگا ہی <span class=\"diff diff-anchor\">دیجے یکسر آگ اس</span> سیر گلستاں کو",
-    "SJ": "سوا گل رو کے اے بلیل جو <span class=\"diff diff-var1\">یہ</span> آغوش خالی ہو<br>لگا ہی <span class=\"diff diff-var2\">دیویں</span> <span class=\"diff diff-anchor\">یکسر آگ اس</span> سیر گلستاں کو",
+    "SJ": "سوا گل رو کے اے بلیل جو <span class=\"diff diff-var1\">یہ</span> آغوش خالی ہو<br>لگا ہی <span class=\"diff diff-var1\">دیویں یکسر آگ اس</span> سیر گلستاں کو",
     "GM": "سوا گل رو کے اے بلیل جو <span class=\"diff diff-gm\">یہ</span> آغوش خالی ہو<br>لگا <span class=\"diff diff-gm\">دیں آگ</span> ہی <span class=\"diff diff-gm\">یک لخت ہم</span> سیر گلستاں کو"
   },
   {
@@ -3280,7 +3280,7 @@ const deewanData = [
     "BL": "یہاں سو رنگ <span class=\"diff diff-anchor\">کر</span> دیکھا گریباں چاک بھی <span class=\"diff diff-anchor\">تس پر</span><br>پہنچتا ہی نہیں ہے <span class=\"diff diff-anchor\">ہات</span> میرا تیرے داماں کو",
     "TO": "یہاں سو رنگ <span class=\"diff diff-anchor\">کر</span> دیکھا گریباں چاک بھی <span class=\"diff diff-anchor\">تس پر</span><br>پہنچتا ہی نہیں ہے <span class=\"diff diff-anchor\">ہات</span> میرا تیرے داماں کو",
     "SJ": "یہاں سو رنگ <span class=\"diff diff-anchor\">کر</span> دیکھا گریباں چاک بھی <span class=\"diff diff-anchor\">تس پر</span><br>پہنچتا ہی نہیں ہے <span class=\"diff diff-anchor\">ہات</span> میرا تیرے داماں کو",
-    "GM": "یہاں سو رنگ <span class=\"diff diff-gm\">سے</span> دیکھا گریباں چاک <span class=\"diff diff-gm\">کر کر</span> بھی <br>پہنچتا ہی نہیں ہے <span class=\"diff diff-gm\">ہاتھ</span> میرا تیرے داماں کو"
+    "GM": "یہاں سو رنگ <span class=\"diff diff-gm\">سے</span> دیکھا گریباں چاک <span class=\"diff diff-gm\">کر کر</span> بھی<br>پہنچتا ہی نہیں ہے <span class=\"diff diff-gm\">ہاتھ</span> میرا تیرے داماں کو"
   },
   {
     "id": 94.5,
@@ -3322,7 +3322,7 @@ const deewanData = [
     "BL": "",
     "TO": "",
     "SJ": "روشن رکھو جہان میں <span class=\"diff diff-anchor\">جیوں</span> مہر <span class=\"diff diff-anchor\">یا علی</span><br>چندا کے منہ سے نور کو تم دور مت کرو",
-    "GM": "روشن رکھو جہان میں <span class=\"diff diff-gm\">مولا مثال</span> مہر <br>چندا کے منہ سے نور کو تم دور مت کرو"
+    "GM": "روشن رکھو جہان میں <span class=\"diff diff-gm\">مولا مثال</span> مہر<br>چندا کے منہ سے نور کو تم دور مت کرو"
   },
   {
     "id": 96.1,
@@ -3378,7 +3378,7 @@ const deewanData = [
     "BL": "گر مرے دل کو چرایا نہیں تو نے ظالم<br><span class=\"diff diff-anchor\">موندھ مت</span> کھول دے <span class=\"diff diff-anchor\">مٹھی</span> کو بتا <span class=\"diff diff-anchor\">ہاتوں</span> کو",
     "TO": "گر مرے دل کو چرایا نہیں تو نے ظالم<br><span class=\"diff diff-anchor\">موندھ مت</span> کھول دے <span class=\"diff diff-anchor\">مٹھی</span> کو بتا <span class=\"diff diff-anchor\">ہاتوں</span> کو",
     "SJ": "گر مرے دل کو چرایا نہیں تو نے ظالم<br><span class=\"diff diff-anchor\">موندھ مت</span> کھول دے <span class=\"diff diff-anchor\">مٹھی</span> کو بتا <span class=\"diff diff-anchor\">ہاتوں</span> کو",
-    "GM": "گر مرے دل کو چرایا نہیں تو نے ظالم<br> کھول دے <span class=\"diff diff-gm\">بند ہتھیلی</span> کو بتا <span class=\"diff diff-gm\">ہاتھوں</span> کو"
+    "GM": "گر مرے دل کو چرایا نہیں تو نے ظالم<br>کھول دے <span class=\"diff diff-gm\">بند ہتھیلی</span> کو بتا <span class=\"diff diff-gm\">ہاتھوں</span> کو"
   },
   {
     "id": 97.4,
@@ -3391,8 +3391,8 @@ const deewanData = [
     "id": 97.5,
     "BL": "<span class=\"diff diff-anchor\">شرط</span> چندا <span class=\"diff diff-anchor\">سے کوئی یاد کی باندھے بھولے</span><br><span class=\"diff diff-anchor\">دل</span> کو <span class=\"diff diff-anchor\">مصروف رکھے اپنے بچا ہاتوں کو</span>",
     "TO": "<span class=\"diff diff-anchor\">شرط</span> چندا <span class=\"diff diff-anchor\">سے کوئی یاد کی باندھے بھولے</span><br><span class=\"diff diff-anchor\">دل</span> کو <span class=\"diff diff-anchor\">مصروف رکھے اپنے بچا ہاتوں کو</span>",
-    "SJ": "<span class=\"diff diff-anchor\">شرط</span> چندا <span class=\"diff diff-anchor\">سے کوئی یاد کی باندھے بھولے</span><br><span class=\"diff diff-anchor\">دل</span> کو <span class=\"diff diff-anchor\">مصروف رکھے اپنے</span> <span class=\"diff diff-var1\">بجا</span> <span class=\"diff diff-anchor\">ہاتوں کو</span>",
-    "GM": "<span class=\"diff diff-gm\">مدعا پاۓ گی</span> چندا <span class=\"diff diff-gm\">کہ ابھی بہر دعا</span><br><span class=\"diff diff-gm\">درگہ شاه نجف میں تو اٹھا ہاتھوں</span> کو "
+    "SJ": "<span class=\"diff diff-anchor\">شرط</span> چندا <span class=\"diff diff-anchor\">سے کوئی یاد کی باندھے بھولے</span><br><span class=\"diff diff-anchor\">دل</span> کو <span class=\"diff diff-var1\">مصروف رکھے اپنے بجا ہاتوں کو</span>",
+    "GM": "<span class=\"diff diff-gm\">مدعا پاۓ گی</span> چندا <span class=\"diff diff-gm\">کہ ابھی بہر دعا</span><br><span class=\"diff diff-gm\">درگہ شاه نجف میں تو اٹھا ہاتھوں</span> کو"
   },
   {
     "id": 98.1,
@@ -3405,8 +3405,8 @@ const deewanData = [
     "id": 98.2,
     "BL": "<span class=\"diff diff-anchor\">دست</span> خالی <span class=\"diff diff-anchor\">رہوے عاشق نت</span> متاع حسن سے<br>عکس افشاں سے <span class=\"diff diff-anchor\">میاں</span> ہو مقت زردار آئنہ",
     "TO": "<span class=\"diff diff-anchor\">دست</span> خالی <span class=\"diff diff-anchor\">رہوے عاشق نت</span> متاع حسن سے<br>عکس افشاں سے <span class=\"diff diff-anchor\">میاں</span> ہو مقت زردار آئنہ",
-    "SJ": "<span class=\"diff diff-anchor\">دست</span> خالی <span class=\"diff diff-anchor\">رہوے عاشق</span> <span class=\"diff diff-var1\">ٹیب</span> متاع حسن سے<br>عکس افشاں سے <span class=\"diff diff-anchor\">میاں</span> ہو مقت زردار آئنہ",
-    "GM": "<span class=\"diff diff-gm\">عاشقوں کے ہاتھ</span> خالی <span class=\"diff diff-gm\">ہوں</span> متاع حسن سے<br>عکس افشاں سے  ہو <span class=\"diff diff-gm\">تیرے</span> مقت زردار آئنہ"
+    "SJ": "<span class=\"diff diff-anchor\">دست</span> خالی <span class=\"diff diff-var1\">رہوے عاشق ٹیب</span> متاع حسن سے<br>عکس افشاں سے <span class=\"diff diff-anchor\">میاں</span> ہو مقت زردار آئنہ",
+    "GM": "<span class=\"diff diff-gm\">عاشقوں کے ہاتھ</span> خالی <span class=\"diff diff-gm\">ہوں</span> متاع حسن سے<br>عکس افشاں سے ہو <span class=\"diff diff-gm\">تیرے</span> مقت زردار آئنہ"
   },
   {
     "id": 98.3,
@@ -3440,8 +3440,8 @@ const deewanData = [
     "id": 99.2,
     "BL": "",
     "TO": "",
-    "SJ": "مردم چشم کو کیا مردم آبی سے مثال<br><span class=\"diff diff-anchor\">کھاوے</span> وہ پانی میں  یہ خون جگر میں غوطہ",
-    "GM": "مردم چشم کو کیا مردم آبی سے مثال<br><span class=\"diff diff-gm\">کھائے</span> وہ پانی میں  یہ خون جگر میں غوطہ"
+    "SJ": "مردم چشم کو کیا مردم آبی سے مثال<br><span class=\"diff diff-anchor\">کھاوے</span> وہ پانی میں یہ خون جگر میں غوطہ",
+    "GM": "مردم چشم کو کیا مردم آبی سے مثال<br><span class=\"diff diff-gm\">کھائے</span> وہ پانی میں یہ خون جگر میں غوطہ"
   },
   {
     "id": 99.3,
@@ -3466,10 +3466,10 @@ const deewanData = [
   },
   {
     "id": 100.1,
-    "BL": "<span class=\"diff diff-anchor\">جیوں</span> گل صبا سے <span class=\"diff diff-anchor\">ہو</span> نہ <span class=\"diff diff-anchor\">مرے </span> دل کی وا گرہ<br>جب سے وہ غنچہ لب نے جبیں پر دیا گره",
-    "TO": "<span class=\"diff diff-anchor\">جیوں</span> گل صبا سے <span class=\"diff diff-anchor\">ہو</span> نہ <span class=\"diff diff-anchor\">مرے </span> دل کی وا گرہ<br>جب سے وہ غنچہ لب نے جبیں پر دیا گره",
-    "SJ": "<span class=\"diff diff-anchor\">جیوں</span> گل صبا سے <span class=\"diff diff-anchor\">ہو</span> نہ <span class=\"diff diff-anchor\">مرے </span> دل کی وا گرہ<br>جب سے وہ غنچہ لب نے جبیں پر دیا گره",
-    "GM": "<span class=\"diff diff-gm\">ہو مثل</span> گل صبا سے  نہ <span class=\"diff diff-gm\">اس</span> دل کی وا گرہ<br>جب سے وہ غنچہ لب نے جبیں پر دیا گره"
+    "BL": "<span class=\"diff diff-anchor\">جیوں</span> گل صبا سے <span class=\"diff diff-anchor\">ہو</span> نہ <span class=\"diff diff-anchor\">مرے</span> دل کی وا گرہ<br>جب سے وہ غنچہ لب نے جبیں پر دیا گره",
+    "TO": "<span class=\"diff diff-anchor\">جیوں</span> گل صبا سے <span class=\"diff diff-anchor\">ہو</span> نہ <span class=\"diff diff-anchor\">مرے</span> دل کی وا گرہ<br>جب سے وہ غنچہ لب نے جبیں پر دیا گره",
+    "SJ": "<span class=\"diff diff-anchor\">جیوں</span> گل صبا سے <span class=\"diff diff-anchor\">ہو</span> نہ <span class=\"diff diff-anchor\">مرے</span> دل کی وا گرہ<br>جب سے وہ غنچہ لب نے جبیں پر دیا گره",
+    "GM": "<span class=\"diff diff-gm\">ہو مثل</span> گل صبا سے نہ <span class=\"diff diff-gm\">اس</span> دل کی وا گرہ<br>جب سے وہ غنچہ لب نے جبیں پر دیا گره"
   },
   {
     "id": 100.2,
@@ -3482,8 +3482,8 @@ const deewanData = [
     "id": 100.3,
     "BL": "یک عقده دل <span class=\"diff diff-anchor\">مرے</span> کا نہ <span class=\"diff diff-anchor\">کھولا فلک تو</span> حیف<br>پل <span class=\"diff diff-anchor\">مارتے</span> میں <span class=\"diff diff-anchor\">[کبھو]</span> غنچوں کی کھولے صبا گره",
     "TO": "یک عقده دل <span class=\"diff diff-anchor\">مرے</span> کا نہ <span class=\"diff diff-anchor\">کھولا فلک تو</span> حیف<br>پل <span class=\"diff diff-anchor\">مارتے</span> میں <span class=\"diff diff-anchor\">[کبھو]</span> غنچوں کی کھولے صبا گره",
-    "SJ": "یک عقده دل <span class=\"diff diff-anchor\">مرے</span> کا نہ <span class=\"diff diff-anchor\">کھولا فلک تو</span> حیف<br>پل <span class=\"diff diff-anchor\">مارتے</span> میں  غنچوں کی کھولے صبا گره",
-    "GM": "یک عقده دل  کا <span class=\"diff diff-gm\">میرے فلک سے کھلے</span> نہ  حیف<br>پل <span class=\"diff diff-gm\">مارنے</span> میں  غنچوں کی کھولے صبا گره"
+    "SJ": "یک عقده دل <span class=\"diff diff-anchor\">مرے</span> کا نہ <span class=\"diff diff-anchor\">کھولا فلک تو</span> حیف<br>پل <span class=\"diff diff-anchor\">مارتے</span> میں غنچوں کی کھولے صبا گره",
+    "GM": "یک عقده دل کا <span class=\"diff diff-gm\">میرے فلک سے کھلے</span> نہ حیف<br>پل <span class=\"diff diff-gm\">مارنے</span> میں غنچوں کی کھولے صبا گره"
   },
   {
     "id": 100.4,
@@ -3522,10 +3522,10 @@ const deewanData = [
   },
   {
     "id": 101.4,
-    "BL": "بے سبب اس کو خدا واسطے <span class=\"diff diff-anchor\">ٹھکرائیو مت</span><br>سر مرا  <span class=\"diff diff-anchor\">نت ترے</span> قدموں سے لگا رہتا ہے",
-    "TO": "بے سبب اس کو خدا واسطے <span class=\"diff diff-anchor\">ٹھکرائیو مت</span><br>سر مرا  <span class=\"diff diff-anchor\">نت ترے</span> قدموں سے لگا رہتا ہے",
-    "SJ": "بے سبب اس کو خدا واسطے <span class=\"diff diff-anchor\">ٹھکرائیو مت</span><br>سر مرا  <span class=\"diff diff-anchor\">نت ترے</span> قدموں سے لگا رہتا ہے",
-    "GM": "بے سبب اس کو خدا واسطے <span class=\"diff diff-gm\">ٹھکرا نہ صنم</span><br>سر مرا  <span class=\"diff diff-gm\">تیرے ہی</span> قدموں سے لگا رہتا ہے"
+    "BL": "بے سبب اس کو خدا واسطے <span class=\"diff diff-anchor\">ٹھکرائیو مت</span><br>سر مرا <span class=\"diff diff-anchor\">نت ترے</span> قدموں سے لگا رہتا ہے",
+    "TO": "بے سبب اس کو خدا واسطے <span class=\"diff diff-anchor\">ٹھکرائیو مت</span><br>سر مرا <span class=\"diff diff-anchor\">نت ترے</span> قدموں سے لگا رہتا ہے",
+    "SJ": "بے سبب اس کو خدا واسطے <span class=\"diff diff-anchor\">ٹھکرائیو مت</span><br>سر مرا <span class=\"diff diff-anchor\">نت ترے</span> قدموں سے لگا رہتا ہے",
+    "GM": "بے سبب اس کو خدا واسطے <span class=\"diff diff-gm\">ٹھکرا نہ صنم</span><br>سر مرا <span class=\"diff diff-gm\">تیرے ہی</span> قدموں سے لگا رہتا ہے"
   },
   {
     "id": 101.5,
@@ -3539,14 +3539,14 @@ const deewanData = [
     "BL": "<span class=\"diff diff-anchor\">کہیو</span> صبا شتاب مرے گل عذار سے<br>آنکھوں میں اب <span class=\"diff diff-anchor\">تو جان رہا</span> انتظار سے",
     "TO": "<span class=\"diff diff-anchor\">کہیو</span> صبا شتاب مرے گل عذار سے<br>آنکھوں میں اب <span class=\"diff diff-anchor\">تو جان رہا</span> انتظار سے",
     "SJ": "<span class=\"diff diff-anchor\">کہیو</span> صبا شتاب مرے گل عذار سے<br>آنکھوں میں اب <span class=\"diff diff-anchor\">تو جان رہا</span> انتظار سے",
-    "GM": "<span class=\"diff diff-gm\">کہنا</span> صبا شتاب مرے گل عذار سے<br>آنکھوں میں <span class=\"diff diff-gm\">جان آئی ہے</span> اب  انتظار سے"
+    "GM": "<span class=\"diff diff-gm\">کہنا</span> صبا شتاب مرے گل عذار سے<br>آنکھوں میں <span class=\"diff diff-gm\">جان آئی ہے</span> اب انتظار سے"
   },
   {
     "id": 102.2,
     "BL": "سدھرے نہ کچھ ترے صف مژگاں کے سامنے<br>دل وہ <span class=\"diff diff-anchor\">جوالہ تھا</span> جو <span class=\"diff diff-anchor\">بر آوے</span> ہزار سے",
     "TO": "سدھرے نہ کچھ ترے صف مژگاں کے سامنے<br>دل وہ <span class=\"diff diff-anchor\">جوالہ تھا</span> جو <span class=\"diff diff-anchor\">بر آوے</span> ہزار سے",
     "SJ": "سدھرے نہ کچھ ترے صف مژگاں کے سامنے<br>دل وہ <span class=\"diff diff-anchor\">جوالہ تھا</span> جو <span class=\"diff diff-anchor\">بر آوے</span> ہزار سے",
-    "GM": "سدھرے نہ کچھ ترے صف مژگاں کے سامنے<br><span class=\"diff diff-gm\">مردانہ</span> دل <span class=\"diff diff-gm\">تھا</span> وہ <span class=\"diff diff-gm\">کہ لڑے</span> جو  ہزار سے"
+    "GM": "سدھرے نہ کچھ ترے صف مژگاں کے سامنے<br><span class=\"diff diff-gm\">مردانہ</span> دل <span class=\"diff diff-gm\">تھا</span> وہ <span class=\"diff diff-gm\">کہ لڑے</span> جو ہزار سے"
   },
   {
     "id": 102.3,
@@ -3560,20 +3560,20 @@ const deewanData = [
     "BL": "<span class=\"diff diff-anchor\">ہر روز گرچے تجھ میں ہے نو</span> اختراع عیش<br><span class=\"diff diff-anchor\">لیکن پسند</span> ہے <span class=\"diff diff-anchor\">مجھے</span> بوس و کنار سے",
     "TO": "<span class=\"diff diff-anchor\">ہر روز گرچے تجھ میں ہے نو</span> اختراع عیش<br><span class=\"diff diff-anchor\">لیکن پسند</span> ہے <span class=\"diff diff-anchor\">مجھے</span> بوس و کنار سے",
     "SJ": "<span class=\"diff diff-anchor\">ہر روز گرچے تجھ میں ہے نو</span> اختراع عیش<br><span class=\"diff diff-anchor\">لیکن پسند</span> ہے <span class=\"diff diff-anchor\">مجھے</span> بوس و کنار سے",
-    "GM": "<span class=\"diff diff-gm\">گو</span> اختراع عیش <span class=\"diff diff-gm\">کا معدن ہے تو مگر</span><br><span class=\"diff diff-gm\">رغبت مجھے ہمیشہ</span> ہے  بوس و کنار سے"
+    "GM": "<span class=\"diff diff-gm\">گو</span> اختراع عیش <span class=\"diff diff-gm\">کا معدن ہے تو مگر</span><br><span class=\"diff diff-gm\">رغبت مجھے ہمیشہ</span> ہے بوس و کنار سے"
   },
   {
     "id": 102.5,
     "BL": "میداں میں کوئی سخن <span class=\"diff diff-anchor\">کے نہ لے جائے</span> تجھ سے <span class=\"diff diff-anchor\">گوۓ</span><br>چندا امید رکھ شہ دلدل سوار سے",
     "TO": "میداں میں کوئی سخن <span class=\"diff diff-anchor\">کے نہ لے جائے</span> تجھ سے <span class=\"diff diff-anchor\">گوۓ</span><br>چندا امید رکھ شہ دلدل سوار سے",
     "SJ": "میداں میں کوئی سخن <span class=\"diff diff-anchor\">کے نہ لے جائے</span> تجھ سے <span class=\"diff diff-anchor\">گوۓ</span><br>چندا امید رکھ شہ دلدل سوار سے",
-    "GM": "میداں میں کوئی <span class=\"diff diff-gm\">گوئے</span> سخن  تجھ سے <span class=\"diff diff-gm\">لے نہ جائے</span><br>چندا امید رکھ شہ دلدل سوار سے"
+    "GM": "میداں میں کوئی <span class=\"diff diff-gm\">گوئے</span> سخن تجھ سے <span class=\"diff diff-gm\">لے نہ جائے</span><br>چندا امید رکھ شہ دلدل سوار سے"
   },
   {
     "id": 103.1,
     "BL": "<span class=\"diff diff-anchor\">اطراف</span> میں <span class=\"diff diff-anchor\">چمن</span> کے <span class=\"diff diff-anchor\">عجب ہی</span> بہار ہے<br>کوئی <span class=\"diff diff-anchor\">رسمسا رنگیلا ہے</span> کوئی گل عذار ہے",
     "TO": "<span class=\"diff diff-anchor\">اطراف</span> میں <span class=\"diff diff-anchor\">چمن</span> کے <span class=\"diff diff-anchor\">عجب ہی</span> بہار ہے<br>کوئی <span class=\"diff diff-anchor\">رسمسا رنگیلا ہے</span> کوئی گل عذار ہے",
-    "SJ": "<span class=\"diff diff-anchor\">اطراف</span> میں <span class=\"diff diff-anchor\">چمن</span> کے <span class=\"diff diff-anchor\">عجب ہی</span> بہار ہے<br>کوئی <span class=\"diff diff-anchor\">رسمسا رنگیلا</span> <span class=\"diff diff-var1\">[ہے]</span> کوئی گل عذار ہے",
+    "SJ": "<span class=\"diff diff-anchor\">اطراف</span> میں <span class=\"diff diff-anchor\">چمن</span> کے <span class=\"diff diff-anchor\">عجب ہی</span> بہار ہے<br>کوئی <span class=\"diff diff-var1\">رسمسا رنگیلا [ہے]</span> کوئی گل عذار ہے",
     "GM": "<span class=\"diff diff-gm\">دیکھا چمن</span> میں <span class=\"diff diff-gm\">دہر</span> کے <span class=\"diff diff-gm\">کیا کیا</span> بہار ہے<br><span class=\"diff diff-gm\">ہے لالہ رو</span> کوئی <span class=\"diff diff-gm\">تو</span> کوئی گل عذار ہے"
   },
   {
@@ -3636,15 +3636,15 @@ const deewanData = [
     "id": 104.5,
     "BL": "<span class=\"diff diff-anchor\">چھپا نئیں</span> حال دل <span class=\"diff diff-anchor\">میرا</span> علی سب تجھ پہ ظاہر ہے<br><span class=\"diff diff-anchor\">کہ</span> تو روشن گر خورشید <span class=\"diff diff-anchor\">ہے</span> چندا کے رکھوالے",
     "TO": "<span class=\"diff diff-anchor\">چھپا نئیں</span> حال دل <span class=\"diff diff-anchor\">میرا</span> علی سب تجھ پہ ظاہر ہے<br><span class=\"diff diff-anchor\">کہ</span> تو روشن گر خورشید <span class=\"diff diff-anchor\">ہے</span> چندا کے رکھوالے",
-    "SJ": "<span class=\"diff diff-anchor\">چھپا نئیں</span> حال دل <span class=\"diff diff-anchor\">میرا</span> علی سب تجھ پہ ظاہر ہے<br> تو <span class=\"diff diff-var1\">ہے</span> روشن گر خورشید <span class=\"diff diff-var2\">اے</span> چندا کے رکھوالے",
-    "GM": "<span class=\"diff diff-gm\">نہیں مخفی ہے</span> حال دل  علی سب تجھ پہ ظاہر ہے<br> تو <span class=\"diff diff-gm\">ہے</span> روشن گر خورشید <span class=\"diff diff-gm\">اے</span> چندا کے رکھوالے"
+    "SJ": "<span class=\"diff diff-anchor\">چھپا نئیں</span> حال دل <span class=\"diff diff-anchor\">میرا</span> علی سب تجھ پہ ظاہر ہے<br>تو <span class=\"diff diff-var1\">ہے</span> روشن گر خورشید <span class=\"diff diff-var1\">اے</span> چندا کے رکھوالے",
+    "GM": "<span class=\"diff diff-gm\">نہیں مخفی ہے</span> حال دل علی سب تجھ پہ ظاہر ہے<br>تو <span class=\"diff diff-gm\">ہے</span> روشن گر خورشید <span class=\"diff diff-gm\">اے</span> چندا کے رکھوالے"
   },
   {
     "id": 105.1,
-    "BL": "مجھے نام خدا اس شوخ کا یہ طور بھاتا ہے<br>ادا سے چیں <span class=\"diff diff-anchor\">بر</span> ابرو ہو  لبوں میں مسکراتا ہے",
-    "TO": "مجھے نام خدا اس شوخ کا یہ طور بھاتا ہے<br>ادا سے چیں <span class=\"diff diff-anchor\">بر</span> ابرو ہو  لبوں میں مسکراتا ہے",
-    "SJ": "مجھے نام خدا اس شوخ کا یہ طور بھاتا ہے<br>ادا سے چیں <span class=\"diff diff-anchor\">بر</span> ابرو ہو  لبوں میں مسکراتا ہے",
-    "GM": "مجھے نام خدا اس شوخ کا یہ طور بھاتا ہے<br>ادا سے چیں <span class=\"diff diff-gm\">بہ</span> ابرو ہو  لبوں میں مسکراتا ہے"
+    "BL": "مجھے نام خدا اس شوخ کا یہ طور بھاتا ہے<br>ادا سے چیں <span class=\"diff diff-anchor\">بر</span> ابرو ہو لبوں میں مسکراتا ہے",
+    "TO": "مجھے نام خدا اس شوخ کا یہ طور بھاتا ہے<br>ادا سے چیں <span class=\"diff diff-anchor\">بر</span> ابرو ہو لبوں میں مسکراتا ہے",
+    "SJ": "مجھے نام خدا اس شوخ کا یہ طور بھاتا ہے<br>ادا سے چیں <span class=\"diff diff-anchor\">بر</span> ابرو ہو لبوں میں مسکراتا ہے",
+    "GM": "مجھے نام خدا اس شوخ کا یہ طور بھاتا ہے<br>ادا سے چیں <span class=\"diff diff-gm\">بہ</span> ابرو ہو لبوں میں مسکراتا ہے"
   },
   {
     "id": 105.2,
@@ -3664,15 +3664,15 @@ const deewanData = [
     "id": 105.4,
     "BL": "نہ تو نے وادی الفت کیا طے یار منصف ہو<br>صف عشاق میں ناحق تو اپنے <span class=\"diff diff-anchor\">تئیں گناتا</span> ہے",
     "TO": "نہ تو نے وادی الفت کیا طے یار منصف ہو<br>صف عشاق میں ناحق تو اپنے <span class=\"diff diff-anchor\">تئیں گناتا</span> ہے",
-    "SJ": "نہ تو نے وادی الفت کیا طے یار منصف ہو<br>صف عشاق میں ناحق تو اپنے <span class=\"diff diff-var1\">میں</span> <span class=\"diff diff-anchor\">گناتا</span> ہے",
+    "SJ": "نہ تو نے وادی الفت کیا طے یار منصف ہو<br>صف عشاق میں ناحق تو اپنے <span class=\"diff diff-var1\">میں گناتا</span> ہے",
     "GM": "نہ تو نے وادی الفت کیا طے یار منصف ہو<br>صف عشاق میں ناحق تو اپنے <span class=\"diff diff-gm\">کو کہاتا</span> ہے"
   },
   {
     "id": 105.5,
-    "BL": "برنگ طائر قبلہ نما ہر آن  دل میرا<br>ہر <span class=\"diff diff-anchor\">اک</span> اطراف سے چندا نجف کو کھینچ لاتا ہے",
-    "TO": "برنگ طائر قبلہ نما ہر آن  دل میرا<br>ہر <span class=\"diff diff-anchor\">اک</span> اطراف سے چندا نجف کو کھینچ لاتا ہے",
-    "SJ": "برنگ طائر قبلہ نما ہر آن  دل میرا<br>ہر <span class=\"diff diff-anchor\">اک</span> اطراف سے چندا نجف کو کھینچ لاتا ہے",
-    "GM": "برنگ طائر قبلہ نما ہر آن  دل میرا<br>ہر <span class=\"diff diff-gm\">یک</span> اطراف سے چندا نجف کو کھینچ لاتا ہے"
+    "BL": "برنگ طائر قبلہ نما ہر آن دل میرا<br>ہر <span class=\"diff diff-anchor\">اک</span> اطراف سے چندا نجف کو کھینچ لاتا ہے",
+    "TO": "برنگ طائر قبلہ نما ہر آن دل میرا<br>ہر <span class=\"diff diff-anchor\">اک</span> اطراف سے چندا نجف کو کھینچ لاتا ہے",
+    "SJ": "برنگ طائر قبلہ نما ہر آن دل میرا<br>ہر <span class=\"diff diff-anchor\">اک</span> اطراف سے چندا نجف کو کھینچ لاتا ہے",
+    "GM": "برنگ طائر قبلہ نما ہر آن دل میرا<br>ہر <span class=\"diff diff-gm\">یک</span> اطراف سے چندا نجف کو کھینچ لاتا ہے"
   },
   {
     "id": 106.1,
@@ -3693,20 +3693,20 @@ const deewanData = [
     "BL": "<span class=\"diff diff-anchor\">کرے ہے</span> کیوں <span class=\"diff diff-anchor\">گلہ تو</span> یار کا <span class=\"diff diff-anchor\">ہے</span> اپنے <span class=\"diff diff-anchor\">عالم میں</span><br><span class=\"diff diff-anchor\">کہیں</span> معشوق <span class=\"diff diff-anchor\">بھی</span> عاشق <span class=\"diff diff-anchor\">کی</span> داد جاں فشانی دے",
     "TO": "<span class=\"diff diff-anchor\">کرے ہے</span> کیوں <span class=\"diff diff-anchor\">گلہ تو</span> یار کا <span class=\"diff diff-anchor\">ہے</span> اپنے <span class=\"diff diff-anchor\">عالم میں</span><br><span class=\"diff diff-anchor\">کہیں</span> معشوق <span class=\"diff diff-anchor\">بھی</span> عاشق <span class=\"diff diff-anchor\">کی</span> داد جاں فشانی دے",
     "SJ": "<span class=\"diff diff-anchor\">کرے ہے</span> کیوں <span class=\"diff diff-anchor\">گلہ تو</span> یار کا <span class=\"diff diff-anchor\">ہے</span> اپنے <span class=\"diff diff-anchor\">عالم میں</span><br><span class=\"diff diff-var1\">کہاں</span> معشوق <span class=\"diff diff-anchor\">بھی</span> عاشق <span class=\"diff diff-anchor\">کی</span> داد جاں فشانی دے",
-    "GM": "<span class=\"diff diff-gm\">گلہ کرتے ہو</span> کیوں <span class=\"diff diff-gm\">اے حضرت دل</span> یار کا  اپنے <br><span class=\"diff diff-gm\">کوئی</span> معشوق <span class=\"diff diff-gm\">کب</span> عاشق <span class=\"diff diff-gm\">کو</span> داد جاں فشانی دے"
+    "GM": "<span class=\"diff diff-gm\">گلہ کرتے ہو</span> کیوں <span class=\"diff diff-gm\">اے حضرت دل</span> یار کا اپنے<br><span class=\"diff diff-gm\">کوئی</span> معشوق <span class=\"diff diff-gm\">کب</span> عاشق <span class=\"diff diff-gm\">کو</span> داد جاں فشانی دے"
   },
   {
     "id": 106.4,
     "BL": "تصدق <span class=\"diff diff-anchor\">میں</span> کیا ہوں <span class=\"diff diff-anchor\">جان کو اک عمر</span> سے <span class=\"diff diff-anchor\">تجھ پر</span><br>کبھو تو بوسۂ لب بھی مجھے اے یار جانی دے",
     "TO": "تصدق <span class=\"diff diff-anchor\">میں</span> کیا ہوں <span class=\"diff diff-anchor\">جان کو اک عمر</span> سے <span class=\"diff diff-anchor\">تجھ پر</span><br>کبھو تو بوسۂ لب بھی مجھے اے یار جانی دے",
     "SJ": "تصدق <span class=\"diff diff-anchor\">میں</span> کیا ہوں <span class=\"diff diff-anchor\">جان کو اک عمر</span> سے <span class=\"diff diff-anchor\">تجھ پر</span><br>کبھو تو بوسۂ لب بھی مجھے اے یار جانی دے",
-    "GM": "تصدق <span class=\"diff diff-gm\">جان و دل اپنا</span> کیا ہوں <span class=\"diff diff-gm\">تجھ پہ مدت</span> سے <br>کبھو تو بوسۂ لب بھی مجھے اے یار جانی دے"
+    "GM": "تصدق <span class=\"diff diff-gm\">جان و دل اپنا</span> کیا ہوں <span class=\"diff diff-gm\">تجھ پہ مدت</span> سے<br>کبھو تو بوسۂ لب بھی مجھے اے یار جانی دے"
   },
   {
     "id": 106.5,
     "BL": "رکھے ہے آرزو چندا تصدق شاہزادوں کا<br>مرے جو ہیں علی <span class=\"diff diff-anchor\">ولی مرادیں</span> من کی مانی دے",
     "TO": "رکھے ہے آرزو چندا تصدق شاہزادوں کا<br>مرے جو ہیں علی <span class=\"diff diff-anchor\">ولی مرادیں</span> من کی مانی دے",
-    "SJ": "رکھے ہے آرزو چندا تصدق شاہزادوں کا<br>مرے جو ہیں علی <span class=\"diff diff-var1\">والی</span> <span class=\"diff diff-anchor\">مرادیں</span> من کی مانی دے",
+    "SJ": "رکھے ہے آرزو چندا تصدق شاہزادوں کا<br>مرے جو ہیں علی <span class=\"diff diff-var1\">والی مرادیں</span> من کی مانی دے",
     "GM": "رکھے ہے آرزو چندا تصدق شاہزادوں کا<br>مرے جو ہیں علی <span class=\"diff diff-gm\">والی مرا دیں</span> من کی مانی دے"
   },
   {
@@ -3728,14 +3728,14 @@ const deewanData = [
     "BL": "جو کچھ خوبی ہے <span class=\"diff diff-anchor\">مکھڑے</span> پر نمایاں خط میں <span class=\"diff diff-anchor\">خوبوں کے</span><br>کہاں اس وضع کی کاتب تجھے تحریر آتی ہے",
     "TO": "جو کچھ خوبی ہے <span class=\"diff diff-anchor\">مکھڑے</span> پر نمایاں خط میں <span class=\"diff diff-anchor\">خوبوں کے</span><br>کہاں اس وضع کی کاتب تجھے تحریر آتی ہے",
     "SJ": "جو کچھ خوبی ہے <span class=\"diff diff-anchor\">مکھڑے</span> پر نمایاں خط میں <span class=\"diff diff-anchor\">خوبوں کے</span><br>کہاں اس وضع کی کاتب تجھے تحریر آتی ہے",
-    "GM": "جو کچھ خوبی ہے <span class=\"diff diff-gm\">چہر ے</span> پر نمایاں خط <span class=\"diff diff-gm\">خوباں</span> میں <br>کہاں اس وضع کی کاتب تجھے تحریر آتی ہے"
+    "GM": "جو کچھ خوبی ہے <span class=\"diff diff-gm\">چہر ے</span> پر نمایاں خط <span class=\"diff diff-gm\">خوباں</span> میں<br>کہاں اس وضع کی کاتب تجھے تحریر آتی ہے"
   },
   {
     "id": 107.4,
     "BL": "کرے گر قتل مجھ کو یا <span class=\"diff diff-anchor\">جلائے شوق</span> ہے <span class=\"diff diff-anchor\">اس کا<br>لئے محکوم کے</span> حاکم پہ کب تقصیر آتی ہے",
     "TO": "کرے گر قتل مجھ کو یا <span class=\"diff diff-anchor\">جلائے شوق</span> ہے <span class=\"diff diff-anchor\">اس کا<br>لئے محکوم کے</span> حاکم پہ کب تقصیر آتی ہے",
-    "SJ": "کرے گر قتل مجھ کو یا <span class=\"diff diff-var1\">جلاوے</span> <span class=\"diff diff-anchor\">شوق</span> ہے <span class=\"diff diff-anchor\">اس کا<br>لئے محکوم کے</span> حاکم پہ کب تقصیر آتی ہے",
-    "GM": "کرے گر قتل مجھ کو یا <span class=\"diff diff-anchor\">جلائے</span> <span class=\"diff diff-gm\">اس کی جو مرضی<br>پئے محکوم</span> ہے  حاکم پہ کب تقصیر آتی ہے"
+    "SJ": "کرے گر قتل مجھ کو یا <span class=\"diff diff-var1\">جلاوے شوق</span> ہے <span class=\"diff diff-anchor\">اس کا<br>لئے محکوم کے</span> حاکم پہ کب تقصیر آتی ہے",
+    "GM": "کرے گر قتل مجھ کو یا <span class=\"diff diff-gm\">جلائے اس کی جو مرضی<br>پئے محکوم</span> ہے حاکم پہ کب تقصیر آتی ہے"
   },
   {
     "id": 107.5,
@@ -3749,14 +3749,14 @@ const deewanData = [
     "BL": "نہ <span class=\"diff diff-anchor\">دیکھا ہم نے</span> حاصل نالۂ شب گیر سے اپنے<br><span class=\"diff diff-anchor\">کریں جو کچھ</span> گلہ ہے <span class=\"diff diff-anchor\">آہ</span> بے تاثیر سے اپنے",
     "TO": "نہ <span class=\"diff diff-anchor\">دیکھا ہم نے</span> حاصل نالۂ شب گیر سے اپنے<br><span class=\"diff diff-anchor\">کریں جو کچھ</span> گلہ ہے <span class=\"diff diff-anchor\">آہ</span> بے تاثیر سے اپنے",
     "SJ": "نہ <span class=\"diff diff-anchor\">دیکھا ہم نے</span> حاصل نالۂ شب گیر سے اپنے<br><span class=\"diff diff-anchor\">کریں جو کچھ</span> گلہ ہے <span class=\"diff diff-anchor\">آہ</span> بے تاثیر سے اپنے",
-    "GM": "<span class=\"diff diff-gm\">ہوا کچھ بھی</span> نہ  حاصل نالۂ شب گیر سے اپنے<br> گلہ <span class=\"diff diff-gm\">ہم کو رہا</span> ہے <span class=\"diff diff-gm\">شور</span> بے تاثیر سے اپنے"
+    "GM": "<span class=\"diff diff-gm\">ہوا کچھ بھی</span> نہ حاصل نالۂ شب گیر سے اپنے<br>گلہ <span class=\"diff diff-gm\">ہم کو رہا</span> ہے <span class=\"diff diff-gm\">شور</span> بے تاثیر سے اپنے"
   },
   {
     "id": 108.2,
-    "BL": "<span class=\"diff diff-anchor\">مجھے</span> زنداں سے <span class=\"diff diff-anchor\">اپنے کیوں</span> نکالا بے سبب تو نے <span class=\"diff diff-anchor\"><br> بھلا کھٹکا سنا ہے کہہ کبھو </span> زنجیر سے اپنے",
-    "TO": "<span class=\"diff diff-anchor\">مجھے</span> زنداں سے <span class=\"diff diff-anchor\">اپنے کیوں</span> نکالا بے سبب تو نے <span class=\"diff diff-anchor\"><br> بھلا کھٹکا سنا ہے کہہ کبھو </span> زنجیر سے اپنے",
-    "SJ": "<span class=\"diff diff-anchor\">مجھے</span> زنداں سے <span class=\"diff diff-anchor\">اپنے کیوں</span> نکالا بے سبب تو نے <span class=\"diff diff-anchor\"><br> بھلا کھٹکا سنا ہے کہہ کبھو </span> زنجیر سے اپنے",
-    "GM": "<span class=\"diff diff-gm\">اسیر غم کو</span> زنداں سے  نکالا بے سبب <span class=\"diff diff-gm\">پھر کیوں<br>سنا ہے غل بھی</span> تو نے <span class=\"diff diff-gm\">نالۂ</span> زنجیر سے اپنے"
+    "BL": "<span class=\"diff diff-anchor\">مجھے</span> زنداں سے <span class=\"diff diff-anchor\">اپنے کیوں</span> نکالا بے سبب تو نے <span class=\"diff diff-anchor\"><br>بھلا کھٹکا سنا ہے کہہ کبھو</span> زنجیر سے اپنے",
+    "TO": "<span class=\"diff diff-anchor\">مجھے</span> زنداں سے <span class=\"diff diff-anchor\">اپنے کیوں</span> نکالا بے سبب تو نے <span class=\"diff diff-anchor\"><br>بھلا کھٹکا سنا ہے کہہ کبھو</span> زنجیر سے اپنے",
+    "SJ": "<span class=\"diff diff-anchor\">مجھے</span> زنداں سے <span class=\"diff diff-anchor\">اپنے کیوں</span> نکالا بے سبب تو نے <span class=\"diff diff-anchor\"><br>بھلا کھٹکا سنا ہے کہہ کبھو</span> زنجیر سے اپنے",
+    "GM": "<span class=\"diff diff-gm\">اسیر غم کو</span> زنداں سے نکالا بے سبب <span class=\"diff diff-gm\">پھر کیوں<br>سنا ہے غل بھی</span> تو نے <span class=\"diff diff-gm\">نالۂ</span> زنجیر سے اپنے"
   },
   {
     "id": 108.3,
@@ -3769,8 +3769,8 @@ const deewanData = [
     "id": 108.4,
     "BL": "جو <span class=\"diff diff-anchor\">ہووے</span> وصل کا پیاسا <span class=\"diff diff-anchor\">نگاہ تیز سے اس کو</span><br><span class=\"diff diff-anchor\">نہ رکھیو</span> تشنہ لب <span class=\"diff diff-anchor\">آب</span> دم شمشیر سے اپنے",
     "TO": "جو <span class=\"diff diff-anchor\">ہووے</span> وصل کا پیاسا <span class=\"diff diff-anchor\">نگاہ تیز سے اس کو</span><br><span class=\"diff diff-anchor\">نہ رکھیو</span> تشنہ لب <span class=\"diff diff-anchor\">آب</span> دم شمشیر سے اپنے",
-    "SJ": "جو <span class=\"diff diff-var1\">رہوے</span> وصل کا پیاسا <span class=\"diff diff-anchor\">نگاہ تیز سے اس</span> <span class=\"diff diff-var2\">کی</span><br><span class=\"diff diff-var3\">[نہ]</span> <span class=\"diff diff-anchor\">رکھیو</span> تشنہ لب <span class=\"diff diff-var4\">اب دم</span> دم شمشیر سے اپنے",
-    "GM": "جو <span class=\"diff diff-gm\">ہو کوئی ترے قتال عالم</span> وصل کا پیاسا <br><span class=\"diff diff-anchor\">نہ</span> <span class=\"diff diff-gm\">رکھنا</span> تشنہ لب <span class=\"diff diff-anchor\">آب</span> دم شمشیر سے اپنے"
+    "SJ": "جو <span class=\"diff diff-var1\">رہوے</span> وصل کا پیاسا <span class=\"diff diff-var1\">نگاہ تیز سے اس کی</span><br><span class=\"diff diff-var1\">[نہ] رکھیو</span> تشنہ لب <span class=\"diff diff-var1\">اب دم</span> دم شمشیر سے اپنے",
+    "GM": "جو <span class=\"diff diff-gm\">ہو کوئی ترے قتال عالم</span> وصل کا پیاسا<br><span class=\"diff diff-gm\">نہ رکھنا</span> تشنہ لب <span class=\"diff diff-anchor\">آب</span> دم شمشیر سے اپنے"
   },
   {
     "id": 108.5,
@@ -3784,7 +3784,7 @@ const deewanData = [
     "BL": "<span class=\"diff diff-anchor\">گر</span> یوں ہی <span class=\"diff diff-anchor\">ہر اک دم</span> ستم ایجاد کرو گے<br><span class=\"diff diff-anchor\">تو خانۂ الفت سبھی</span> برباد کرو گے",
     "TO": "<span class=\"diff diff-anchor\">گر</span> یوں ہی <span class=\"diff diff-anchor\">ہر اک دم</span> ستم ایجاد کرو گے<br><span class=\"diff diff-anchor\">تو خانۂ الفت سبھی</span> برباد کرو گے",
     "SJ": "<span class=\"diff diff-anchor\">گر</span> یوں ہی <span class=\"diff diff-anchor\">ہر اک دم</span> ستم ایجاد کرو گے<br><span class=\"diff diff-anchor\">تو خانۂ الفت سبھی</span> برباد کرو گے",
-    "GM": "<span class=\"diff diff-gm\">ہر روز جو</span> یوں ہی  ستم ایجاد کرو گے<br><span class=\"diff diff-gm\">دل عاشقوں کے سیکڑوں</span> برباد کرو گے"
+    "GM": "<span class=\"diff diff-gm\">ہر روز جو</span> یوں ہی ستم ایجاد کرو گے<br><span class=\"diff diff-gm\">دل عاشقوں کے سیکڑوں</span> برباد کرو گے"
   },
   {
     "id": 109.2,
@@ -3816,31 +3816,31 @@ const deewanData = [
   },
   {
     "id": 110.1,
-    "BL": "چشم کافر <span class=\"diff diff-anchor\">تو ہیں پر</span> غمزۂ  خونخوار بھی ہے<br>قتل کو <span class=\"diff diff-anchor\">میرے</span> سپاہی <span class=\"diff diff-anchor\">کنے تروار</span> بھی ہے",
-    "TO": "چشم کافر <span class=\"diff diff-anchor\">تو ہیں پر</span> غمزۂ  خونخوار بھی ہے<br>قتل کو <span class=\"diff diff-anchor\">میرے</span> سپاہی <span class=\"diff diff-anchor\">کنے تروار</span> بھی ہے",
-    "SJ": "چشم کافر <span class=\"diff diff-anchor\">تو ہیں پر</span> غمزۂ  خونخوار بھی ہے<br>قتل کو <span class=\"diff diff-anchor\">میرے</span> سپاہی <span class=\"diff diff-anchor\">کنے تروار</span> بھی ہے",
-    "GM": "چشم کافر <span class=\"diff diff-gm\">بھی ہے اور</span> غمزۂ  خونخوار بھی ہے<br>قتل کو <span class=\"diff diff-gm\">پاس</span> سپاہی <span class=\"diff diff-gm\">کے یہ تلوار</span> بھی ہے"
+    "BL": "چشم کافر <span class=\"diff diff-anchor\">تو ہیں پر</span> غمزۂ خونخوار بھی ہے<br>قتل کو <span class=\"diff diff-anchor\">میرے</span> سپاہی <span class=\"diff diff-anchor\">کنے تروار</span> بھی ہے",
+    "TO": "چشم کافر <span class=\"diff diff-anchor\">تو ہیں پر</span> غمزۂ خونخوار بھی ہے<br>قتل کو <span class=\"diff diff-anchor\">میرے</span> سپاہی <span class=\"diff diff-anchor\">کنے تروار</span> بھی ہے",
+    "SJ": "چشم کافر <span class=\"diff diff-anchor\">تو ہیں پر</span> غمزۂ خونخوار بھی ہے<br>قتل کو <span class=\"diff diff-anchor\">میرے</span> سپاہی <span class=\"diff diff-anchor\">کنے تروار</span> بھی ہے",
+    "GM": "چشم کافر <span class=\"diff diff-gm\">بھی ہے اور</span> غمزۂ خونخوار بھی ہے<br>قتل کو <span class=\"diff diff-gm\">پاس</span> سپاہی <span class=\"diff diff-gm\">کے یہ تلوار</span> بھی ہے"
   },
   {
     "id": 110.2,
     "BL": "کفر و اسلام میں ثابت رہے دل کس پہ بھلا<br>صاحب سبحہ <span class=\"diff diff-anchor\">وہ</span> ہے مالک زنار بھی ہے",
     "TO": "کفر و اسلام میں ثابت رہے دل کس پہ بھلا<br>صاحب سبحہ <span class=\"diff diff-anchor\">وہ</span> ہے مالک زنار بھی ہے",
-    "SJ": "کفر و اسلام میں ثابت رہے دل کس پہ بھلا<br>صاحب سبحہ  ہے <span class=\"diff diff-var1\">پر</span> مالک زنار بھی ہے",
-    "GM": "کفر و اسلام میں ثابت رہے دل کس پہ بھلا<br>صاحب سبحہ <span class=\"diff diff-gm\">بھی</span> ہے  مالک زنار بھی ہے"
+    "SJ": "کفر و اسلام میں ثابت رہے دل کس پہ بھلا<br>صاحب سبحہ ہے <span class=\"diff diff-var1\">پر</span> مالک زنار بھی ہے",
+    "GM": "کفر و اسلام میں ثابت رہے دل کس پہ بھلا<br>صاحب سبحہ <span class=\"diff diff-gm\">بھی</span> ہے مالک زنار بھی ہے"
   },
   {
     "id": 110.3,
     "BL": "<span class=\"diff diff-anchor\">گر ہے</span> راحت ترے ملنے سے <span class=\"diff diff-anchor\">پہ شورش</span> ہے <span class=\"diff diff-anchor\">وہیں</span><br>جس <span class=\"diff diff-anchor\">جگے</span> گل ہے مری جان وہیں خار بھی ہے",
     "TO": "<span class=\"diff diff-anchor\">گر ہے</span> راحت ترے ملنے سے <span class=\"diff diff-anchor\">پہ شورش</span> ہے <span class=\"diff diff-anchor\">وہیں</span><br>جس <span class=\"diff diff-anchor\">جگے</span> گل ہے مری جان وہیں خار بھی ہے",
-    "SJ": "<span class=\"diff diff-anchor\">گر ہے</span> راحت ترے ملنے سے <span class=\"diff diff-var1\">[پہ]</span> <span class=\"diff diff-anchor\">شورش</span> ہے <span class=\"diff diff-var2\">وہی</span><br>جس <span class=\"diff diff-anchor\">جگے</span> گل ہے مری جان وہیں خار بھی ہے",
-    "GM": "<span class=\"diff diff-gm\">گرچہ</span> راحت ترے ملنے سے  ہے <span class=\"diff diff-gm\">سوزش ہے وہی</span><br>جس <span class=\"diff diff-gm\">جگہ</span> گل ہے مری جان وہیں خار بھی ہے"
+    "SJ": "<span class=\"diff diff-anchor\">گر ہے</span> راحت ترے ملنے سے <span class=\"diff diff-var1\">[پہ] شورش</span> ہے <span class=\"diff diff-var1\">وہی</span><br>جس <span class=\"diff diff-anchor\">جگے</span> گل ہے مری جان وہیں خار بھی ہے",
+    "GM": "<span class=\"diff diff-gm\">گرچہ</span> راحت ترے ملنے سے ہے <span class=\"diff diff-gm\">سوزش ہے وہی</span><br>جس <span class=\"diff diff-gm\">جگہ</span> گل ہے مری جان وہیں خار بھی ہے"
   },
   {
     "id": 110.4,
-    "BL": "<span class=\"diff diff-anchor\">دل</span> سمجھ <span class=\"diff diff-anchor\">گرچہ </span> کیا اس نے تملق <span class=\"diff diff-anchor\">تجھ سے</span><br>رحم پر صرف نہ جا <span class=\"diff diff-anchor\">اس کے</span> ستم گار بھی ہے",
-    "TO": "<span class=\"diff diff-anchor\">دل</span> سمجھ <span class=\"diff diff-anchor\">گرچہ </span> کیا اس نے تملق <span class=\"diff diff-anchor\">تجھ سے</span><br>رحم پر صرف نہ جا <span class=\"diff diff-anchor\">اس کے</span> ستم گار بھی ہے",
-    "SJ": "<span class=\"diff diff-anchor\">دل</span> سمجھ <span class=\"diff diff-anchor\">گرچہ </span> کیا اس نے تملق <span class=\"diff diff-anchor\">تجھ سے</span><br>رحم پر صرف نہ جا <span class=\"diff diff-var1\">اسی</span> ستم گار بھی ہے",
-    "GM": "<span class=\"diff diff-gm\">کچھ</span> سمجھ <span class=\"diff diff-gm\">کر ہی</span> کیا اس نے تملق <span class=\"diff diff-gm\">اے دل</span><br>رحم پر صرف نہ جا <span class=\"diff diff-anchor\">اس کے</span>  ستم گار بھی ہے"
+    "BL": "<span class=\"diff diff-anchor\">دل</span> سمجھ <span class=\"diff diff-anchor\">گرچہ</span> کیا اس نے تملق <span class=\"diff diff-anchor\">تجھ سے</span><br>رحم پر صرف نہ جا <span class=\"diff diff-anchor\">اس کے</span> ستم گار بھی ہے",
+    "TO": "<span class=\"diff diff-anchor\">دل</span> سمجھ <span class=\"diff diff-anchor\">گرچہ</span> کیا اس نے تملق <span class=\"diff diff-anchor\">تجھ سے</span><br>رحم پر صرف نہ جا <span class=\"diff diff-anchor\">اس کے</span> ستم گار بھی ہے",
+    "SJ": "<span class=\"diff diff-anchor\">دل</span> سمجھ <span class=\"diff diff-anchor\">گرچہ</span> کیا اس نے تملق <span class=\"diff diff-anchor\">تجھ سے</span><br>رحم پر صرف نہ جا <span class=\"diff diff-var1\">اسی</span> ستم گار بھی ہے",
+    "GM": "<span class=\"diff diff-gm\">کچھ</span> سمجھ <span class=\"diff diff-gm\">کر ہی</span> کیا اس نے تملق <span class=\"diff diff-gm\">اے دل</span><br>رحم پر صرف نہ جا <span class=\"diff diff-anchor\">اس کے</span> ستم گار بھی ہے"
   },
   {
     "id": 110.5,
@@ -3851,31 +3851,31 @@ const deewanData = [
   },
   {
     "id": 111.1,
-    "BL": "<span class=\"diff diff-anchor\">نت</span> کفر <span class=\"diff diff-anchor\"> تازہ کب تئیں کوئی</span> ابتدا کرے<br>دل کو <span class=\"diff diff-anchor\">نہ</span> ان بتوں سے <span class=\"diff diff-anchor\">ہی حق</span> آشنا کرے",
-    "TO": "<span class=\"diff diff-anchor\">نت</span> کفر <span class=\"diff diff-anchor\"> تازہ کب تئیں کوئی</span> ابتدا کرے<br>دل کو <span class=\"diff diff-anchor\">نہ</span> ان بتوں سے <span class=\"diff diff-anchor\">ہی حق</span> آشنا کرے",
-    "SJ": "<span class=\"diff diff-anchor\">نت</span> کفر <span class=\"diff diff-anchor\"> تازہ کب</span> <span class=\"diff diff-var1\">نہیں کو نہیں</span> ابتدا کرے<br>دل کو <span class=\"diff diff-anchor\">نہ</span> ان بتوں سے <span class=\"diff diff-anchor\">ہی حق</span> آشنا کرے",
+    "BL": "<span class=\"diff diff-anchor\">نت</span> کفر <span class=\"diff diff-anchor\">تازہ کب تئیں کوئی</span> ابتدا کرے<br>دل کو <span class=\"diff diff-anchor\">نہ</span> ان بتوں سے <span class=\"diff diff-anchor\">ہی حق</span> آشنا کرے",
+    "TO": "<span class=\"diff diff-anchor\">نت</span> کفر <span class=\"diff diff-anchor\">تازہ کب تئیں کوئی</span> ابتدا کرے<br>دل کو <span class=\"diff diff-anchor\">نہ</span> ان بتوں سے <span class=\"diff diff-anchor\">ہی حق</span> آشنا کرے",
+    "SJ": "<span class=\"diff diff-anchor\">نت</span> کفر <span class=\"diff diff-var1\">تازہ کب نہیں کو نہیں</span> ابتدا کرے<br>دل کو <span class=\"diff diff-anchor\">نہ</span> ان بتوں سے <span class=\"diff diff-anchor\">ہی حق</span> آشنا کرے",
     "GM": "<span class=\"diff diff-gm\">گویا کہ تازه</span> کفر <span class=\"diff diff-gm\">کی وہ</span> ابتدا کرے<br>دل کو <span class=\"diff diff-gm\">جو</span> ان بتوں سے <span class=\"diff diff-gm\">کوئی</span> آشنا کرے"
   },
   {
     "id": 111.2,
-    "BL": "<span class=\"diff diff-anchor\">پہنچائیو </span> تو خاک قدم میری چشم تک<br><span class=\"diff diff-anchor\">جو خوبرو</span> چمن میں گزر اے صبا <span class=\"diff diff-anchor\">کرے</span>",
-    "TO": "<span class=\"diff diff-anchor\">پہنچائیو </span> تو خاک قدم میری چشم تک<br><span class=\"diff diff-anchor\">جو خوبرو</span> چمن میں گزر اے صبا <span class=\"diff diff-anchor\">کرے</span>",
-    "SJ": "<span class=\"diff diff-anchor\">پہنچائیو </span> تو خاک قدم میری چشم تک<br><span class=\"diff diff-anchor\">جو خوبرو</span> چمن میں گزر اے صبا <span class=\"diff diff-anchor\">کرے</span>",
+    "BL": "<span class=\"diff diff-anchor\">پہنچائیو</span> تو خاک قدم میری چشم تک<br><span class=\"diff diff-anchor\">جو خوبرو</span> چمن میں گزر اے صبا <span class=\"diff diff-anchor\">کرے</span>",
+    "TO": "<span class=\"diff diff-anchor\">پہنچائیو</span> تو خاک قدم میری چشم تک<br><span class=\"diff diff-anchor\">جو خوبرو</span> چمن میں گزر اے صبا <span class=\"diff diff-anchor\">کرے</span>",
+    "SJ": "<span class=\"diff diff-anchor\">پہنچائیو</span> تو خاک قدم میری چشم تک<br><span class=\"diff diff-anchor\">جو خوبرو</span> چمن میں گزر اے صبا <span class=\"diff diff-anchor\">کرے</span>",
     "GM": "<span class=\"diff diff-gm\">پہنچا</span> تو <span class=\"diff diff-gm\">اس کی</span> خاک قدم میری چشم تک<br><span class=\"diff diff-gm\">جب خوب رو</span> چمن میں گزر اے صبا <span class=\"diff diff-gm\">کر</span>"
   },
   {
     "id": 111.3,
-    "BL": "<span class=\"diff diff-anchor\">بیجا ہے</span> زرق <span class=\"diff diff-anchor\">و</span> برق زمانے کا الغرض<br><span class=\"diff diff-anchor\">صاحب</span> شعور  وہ جو <span class=\"diff diff-anchor\">کسو</span> دل میں جا <span class=\"diff diff-anchor\">کرے</span>",
-    "TO": "<span class=\"diff diff-anchor\">بیجا ہے</span> زرق <span class=\"diff diff-anchor\">و</span> برق زمانے کا الغرض<br><span class=\"diff diff-anchor\">صاحب</span> شعور  وہ جو <span class=\"diff diff-anchor\">کسو</span> دل میں جا <span class=\"diff diff-anchor\">کرے</span>",
-    "SJ": "<span class=\"diff diff-anchor\">بیجا ہے</span> زرق  برق زمانے کا الغرض<br><span class=\"diff diff-anchor\">صاحب</span> شعور  وہ جو <span class=\"diff diff-anchor\">کسو</span> دل میں جا <span class=\"diff diff-anchor\">کرے</span>",
-    "GM": "<span class=\"diff diff-gm\">ہو اس میں</span> زرق  برق زمانے کا الغرض<br><span class=\"diff diff-gm\">ہے ذی</span> شعور  وہ جو <span class=\"diff diff-gm\">کسی</span> دل میں جا <span class=\"diff diff-gm\">کر</span>"
+    "BL": "<span class=\"diff diff-anchor\">بیجا ہے</span> زرق <span class=\"diff diff-anchor\">و</span> برق زمانے کا الغرض<br><span class=\"diff diff-anchor\">صاحب</span> شعور وہ جو <span class=\"diff diff-anchor\">کسو</span> دل میں جا <span class=\"diff diff-anchor\">کرے</span>",
+    "TO": "<span class=\"diff diff-anchor\">بیجا ہے</span> زرق <span class=\"diff diff-anchor\">و</span> برق زمانے کا الغرض<br><span class=\"diff diff-anchor\">صاحب</span> شعور وہ جو <span class=\"diff diff-anchor\">کسو</span> دل میں جا <span class=\"diff diff-anchor\">کرے</span>",
+    "SJ": "<span class=\"diff diff-anchor\">بیجا ہے</span> زرق برق زمانے کا الغرض<br><span class=\"diff diff-anchor\">صاحب</span> شعور وہ جو <span class=\"diff diff-anchor\">کسو</span> دل میں جا <span class=\"diff diff-anchor\">کرے</span>",
+    "GM": "<span class=\"diff diff-gm\">ہو اس میں</span> زرق برق زمانے کا الغرض<br><span class=\"diff diff-gm\">ہے ذی</span> شعور وہ جو <span class=\"diff diff-gm\">کسی</span> دل میں جا <span class=\"diff diff-gm\">کر</span>"
   },
   {
     "id": 111.4,
-    "BL": "گل رو یہ ایک غنچۂ دل کیا ہے <span class=\"diff diff-anchor\">تجھ سے </span> آہ<br>گر ہو نسیم لطف تو <span class=\"diff diff-anchor\">صد</span> عقدے وا کرے",
-    "TO": "گل رو یہ ایک غنچۂ دل کیا ہے <span class=\"diff diff-anchor\">تجھ سے </span> آہ<br>گر ہو نسیم لطف تو <span class=\"diff diff-anchor\">صد</span> عقدے وا کرے",
-    "SJ": "گل رو یہ ایک غنچۂ دل کیا ہے <span class=\"diff diff-anchor\">تجھ سے </span> آہ<br>گر ہو نسیم لطف تو <span class=\"diff diff-anchor\">صد</span> عقدے وا کرے",
-    "GM": "گل رو یہ ایک غنچۂ  دل کیا ہے <span class=\"diff diff-gm\">میرا</span> آہ<br>گر ہو نسیم لطف تو <span class=\"diff diff-gm\">سو</span> عقدے وا کرے"
+    "BL": "گل رو یہ ایک غنچۂ دل کیا ہے <span class=\"diff diff-anchor\">تجھ سے</span> آہ<br>گر ہو نسیم لطف تو <span class=\"diff diff-anchor\">صد</span> عقدے وا کرے",
+    "TO": "گل رو یہ ایک غنچۂ دل کیا ہے <span class=\"diff diff-anchor\">تجھ سے</span> آہ<br>گر ہو نسیم لطف تو <span class=\"diff diff-anchor\">صد</span> عقدے وا کرے",
+    "SJ": "گل رو یہ ایک غنچۂ دل کیا ہے <span class=\"diff diff-anchor\">تجھ سے</span> آہ<br>گر ہو نسیم لطف تو <span class=\"diff diff-anchor\">صد</span> عقدے وا کرے",
+    "GM": "گل رو یہ ایک غنچۂ دل کیا ہے <span class=\"diff diff-gm\">میرا</span> آہ<br>گر ہو نسیم لطف تو <span class=\"diff diff-gm\">سو</span> عقدے وا کرے"
   },
   {
     "id": 111.5,
@@ -3903,7 +3903,7 @@ const deewanData = [
     "BL": "نہ <span class=\"diff diff-anchor\">رہوے کوئی</span> عقدہ پھر سر عشاق سے باقی<br>خبر میرے جنوں کی گر ستم ایجاد کو پہنچے",
     "TO": "نہ <span class=\"diff diff-anchor\">رہوے کوئی</span> عقدہ پھر سر عشاق سے باقی<br>خبر میرے جنوں کی گر ستم ایجاد کو پہنچے",
     "SJ": "نہ <span class=\"diff diff-anchor\">رہوے کوئی</span> عقدہ پھر سر عشاق سے باقی<br>خبر میرے جنوں کی گر ستم ایجاد کو پہنچے",
-    "GM": "<span class=\"diff diff-gm\">رہے کوئی</span> نہ  عقدہ پھر سر عشاق سے باقی<br>خبر میرے جنوں کی گر ستم ایجاد کو پہنچے"
+    "GM": "<span class=\"diff diff-gm\">رہے کوئی</span> نہ عقدہ پھر سر عشاق سے باقی<br>خبر میرے جنوں کی گر ستم ایجاد کو پہنچے"
   },
   {
     "id": 112.4,
@@ -3916,7 +3916,7 @@ const deewanData = [
     "id": 112.5,
     "BL": "نہیں کچھ حاجت تقریر چندا سب پہ روشن ہے<br>سوائے مرتضیٰ <span class=\"diff diff-anchor\">[کے] کب کوئی</span> فریاد کو پہنچے",
     "TO": "نہیں کچھ حاجت تقریر چندا سب پہ روشن ہے<br>سوائے مرتضیٰ <span class=\"diff diff-anchor\">[کے] کب کوئی</span> فریاد کو پہنچے",
-    "SJ": "نہیں کچھ حاجت تقریر چندا سب پہ روشن ہے<br>سوائے مرتضیٰ <span class=\"diff diff-var1\">کے</span> <span class=\"diff diff-anchor\">کب کوئی</span> فریاد کو پہنچے",
+    "SJ": "نہیں کچھ حاجت تقریر چندا سب پہ روشن ہے<br>سوائے مرتضیٰ <span class=\"diff diff-var1\">کے کب کوئی</span> فریاد کو پہنچے",
     "GM": "نہیں کچھ حاجت تقریر چندا سب پہ روشن ہے<br>سوائے مرتضیٰ <span class=\"diff diff-gm\">کے کون اب</span> فریاد کو پہنچے"
   },
   {
@@ -3924,13 +3924,13 @@ const deewanData = [
     "BL": "دل کو مرے <span class=\"diff diff-anchor\">کیا یاد لگی</span> آہ <span class=\"diff diff-anchor\">کسو</span> کی<br>تکتا ہوں جو <span class=\"diff diff-anchor\">دن رات پڑا</span> راہ <span class=\"diff diff-anchor\">کسو</span> کی",
     "TO": "دل کو مرے <span class=\"diff diff-anchor\">کیا یاد لگی</span> آہ <span class=\"diff diff-anchor\">کسو</span> کی<br>تکتا ہوں جو <span class=\"diff diff-anchor\">دن رات پڑا</span> راہ <span class=\"diff diff-anchor\">کسو</span> کی",
     "SJ": "دل کو مرے <span class=\"diff diff-anchor\">کیا یاد لگی</span> آہ <span class=\"diff diff-anchor\">کسو</span> کی<br>تکتا ہوں جو <span class=\"diff diff-anchor\">دن رات پڑا</span> راہ <span class=\"diff diff-anchor\">کسو</span> کی",
-    "GM": "<span class=\"diff diff-gm\">یاد آ گئی ہے</span> دل کو مرے  آہ <span class=\"diff diff-gm\">کسی</span> کی<br>تکتا ہوں <span class=\"diff diff-gm\">شب و روز</span> جو <span class=\"diff diff-gm\">میں</span> راہ <span class=\"diff diff-gm\">کسی</span> کی"
+    "GM": "<span class=\"diff diff-gm\">یاد آ گئی ہے</span> دل کو مرے آہ <span class=\"diff diff-gm\">کسی</span> کی<br>تکتا ہوں <span class=\"diff diff-gm\">شب و روز</span> جو <span class=\"diff diff-gm\">میں</span> راہ <span class=\"diff diff-gm\">کسی</span> کی"
   },
   {
     "id": 113.2,
     "BL": "خواہش تجھے <span class=\"diff diff-anchor\">اوروں</span> کی <span class=\"diff diff-anchor\">میاں سچ</span> ہے <span class=\"diff diff-anchor\">پہ ہرگز</span><br>ہم کو تو نہیں تیرے سوا چاہ <span class=\"diff diff-anchor\">کسو</span> کی",
     "TO": "خواہش تجھے <span class=\"diff diff-anchor\">اوروں</span> کی <span class=\"diff diff-anchor\">میاں سچ</span> ہے <span class=\"diff diff-anchor\">پہ ہرگز</span><br>ہم کو تو نہیں تیرے سوا چاہ <span class=\"diff diff-anchor\">کسو</span> کی",
-    "SJ": "خواہش تجھے <span class=\"diff diff-anchor\">اوروں</span> کی <span class=\"diff diff-anchor\">میاں سچ</span> ہے <span class=\"diff diff-var1\">نہ</span> <span class=\"diff diff-anchor\">ہرگز</span><br>ہم کو تو نہیں تیرے سوا چاہ <span class=\"diff diff-anchor\">کسو</span> کی",
+    "SJ": "خواہش تجھے <span class=\"diff diff-anchor\">اوروں</span> کی <span class=\"diff diff-anchor\">میاں سچ</span> ہے <span class=\"diff diff-var1\">نہ ہرگز</span><br>ہم کو تو نہیں تیرے سوا چاہ <span class=\"diff diff-anchor\">کسو</span> کی",
     "GM": "خواہش تجھے <span class=\"diff diff-gm\">غیروں</span> کی <span class=\"diff diff-gm\">سدا رہتی</span> ہے <span class=\"diff diff-gm\">لیکن</span><br>ہم کو تو نہیں تیرے سوا چاہ <span class=\"diff diff-gm\">کسی</span> کی"
   },
   {
@@ -3938,7 +3938,7 @@ const deewanData = [
     "BL": "<span class=\"diff diff-anchor\">پھر کاہے</span> کو <span class=\"diff diff-anchor\">اس طرح کیا شیفتہ اپنا<br>منظور</span> نہ <span class=\"diff diff-anchor\">تھی تجھ کو جو نرباه کسو</span> کی",
     "TO": "<span class=\"diff diff-anchor\">پھر کاہے</span> کو <span class=\"diff diff-anchor\">اس طرح کیا شیفتہ اپنا<br>منظور</span> نہ <span class=\"diff diff-anchor\">تھی تجھ کو جو نرباه کسو</span> کی",
     "SJ": "<span class=\"diff diff-anchor\">پھر کاہے</span> کو <span class=\"diff diff-anchor\">اس طرح کیا شیفتہ اپنا<br>منظور</span> نہ <span class=\"diff diff-anchor\">تھی تجھ کو جو نرباه کسو</span> کی",
-    "GM": "<span class=\"diff diff-gm\">بوسہ بھی کوئی مانگے تو دے جان کے خیرات<br>خاطر</span> کو  نہ <span class=\"diff diff-gm\">رنجیدہ کر اے ماہ کسی</span> کی"
+    "GM": "<span class=\"diff diff-gm\">بوسہ بھی کوئی مانگے تو دے جان کے خیرات<br>خاطر</span> کو نہ <span class=\"diff diff-gm\">رنجیدہ کر اے ماہ کسی</span> کی"
   },
   {
     "id": 113.4,
@@ -3958,8 +3958,8 @@ const deewanData = [
     "id": 114.1,
     "BL": "عجب <span class=\"diff diff-anchor\">نئیں</span> میکشی کا دل میں ہر زاہد کے <span class=\"diff diff-anchor\">جوش آوے</span><br><span class=\"diff diff-anchor\">لئے</span> ساغر بکف <span class=\"diff diff-anchor\">اپنے اگر وہ بادہ نوش آوے</span>",
     "TO": "عجب <span class=\"diff diff-anchor\">نئیں</span> میکشی کا دل میں ہر زاہد کے <span class=\"diff diff-anchor\">جوش آوے</span><br><span class=\"diff diff-anchor\">لئے</span> ساغر بکف <span class=\"diff diff-anchor\">اپنے اگر وہ بادہ نوش آوے</span>",
-    "SJ": "عجب <span class=\"diff diff-anchor\">نئیں</span> میکشی کا دل میں ہر زاہد کے <span class=\"diff diff-var1\">خوش</span> <span class=\"diff diff-anchor\">آوے</span><br><span class=\"diff diff-anchor\">لئے</span> ساغر بکف <span class=\"diff diff-anchor\">اپنے اگر وہ بادہ نوش آوے</span>",
-    "GM": "عجب <span class=\"diff diff-gm\">کیا</span> میکشی کا دل میں ہر زاہد کے <span class=\"diff diff-anchor\">جوش</span> <span class=\"diff diff-gm\">آئے</span><br><span class=\"diff diff-gm\">اگر</span> ساغر بکف <span class=\"diff diff-gm\">محفل میں اپنا ماه وش آئے</span>"
+    "SJ": "عجب <span class=\"diff diff-anchor\">نئیں</span> میکشی کا دل میں ہر زاہد کے <span class=\"diff diff-var1\">خوش آوے</span><br><span class=\"diff diff-anchor\">لئے</span> ساغر بکف <span class=\"diff diff-anchor\">اپنے اگر وہ بادہ نوش آوے</span>",
+    "GM": "عجب <span class=\"diff diff-gm\">کیا</span> میکشی کا دل میں ہر زاہد کے <span class=\"diff diff-gm\">جوش آئے</span><br><span class=\"diff diff-gm\">اگر</span> ساغر بکف <span class=\"diff diff-gm\">محفل میں اپنا ماه وش آئے</span>"
   },
   {
     "id": 114.2,
@@ -3973,7 +3973,7 @@ const deewanData = [
     "BL": "کیا <span class=\"diff diff-anchor\">یہ</span> ضبط <span class=\"diff diff-anchor\">پیدا</span> اس <span class=\"diff diff-anchor\">سے اس</span> کے <span class=\"diff diff-anchor\">ربط عاشق</span> نے<br>صدائے آہ نا ممکن ہے دل سے تا بگوش <span class=\"diff diff-anchor\">آوے</span>",
     "TO": "کیا <span class=\"diff diff-anchor\">یہ</span> ضبط <span class=\"diff diff-anchor\">پیدا</span> اس <span class=\"diff diff-anchor\">سے اس</span> کے <span class=\"diff diff-anchor\">ربط عاشق</span> نے<br>صدائے آہ نا ممکن ہے دل سے تا بگوش <span class=\"diff diff-anchor\">آوے</span>",
     "SJ": "کیا <span class=\"diff diff-anchor\">یہ</span> ضبط <span class=\"diff diff-anchor\">پیدا</span> اس <span class=\"diff diff-anchor\">سے اس</span> کے <span class=\"diff diff-anchor\">ربط عاشق</span> نے<br>صدائے آہ نا ممکن ہے دل سے تا بگوش <span class=\"diff diff-anchor\">آوے</span>",
-    "GM": "کیا <span class=\"diff diff-gm\">ہے</span> ضبط  اس <span class=\"diff diff-gm\">پردہ نشیں</span> کے <span class=\"diff diff-gm\">عشق میں میں</span> نے<br>صدائے آہ نا ممکن ہے دل سے تا بگوش <span class=\"diff diff-gm\">آئے</span>"
+    "GM": "کیا <span class=\"diff diff-gm\">ہے</span> ضبط اس <span class=\"diff diff-gm\">پردہ نشیں</span> کے <span class=\"diff diff-gm\">عشق میں میں</span> نے<br>صدائے آہ نا ممکن ہے دل سے تا بگوش <span class=\"diff diff-gm\">آئے</span>"
   },
   {
     "id": 114.4,
@@ -3986,7 +3986,7 @@ const deewanData = [
     "id": 114.5,
     "BL": "<span class=\"diff diff-anchor\">بہا</span> دوں <span class=\"diff diff-anchor\">نامۂ</span> اعمال <span class=\"diff diff-anchor\">چندا</span> بحر <span class=\"diff diff-anchor\">بخشش</span> میں<br>جو میری جرم بخشی کو علی سا مے فروش <span class=\"diff diff-anchor\">آوے</span>",
     "TO": "<span class=\"diff diff-anchor\">بہا</span> دوں <span class=\"diff diff-anchor\">نامۂ</span> اعمال <span class=\"diff diff-anchor\">چندا</span> بحر <span class=\"diff diff-anchor\">بخشش</span> میں<br>جو میری جرم بخشی کو علی سا مے فروش <span class=\"diff diff-anchor\">آوے</span>",
-    "SJ": "<span class=\"diff diff-var1\">یہاں</span> دوں <span class=\"diff diff-var2\">نامہ چندا</span> اعمال  بحر <span class=\"diff diff-anchor\">بخشش</span> میں<br>جو میری جرم بخشی کو علی سا مے فروش <span class=\"diff diff-anchor\">آوے</span>",
+    "SJ": "<span class=\"diff diff-var1\">یہاں</span> دوں <span class=\"diff diff-var1\">نامہ چندا</span> اعمال بحر <span class=\"diff diff-anchor\">بخشش</span> میں<br>جو میری جرم بخشی کو علی سا مے فروش <span class=\"diff diff-anchor\">آوے</span>",
     "GM": "<span class=\"diff diff-anchor\">بہا</span> دوں <span class=\"diff diff-anchor\">نامۂ</span> اعمال <span class=\"diff diff-anchor\">چندا</span> بحر <span class=\"diff diff-gm\">جوشش</span> میں<br>جو میری جرم بخشی کو علی سا مے فروش <span class=\"diff diff-gm\">آئے</span>"
   },
   {
@@ -4006,44 +4006,44 @@ const deewanData = [
   {
     "id": 115.3,
     "BL": "کیا <span class=\"diff diff-anchor\">ہوں پختہ میں سودا کو</span> تیرے عشق میں لیکن<br>کہاں یہ <span class=\"diff diff-anchor\">ہو</span> سکے جو تو خیال خام سے گزرے",
-    "TO": "کیا <span class=\"diff diff-anchor\">ہوں پختہ میں سودا کو</span> تیرے عشق میں لیکن<br>کہاں <span class=\"diff diff-var1\">ہو</span> یہ  سکے جو تو خیال خام سے گزرے",
-    "SJ": "کیا <span class=\"diff diff-anchor\">ہوں</span> <span class=\"diff diff-var2\">تجھ پو</span> <span class=\"diff diff-anchor\">میں سودا کو</span> تیرے عشق میں لیکن<br>کہاں یہ <span class=\"diff diff-anchor\">ہو</span> سکے جو تو خیال خام سے گزرے",
+    "TO": "کیا <span class=\"diff diff-anchor\">ہوں پختہ میں سودا کو</span> تیرے عشق میں لیکن<br>کہاں <span class=\"diff diff-var2\">ہو</span> یہ سکے جو تو خیال خام سے گزرے",
+    "SJ": "کیا <span class=\"diff diff-var1\">ہوں تجھ پو میں سودا کو</span> تیرے عشق میں لیکن<br>کہاں یہ <span class=\"diff diff-anchor\">ہو</span> سکے جو تو خیال خام سے گزرے",
     "GM": "<span class=\"diff diff-gm\">کہیں</span> کیا <span class=\"diff diff-gm\">جو کہ کر گزرے ہیں</span> تیرے عشق میں لیکن<br>کہاں یہ <span class=\"diff diff-anchor\">ہو</span> سکے جو تو خیال خام سے گزرے"
   },
   {
     "id": 115.4,
     "BL": "رخ <span class=\"diff diff-anchor\">زیبا پہ</span> دیکھ <span class=\"diff diff-anchor\">ہم زلف</span> اس <span class=\"diff diff-anchor\">محراب ابرو کی</span><br>نماز و روزه و تسبیح <span class=\"diff diff-anchor\">ننگ</span> و <span class=\"diff diff-anchor\">نام</span> سے گزرے",
     "TO": "رخ <span class=\"diff diff-anchor\">زیبا پہ</span> دیکھ <span class=\"diff diff-anchor\">ہم زلف</span> اس <span class=\"diff diff-anchor\">محراب ابرو کی</span><br>نماز و روزه و تسبیح <span class=\"diff diff-anchor\">ننگ</span> و <span class=\"diff diff-anchor\">نام</span> سے گزرے",
-    "SJ": "رخ <span class=\"diff diff-anchor\">زیبا پہ</span> دیکھ <span class=\"diff diff-anchor\">ہم زلف</span> اس <span class=\"diff diff-anchor\">محراب ابرو کی</span><br>نماز و روزه و تسبیح <span class=\"diff diff-var1\">صبح</span> و <span class=\"diff diff-var2\">شام</span> سے گزرے",
+    "SJ": "رخ <span class=\"diff diff-anchor\">زیبا پہ</span> دیکھ <span class=\"diff diff-anchor\">ہم زلف</span> اس <span class=\"diff diff-anchor\">محراب ابرو کی</span><br>نماز و روزه و تسبیح <span class=\"diff diff-var1\">صبح</span> و <span class=\"diff diff-var1\">شام</span> سے گزرے",
     "GM": "رخ <span class=\"diff diff-gm\">و گیسو و خال و طاق ابرو</span> دیکھ <span class=\"diff diff-gm\">کر</span> اس <span class=\"diff diff-gm\">کے</span><br>نماز و روزه و تسبیح <span class=\"diff diff-gm\">صبح</span> و <span class=\"diff diff-gm\">شام</span> سے گزرے"
   },
   {
     "id": 115.5,
     "BL": "کرو امداد <span class=\"diff diff-anchor\">وہ درگہ</span> سے <span class=\"diff diff-anchor\">اپنی</span> یا <span class=\"diff diff-anchor\">علی والی</span><br><span class=\"diff diff-anchor\">جو ہو</span> کونین میں چندا کو <span class=\"diff diff-anchor\">نت</span> آرام سے گزرے",
-    "TO": "کرو امداد <span class=\"diff diff-anchor\">وہ درگہ</span> سے <span class=\"diff diff-anchor\">اپنی</span> یا <span class=\"diff diff-anchor\">علی</span> <span class=\"diff diff-var1\">ولی</span><br><span class=\"diff diff-anchor\">جو ہو</span> کونین میں چندا کو <span class=\"diff diff-anchor\">نت</span> آرام سے گزرے",
+    "TO": "کرو امداد <span class=\"diff diff-anchor\">وہ درگہ</span> سے <span class=\"diff diff-anchor\">اپنی</span> یا <span class=\"diff diff-var2\">علی ولی</span><br><span class=\"diff diff-anchor\">جو ہو</span> کونین میں چندا کو <span class=\"diff diff-anchor\">نت</span> آرام سے گزرے",
     "SJ": "کرو امداد <span class=\"diff diff-anchor\">وہ درگہ</span> سے <span class=\"diff diff-anchor\">اپنی</span> یا <span class=\"diff diff-anchor\">علی والی</span><br><span class=\"diff diff-anchor\">جو ہو</span> کونین میں چندا کو <span class=\"diff diff-anchor\">نت</span> آرام سے گزرے",
-    "GM": "کرو امداد <span class=\"diff diff-gm\">فضل حق</span> سے  یا <span class=\"diff diff-gm\">مشکل کشا میری</span><br><span class=\"diff diff-gm\">سدا</span> کونین میں چندا کو <span class=\"diff diff-gm\">اب</span> آرام سے گزرے"
+    "GM": "کرو امداد <span class=\"diff diff-gm\">فضل حق</span> سے یا <span class=\"diff diff-gm\">مشکل کشا میری</span><br><span class=\"diff diff-gm\">سدا</span> کونین میں چندا کو <span class=\"diff diff-gm\">اب</span> آرام سے گزرے"
   },
   {
     "id": 116.1,
     "BL": "<span class=\"diff diff-anchor\">کئے تھے ہم</span> سے <span class=\"diff diff-anchor\">تم نے جان وہ</span> اقرار کیا سمجھے<br><span class=\"diff diff-anchor\">کہ</span> رخ <span class=\"diff diff-anchor\">دیتے نہیں انجان ہو</span> بے زار کیا سمجھے",
     "TO": "<span class=\"diff diff-anchor\">کئے تھے ہم</span> سے <span class=\"diff diff-anchor\">تم نے جان وہ</span> اقرار کیا سمجھے<br><span class=\"diff diff-anchor\">کہ</span> رخ <span class=\"diff diff-anchor\">دیتے نہیں انجان ہو</span> بے زار کیا سمجھے",
-    "SJ": "<span class=\"diff diff-anchor\">کئے</span> <span class=\"diff diff-var1\">ہے</span> <span class=\"diff diff-anchor\">ہم</span> سے <span class=\"diff diff-anchor\">تم نے جان وہ</span> اقرار کیا سمجھے<br><span class=\"diff diff-anchor\">کہ</span> رخ <span class=\"diff diff-anchor\">دیتے نہیں انجان ہو</span> بے زار کیا سمجھے",
+    "SJ": "<span class=\"diff diff-var1\">کئے ہے ہم</span> سے <span class=\"diff diff-anchor\">تم نے جان وہ</span> اقرار کیا سمجھے<br><span class=\"diff diff-anchor\">کہ</span> رخ <span class=\"diff diff-anchor\">دیتے نہیں انجان ہو</span> بے زار کیا سمجھے",
     "GM": "<span class=\"diff diff-gm\">کہا کس نے کرو تم مجھ</span> سے <span class=\"diff diff-gm\">یوں</span> اقرار کیا سمجھے<br><span class=\"diff diff-gm\">پھرا کر</span> رخ <span class=\"diff diff-gm\">کو اپنے کیوں ہوئے</span> بے زار کیا سمجھے"
   },
   {
     "id": 116.2,
     "BL": "بہ رنگ شمع روشن <span class=\"diff diff-anchor\">تھی</span> یہ اہل بزم پر لیکن<br><span class=\"diff diff-anchor\">کئے</span> جو <span class=\"diff diff-anchor\">سر گزشت</span> ہم نے <span class=\"diff diff-anchor\">تمہیں</span> اظہار کیا سمجھے",
-    "TO": "بہ رنگ شمع روشن <span class=\"diff diff-var1\">ہے</span> یہ اہل بزم پر لیکن<br><span class=\"diff diff-anchor\">کئے</span> جو <span class=\"diff diff-anchor\">سر گزشت</span> ہم نے <span class=\"diff diff-anchor\">تمہیں</span> اظہار کیا سمجھے",
+    "TO": "بہ رنگ شمع روشن <span class=\"diff diff-var2\">ہے</span> یہ اہل بزم پر لیکن<br><span class=\"diff diff-anchor\">کئے</span> جو <span class=\"diff diff-anchor\">سر گزشت</span> ہم نے <span class=\"diff diff-anchor\">تمہیں</span> اظہار کیا سمجھے",
     "SJ": "بہ رنگ شمع روشن <span class=\"diff diff-var1\">ہے</span> یہ اہل بزم پر لیکن<br><span class=\"diff diff-anchor\">کئے</span> جو <span class=\"diff diff-anchor\">سر گزشت</span> ہم نے <span class=\"diff diff-anchor\">تمہیں</span> اظہار کیا سمجھے",
-    "GM": "بہ رنگ شمع روشن <span class=\"diff diff-gm\">ہے</span> یہ اہل بزم پر لیکن<br> جو <span class=\"diff diff-gm\">حالت اپنی</span> ہم نے <span class=\"diff diff-gm\">تم پہ کی</span> اظہار کیا سمجھے"
+    "GM": "بہ رنگ شمع روشن <span class=\"diff diff-gm\">ہے</span> یہ اہل بزم پر لیکن<br>جو <span class=\"diff diff-gm\">حالت اپنی</span> ہم نے <span class=\"diff diff-gm\">تم پہ کی</span> اظہار کیا سمجھے"
   },
   {
     "id": 116.3,
-    "BL": "<span class=\"diff diff-anchor\">کیا ہے کام</span> شیریں <span class=\"diff diff-anchor\">جو جنوں کے ملک کا خسرو</span><br>اگر فرہاد سے <span class=\"diff diff-anchor\">چاہے</span> کرے تکرار  کیا سمجھے",
-    "TO": "<span class=\"diff diff-anchor\">کیا ہے کام</span> شیریں <span class=\"diff diff-anchor\">جو جنوں کے ملک کا خسرو</span><br>اگر فرہاد سے <span class=\"diff diff-anchor\">چاہے</span> کرے تکرار  کیا سمجھے",
-    "SJ": "<span class=\"diff diff-anchor\">کیا ہے کام</span> شیریں <span class=\"diff diff-anchor\">جو جنوں کے ملک کا خسرو</span><br>اگر فرہاد سے <span class=\"diff diff-anchor\">چاہے</span> کرے تکرار  کیا سمجھے",
-    "GM": "<span class=\"diff diff-gm\">جو سچ پوچھو تو یہ زحمت اٹھائی عشق</span> شیریں <span class=\"diff diff-gm\">میں</span><br>اگر فرہاد سے <span class=\"diff diff-gm\">خسرو</span> کرے تکرار  کیا سمجھے"
+    "BL": "<span class=\"diff diff-anchor\">کیا ہے کام</span> شیریں <span class=\"diff diff-anchor\">جو جنوں کے ملک کا خسرو</span><br>اگر فرہاد سے <span class=\"diff diff-anchor\">چاہے</span> کرے تکرار کیا سمجھے",
+    "TO": "<span class=\"diff diff-anchor\">کیا ہے کام</span> شیریں <span class=\"diff diff-anchor\">جو جنوں کے ملک کا خسرو</span><br>اگر فرہاد سے <span class=\"diff diff-anchor\">چاہے</span> کرے تکرار کیا سمجھے",
+    "SJ": "<span class=\"diff diff-anchor\">کیا ہے کام</span> شیریں <span class=\"diff diff-anchor\">جو جنوں کے ملک کا خسرو</span><br>اگر فرہاد سے <span class=\"diff diff-anchor\">چاہے</span> کرے تکرار کیا سمجھے",
+    "GM": "<span class=\"diff diff-gm\">جو سچ پوچھو تو یہ زحمت اٹھائی عشق</span> شیریں <span class=\"diff diff-gm\">میں</span><br>اگر فرہاد سے <span class=\"diff diff-gm\">خسرو</span> کرے تکرار کیا سمجھے"
   },
   {
     "id": 116.4,
@@ -4057,7 +4057,7 @@ const deewanData = [
     "BL": "<span class=\"diff diff-anchor\">نہ پوچھ اب کیفیت</span> چندا <span class=\"diff diff-anchor\">سے ہرگز دین و ایماں</span> کی<br><span class=\"diff diff-anchor\">سواۓ مرتضیٰ کے ہم نے یہاں زنہار</span> کیا سمجھے",
     "TO": "<span class=\"diff diff-anchor\">نہ پوچھ اب کیفیت</span> چندا <span class=\"diff diff-anchor\">سے ہرگز دین و ایماں</span> کی<br><span class=\"diff diff-anchor\">سواۓ مرتضیٰ کے ہم نے یہاں زنہار</span> کیا سمجھے",
     "SJ": "<span class=\"diff diff-anchor\">نہ پوچھ اب کیفیت</span> چندا <span class=\"diff diff-anchor\">سے ہرگز دین و ایماں</span> کی<br><span class=\"diff diff-anchor\">سواۓ مرتضیٰ کے ہم نے یہاں زنہار</span> کیا سمجھے",
-    "GM": "<span class=\"diff diff-gm\">محمد جب کریں تعریف </span> چندا  کی <span class=\"diff diff-gm\">حقیقت کیا</span><br><span class=\"diff diff-gm\">تمہارا کوئی رتبہ  حیدر کرار</span> کیا سمجھے"
+    "GM": "<span class=\"diff diff-gm\">محمد جب کریں تعریف</span> چندا کی <span class=\"diff diff-gm\">حقیقت کیا</span><br><span class=\"diff diff-gm\">تمہارا کوئی رتبہ حیدر کرار</span> کیا سمجھے"
   },
   {
     "id": 117.1,
@@ -4085,21 +4085,21 @@ const deewanData = [
     "BL": "",
     "TO": "",
     "SJ": "دست رس شانے تجھے یک مو نہ ہو اس زلف تک<br>جس کی ہر لٹ میں <span class=\"diff diff-anchor\">لٹ میں</span> لٹکتے ہیں سدا کالے پڑے",
-    "GM": "دست رس شانے تجھے یک مو نہ ہو اس زلف تک<br>جس کی ہر لٹ میں  لٹکتے ہیں سدا کالے پڑے"
+    "GM": "دست رس شانے تجھے یک مو نہ ہو اس زلف تک<br>جس کی ہر لٹ میں لٹکتے ہیں سدا کالے پڑے"
   },
   {
     "id": 117.5,
     "BL": "",
     "TO": "",
     "SJ": "آئی چندا در <span class=\"diff diff-anchor\">پہ تیرے پھیر کر شاہ نجف</span><br><span class=\"diff diff-anchor\">تکمۂ</span> الماس کے اور لعل کے بالے پڑے",
-    "GM": "آئی چندا <span class=\"diff diff-gm\">آپ کے</span> در <span class=\"diff diff-gm\">پر ہے  دو یوں یا علی</span><br><span class=\"diff diff-gm\">تکمے ہوں</span> الماس کے اور لعل کے بالے پڑے"
+    "GM": "آئی چندا <span class=\"diff diff-gm\">آپ کے</span> در <span class=\"diff diff-gm\">پر ہے دو یوں یا علی</span><br><span class=\"diff diff-gm\">تکمے ہوں</span> الماس کے اور لعل کے بالے پڑے"
   },
   {
     "id": 118.1,
     "BL": "ہر شب ہے گزری یاد میں جس گل عذار کی<br>یک روز بھی <span class=\"diff diff-anchor\">خبر</span> نہ <span class=\"diff diff-anchor\">لیا</span> بے قرار کی",
     "TO": "ہر شب ہے گزری یاد میں جس گل عذار کی<br>یک روز بھی <span class=\"diff diff-anchor\">خبر</span> نہ <span class=\"diff diff-anchor\">لیا</span> بے قرار کی",
     "SJ": "ہر شب ہے گزری یاد میں جس گل عذار کی<br>یک روز بھی <span class=\"diff diff-anchor\">خبر</span> نہ <span class=\"diff diff-anchor\">لیا</span> بے قرار کی",
-    "GM": "ہر شب ہے گزری یاد میں جس گل عذار کی<br>یک روز <span class=\"diff diff-gm\">لی خبر</span> بھی  نہ <span class=\"diff diff-gm\">اس</span> بے قرار کی"
+    "GM": "ہر شب ہے گزری یاد میں جس گل عذار کی<br>یک روز <span class=\"diff diff-gm\">لی خبر</span> بھی نہ <span class=\"diff diff-gm\">اس</span> بے قرار کی"
   },
   {
     "id": 118.2,
@@ -4113,14 +4113,14 @@ const deewanData = [
     "BL": "روز ازل <span class=\"diff diff-anchor\">میں</span> جام محبت دیا <span class=\"diff diff-anchor\">تھا بھر</span><br>سرخی رہی ہے آنکھوں میں اب تک خمار کی",
     "TO": "روز ازل <span class=\"diff diff-anchor\">میں</span> جام محبت دیا <span class=\"diff diff-anchor\">تھا بھر</span><br>سرخی رہی ہے آنکھوں میں اب تک خمار کی",
     "SJ": "روز ازل <span class=\"diff diff-anchor\">میں</span> جام محبت دیا <span class=\"diff diff-anchor\">تھا بھر</span><br>سرخی رہی ہے آنکھوں میں اب تک خمار کی",
-    "GM": "روز ازل <span class=\"diff diff-gm\">جو</span> جام محبت <span class=\"diff diff-gm\">پلا</span> دیا <br>سرخی رہی ہے آنکھوں میں اب تک خمار کی"
+    "GM": "روز ازل <span class=\"diff diff-gm\">جو</span> جام محبت <span class=\"diff diff-gm\">پلا</span> دیا<br>سرخی رہی ہے آنکھوں میں اب تک خمار کی"
   },
   {
     "id": 118.4,
-    "BL": "خون جگر  <span class=\"diff diff-anchor\">تو</span> بہہ چلا <span class=\"diff diff-anchor\">آنکھوں سے اب امنڑ </span><br>تس پر بھی یہ جھڑی نہ تھمی اشک بار کی",
-    "TO": "خون جگر  <span class=\"diff diff-anchor\">تو</span> بہہ چلا <span class=\"diff diff-anchor\">آنکھوں سے اب امنڑ </span><br>تس پر بھی یہ جھڑی نہ تھمی اشک بار کی",
-    "SJ": "خون جگر  <span class=\"diff diff-anchor\">تو</span> بہہ چلا <span class=\"diff diff-anchor\">آنکھوں سے اب امنڑ </span><br>تس پر بھی یہ جھڑی نہ تھمی اشک بار کی",
-    "GM": "خون جگر  <span class=\"diff diff-gm\">یہ آنکھوں سے امڈا کہ</span> بہہ چلا <br>تس پر بھی یہ جھڑی نہ تھمی اشک بار کی"
+    "BL": "خون جگر <span class=\"diff diff-anchor\">تو</span> بہہ چلا <span class=\"diff diff-anchor\">آنکھوں سے اب امنڑ</span><br>تس پر بھی یہ جھڑی نہ تھمی اشک بار کی",
+    "TO": "خون جگر <span class=\"diff diff-anchor\">تو</span> بہہ چلا <span class=\"diff diff-anchor\">آنکھوں سے اب امنڑ</span><br>تس پر بھی یہ جھڑی نہ تھمی اشک بار کی",
+    "SJ": "خون جگر <span class=\"diff diff-anchor\">تو</span> بہہ چلا <span class=\"diff diff-anchor\">آنکھوں سے اب امنڑ</span><br>تس پر بھی یہ جھڑی نہ تھمی اشک بار کی",
+    "GM": "خون جگر <span class=\"diff diff-gm\">یہ آنکھوں سے امڈا کہ</span> بہہ چلا<br>تس پر بھی یہ جھڑی نہ تھمی اشک بار کی"
   },
   {
     "id": 118.5,
@@ -4140,14 +4140,14 @@ const deewanData = [
     "id": 119.2,
     "BL": "آتے ہی میں نے اس کے کیا نذر دل <span class=\"diff diff-anchor\">کے تئیں</span><br><span class=\"diff diff-anchor\">میرے</span> سے <span class=\"diff diff-anchor\">اس کی ہی</span> مدارات ہو گئی",
     "TO": "آتے ہی میں نے اس کے کیا نذر دل <span class=\"diff diff-anchor\">کے تئیں</span><br><span class=\"diff diff-anchor\">میرے</span> سے <span class=\"diff diff-anchor\">اس کی ہی</span> مدارات ہو گئی",
-    "SJ": "آتے ہی میں نے اس کے کیا نذر دل <span class=\"diff diff-anchor\">کے تئیں</span><br><span class=\"diff diff-anchor\">میرے</span> سے <span class=\"diff diff-anchor\">اس کی</span> <span class=\"diff diff-var1\">یہ</span> <span class=\"diff diff-anchor\">ہی</span> مدارات ہو گئی",
-    "GM": "آتے ہی میں نے اس کے کیا نذر <span class=\"diff diff-gm\">نقد</span> دل <br><span class=\"diff diff-gm\">مہماں کی ہر طرح</span> سے  مدارات ہو گئی"
+    "SJ": "آتے ہی میں نے اس کے کیا نذر دل <span class=\"diff diff-anchor\">کے تئیں</span><br><span class=\"diff diff-anchor\">میرے</span> سے <span class=\"diff diff-var1\">اس کی یہ ہی</span> مدارات ہو گئی",
+    "GM": "آتے ہی میں نے اس کے کیا نذر <span class=\"diff diff-gm\">نقد</span> دل<br><span class=\"diff diff-gm\">مہماں کی ہر طرح</span> سے مدارات ہو گئی"
   },
   {
     "id": 119.3,
     "BL": "<span class=\"diff diff-anchor\">رنگ</span> حنا <span class=\"diff diff-anchor\">کو</span> پاؤں سے <span class=\"diff diff-anchor\">مل خون پر مرے<br>باندھا کمر</span> جو ہونی تھی ہیہات ہو گئی",
     "TO": "<span class=\"diff diff-anchor\">رنگ</span> حنا <span class=\"diff diff-anchor\">کو</span> پاؤں سے <span class=\"diff diff-anchor\">مل خون پر مرے<br>باندھا کمر</span> جو ہونی تھی ہیہات ہو گئی",
-    "SJ": "<span class=\"diff diff-anchor\">رنگ</span> حنا <span class=\"diff diff-anchor\">کو</span> پاؤں سے <span class=\"diff diff-anchor\">مل خون</span> <span class=\"diff diff-var1\">میرے</span> <span class=\"diff diff-anchor\">پر</span>  <span class=\"diff diff-anchor\"><br> باندھا کمر</span> جو ہونی تھی ہیہات ہو گئی",
+    "SJ": "<span class=\"diff diff-anchor\">رنگ</span> حنا <span class=\"diff diff-anchor\">کو</span> پاؤں سے <span class=\"diff diff-var1\">مل خون میرے پر<br>باندھا کمر</span> جو ہونی تھی ہیہات ہو گئی",
     "GM": "<span class=\"diff diff-gm\">بدلے</span> حنا <span class=\"diff diff-gm\">کے خون ملا میرا</span> پاؤں <span class=\"diff diff-gm\">میں<br>تجھ</span> سے <span class=\"diff diff-gm\">جفا</span> جو ہونی تھی ہیہات ہو گئی"
   },
   {
@@ -4168,15 +4168,15 @@ const deewanData = [
     "id": 120.1,
     "BL": "گل کے ہونے توقع <span class=\"diff diff-anchor\">بہ</span> جئے بیٹھی ہے<br>ہر کلی جان کو مٹھی <span class=\"diff diff-anchor\">میں</span> لئے بیٹھی ہے",
     "TO": "گل کے ہونے توقع <span class=\"diff diff-anchor\">بہ</span> جئے بیٹھی ہے<br>ہر کلی جان کو مٹھی <span class=\"diff diff-anchor\">میں</span> لئے بیٹھی ہے",
-    "SJ": "گل کے ہونے <span class=\"diff diff-var1\">کی</span> توقع <span class=\"diff diff-var2\">پہ</span> جئے بیٹھی ہے<br>ہر کلی جان کو مٹھی <span class=\"diff diff-var3\">[میں]</span> لئے بیٹھی ہے",
+    "SJ": "گل کے ہونے <span class=\"diff diff-var1\">کی</span> توقع <span class=\"diff diff-var1\">پہ</span> جئے بیٹھی ہے<br>ہر کلی جان کو مٹھی <span class=\"diff diff-var1\">[میں]</span> لئے بیٹھی ہے",
     "GM": "گل کے ہونے <span class=\"diff diff-gm\">کی</span> توقع <span class=\"diff diff-gm\">پہ</span> جئے بیٹھی ہے<br>ہر کلی جان کو مٹھی <span class=\"diff diff-anchor\">میں</span> لئے بیٹھی ہے"
   },
   {
     "id": 120.2,
     "BL": "<span class=\"diff diff-anchor\">باغباں جور</span> خزاں <span class=\"diff diff-anchor\">سے ہو تو یک لخت خموش</span><br><span class=\"diff diff-anchor\">منہ کو</span> بلبل <span class=\"diff diff-anchor\">بھی رگ گل سے سئے</span> بیٹھی ہے",
     "TO": "<span class=\"diff diff-anchor\">باغباں جور</span> خزاں <span class=\"diff diff-anchor\">سے ہو تو یک لخت خموش</span><br><span class=\"diff diff-anchor\">منہ کو</span> بلبل <span class=\"diff diff-anchor\">بھی رگ گل سے سئے</span> بیٹھی ہے",
-    "SJ": "<span class=\"diff diff-anchor\">باغباں</span> <span class=\"diff diff-var1\">جو</span> خزاں <span class=\"diff diff-anchor\">سے ہو</span>  <span class=\"diff diff-anchor\">یک لخت خموش</span><br><span class=\"diff diff-var2\">مہ</span> <span class=\"diff diff-anchor\">کو</span> بلبل <span class=\"diff diff-anchor\">بھی رگ گل سے سئے</span> بیٹھی ہے",
-    "GM": "<span class=\"diff diff-gm\">کبھی صیاد کا کھٹکا ہے کبھی خوف</span> خزاں <br> بلبل <span class=\"diff diff-gm\">اب جان ہتھیلی پہ لئے</span> بیٹھی ہے"
+    "SJ": "<span class=\"diff diff-var1\">باغباں جو</span> خزاں <span class=\"diff diff-var1\">سے ہو [تو] یک لخت خموش</span><br><span class=\"diff diff-var1\">مہ کو</span> بلبل <span class=\"diff diff-anchor\">بھی رگ گل سے سئے</span> بیٹھی ہے",
+    "GM": "<span class=\"diff diff-gm\">کبھی صیاد کا کھٹکا ہے کبھی خوف</span> خزاں<br>بلبل <span class=\"diff diff-gm\">اب جان ہتھیلی پہ لئے</span> بیٹھی ہے"
   },
   {
     "id": 120.3,
@@ -4189,8 +4189,8 @@ const deewanData = [
     "id": 120.4,
     "BL": "<span class=\"diff diff-anchor\">رنگ رخسار تجلی میں نہ کم تھا تس پر</span><br>شمع <span class=\"diff diff-anchor\">رو سرمے</span> کو <span class=\"diff diff-anchor\">آنکھوں میں کئے</span> بیٹھی ہے",
     "TO": "<span class=\"diff diff-anchor\">رنگ رخسار تجلی میں نہ کم تھا تس پر</span><br>شمع <span class=\"diff diff-anchor\">رو سرمے</span> کو <span class=\"diff diff-anchor\">آنکھوں میں کئے</span> بیٹھی ہے",
-    "SJ": "<span class=\"diff diff-anchor\">رنگ</span> <span class=\"diff diff-var1\">رخسارہ</span> <span class=\"diff diff-anchor\">تجلی میں نہ کم تھا تس پر</span><br>شمع <span class=\"diff diff-anchor\">رو</span> <span class=\"diff diff-var2\">آنکھوں میں</span> <span class=\"diff diff-anchor\">سرمے</span> کو  <span class=\"diff diff-anchor\">کئے</span> بیٹھی ہے",
-    "GM": "<span class=\"diff diff-gm\">تیرے</span> <span class=\"diff diff-anchor\">رخسار</span> <span class=\"diff diff-gm\">سے تشبیہ اسے دوں کیوں کر</span><br>شمع <span class=\"diff diff-gm\">تو چربی</span> کو <span class=\"diff diff-anchor\">آنکھوں میں</span> <span class=\"diff diff-gm\">دئے</span> بیٹھی ہے"
+    "SJ": "<span class=\"diff diff-var1\">رنگ رخسارہ تجلی میں نہ کم تھا تس پر</span><br>شمع <span class=\"diff diff-var1\">رو آنکھوں میں سرمے</span> کو <span class=\"diff diff-var1\">کئے</span> بیٹھی ہے",
+    "GM": "<span class=\"diff diff-gm\">تیرے رخسار سے تشبیہ اسے دوں کیوں کر</span><br>شمع <span class=\"diff diff-gm\">تو چربی</span> کو <span class=\"diff diff-gm\">آنکھوں میں دئے</span> بیٹھی ہے"
   },
   {
     "id": 120.5,
@@ -4245,7 +4245,7 @@ const deewanData = [
     "id": 122.2,
     "BL": "",
     "TO": "",
-    "SJ": "خلش تیر ےمژگاں کی دل میں ہے یوں<br><span class=\"diff diff-anchor\">کھٹکتے</span> کہیں جیسے نشتر رہے",
+    "SJ": "خلش تیر ےمژگاں کی دل میں ہے یوں<br>کہیں <span class=\"diff diff-anchor\">گے کھبن</span> جیسے نشتر رہے",
     "GM": "خلش تیر ےمژگاں کی دل میں ہے یوں<br><span class=\"diff diff-gm\">کھٹکتا</span> کہیں جیسے نشتر رہے"
   },
   {
@@ -4281,20 +4281,20 @@ const deewanData = [
     "BL": "",
     "TO": "",
     "SJ": "صبا آئینہ دار چشم بلبل ہے <span class=\"diff diff-anchor\">لئے اس کے</span><br>ہجوم نو عروسان چمن کی ہے خود آرائی",
-    "GM": "صبا <span class=\"diff diff-gm\">اس کے لئے</span> آئینہ دار چشم بلبل ہے <br>ہجوم نو عروسان چمن کی ہے خود آرائی"
+    "GM": "صبا <span class=\"diff diff-gm\">اس کے لئے</span> آئینہ دار چشم بلبل ہے<br>ہجوم نو عروسان چمن کی ہے خود آرائی"
   },
   {
     "id": 123.3,
     "BL": "",
     "TO": "",
     "SJ": "کسی نے مجھ سے پوچھا ہے یہ چرچا بزم کا کس <span class=\"diff diff-anchor\">کی</span><br><span class=\"diff diff-anchor\">کہاں</span> میں <span class=\"diff diff-anchor\">کشن</span> ثانی نے <span class=\"diff diff-anchor\">جہاں کو دی یہ</span> زیبائی",
-    "GM": "کسی نے مجھ سے پوچھا ہے یہ چرچا بزم کا کس <span class=\"diff diff-gm\">کے</span><br><span class=\"diff diff-gm\">کہا</span> میں <span class=\"diff diff-gm\">نے یہ دی ہے حاتم</span> ثانی نے  زیبائی"
+    "GM": "کسی نے مجھ سے پوچھا ہے یہ چرچا بزم کا کس <span class=\"diff diff-gm\">کے</span><br><span class=\"diff diff-gm\">کہا</span> میں <span class=\"diff diff-gm\">نے یہ دی ہے حاتم</span> ثانی نے زیبائی"
   },
   {
     "id": 123.4,
     "BL": "",
     "TO": "",
-    "SJ": "قدم رستم نہ چومے کیونکہ میدان شجاعت میں<br>ازل سے تا ابد ہے <span class=\"diff diff-anchor\">لشکر [سلطاں کو]</span> مولائی",
+    "SJ": "قدم رستم نہ چومے کیونکہ میدان شجاعت میں<br>ازل سے تا ابد ہے <span class=\"diff diff-anchor\">لشکر</span> مولائی",
     "GM": "قدم رستم نہ چومے کیونکہ میدان شجاعت میں<br>ازل سے تا ابد <span class=\"diff diff-gm\">مشہور</span> ہے <span class=\"diff diff-gm\">اب جس کی</span> مولائی"
   },
   {
@@ -4330,7 +4330,7 @@ const deewanData = [
     "BL": "",
     "TO": "",
     "SJ": "خضر کی عمر ہو اس کی تصدق سے ائمہ کے<br>نظام الدولہ جو <span class=\"diff diff-anchor\">مہر فلک</span> سب کا مسیحا ہے",
-    "GM": "خضر کی عمر ہو اس کی تصدق سے ائمہ کے<br>نظام الدولہ <span class=\"diff diff-gm\">آصف جاه</span> جو  سب کا مسیحا ہے"
+    "GM": "خضر کی عمر ہو اس کی تصدق سے ائمہ کے<br>نظام الدولہ <span class=\"diff diff-gm\">آصف جاه</span> جو سب کا مسیحا ہے"
   },
   {
     "id": 124.5,
@@ -4344,7 +4344,7 @@ const deewanData = [
     "BL": "",
     "TO": "",
     "SJ": "<span class=\"diff diff-anchor\">چہرۂ خوباں</span> کے <span class=\"diff diff-anchor\">آگے</span> ماہ میں کیا نور ہے<br>داغ پایا چاند نے یہ بے کلف مشہور ہے",
-    "GM": "<span class=\"diff diff-gm\">روبرو خورشید رو</span> کے  ماہ میں کیا نور ہے<br>داغ پایا چاند نے یہ بے کلف مشہور ہے"
+    "GM": "<span class=\"diff diff-gm\">روبرو خورشید رو</span> کے ماہ میں کیا نور ہے<br>داغ پایا چاند نے یہ بے کلف مشہور ہے"
   },
   {
     "id": 125.2,
@@ -4364,8 +4364,8 @@ const deewanData = [
     "id": 125.4,
     "BL": "",
     "TO": "",
-    "SJ": "جس کو حوران بہشتی بھی پہنچ سکتے نہیں<br>لیلی و شیریں کا اس کے آگے کیا مذکور  ہے",
-    "GM": "جس کو حوران بہشتی بھی پہنچ سکتے نہیں<br>لیلی و شیریں کا اس کے آگے کیا مذکور  ہے"
+    "SJ": "جس کو حوران بہشتی بھی پہنچ سکتے نہیں<br>لیلی و شیریں کا اس کے آگے کیا مذکور ہے",
+    "GM": "جس کو حوران بہشتی بھی پہنچ سکتے نہیں<br>لیلی و شیریں کا اس کے آگے کیا مذکور ہے"
   },
   {
     "id": 125.5,
