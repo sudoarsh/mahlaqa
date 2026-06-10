@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliography & Links - A Critical Edition</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* =========================================
+           BIBLIOGRAPHY SPECIFIC STYLES
+           ========================================= */
+        
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: var(--primary);
+            margin-top: 50px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 10px;
+        }
+
+        .bib-category {
+            margin-bottom: 50px;
+        }
+
+        .bib-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .bib-entry {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: var(--secondary);
+            margin-bottom: 20px;
+            padding-left: 2em;
+            text-indent: -2em; /* Creates the academic hanging indent */
+        }
+
+        .bib-entry strong {
+            color: var(--primary);
+        }
+
+        .bib-entry em {
+            color: #1e293b;
+        }
+
+        .bib-link {
+            display: inline-block;
+            margin-left: 10px;
+            color: #903b35;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-indent: 0; /* Override hanging indent for links */
+            transition: color 0.2s;
+        }
+
+        .bib-link:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        /* Digital Archives Grid */
+        .archive-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .archive-card {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .archive-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+        }
+
+        .archive-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            color: #903b35;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .archive-card p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--secondary);
+            margin-bottom: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="site-nav">
+        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
+            ☰
+        </button>
+        
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            
+            <li class="dropdown">
+                <a href="#" class="dropbtn active" style="color: #ffffff;">Context ▾</a>
+                <div class="dropdown-content">
+                    <a href="about.html">About Mah Laqa</a>
+                    <a href="bibliography.html">Bibliography & Links</a>
+                    <a href="gallery.html">Visual Archive</a>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="#" class="dropbtn">The Text ▾</a>
+                <div class="dropdown-content">
+                    <a href="sources.html">The Witnesses</a>
+                    <a href="view.html">Interactive Collation</a>
+                    <a href="analysis.html">Computational Analysis</a>
+                </div>
+            </li>
+
+            <li><a href="project.html">About the Project</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero" style="padding: 5rem 1rem 6rem 1rem;">
+        <h1 style="font-family: 'Playfair Display', serif; font-size: 3.5rem; margin-bottom: 5px;">Bibliography & Links</h1>
+        <p style="font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-top: 0; font-style: italic; opacity: 0.9;">Primary Witnesses, Methodological Precedents, and Literature</p>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <div class="container" style="max-width: 1000px; padding: 20px;">
+        
+        <!-- PRIMARY SOURCES -->
+        <div class="bib-category">
+            <h2 class="section-title">Primary Sources (Manuscripts & Early Prints)</h2>
+            <ul class="bib-list">
+                <li class="bib-entry">
+                    <strong>British Library IO Islamic 2768 [BL 1799].</strong> <em>Diwan-e-Chanda</em>. Presentation copy gifted to James Kirkpatrick. Contains 97 ghazals. Persian preface by Syed Naseeruddin Khan Qudrat. Extant at the British Library, London.
+                </li>
+                <li class="bib-entry">
+                    <strong>Telangana Oriental MS 228 [TO 1811].</strong> <em>Diwan-e-Chanda</em>. Circle copy containing 98 ghazals and Persian preface. Extant at the Telangana Oriental Manuscript Library, Hyderabad.
+                </li>
+                <li class="bib-entry">
+                    <strong>Salar Jung Museum Manuscript [SJ 1818].</strong> <em>Diwan-e-Chanda</em>, appended to the <em>Tarikh-e-Dil-Afroz</em>. Base text for this critical edition. Contains 125 ghazals. Extant at the Salar Jung Museum, Hyderabad.
+                </li>
+                <li class="bib-entry">
+                    <strong>University of Pennsylvania Oversize LJS 63 [UPenn 1804].</strong> Khushhal Khan "Anoop". <em>Rāg darshan</em>. Illustrated manuscript commissioned by Raja Rao Ranbha Bahadur. Held at the Kislak Center for Special Collections, Rare Books and Manuscripts, University of Pennsylvania. <a href="https://openn.library.upenn.edu/Data/0001/html/ljs63.html" target="_blank" class="bib-link">View at OpenNN ↗</a>
+                </li>
+                <li class="bib-entry">
+                    <strong>Gulzar-e-Mah Laqa [GM 1906].</strong> Lithograph print edition of the <em>Diwan-e-Chanda</em>. Hyderabad, 1906. Contains 125 ghazals. The primary source of the 20th-century <em>textus receptus</em>.
+                </li>
+            </ul>
+        </div>
+
+        <!-- SECONDARY LITERATURE -->
+        <div class="bib-category">
+            <h2 class="section-title">Secondary Literature & Historical Context</h2>
+            <ul class="bib-list">
+                <li class="bib-entry">
+                    Bilgrami, Syed Ali Asgar. <em>Landmarks of the Deccan: A Comprehensive Guide to the Archaeological Remains of the City and Suburbs of Hyderabad</em>. Government Central Press, Hyderabad-Deccan, 1927.
+                </li>
+                <li class="bib-entry">
+                    Kugle, Scott. <em>When Sun Meets Moon: Gender, Eros, and Ecstasy in Urdu Poetry</em>. University of North Carolina Press, 2016.
+                </li>
+                <li class="bib-entry">
+                    Jauhar Bidri, Ghulam Husain Khan. <em>Tajalliyat-e-Mah Laqa</em>. (Various manuscript copies detailing the history of the Asaf Jahi dynasty and containing encomiums for Mah Laqa Bai).
+                </li>
+                <li class="bib-entry">
+                    Tiwari, Akash. <em>Sher Behtar Kaise Hua?</em> Rekhta Publications, 2025.
+                </li>
+            </ul>
+        </div>
+
+        <!-- METHODOLOGICAL PRECEDENTS -->
+        <div class="bib-category">
+            <h2 class="section-title">Methodological References in Digital Philology</h2>
+            <ul class="bib-list">
+                <li class="bib-entry">
+                    Gabler, Hans Walter. <em>Ulysses: A Critical and Synoptic Edition</em>. Garland Publishing, 1984. (Methodological precedent for mapping editorial interference and creating a synoptic apparatus).
+                </li>
+                <li class="bib-entry">
+                    Johnson, Thomas H. <em>The Poems of Emily Dickinson: Including variant readings critically compared with all known manuscripts</em>. Belknap Press of Harvard University Press, 1955. (Methodological precedent for bypassing corrupted printed <em>textus receptus</em> to restore authorial manuscript orthography).
+                </li>
+                <li class="bib-entry">
+                    Khaleghi-Motlagh, Djalal (ed.). <em>The Shahnameh (The Book of Kings)</em>. Persian Heritage Foundation, 1988–2008. (Application of the Lachmannian method in the Perso-Arabic manuscript tradition).
+                </li>
+                <li class="bib-entry">
+                    Huson, Daniel H., and David Bryant. "Application of Phylogenetic Networks in Evolutionary Studies." <em>Molecular Biology and Evolution</em>, vol. 23, no. 2, 2006, pp. 254-267. (Reference for SplitsTree algorithms used in the cladistic analysis of manuscript transmission).
+                </li>
+            </ul>
+        </div>
+
+        <!-- DIGITAL ARCHIVES -->
+        <div class="bib-category">
+            <h2 class="section-title">Digital Repositories & Open Data Links</h2>
+            <div class="archive-grid">
+                
+                <div class="archive-card">
+                    <h3>Zenodo Data Archive</h3>
+                    <p>The complete, open-access dataset containing the text-critical collation matrix, phylogenetic alignments, and Levenshtein distances for the Diwan-e-Chanda.</p>
+                    <a href="https://zenodo.org/records/20587114" target="_blank" class="bib-link" style="margin-left: 0;">Access Dataset ↗</a>
+                </div>
+
+                <div class="archive-card">
+                    <h3>Wikimedia Commons</h3>
+                    <p>High-resolution archival photographs of epigraphy, architecture, and localized inscriptions documented specifically for this critical edition.</p>
+                    <a href="https://commons.wikimedia.org/wiki/Category:Mah_Laqa_Bai" target="_blank" class="bib-link" style="margin-left: 0;">View Image Archive ↗</a>
+                </div>
+
+                <div class="archive-card">
+                    <h3>GitHub Repository</h3>
+                    <p>The open-source Python scripts utilized for quantitative text analysis, JSON parsing, and site generation.</p>
+                    <a href="#" class="bib-link" style="margin-left: 0;">View Source Code ↗</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer style="margin-top: 40px; padding: 40px 20px; background-color: var(--primary); color: #cbd5e1; text-align: center; font-size: 0.95rem; border-top: 3px solid var(--accent); line-height: 1.6; font-family: 'Inter', sans-serif;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <p style="margin: 0 0 10px 0;">All code and prose for this digital critical edition are open source.</p>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVITY SCRIPTS -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // --- MOBILE MENU ---
+            const mobileMenuBtn = document.getElementById('mobile-menu');
+            const navLinks = document.getElementById('nav-links');
+            if (mobileMenuBtn && navLinks) {
+                mobileMenuBtn.addEventListener('click', (e) => {
+                    e.preventDefault(); 
+                    navLinks.classList.toggle('show');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
