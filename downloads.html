@@ -117,6 +117,19 @@
             flex-grow: 1;
         }
 
+        .resource-card p.resource-meta {
+            font-size: 0.85rem;
+            margin: -10px 0 20px 0;
+            flex-grow: 0;
+            word-break: break-word;
+        }
+
+        .resource-card p.resource-meta a {
+            color: #903b35;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+
         .resource-btn {
             display: inline-block;
             background-color: white;
@@ -221,29 +234,21 @@
 
             <div class="resource-card">
                 <div>
-                    <div class="resource-icon">📐</div>
-                    <h4>Levenshtein Array</h4>
-                    <p>Normalized pairwise character distance scores mapped at individual couplet levels.</p>
+                    <div class="resource-icon">📄</div>
+                    <h4>The Paper</h4>
+                    <p>The full scholarly argument behind this project, openly available in the Humanities Commons repository.</p>
+                    <p class="resource-meta">DOI: <a href="https://doi.org/10.17613/yq3e6-4pc82" target="_blank" rel="noopener">10.17613/YQ3E6-4PC82</a></p>
                 </div>
-                <a href="#" class="resource-btn">Download CSV</a>
+                <a href="https://works.hcommons.org/records/yq3e6-4pc82" target="_blank" rel="noopener" class="resource-btn">Read the Paper</a>
             </div>
 
             <div class="resource-card">
                 <div>
-                    <div class="resource-icon">🌿</div>
-                    <h4>SplitsTree Input</h4>
-                    <p>Pristine NEXUS format script file ready for cladistic split network generation pipelines.</p>
+                    <div class="resource-icon">💻</div>
+                    <h4>The Code</h4>
+                    <p>Source code for this site and the scripts behind the collation and computational analysis, open for inspection and replication.</p>
                 </div>
-                <a href="#" class="resource-btn">Download .nex</a>
-            </div>
-
-            <div class="resource-card">
-                <div>
-                    <div class="resource-icon">🐍</div>
-                    <h4>Python Scripts</h4>
-                    <p>Source scripts utilized to process CSV tables and compute quantitative phylogenies.</p>
-                </div>
-                <a href="#" class="resource-btn">View Repository</a>
+                <a href="https://github.com/sudoarsh/mahlaqa" target="_blank" rel="noopener" class="resource-btn">View on GitHub</a>
             </div>
 
         </div>
