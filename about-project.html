@@ -31,6 +31,70 @@
             margin-top: 40px;
             font-size: 1.8rem;
         }
+
+        /* EDITOR CARD */
+        .editor-card {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 15px -5px rgba(0,0,0,0.05);
+            max-width: 900px;
+            margin: 0 auto 40px auto;
+        }
+        .editor-card { flex-wrap: wrap; }
+        .editor-heading {
+            flex: 0 0 100%;
+            margin: 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--accent);
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: #903b35;
+        }
+        .editor-photo {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent);
+            background: #f1ece3;
+            flex-shrink: 0;
+        }
+        .editor-card h3 {
+            margin: 0 0 4px 0;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: #903b35;
+        }
+        .editor-card .editor-role {
+            margin: 0 0 14px 0;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--secondary);
+            opacity: 0.8;
+        }
+        .editor-card p.editor-bio {
+            margin: 0 0 14px 0;
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: var(--secondary);
+        }
+        .editor-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 18px;
+            font-size: 0.98rem;
+            font-weight: 600;
+        }
+        .editor-links a {
+            color: #903b35;
+            text-decoration: underline;
+        }
+
         .support-card {
             display: flex;
             align-items: center;
@@ -44,6 +108,13 @@
             max-width: 900px;
             margin: 0 auto 60px auto;
         }
+        .support-qr {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            flex-shrink: 0;
+        }
         .qr-image {
             width: 200px;
             height: 200px;
@@ -53,8 +124,28 @@
             background: white;
             flex-shrink: 0;
         }
+        .upi-label {
+            margin: 0;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--secondary);
+            text-align: center;
+        }
+        .patreon-btn {
+            display: inline-block;
+            padding: 10px 22px;
+            border-radius: 8px;
+            background: #903b35;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-decoration: none;
+        }
+        .patreon-btn:hover { opacity: 0.9; }
         @media screen and (max-width: 850px) {
             .reading-pane { padding: 30px 20px; margin: -20px 10px 20px 10px; }
+            .editor-card { flex-direction: column; text-align: center; padding: 30px 20px; margin: 0 10px 30px 10px; }
+            .editor-links { justify-content: center; }
             .support-card { flex-direction: column-reverse; text-align: center; padding: 30px 20px; margin: 0 10px 40px 10px; }
         }
     </style>
@@ -121,19 +212,44 @@
             <p>It is important to note that <strong>this website is a companion site</strong>, not the fully reconstructed critical edition itself. This site does not host the final reconstructed text, nor does it apply the necessary editorial emendations or conjectures required to fix scribal errors. Instead, it presents the raw, unedited collation data exactly as it exists within each individual witness. This open-access framework allows independent researchers to independently verify the textual variants and replicate the computational findings that will underpin the forthcoming printed edition.</p>
         </div>
 
-        <!-- SUPPORT CARD (QR CODE) -->
+        <!-- ABOUT THE EDITOR CARD -->
+        <div class="editor-card">
+            <h2 class="editor-heading">About the Editor</h2>
+            <img src="editor-photo.png" alt="Photograph of Akash Arsh" class="editor-photo">
+            <div style="flex: 1; min-width: 260px;">
+                <h3>Akash Arsh</h3>
+                <p class="editor-role">Poet · Editor · Independent Researcher</p>
+                <p class="editor-bio">
+                    Akash Arsh is an Urdu poet and independent researcher working in the classical Urdu and Dakhni tradition. After four years at Rekhta, he turned to textual criticism and editing. He is the author of <em>Sher Behtar Kaise Hua</em> and <em>Baatein Ghazal Ki</em>.
+                </p>
+                <div class="editor-links">
+                    <a href="https://www.amazon.in/stores/Akash-Arsh/author/B0BWFLHFHQ" target="_blank" rel="noopener">Books on Amazon</a>
+                    <a href="https://www.rekhta.org/poets/akash-arsh" target="_blank" rel="noopener">Rekhta Profile</a>
+                    <a href="https://www.instagram.com/aakaash.arsh/" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://www.facebook.com/aakaash.arsh/" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://github.com/sudoarsh" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SUPPORT CARD (UPI QR + PATREON) -->
         <div class="support-card">
             <div>
                 <h3 style="color: var(--primary); margin-top: 0; font-family: 'Playfair Display', serif; font-size: 1.8rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px; display: inline-block;">Support this Project</h3>
                 <p style="font-size: 1.1rem; line-height: 1.6; color: var(--secondary); margin-bottom: 15px;">
                     This critical edition is a completely independent scholarly endeavor, conducted without institutional funding or university grants. The extensive costs of travel across India, repository access fees, and hundreds of hours of collation and coding were borne entirely by the editor without pay.
                 </p>
-                <p style="font-size: 1.1rem; line-height: 1.6; color: var(--secondary); margin-bottom: 0;">
-                    Believing that primary source data should not sit in archives or behind academic paywalls, I have taken a strict copyleft approach to make these findings freely accessible to the public. If you find value in this research and wish to support ongoing open-access humanities work, please consider making a contribution.
+                <p style="font-size: 1.1rem; line-height: 1.6; color: var(--secondary); margin-bottom: 15px;">
+                    Believing that primary source data should not sit in archives or behind academic paywalls, I have taken a strict copyleft approach to make these findings freely accessible to the public. Support is entirely optional and comes with no perks: everything here stays free. If you find value in this research and wish to support ongoing open-access humanities work, please consider making a contribution.
+                </p>
+                <p style="font-size: 1rem; line-height: 1.6; color: var(--secondary); margin-bottom: 0;">
+                    <strong>In India:</strong> scan the UPI code. <strong>Elsewhere:</strong> support monthly on Patreon.
                 </p>
             </div>
-            <!-- Blank square image ready for your QR Code -->
-            <img src="qr-code.png" alt="Scan to Support" class="qr-image">
+            <div class="support-qr">
+                <img src="qr-code.png" alt="Scan to support via UPI" class="qr-image">
+                <a href="https://www.patreon.com/c/AkashArsh" class="patreon-btn" target="_blank" rel="noopener">Support on Patreon</a>
+            </div>
         </div>
 
     </div>
