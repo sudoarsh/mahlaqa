@@ -129,6 +129,54 @@
             border-radius: 4px;
         }
 
+        /* Prev / Next arrows */
+        .nav-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            border: none;
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            font-size: 1.6rem;
+            line-height: 1;
+            cursor: pointer;
+            backdrop-filter: blur(4px);
+            transition: background 0.2s ease;
+            z-index: 5;
+        }
+
+        .nav-arrow:hover {
+            background: #903b35;
+        }
+
+        .nav-arrow.prev {
+            left: 12px;
+        }
+
+        .nav-arrow.next {
+            right: 12px;
+        }
+
+        .nav-arrow.hidden {
+            display: none;
+        }
+
+        .modal-counter {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            color: #cbd5e1;
+            background: rgba(0, 0, 0, 0.45);
+            padding: 3px 12px;
+            border-radius: 20px;
+        }
+
         .modal-sidebar {
             flex: 1;
             padding: 40px;
@@ -273,9 +321,9 @@
                 <img src="header.jpg" alt="Chanda Bibi Dancing">
             </div>
 
-            <div class="gallery-item" data-category="painting" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Mah_Laqa_Bai_Singing.jpg" 
-                 data-title="Mah Laqa Bai Singing for Raja Rao Ranbha" 
+            <div class="gallery-item" data-category="painting"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Mah_Laqa_Bai_Singing.jpg"
+                 data-title="Mah Laqa Bai Singing for Raja Rao Ranbha"
                  data-meta="Manuscript: LJS 63 (Rāgamālā), UPenn | Painter: Haji Mir Ghulam Hasan | c. 1799–1804"
                  data-credit="Akash Arsh (Project Editor) / UPenn Libraries"
                  data-source-name="Wikimedia Commons / UPenn Libraries"
@@ -283,12 +331,12 @@
                  data-desc="A detailed crop from folio 2v of the illuminated manuscript <em>Rāgamālā</em> (UPenn LJS 63), a text authored by Khushhal Khan &ldquo;Anoop&rdquo; and illustrated by Haji Mir Ghulam Hasan. The scene depicts Mah Laqa Bai Chanda performing directly for her patron, Raja Rao Ranbha Bahadur, an identification confirmed by contemporary inscriptions on the folio.
                 <br><br>
                 <strong>Historical Note:</strong> Crucially, Mah Laqa Bai's musical mentor and the author of the manuscript, Khushhal Khan, is also depicted seated at the bottom left of the composition. This specific folio offers profound visual corroboration of the interconnected literary, musical, and patronage networks at the core of this critical edition—capturing the poet, her patron, and her mentor in a single documentary frame.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mah_Laqa_Bai_Singing.jpg?width=960" alt="Mah Laqa Bai singing for Raja Ranbha Rao Bahadur with Khushhal Khan present"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mah_Laqa_Bai_Singing.jpg?width=960" alt="Mah Laqa Bai singing for Raja Ranbha Rao Bahadur with Khushhal Khan present">
             </div>
 
-            <div class="gallery-item" data-category="painting" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Mah_Laqa_Bai_performing_at_Chandu_Lal%27s_court,_Hyderabad_State,_ca.1775%E2%80%931825.jpg" 
-                 data-title="Mah Laqa Bai Performing at Maharaja Chandu Lal's Court" 
+            <div class="gallery-item" data-category="painting"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Mah_Laqa_Bai_performing_at_Chandu_Lal%27s_court,_Hyderabad_State,_ca.1775%E2%80%931825.jpg"
+                 data-title="Mah Laqa Bai Performing at Maharaja Chandu Lal's Court"
                  data-meta="Style: Hyderabad School | Medium: Opaque Watercolor and Gold on Paper | c. 1775&ndash;1825"
                  data-credit="State Museum, Hyderabad / Photo: Srinayani Reddy (2014)"
                  data-source-name="Wikimedia Commons"
@@ -296,41 +344,41 @@
                  data-desc="An authentic late-18th or early-19th century painting from the Hyderabad School depicting Mah Laqa Bai Chanda performing in an official court gathering (<em>durbar</em>) convened by Maharaja Chandu Lal, the prominent statesman who served as Peshkar (deputy minister) and later Prime Minister of Hyderabad State.
                 <br><br>
                 <strong>Art Historical Note:</strong> Maharaja Chandu Lal was a legendary literary patron and a prolific poet himself. This miniature serves as crucial visual evidence of Mah Laqa Bai's elite political and artistic mobility across the highest court circles of the Asaf Jahi state. Rather than performing merely as a court entertainer, she navigated these spaces as an influential diplomatic actor and an acclaimed musical maestro trained within the classical lineage of Tansen, a historical reality vividly captured here by the presence of traditional instrumentalists and courtly dignitaries.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Mah_Laqa_Bai_performing_at_Chandu_Lal%27s_court,_Hyderabad_State,_ca.1775%E2%80%931825.jpg?width=960" alt="Painting of Mah Laqa Bai performing at Maharaja Chandu Lal's court"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Painting_of_Mah_Laqa_Bai_performing_at_Chandu_Lal%27s_court,_Hyderabad_State,_ca.1775%E2%80%931825.jpg?width=960" alt="Painting of Mah Laqa Bai performing at Maharaja Chandu Lal's court">
             </div>
 
-            <div class="gallery-item" data-category="painting" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Mahlaqa_Bhai_with_a_lover_(6125091800).jpg" 
-                 data-title="Mah Laqa Bai Chanda with Raja Rao Ranbha Bahadur" 
+            <div class="gallery-item" data-category="painting"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Mahlaqa_Bhai_with_a_lover_(6125091800).jpg"
+                 data-title="Mah Laqa Bai Chanda with Raja Rao Ranbha Bahadur"
                  data-meta="Style: Hyderabad School, Deccani Miniature | Late 18th / Early 19th Century"
                  data-credit="Wikimedia Commons Archive"
                  data-source-name="Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Mahlaqa_Bhai_with_a_lover_(6125091800).jpg"
-                 data-desc="An authentic late-18th or early-19th century Deccani miniature painting depicting Mah Laqa Bai Chanda in an intimate courtly setting alongside her primary patron and lover, Raja Rao Ranbha Bahadur. 
+                 data-desc="An authentic late-18th or early-19th century Deccani miniature painting depicting Mah Laqa Bai Chanda in an intimate courtly setting alongside her primary patron and lover, Raja Rao Ranbha Bahadur.
                 <br><br>
                 <strong>Art Historical Note:</strong> The visual identification of Rao Ranbha in this miniature perfectly complements the textual evidence recovered in this critical edition. Just as the 1906 print editors attempted to erase his name from her panegyric poetry (most notably through the structural destruction of the <em>Rāō Rañbhā</em> radīf in Ghazal SJ-43), this painting serves as a surviving material witness to his central presence in her life and the elite Asaf Jahi courtly milieu.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mahlaqa_Bhai_with_a_lover_(6125091800).jpg?width=960" alt="Deccani miniature painting of Mah Laqa Bai Chanda with Raja Rao Ranbha Bahadur"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mahlaqa_Bhai_with_a_lover_(6125091800).jpg?width=960" alt="Deccani miniature painting of Mah Laqa Bai Chanda with Raja Rao Ranbha Bahadur">
             </div>
 
             <div class="gallery-item" data-category="inscription"
             data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_inscription_on_the_Dalan_built_by_Mah_Laqa_Bai_Chanda_adjoining_Maula_Ali_Shrine_in_Hyderabad.jpg"
-            data-title="Dalan Inscription at Maula Ali Dargah" 
+            data-title="Dalan Inscription at Maula Ali Dargah"
             data-meta="Location: Maula Ali Shrine, Hyderabad | Photographed 2026"
-            data-credit="Akash Arsh (Project Editor)" 
+            data-credit="Akash Arsh (Project Editor)"
             data-source-name="Project Archive / Wikimedia Commons"
             data-source-url="https://commons.wikimedia.org/wiki/File:Persian_inscription_on_the_Dalan_built_by_Mah_Laqa_Bai_Chanda_adjoining_Maula_Ali_Shrine_in_Hyderabad.jpg"
-            data-desc="A Persian inscription, present on the Dalan constructed by Mah Laqa Bai Chanda, adjacent to the hill-top Maula Ali Shrine in Hyderabad.<br><br><strong>The Inscription:</strong><br><span style='font-family: &quot;Noto Nastaliq Urdu&quot;, serif; display: block; direction: rtol; text-align: right; font-size: 1.3rem; padding: 10px 0;'>بانی مکان کوہ شریف چندا بی بی بنت راجکنور بائی ١٢٣٥</span><strong>Translation:</strong><br><em style='color: var(--secondary); display: block; margin-top: 5px;'>Builder of the house [at] Koh Sharif, Chanda Bibi, daughter of Rajkunwar Bai. 1235 [AH] (1819-1820 CE).</em><br>Documented as part of the primary source collection for this critical edition.">
+            data-desc="A Persian inscription, present on the Dalan constructed by Mah Laqa Bai Chanda, adjacent to the hill-top Maula Ali Shrine in Hyderabad.<br><br><strong>The Inscription:</strong><br><span style='font-family: &quot;Noto Nastaliq Urdu&quot;, serif; display: block; direction: rtl; text-align: right; font-size: 1.3rem; padding: 10px 0;'>بانی مکان کوہ شریف چندا بی بی بنت راجکنور بائی ١٢٣٥</span><strong>Translation:</strong><br><em style='color: var(--secondary); display: block; margin-top: 5px;'>Builder of the house [at] Koh Sharif, Chanda Bibi, daughter of Rajkunwar Bai. 1235 [AH] (1819-1820 CE).</em><br>Documented as part of the primary source collection for this critical edition.">
             <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_inscription_on_the_Dalan_built_by_Mah_Laqa_Bai_Chanda_adjoining_Maula_Ali_Shrine_in_Hyderabad.jpg?width=960" alt="Dalan Inscription at Maula Ali">
            </div>
 
-<div class="gallery-item" data-category="inscription"
+            <div class="gallery-item" data-category="inscription"
                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_on_carved_teakwood_over_the_door_outside_the_mausoleum_of_Mah_Laqa_Bai.jpg"
-                data-title="Teakwood Door Inscription (Mausoleum Entrance)" 
+                data-title="Teakwood Door Inscription (Mausoleum Entrance)"
                 data-meta="Location: Mah Laqa Bai Mausoleum | Photographed 2026"
-                data-credit="Akash Arsh (Project Editor)" 
+                data-credit="Akash Arsh (Project Editor)"
                 data-source-name="Project Archive / Wikimedia Commons"
                 data-source-url="https://commons.wikimedia.org/wiki/File:Persian_Inscription_on_carved_teakwood_over_the_door_outside_the_mausoleum_of_Mah_Laqa_Bai.jpg"
-                data-desc="Persian inscription carved beautifully into teakwood, situated over the external entrance door to the mausoleum complex of Mah Laqa Bai Chanda. 
+                data-desc="Persian inscription carved beautifully into teakwood, situated over the external entrance door to the mausoleum complex of Mah Laqa Bai Chanda.
                 <br><br>
                 <strong>The Inscription:</strong>
                 <span style='font-family: &quot;Noto Nastaliq Urdu&quot;, serif; display: block; direction: rtl; text-align: right; font-size: 1.35rem; padding: 15px 15px; background: rgba(0,0,0,0.01); border-radius: 4px; margin: 8px 0; line-height: 2.4;'>
@@ -345,18 +393,18 @@
                 <span style='display: block; color: var(--secondary); font-style: italic; margin: 5px 0 15px 0; line-height: 1.7;'>
                     &ldquo;Cypress of the garden of grace and rose-tree of the grove of coquetry, an ardent inamorata of Hydar and suppliant of Panjtan. When the tidings of the advent of death arrived from God, she accepted it with her heart, and heaven become her home. The voice of the invisible speaker called for her chronogram, Alas! Mah Laqa of the Deccan departed for heaven 1240 А.Н.&rdquo; (1824 A.D.)
                 </span>
-                <strong>Historical Note:</strong> This epitaph serves as a primary codicological anchor. The poetic chronogram (<em>tarikh</em>) embedded in the final phrase computes to the year 1240 AH, providing contemporary material verification for the date of her demise. 
+                <strong>Historical Note:</strong> This epitaph serves as a primary codicological anchor. The poetic chronogram (<em>tarikh</em>) embedded in the final phrase computes to the year 1240 AH, providing contemporary material verification for the date of her demise.
                 <br><br>
                 <small style='color: #64748b; display: block; margin-top: 5px;'>Source: S.A. Bilgrami, <em>Landmarks of the Deccan</em> (1927), p. 13.</small>">
                 <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_on_carved_teakwood_over_the_door_outside_the_mausoleum_of_Mah_Laqa_Bai.jpg?width=960"
                     alt="Teakwood Door Inscription at Mah Laqa Bai Mausoleum">
             </div>
 
-          <div class="gallery-item" data-category="inscription"
+            <div class="gallery-item" data-category="inscription"
                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Grave_of_Khushhal_Khan_%22Anoop%22_with_an_inscribed_headstone.jpg"
-                data-title="Architectural Inscription of Khushhal Khan 'Anoop'" 
+                data-title="Architectural Inscription of Khushhal Khan 'Anoop'"
                 data-meta="Location: Maula Ali Hill, Hyderabad | Photographed 2026"
-                data-credit="Akash Arsh (Project Editor)" 
+                data-credit="Akash Arsh (Project Editor)"
                 data-source-name="Project Archive / Wikimedia Commons"
                 data-source-url="https://commons.wikimedia.org/wiki/File:Grave_of_Khushhal_Khan_%22Anoop%22_with_an_inscribed_headstone.jpg"
                 data-desc="An inscribed stone slab documenting the comprehensive architectural and religious patronage of Khushhal Khan &ldquo;Anoop,&rdquo; the author and compiler of the <em>Rāg darshan</em> manuscript text.
@@ -383,11 +431,11 @@
                     alt="Architectural Inscription of Khushhal Khan Anoop">
             </div>
 
-<div class="gallery-item" data-category="inscription"
+            <div class="gallery-item" data-category="inscription"
                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Stone-slab_inscription_attached_to_Mah_Laqa_Bai's_Grave_in_Hyderabad.jpg"
-                data-title="Grave Stone-Slab Inscription" 
+                data-title="Grave Stone-Slab Inscription"
                 data-meta="Location: Mah Laqa Bai Mausoleum | Photographed 2026"
-                data-credit="Akash Arsh (Project Editor)" 
+                data-credit="Akash Arsh (Project Editor)"
                 data-source-name="Project Archive / Wikimedia Commons"
                 data-source-url="https://commons.wikimedia.org/wiki/File:Stone-slab_inscription_attached_to_Mah_Laqa_Bai's_Grave_in_Hyderabad.jpg"
                 data-desc="A stone-slab inscription physically affixed to the grave monument of Mah Laqa Bai Chanda at the repository complex in Maula Ali, Hyderabad.
@@ -410,9 +458,9 @@
                     alt="Stone-slab inscription attached to Mah Laqa Bai Grave">
             </div>
 
-<div class="gallery-item" data-category="inscription" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_on_carved_teakwood_over_the_inner_side_of_the_Gate_of_the_mausoleum_of_Mah_Laqa_Bai.jpg" 
-                 data-title="Mausoleum Gate Inscription (Inner Side)" 
+            <div class="gallery-item" data-category="inscription"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_on_carved_teakwood_over_the_inner_side_of_the_Gate_of_the_mausoleum_of_Mah_Laqa_Bai.jpg"
+                 data-title="Mausoleum Gate Inscription (Inner Side)"
                  data-meta="Location: Mah Laqa Bai Mausoleum | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
@@ -440,16 +488,17 @@
                 <strong>Historical Note:</strong> This epitaph preserves the death record and commemorative foundations laid for Mah Laqa Bai's mother, Raj Kunwar Bai. The poetic chronogram (<em>tarikh</em>) points definitively to 1207 AH (1792 CE). This physical record maps the earlier, developmental footprint of the garden complex and explicitly documents her title and name (&ldquo;Mah Laqa&rdquo; and &ldquo;Chanda&rdquo;) in architectural timber long before her own death.
                 <br><br>
                 <small style='color: #64748b; display: block; margin-top: 5px;'>Source: S.A. Bilgrami, <em>Landmarks of the Deccan</em> (1927), p. 14.</small>">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_on_carved_teakwood_over_the_inner_side_of_the_Gate_of_the_mausoleum_of_Mah_Laqa_Bai.jpg?width=960" alt="Mausoleum Gate Inscription Inner Side"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_on_carved_teakwood_over_the_inner_side_of_the_Gate_of_the_mausoleum_of_Mah_Laqa_Bai.jpg?width=960" alt="Mausoleum Gate Inscription Inner Side">
             </div>
-<div class="gallery-item" data-category="inscription" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_at_the_entrance_of_Masjid-e-Khushhal_Khan,_Zehra_Nagar,_Hyderabad.jpg" 
-                 data-title="Masjid-e-Khushhal Khan Entrance Inscription" 
+
+            <div class="gallery-item" data-category="inscription"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_at_the_entrance_of_Masjid-e-Khushhal_Khan,_Zehra_Nagar,_Hyderabad.jpg"
+                 data-title="Masjid-e-Khushhal Khan Entrance Inscription"
                  data-meta="Location: Zehra Nagar, Hyderabad | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Persian_Inscription_at_the_entrance_of_Masjid-e-Khushhal_Khan,_Zehra_Nagar,_Hyderabad.jpg"
-                 data-desc="Persian chronogram inscription situated directly over the main entrance portal of Masjid-e-Khushhal Khan in Zehra Nagar, Hyderabad. 
+                 data-desc="Persian chronogram inscription situated directly over the main entrance portal of Masjid-e-Khushhal Khan in Zehra Nagar, Hyderabad.
                 <br><br>
                 <strong>The Inscription:</strong>
                 <span style='font-family: &quot;Noto Nastaliq Urdu&quot;, serif; display: block; direction: rtl; text-align: right; font-size: 1.35rem; padding: 15px 12px; background: rgba(0,0,0,0.01); border-radius: 4px; margin: 8px 0; line-height: 2.4;'>
@@ -463,20 +512,20 @@
                 <span style='display: block; color: var(--secondary); font-style: italic; margin: 5px 0 15px 0; line-height: 1.7;'>
                     &ldquo;When Khushhal Khan became the founder of the mosque, He laid the foundation at an auspicious time. The unseen voice spoke the year of the chronicle to Jauhar: 'What a grand mosque of auspicious foundation.' 1232 A.H.&rdquo; (1816&ndash;1817 C.E.)
                 </span>
-                <strong>Historical Note:</strong> This tablet provides primary material tracking for the historical footprint of Khushhal Khan &ldquo;Anoop,&rdquo; the author of the <em>Rāg darshan</em> manuscript and musical mentor to Mah Laqa Bai Chanda. Khushhal Khan, a master musician of the Tansen lineage and son of Kareem Khan (who migrated from Delhi to the Deccan), established this structure in 1232 AH. 
+                <strong>Historical Note:</strong> This tablet provides primary material tracking for the historical footprint of Khushhal Khan &ldquo;Anoop,&rdquo; the author of the <em>Rāg darshan</em> manuscript and musical mentor to Mah Laqa Bai Chanda. Khushhal Khan, a master musician of the Tansen lineage and son of Kareem Khan (who migrated from Delhi to the Deccan), established this structure in 1232 AH.
                 <br><br>
                 The poetic chronogram (<em>tarikh</em>) on this tile was composed by the poet-historian Ghulam Husain Khan &ldquo;Jauhar&rdquo; (Jauhar Bidri), a close literary associate of Mah Laqa Bai who famously authored the Asaf Jahi dynastic record, <em>Tajalliyat-e-Mah Laqa</em>, alongside a specialized <em>musaddas</em> in her praise. The text visibly integrates his pen name (<em>takhallus</em>) as a core variable in the calculation sequence.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_at_the_entrance_of_Masjid-e-Khushhal_Khan,_Zehra_Nagar,_Hyderabad.jpg?width=960" alt="Masjid-e-Khushhal Khan Entrance Inscription"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_at_the_entrance_of_Masjid-e-Khushhal_Khan,_Zehra_Nagar,_Hyderabad.jpg?width=960" alt="Masjid-e-Khushhal Khan Entrance Inscription">
             </div>
 
-            <div class="gallery-item" data-category="inscription" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_at_the_inner_side_of_the_Mosque_of_Khushhal_Khan,_Zehra_Nagar,_Hyderabad.png" 
-                 data-title="Mosque of Khushhal Khan Inner Inscription" 
+            <div class="gallery-item" data-category="inscription"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_at_the_inner_side_of_the_Mosque_of_Khushhal_Khan,_Zehra_Nagar,_Hyderabad.png"
+                 data-title="Mosque of Khushhal Khan Inner Inscription"
                  data-meta="Location: Zehra Nagar, Hyderabad | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Persian_Inscription_at_the_inner_side_of_the_Mosque_of_Khushhal_Khan,_Zehra_Nagar,_Hyderabad.png"
-                 data-desc="Persian inscription located directly on the inner wall structure of the Mosque of Khushhal Khan in Zehra Nagar, Hyderabad. 
+                 data-desc="Persian inscription located directly on the inner wall structure of the Mosque of Khushhal Khan in Zehra Nagar, Hyderabad.
                 <br><br>
                 <strong>The Inscription:</strong>
                 <span style='font-family: &quot;Noto Nastaliq Urdu&quot;, serif; display: block; direction: rtl; text-align: right; font-size: 1.35rem; padding: 15px 12px; background: rgba(0,0,0,0.01); border-radius: 4px; margin: 8px 0; line-height: 2.4;'>
@@ -486,153 +535,153 @@
                 <span style='display: block; color: var(--secondary); font-style: italic; margin: 5px 0 15px 0; line-height: 1.7;'>
                     &ldquo;Founder/maker of the mosque and the Kaman: Khushhal Khan, Son of Kareem Khan Dehlavi. Year 1232 Hijri.&rdquo; [1816&ndash;1817 C.E.]
                 </span>
-                <strong>Historical Note:</strong> This inner epigraph explicitly connects Khushhal Khan's paternal lineage back to Delhi (&ldquo;Dehlavi&rdquo;), corroborating textual references to his family's migration trajectory to the Deccan. 
+                <strong>Historical Note:</strong> This inner epigraph explicitly connects Khushhal Khan's paternal lineage back to Delhi (&ldquo;Dehlavi&rdquo;), corroborating textual references to his family's migration trajectory to the Deccan.
                 <br><br>
-                Crucially, the text identifies him not just as the builder of the immediate mosque, but specifies his patronage of the nearby *Kaman* (the prominent ceremonial archways known locally as *Khushhal Khan ki Kaman* situated at the base of the Maula Ali hill). This provides a firm anchor for mapping the physical boundaries of his artistic and physical footprint in Hyderabad.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_at_the_inner_side_of_the_Mosque_of_Khushhal_Khan,_Zehra_Nagar,_Hyderabad.png?width=960" alt="Mosque of Khushhal Khan Inner Inscription"> 
+                Crucially, the text identifies him not just as the builder of the immediate mosque, but specifies his patronage of the nearby <em>Kaman</em> (the prominent ceremonial archways known locally as <em>Khushhal Khan ki Kaman</em> situated at the base of the Maula Ali hill). This provides a firm anchor for mapping the physical boundaries of his artistic and physical footprint in Hyderabad.">
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Persian_Inscription_at_the_inner_side_of_the_Mosque_of_Khushhal_Khan,_Zehra_Nagar,_Hyderabad.png?width=960" alt="Mosque of Khushhal Khan Inner Inscription">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleum_of_Mah_Laqa_Bai.jpg" 
-                 data-title="Mausoleum of Mah Laqa Bai" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleum_of_Mah_Laqa_Bai.jpg"
+                 data-title="Mausoleum of Mah Laqa Bai"
                  data-meta="Location: Maula Ali, Hyderabad | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Mausoleum_of_Mah_Laqa_Bai.jpg"
                  data-desc="A comprehensive view of the mausoleum complex of Mah Laqa Bai Chanda, situated at the base of the Maula Ali hill. The structure stands as a prominent testament to her immense wealth, political influence, and architectural patronage in early 19th-century Hyderabad. Documented as part of the primary visual archive for this critical edition.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleum_of_Mah_Laqa_Bai.jpg?width=960" alt="Mausoleum of Mah Laqa Bai"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mausoleum_of_Mah_Laqa_Bai.jpg?width=960" alt="Mausoleum of Mah Laqa Bai">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Step_well_in_the_garden_tomb_complex_of_Mah_Laqa_Bai.jpg" 
-                 data-title="Step-Well at the Garden Tomb Complex" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Step_well_in_the_garden_tomb_complex_of_Mah_Laqa_Bai.jpg"
+                 data-title="Step-Well at the Garden Tomb Complex"
                  data-meta="Location: Maula Ali, Hyderabad | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Step_well_in_the_garden_tomb_complex_of_Mah_Laqa_Bai.jpg"
                  data-desc="The step-well (<em>baoli</em>) located within the garden tomb complex of Mah Laqa Bai. Financed entirely by her, this water structure was constructed to provide relief and resources for pilgrims visiting the nearby Maula Ali shrine, reflecting her extensive civic and religious patronage.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Step_well_in_the_garden_tomb_complex_of_Mah_Laqa_Bai.jpg?width=960" alt="Step well in the garden tomb complex"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Step_well_in_the_garden_tomb_complex_of_Mah_Laqa_Bai.jpg?width=960" alt="Step well in the garden tomb complex">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/A_baradari_on_Maula_Ali_hill.jpg" 
-                 data-title="Baradari on Maula Ali Hill" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/A_baradari_on_Maula_Ali_hill.jpg"
+                 data-title="Baradari on Maula Ali Hill"
                  data-meta="Location: Maula Ali Hill, Hyderabad | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:A_baradari_on_Maula_Ali_hill.jpg"
                  data-desc="A Baradari pavilion situated on the Maula Ali hill. This open-air architectural form, traditionally characterized by its twelve doors or arches, was a central feature of Deccani landscape architecture, often serving as a gathering space for the nobility and literary elite during religious or cultural observances.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/A_baradari_on_Maula_Ali_hill.jpg?width=960" alt="A baradari on Maula Ali hill"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/A_baradari_on_Maula_Ali_hill.jpg?width=960" alt="A baradari on Maula Ali hill">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Tomb_of_Rukn-ud-Daula_at_the_base_of_Maula_Ali_Hill,_Hyderabad.jpg" 
-                 data-title="Tomb of Rukn-ud-Daula" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Tomb_of_Rukn-ud-Daula_at_the_base_of_Maula_Ali_Hill,_Hyderabad.jpg"
+                 data-title="Tomb of Rukn-ud-Daula"
                  data-meta="Location: Base of Maula Ali Hill | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Tomb_of_Rukn-ud-Daula_at_the_base_of_Maula_Ali_Hill,_Hyderabad.jpg"
                  data-desc="The tomb of Nawab Mir Musa Khan, known as Rukn-ud-Daula, the Prime Minister of the Nizam, located at the base of Maula Ali Hill. The complex political landscape surrounding his life, tenure, and assassination deeply influenced the volatile courtly environment that Mah Laqa Bai actively navigated.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tomb_of_Rukn-ud-Daula_at_the_base_of_Maula_Ali_Hill,_Hyderabad.jpg?width=960" alt="Tomb of Rukn-ud-Daula"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tomb_of_Rukn-ud-Daula_at_the_base_of_Maula_Ali_Hill,_Hyderabad.jpg?width=960" alt="Tomb of Rukn-ud-Daula">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Alawa-e-Maula_Ali.jpg" 
-                 data-title="Alawa-e-Maula Ali" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Alawa-e-Maula_Ali.jpg"
+                 data-title="Alawa-e-Maula Ali"
                  data-meta="Location: Maula Ali, Hyderabad | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Alawa-e-Maula_Ali.jpg"
                  data-desc="The Alawa-e-Maula Ali, a crucial commemorative space for the Shi'ite community in Hyderabad. Mah Laqa Bai's intense, lifelong devotion to Imam Ali drove much of her poetic output and architectural endowments, making structures within this sacred precinct central to understanding her cultural milieu.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Alawa-e-Maula_Ali.jpg?width=960" alt="Alawa-e-Maula Ali"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Alawa-e-Maula_Ali.jpg?width=960" alt="Alawa-e-Maula Ali">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Exterior_Arch_of_Mahlaqa_Bai's_Ashur_Khana.jpg" 
-                 data-title="Exterior Arch of the Ashur Khana" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Exterior_Arch_of_Mahlaqa_Bai's_Ashur_Khana.jpg"
+                 data-title="Exterior Arch of the Ashur Khana"
                  data-meta="Location: Hyderabad | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Exterior_Arch_of_Mahlaqa_Bai's_Ashur_Khana.jpg"
                  data-desc="The grand exterior ceremonial archway of the Ashur Khana commissioned by Mah Laqa Bai Chanda. Dedicated to the mourning rituals of Muharram, this space showcases her deep structural involvement in the religious ceremonies and public benefactions of the Asaf Jahi era.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Exterior_Arch_of_Mahlaqa_Bai's_Ashur_Khana.jpg?width=960" alt="Exterior Arch of Mahlaqa Bai Ashur Khana"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Exterior_Arch_of_Mahlaqa_Bai's_Ashur_Khana.jpg?width=960" alt="Exterior Arch of Mahlaqa Bai Ashur Khana">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Khushhal_Khan's_Kaman_at_the_base_of_Maula_Ali_Hill,_Hyderabad.jpg" 
-                 data-title="Khushhal Khan's Kaman" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Khushhal_Khan's_Kaman_at_the_base_of_Maula_Ali_Hill,_Hyderabad.jpg"
+                 data-title="Khushhal Khan's Kaman"
                  data-meta="Location: Base of Maula Ali Hill | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Khushhal_Khan's_Kaman_at_the_base_of_Maula_Ali_Hill,_Hyderabad.jpg"
                  data-desc="The towering ceremonial arch (<em>Kaman</em>) constructed by Khushhal Khan &ldquo;Anoop&rdquo; at the base of the Maula Ali Hill. This architectural monument physically maps the influence and wealth of Mah Laqa Bai's musical mentor within the sacred geography of Hyderabad, complementing the textual evidence of his patronage found in epigraphs and manuscripts.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Khushhal_Khan's_Kaman_at_the_base_of_Maula_Ali_Hill,_Hyderabad.jpg?width=960" alt="Khushhal Khan Kaman"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Khushhal_Khan's_Kaman_at_the_base_of_Maula_Ali_Hill,_Hyderabad.jpg?width=960" alt="Khushhal Khan Kaman">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_the_exterior_walls_of_the_Maousoleum_of_Mahlaqa_Bai_Chanda.jpg" 
-                 data-title="Exterior Walls Detail (Mausoleum)" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_the_exterior_walls_of_the_Maousoleum_of_Mahlaqa_Bai_Chanda.jpg"
+                 data-title="Exterior Walls Detail (Mausoleum)"
                  data-meta="Location: Mah Laqa Bai Mausoleum | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Detail_of_the_exterior_walls_of_the_Maousoleum_of_Mahlaqa_Bai_Chanda.jpg"
                  data-desc="A close-up architectural detail showing the intricate stucco and plasterwork on the exterior walls of Mah Laqa Bai Chanda's mausoleum. The ornamentation illustrates the sophisticated synthesis of regional Deccani motifs with the evolving architectural aesthetics of the 19th century.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_the_exterior_walls_of_the_Maousoleum_of_Mahlaqa_Bai_Chanda.jpg?width=960" alt="Detail of the exterior walls of the Mausoleum"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Detail_of_the_exterior_walls_of_the_Maousoleum_of_Mahlaqa_Bai_Chanda.jpg?width=960" alt="Detail of the exterior walls of the Mausoleum">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/The_grave_of_Mah_Laqa_Bai_Chanda.jpg" 
-                 data-title="The Grave of Mah Laqa Bai Chanda" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/The_grave_of_Mah_Laqa_Bai_Chanda.jpg"
+                 data-title="The Grave of Mah Laqa Bai Chanda"
                  data-meta="Location: Mah Laqa Bai Mausoleum | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:The_grave_of_Mah_Laqa_Bai_Chanda.jpg"
                  data-desc="The physical resting place of Mah Laqa Bai Chanda inside her mausoleum at Maula Ali. Beyond its religious and commemorative significance, this site serves as the ultimate historical and geographical anchor for the project, surrounding her literary and cultural legacy in stone.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/The_grave_of_Mah_Laqa_Bai_Chanda.jpg?width=960" alt="The grave of Mah Laqa Bai Chanda"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/The_grave_of_Mah_Laqa_Bai_Chanda.jpg?width=960" alt="The grave of Mah Laqa Bai Chanda">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Signboard_of_Mosque_and_Tomb_of_Hasan_Laqa_Bai.jpg" 
-                 data-title="Signboard of Mosque & Tomb of Hasan Laqa Bai" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Signboard_of_Mosque_and_Tomb_of_Hasan_Laqa_Bai.jpg"
+                 data-title="Signboard of Mosque & Tomb of Hasan Laqa Bai"
                  data-meta="Location: Hyderabad | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Signboard_of_Mosque_and_Tomb_of_Hasan_Laqa_Bai.jpg"
                  data-desc="The informational signboard marking the mosque and tomb complex of Hasan Laqa Bai. Documenting this site provides contextual geographical and historical tracking for the extended family and structural patronage network surrounding Mah Laqa Bai Chanda.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Signboard_of_Mosque_and_Tomb_of_Hasan_Laqa_Bai.jpg?width=960" alt="Signboard of Mosque and Tomb of Hasan Laqa Bai"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Signboard_of_Mosque_and_Tomb_of_Hasan_Laqa_Bai.jpg?width=960" alt="Signboard of Mosque and Tomb of Hasan Laqa Bai">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Ashoor-khana_adjoining_Kaman-e-Khushhal_Khan,_at_the_base_of_Maula_Ali_Hill.jpg" 
-                 data-title="Ashoor-khana of Khushhal Khan" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Ashoor-khana_adjoining_Kaman-e-Khushhal_Khan,_at_the_base_of_Maula_Ali_Hill.jpg"
+                 data-title="Ashoor-khana of Khushhal Khan"
                  data-meta="Location: Base of Maula Ali Hill | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Ashoor-khana_adjoining_Kaman-e-Khushhal_Khan,_at_the_base_of_Maula_Ali_Hill.jpg"
                  data-desc="The Ashoor-khana structure built adjacent to the ceremonial arch (<em>Kaman</em>) of Khushhal Khan &ldquo;Anoop&rdquo;. This architectural monument visually corroborates the epigraphic evidence of his extensive religious patronage and physical presence at the base of the sacred Maula Ali Hill.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ashoor-khana_adjoining_Kaman-e-Khushhal_Khan,_at_the_base_of_Maula_Ali_Hill.jpg?width=960" alt="Ashoor-khana adjoining Kaman-e-Khushhal Khan"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Ashoor-khana_adjoining_Kaman-e-Khushhal_Khan,_at_the_base_of_Maula_Ali_Hill.jpg?width=960" alt="Ashoor-khana adjoining Kaman-e-Khushhal Khan">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/The_Gate_of_Deewan_Deorhi_at_Mandi_Meer_Alam.jpg" 
-                 data-title="The Gate of Deewan Deorhi" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/The_Gate_of_Deewan_Deorhi_at_Mandi_Meer_Alam.jpg"
+                 data-title="The Gate of Deewan Deorhi"
                  data-meta="Location: Mandi Meer Alam, Hyderabad | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:The_Gate_of_Deewan_Deorhi_at_Mandi_Meer_Alam.jpg"
                  data-desc="The imposing entrance gate of the Deewan Deorhi at Mandi Meer Alam. This palatial structure represents the aristocratic and political circles of the Asaf Jahi court, serving as a vital physical backdrop to Mah Laqa Bai's diplomatic and cultural ascendance in Hyderabad.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/The_Gate_of_Deewan_Deorhi_at_Mandi_Meer_Alam.jpg?width=960" alt="The Gate of Deewan Deorhi at Mandi Meer Alam"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/The_Gate_of_Deewan_Deorhi_at_Mandi_Meer_Alam.jpg?width=960" alt="The Gate of Deewan Deorhi at Mandi Meer Alam">
             </div>
 
-            <div class="gallery-item" data-category="architecture" 
-                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Graves_of_Mah_Laqa_Bai_and_her_Mother.jpg" 
-                 data-title="Graves of Mah Laqa Bai & Raj Kunwar Bai" 
+            <div class="gallery-item" data-category="architecture"
+                 data-fullimg="https://commons.wikimedia.org/wiki/Special:FilePath/Graves_of_Mah_Laqa_Bai_and_her_Mother.jpg"
+                 data-title="Graves of Mah Laqa Bai & Raj Kunwar Bai"
                  data-meta="Location: Mah Laqa Bai Mausoleum | Photographed 2026"
                  data-credit="Akash Arsh (Project Editor)"
                  data-source-name="Project Archive / Wikimedia Commons"
                  data-source-url="https://commons.wikimedia.org/wiki/File:Graves_of_Mah_Laqa_Bai_and_her_Mother.jpg"
                  data-desc="The adjacent physical resting places of Mah Laqa Bai Chanda and her mother, Raj Kunwar Bai, situated within their dedicated mausoleum complex. This paired burial site anchors her legacy in stone and physically reflects the deep matrilineal bonds celebrated in her biographical and architectural records.">
-                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Graves_of_Mah_Laqa_Bai_and_her_Mother.jpg?width=960" alt="Graves of Mah Laqa Bai and her Mother"> 
+                <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Graves_of_Mah_Laqa_Bai_and_her_Mother.jpg?width=960" alt="Graves of Mah Laqa Bai and her Mother">
             </div>
 
         </div>
@@ -641,7 +690,10 @@
     <div id="image-modal" class="modal">
         <div class="modal-content">
             <div class="modal-image-container">
+                <button class="nav-arrow prev" id="prev-btn" aria-label="Previous image">&#10094;</button>
                 <img id="modal-img" src="" alt="Enlarged view">
+                <button class="nav-arrow next" id="next-btn" aria-label="Next image">&#10095;</button>
+                <div class="modal-counter" id="modal-counter"></div>
             </div>
             <div class="modal-sidebar">
                 <span class="close-modal" id="close-modal">&times;</span>
@@ -710,42 +762,84 @@
             const modalTitle = document.getElementById('modal-title');
             const modalMeta = document.getElementById('modal-meta');
             const modalDesc = document.getElementById('modal-desc');
+            const modalSidebar = document.querySelector('.modal-sidebar');
             const closeBtn = document.getElementById('close-modal');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const counter = document.getElementById('modal-counter');
+
+            let visibleItems = [];
+            let currentIndex = 0;
+
+            function getVisibleItems() {
+                return Array.from(galleryItems).filter(i => i.style.display !== 'none');
+            }
+
+            function showItem(index) {
+                const item = visibleItems[index];
+                if (!item) return;
+                currentIndex = index;
+
+                modalImg.src = item.getAttribute('data-fullimg');
+                modalTitle.textContent = item.getAttribute('data-title');
+                modalMeta.textContent = item.getAttribute('data-meta');
+                modalDesc.innerHTML = item.getAttribute('data-desc');
+                document.getElementById('modal-credit').textContent = item.getAttribute('data-credit') || 'Unknown';
+
+                const sourceLink = document.getElementById('modal-source-link');
+                sourceLink.textContent = item.getAttribute('data-source-name') || 'View Original Source ↗';
+                sourceLink.href = item.getAttribute('data-source-url') || '#';
+
+                counter.textContent = (index + 1) + ' / ' + visibleItems.length;
+                const single = visibleItems.length < 2;
+                prevBtn.classList.toggle('hidden', single);
+                nextBtn.classList.toggle('hidden', single);
+                modalSidebar.scrollTop = 0;
+            }
+
+            function step(delta) {
+                if (visibleItems.length < 2) return;
+                const n = visibleItems.length;
+                showItem((currentIndex + delta + n) % n); // wraps around
+            }
+
+            function closeModal() {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
 
             // Open Modal
             galleryItems.forEach(item => {
                 item.addEventListener('click', () => {
-                    // Pull data from the HTML attributes
-                    modalImg.src = item.getAttribute('data-fullimg');
-                    modalTitle.textContent = item.getAttribute('data-title');
-                    modalMeta.textContent = item.getAttribute('data-meta');
-                    modalDesc.innerHTML = item.getAttribute('data-desc'); // Allows HTML like <em> in descriptions
-
-                    // Dynamically inject the new credit and source data
-                    document.getElementById('modal-credit').textContent = item.getAttribute('data-credit') || 'Unknown';
-
-                    const sourceLink = document.getElementById('modal-source-link');
-                    sourceLink.textContent = item.getAttribute('data-source-name') || 'View Original Source ↗';
-                    sourceLink.href = item.getAttribute('data-source-url') || '#';
-
-                    // Show modal
+                    visibleItems = getVisibleItems(); // respects the active filter
+                    showItem(visibleItems.indexOf(item));
                     modal.style.display = 'flex';
-                    document.body.style.overflow = 'hidden'; // Prevents background scrolling
+                    document.body.style.overflow = 'hidden';
                 });
             });
 
-            // Close Modal (Clicking the X)
-            closeBtn.addEventListener('click', () => {
-                modal.style.display = 'none';
-                document.body.style.overflow = 'auto'; // Restore scrolling
+            prevBtn.addEventListener('click', e => { e.stopPropagation(); step(-1); });
+            nextBtn.addEventListener('click', e => { e.stopPropagation(); step(1); });
+            closeBtn.addEventListener('click', closeModal);
+            modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+
+            // Keyboard
+            document.addEventListener('keydown', e => {
+                if (modal.style.display !== 'flex') return;
+                if (e.key === 'ArrowLeft') step(-1);
+                else if (e.key === 'ArrowRight') step(1);
+                else if (e.key === 'Escape') closeModal();
             });
 
-            // Close Modal (Clicking outside the box)
-            modal.addEventListener('click', (e) => {
-                if (e.target === modal) {
-                    modal.style.display = 'none';
-                    document.body.style.overflow = 'auto';
-                }
+            // Swipe (mobile) - attached to the image area only, so the sidebar text can scroll freely
+            const swipeZone = document.querySelector('.modal-image-container');
+            let touchStartX = null;
+            swipeZone.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].clientX; }, { passive: true });
+            swipeZone.addEventListener('touchend', e => {
+                if (touchStartX === null) return;
+                const dx = e.changedTouches[0].clientX - touchStartX;
+                if (Math.abs(dx) > 50) step(dx < 0 ? 1 : -1);
+                touchStartX = null;
             });
         });
     </script>
