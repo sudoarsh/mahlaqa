@@ -7,7 +7,6 @@ The open data and website behind the critical edition of the *Diwan* of Mah Laqa
 | **Website** | https://sudoarsh.github.io/mahlaqa |
 | **Dataset** | https://doi.org/10.5281/zenodo.20587114 |
 | **Paper** | [*Quantifying Corruption*](https://works.hcommons.org/records/yq3e6-4pc82), https://doi.org/10.17613/yq3e6-4pc82 |
-| **Critical edition** | *Deewan-e-Chanda: Tanqeedi Edition*, https://doi.org/10.17613/phn4x-q9342 |
 
 ## Why this exists
 
