@@ -67,35 +67,8 @@
 <body>
 
     <!-- NAVIGATION -->
-    <nav class="site-nav">
-        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
-            ☰
-        </button>
-
-        <ul class="nav-links" id="nav-links">
-            <li><a href="index.html">Home</a></li>
-
-            <li class="dropdown">
-                <a href="#" class="dropbtn">Context ▾</a>
-                <div class="dropdown-content">
-                    <a href="about.html">About Mah Laqa</a>
-                    <a href="bibliography.html">Bibliography & Links</a>
-                    <a href="gallery.html">Visual Archive</a>
-                </div>
-            </li>
-
-            <li class="dropdown">
-                <a href="#" class="dropbtn active" style="color: #ffffff;">The Text ▾</a>
-                <div class="dropdown-content">
-                    <a href="sources.html">The Witnesses</a>
-                    <a href="view.html">Read & Collate</a>
-                    <a href="analysis.html">Computational Analysis</a>
-                </div>
-            </li>
-            <li><a href="about-project.html">About the Project</a></li>
-            <li><a href="downloads.html">Resources</a></li>
-        </ul>
-    </nav>
+    <div id="site-nav"></div>
+    <script src="nav.js"></script>
 
     <div class="hero" style="padding: 3rem 1rem; margin-bottom: 2rem;">
         <h1>The Diwan</h1>
@@ -179,18 +152,6 @@
     <script src="data.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-
-            // --- MOBILE MENU ---
-            const mobileMenuBtn = document.getElementById('mobile-menu');
-            const navLinks = document.getElementById('nav-links');
-            if (mobileMenuBtn && navLinks) {
-                ['click', 'touchstart'].forEach(function (evt) {
-                    mobileMenuBtn.addEventListener(evt, function (e) {
-                        e.preventDefault();
-                        navLinks.classList.toggle('show');
-                    }, { passive: false });
-                });
-            }
 
             // --- DATA ---
             const reader = document.getElementById('reader');

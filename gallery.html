@@ -254,36 +254,8 @@
 
 <body>
 
-    <nav class="site-nav">
-        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
-            ☰
-        </button>
-
-        <ul class="nav-links" id="nav-links">
-            <li><a href="index.html">Home</a></li>
-
-            <li class="dropdown">
-                <a href="#" class="dropbtn active" style="color: #ffffff;">Context ▾</a>
-                <div class="dropdown-content">
-                    <a href="about.html">About Mah Laqa</a>
-                    <a href="bibliography.html">Bibliography & Links</a>
-                    <a href="gallery.html">Visual Archive</a>
-                </div>
-            </li>
-
-            <li class="dropdown">
-                <a href="#" class="dropbtn">The Text ▾</a>
-                <div class="dropdown-content">
-                    <a href="sources.html">The Witnesses</a>
-                    <a href="view.html">Interactive Collation</a>
-                    <a href="analysis.html">Computational Analysis</a>
-                </div>
-            </li>
-
-            <li><a href="about-project.html">About the Project</a></li>
-            <li><a href="downloads.html">Resources</a></li>
-        </ul>
-    </nav>
+    <div id="site-nav"></div>
+    <script src="nav.js"></script>
 
     <div class="hero" style="padding: 5rem 1rem 6rem 1rem;">
         <h1 style="font-family: 'Playfair Display', serif; font-size: 3.5rem; margin-bottom: 5px;">Visual Archive</h1>
@@ -723,16 +695,6 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-
-            // --- MOBILE MENU ---
-            const mobileMenuBtn = document.getElementById('mobile-menu');
-            const navLinks = document.getElementById('nav-links');
-            if (mobileMenuBtn && navLinks) {
-                mobileMenuBtn.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    navLinks.classList.toggle('show');
-                });
-            }
 
             // --- GALLERY FILTERING ---
             const filterBtns = document.querySelectorAll('.filter-btn');
