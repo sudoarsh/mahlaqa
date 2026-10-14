@@ -12,26 +12,22 @@
         /* =========================================
            READ / COLLATE PAGE STYLES
            ========================================= */
-        .mode-switch { display: flex; justify-content: center; margin-bottom: 28px; }
+        .mode-switch { display: flex; justify-content: center; margin-bottom: 22px; }
         .mode-switch .inner { display: inline-flex; background: white; border: 1px solid var(--border); border-radius: 40px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04); }
         .mode-btn { border: none; background: transparent; padding: 12px 38px; font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 600; color: var(--secondary); cursor: pointer; transition: all 0.2s ease; }
         .mode-btn:hover { color: #903b35; }
         .mode-btn.active { background: #903b35; color: #fff; }
 
-        .jump { display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 25px; font-family: 'Inter', sans-serif; font-size: 0.92rem; color: var(--secondary); }
-        .jump input { width: 80px; padding: 7px 10px; border: 1px solid var(--border); border-radius: 8px; font-family: 'Inter', sans-serif; font-size: 0.95rem; }
-
         /* Read mode */
-        .read-note { max-width: 780px; margin: 0 auto 35px auto; background: white; border: 1px solid var(--border); border-left: 4px solid #903b35; border-radius: 0 10px 10px 0; padding: 18px 22px; line-height: 1.7; color: var(--secondary); font-size: 0.97rem; }
+        .read-note { max-width: 820px; margin: 0 auto 30px auto; background: white; border: 1px solid var(--border); border-left: 4px solid #903b35; border-radius: 0 10px 10px 0; padding: 18px 22px; line-height: 1.7; color: var(--secondary); font-size: 0.96rem; font-family: 'Inter', sans-serif; }
         .read-note strong { color: var(--primary); }
-        .reader { max-width: 780px; margin: 0 auto; }
-        .ghazal { margin-bottom: 44px; padding-bottom: 12px; border-bottom: 1px solid var(--border); scroll-margin-top: 90px; }
-        .ghazal:last-child { border-bottom: none; }
-        .ghazal-no { font-family: 'Playfair Display', serif; color: var(--primary); text-align: center; font-size: 1.3rem; margin: 0 0 18px 0; }
-        .couplet-row { display: grid; grid-template-columns: 3.2rem 1fr 3.2rem; align-items: center; margin-bottom: 14px; }
+        .reader { max-width: 820px; margin: 0 auto; }
+        .ghazal { padding-bottom: 8px; }
+        .ghazal-no { font-family: 'Playfair Display', serif; color: var(--primary); text-align: center; font-size: 1.4rem; margin: 0 0 20px 0; scroll-margin-top: 90px; }
+        .couplet-row { display: grid; grid-template-columns: 3rem 1fr 3rem; align-items: center; margin-bottom: 16px; }
         .couplet-row .cid { font-family: 'Inter', sans-serif; font-size: 0.75rem; color: #94a3b8; }
         .couplet-row .lines { text-align: center; }
-        .line { font-family: 'Noto Nastaliq Urdu', serif; direction: rtl; font-size: 1.5rem; line-height: 2.2; color: var(--primary); }
+        .line { font-family: 'Noto Nastaliq Urdu', serif; direction: rtl; font-size: 1.4rem; line-height: 2.2; color: var(--primary); }
         .restored { color: #903b35; }
 
         /* Collate mode */
@@ -41,19 +37,29 @@
         .w-btn small { font-weight: 400; margin-left: 4px; }
         .w-btn:hover { border-color: #903b35; }
         .w-btn.on { background: #903b35; border-color: #903b35; color: #fff; }
-        #witness-info { background: #e2e8f0; color: #334155; padding: 14px 24px; border-radius: 8px; margin: 0 auto 22px auto; max-width: 900px; font-size: 0.93rem; text-align: center; border: 1px solid #cbd5e1; min-height: 24px; line-height: 1.6; font-family: 'Inter', sans-serif; }
-        .collate-key { text-align: center; font-family: 'Inter', sans-serif; font-size: 0.85rem; color: #64748b; margin-bottom: 18px; }
+        #witness-info { background: #e2e8f0; color: #334155; padding: 14px 24px; border-radius: 8px; margin: 0 auto 16px auto; max-width: 900px; font-size: 0.93rem; text-align: center; border: 1px solid #cbd5e1; min-height: 24px; line-height: 1.6; font-family: 'Inter', sans-serif; }
+        .collate-key { text-align: center; font-family: 'Inter', sans-serif; font-size: 0.85rem; color: #64748b; margin: 0 0 22px 0; }
 
         #deewanTable th small { display: block; font-weight: 400; font-size: 0.72rem; opacity: 0.75; }
-        #deewanTable td:not(.id-col) { font-family: 'Noto Nastaliq Urdu', serif; direction: rtl; text-align: right; font-size: 1.15rem; line-height: 2.2; }
-        #deewanTable td .line { font-size: 1.15rem; line-height: 2.2; }
-        #deewanTable tr { scroll-margin-top: 90px; }
+        #deewanTable td:not(.id-col) { font-family: 'Noto Nastaliq Urdu', serif; direction: rtl; text-align: right; vertical-align: middle; min-width: 190px; }
+        #deewanTable td .line { font-size: 1.05rem; line-height: 2.2; }
         .gap { color: #cbd5e1; font-family: 'Inter', sans-serif; }
         #deewanTable.hide-BL .col-BL, #deewanTable.hide-TO .col-TO, #deewanTable.hide-SJ .col-SJ, #deewanTable.hide-GM .col-GM { display: none; }
 
+        /* Pager (shared by both modes) */
+        .pager { margin: 34px auto 0 auto; max-width: 820px; text-align: center; font-family: 'Inter', sans-serif; }
+        .pager-row { display: flex; align-items: center; justify-content: center; gap: 18px; flex-wrap: wrap; }
+        .pg-btn { border: 1px solid var(--border); background: white; color: var(--secondary); padding: 10px 24px; border-radius: 30px; font-family: 'Inter', sans-serif; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s ease; }
+        .pg-btn:hover:not(:disabled) { background: #903b35; border-color: #903b35; color: #fff; }
+        .pg-btn:disabled { opacity: 0.4; cursor: default; }
+        .pager-label { font-weight: 600; color: var(--primary); min-width: 130px; }
+        .jump { margin-top: 18px; display: flex; justify-content: center; align-items: center; gap: 10px; font-size: 0.92rem; color: var(--secondary); }
+        .jump input { width: 80px; padding: 7px 10px; border: 1px solid var(--border); border-radius: 8px; font-family: 'Inter', sans-serif; font-size: 0.95rem; }
+        .jump button { border: 1px solid #903b35; background: #903b35; color: #fff; padding: 7px 18px; border-radius: 8px; font-family: 'Inter', sans-serif; font-size: 0.9rem; font-weight: 600; cursor: pointer; }
+
         @media screen and (max-width: 700px) {
-            .couplet-row { grid-template-columns: 2.4rem 1fr 0; }
-            .line { font-size: 1.3rem; }
+            .couplet-row { grid-template-columns: 2.2rem 1fr 0; }
+            .line { font-size: 1.25rem; }
             .mode-btn { padding: 11px 26px; }
         }
     </style>
@@ -105,12 +111,6 @@
             </div>
         </div>
 
-        <div class="jump">
-            <label for="jump-input">Go to ghazal</label>
-            <input type="number" id="jump-input" min="1" value="1">
-            <span id="jump-max"></span>
-        </div>
-
         <!-- READ MODE -->
         <div id="read-view">
             <div class="read-note">
@@ -133,6 +133,7 @@
             <div id="witness-info"><em>Select the witnesses to compare. Hover over or tap a button for its context.</em></div>
             <p class="collate-key">Words in <span class="restored">[square brackets]</span> are scribal omissions resupplied by the editor. A dash means the witness does not contain that couplet.</p>
 
+            <h3 class="ghazal-no" id="collate-title"></h3>
             <div class="table-wrapper">
                 <table id="deewanTable">
                     <thead>
@@ -146,6 +147,21 @@
                     </thead>
                     <tbody id="tableBody"></tbody>
                 </table>
+            </div>
+        </div>
+
+        <!-- PAGER (both modes) -->
+        <div class="pager">
+            <div class="pager-row">
+                <button type="button" class="pg-btn" id="prev-btn">&#8592; Previous</button>
+                <span class="pager-label" id="pager-label"></span>
+                <button type="button" class="pg-btn" id="next-btn">Next &#8594;</button>
+            </div>
+            <div class="jump">
+                <label for="jump-input">Go to ghazal</label>
+                <input type="number" id="jump-input" min="1" value="1">
+                <span id="jump-max"></span>
+                <button type="button" id="jump-btn">Go</button>
             </div>
         </div>
     </div>
@@ -196,88 +212,118 @@
             // --- HELPERS ---
             const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
             const fmt = l => esc(l).replace(/\[([^\]]*)\]/g, '<span class="restored">[$1]</span>');
-            const lines = t => String(t == null ? '' : t).split(/\r?\n/).filter(l => l.trim() !== '');
+            // The dataset separates the two lines of a couplet with <br> (or a newline)
+            const lines = t => String(t == null ? '' : t).split(/<br\s*\/?>|\r?\n/i).map(l => l.trim()).filter(l => l !== '');
             const lineHtml = t => lines(t).map(l => '<div class="line">' + fmt(l) + '</div>').join('');
             const ghazalOf = d => parseInt(String(d.id).split('.')[0], 10);
 
-            const maxGhazal = data.reduce((m, d) => Math.max(m, ghazalOf(d) || 0), 0);
+            // Group couplets by ghazal
+            const byG = new Map();
+            data.forEach(d => {
+                const g = ghazalOf(d);
+                if (!g) return;
+                if (!byG.has(g)) byG.set(g, []);
+                byG.get(g).push(d);
+            });
+            const ghazalNums = Array.from(byG.keys()).sort((a, b) => a - b);
+            const last = ghazalNums.length - 1;
+            const maxGhazal = ghazalNums[last];
+
+            // --- ELEMENTS ---
+            const readView = document.getElementById('read-view');
+            const collateView = document.getElementById('collate-view');
+            const collateTitle = document.getElementById('collate-title');
+            const modeBtns = document.querySelectorAll('.mode-btn');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const pagerLabel = document.getElementById('pager-label');
             const jumpInput = document.getElementById('jump-input');
+            const jumpBtn = document.getElementById('jump-btn');
             jumpInput.max = maxGhazal;
             document.getElementById('jump-max').textContent = 'of ' + maxGhazal;
 
-            // --- READ VIEW (SJ only) ---
-            let readBuilt = false;
-            function buildRead() {
-                if (readBuilt) return;
-                const groups = new Map();
-                data.forEach(d => {
-                    if (!lines(d.SJ).length) return;
-                    const g = ghazalOf(d);
-                    if (!groups.has(g)) groups.set(g, []);
-                    groups.get(g).push(d);
-                });
-                let html = '';
-                groups.forEach((rows, g) => {
-                    html += '<section class="ghazal" id="g' + g + '"><h3 class="ghazal-no">Ghazal ' + g + '</h3>';
+            // --- STATE (from URL hash such as #collate-12) ---
+            let mode = 'read';
+            let idx = 0;
+            const m = /^#(read|collate)-(\d+)$/.exec(location.hash);
+            if (m) {
+                mode = m[1];
+                const i = ghazalNums.indexOf(parseInt(m[2], 10));
+                if (i >= 0) idx = i;
+            }
+
+            // --- RENDER ---
+            function render(scrollToTop) {
+                const g = ghazalNums[idx];
+                const rows = byG.get(g);
+
+                if (mode === 'read') {
+                    let html = '<section class="ghazal"><h3 class="ghazal-no" id="read-title">Ghazal ' + g + '</h3>';
                     rows.forEach(d => {
+                        if (!lines(d.SJ).length) return;
                         html += '<div class="couplet-row"><span class="cid">' + esc(d.id) + '</span><div class="lines">' + lineHtml(d.SJ) + '</div><span></span></div>';
                     });
-                    html += '</section>';
-                });
-                reader.innerHTML = html;
-                readBuilt = true;
+                    reader.innerHTML = html + '</section>';
+                } else {
+                    collateTitle.textContent = 'Ghazal ' + g;
+                    tbody.innerHTML = rows.map(d => {
+                        let tr = '<tr><td class="id-col">' + esc(d.id) + '</td>';
+                        WITNESSES.forEach(w => {
+                            const cell = lines(d[w]).length ? lineHtml(d[w]) : '<span class="gap">—</span>';
+                            tr += '<td class="col-' + w + '">' + cell + '</td>';
+                        });
+                        return tr + '</tr>';
+                    }).join('');
+                }
+
+                pagerLabel.textContent = 'Ghazal ' + g + ' of ' + maxGhazal;
+                prevBtn.disabled = (idx === 0);
+                nextBtn.disabled = (idx === last);
+                jumpInput.value = g;
+                if (history.replaceState) history.replaceState(null, '', '#' + mode + '-' + g);
+
+                if (scrollToTop) {
+                    const target = document.getElementById(mode === 'read' ? 'read-title' : 'collate-title');
+                    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
             }
 
-            // --- COLLATE VIEW ---
-            let collateBuilt = false;
-            function buildCollate() {
-                if (collateBuilt) return;
-                const seen = new Set();
-                let html = '';
-                data.forEach(d => {
-                    const g = ghazalOf(d);
-                    const idAttr = seen.has(g) ? '' : ' id="c' + g + '"';
-                    seen.add(g);
-                    html += '<tr' + idAttr + '><td class="id-col">' + esc(d.id) + '</td>';
-                    WITNESSES.forEach(w => {
-                        const cell = lines(d[w]).length ? lineHtml(d[w]) : '<span class="gap">—</span>';
-                        html += '<td class="col-' + w + '">' + cell + '</td>';
-                    });
-                    html += '</tr>';
-                });
-                tbody.innerHTML = html;
-                collateBuilt = true;
-            }
-
-            // --- MODE SWITCH ---
-            let mode = 'read';
-            const readView = document.getElementById('read-view');
-            const collateView = document.getElementById('collate-view');
-            const modeBtns = document.querySelectorAll('.mode-btn');
-
-            function setMode(m) {
-                mode = m;
+            function setMode(newMode, scroll) {
+                mode = newMode;
                 modeBtns.forEach(b => {
-                    const on = b.dataset.mode === m;
+                    const on = b.dataset.mode === mode;
                     b.classList.toggle('active', on);
                     b.setAttribute('aria-pressed', on);
                 });
-                if (m === 'read') { buildRead(); } else { buildCollate(); }
-                readView.hidden = (m !== 'read');
-                collateView.hidden = (m !== 'collate');
-                window.scrollTo({ top: 0 });
+                readView.hidden = (mode !== 'read');
+                collateView.hidden = (mode !== 'collate');
+                render(false);
+                if (scroll) window.scrollTo({ top: 0 });
             }
-            modeBtns.forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
+
+            function goTo(i) {
+                if (i < 0 || i > last) return;
+                idx = i;
+                render(true);
+            }
+
+            modeBtns.forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode, true)));
+            prevBtn.addEventListener('click', () => goTo(idx - 1));
+            nextBtn.addEventListener('click', () => goTo(idx + 1));
+            function jump() {
+                const i = ghazalNums.indexOf(parseInt(jumpInput.value, 10));
+                if (i >= 0) goTo(i);
+            }
+            jumpBtn.addEventListener('click', jump);
+            jumpInput.addEventListener('keydown', e => { if (e.key === 'Enter') jump(); });
 
             // --- WITNESS BUTTONS ---
             const table = document.getElementById('deewanTable');
             const info = document.getElementById('witness-info');
             const defaultInfo = info.innerHTML;
-            const wBtns = document.querySelectorAll('.w-btn');
+            const activeCount = () => document.querySelectorAll('.w-btn.on').length;
 
-            function activeCount() { return document.querySelectorAll('.w-btn.on').length; }
-
-            wBtns.forEach(btn => {
+            document.querySelectorAll('.w-btn').forEach(btn => {
                 const w = btn.dataset.witness;
                 btn.addEventListener('click', () => {
                     const turningOff = btn.classList.contains('on');
@@ -294,18 +340,8 @@
                 btn.addEventListener('blur', () => { info.innerHTML = defaultInfo; });
             });
 
-            // --- JUMP TO GHAZAL ---
-            function jump() {
-                const n = parseInt(jumpInput.value, 10);
-                if (!n || n < 1 || n > maxGhazal) return;
-                const el = document.getElementById((mode === 'read' ? 'g' : 'c') + n);
-                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-            jumpInput.addEventListener('change', jump);
-            jumpInput.addEventListener('keydown', e => { if (e.key === 'Enter') jump(); });
-
             // --- START ---
-            setMode('read');
+            setMode(mode, false);
         });
     </script>
 
