@@ -39,7 +39,6 @@ Earlier literature reports 118 ghazals for BL and 123 for SJ. Physical collation
 ├── downloads.html        Data downloads
 │
 ├── data.js               The collation dataset
-├── script.js             Table rendering and filtering
 ├── style.css             Shared styling
 ├── images/               Figures (NeighborNet networks, etc.)
 │
