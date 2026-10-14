@@ -210,11 +210,31 @@
             };
 
             // --- HELPERS ---
+            // The dataset holds its own HTML: <br> between the two lines of a couplet, and
+            // <span class="diff ..."> around variant words (styled by style.css).
             const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-            const fmt = l => esc(l).replace(/\[([^\]]*)\]/g, '<span class="restored">[$1]</span>');
-            // The dataset separates the two lines of a couplet with <br> (or a newline)
-            const lines = t => String(t == null ? '' : t).split(/<br\s*\/?>|\r?\n/i).map(l => l.trim()).filter(l => l !== '');
-            const lineHtml = t => lines(t).map(l => '<div class="line">' + fmt(l) + '</div>').join('');
+
+            // Style [bracketed] restorations without breaking any tags in the data
+            function brackets(html) {
+                let open = false;
+                return html.split(/(<[^>]+>)/).map(part => {
+                    if (part.charAt(0) === '<' && part.charAt(part.length - 1) === '>') return part;
+                    let res = open ? '<span class="restored">' : '';
+                    for (const ch of part) {
+                        if (ch === '[' && !open) { open = true; res += '<span class="restored">['; }
+                        else if (ch === ']' && open) { res += ']</span>'; open = false; }
+                        else { res += ch; }
+                    }
+                    if (open) res += '</span>';
+                    return res;
+                }).join('');
+            }
+
+            const rawLines = t => String(t == null ? '' : t).split(/<br\s*\/?>|\r?\n/i).map(l => l.trim()).filter(l => l !== '');
+            const stripTags = l => l.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+            const lines = t => rawLines(t).filter(l => stripTags(l) !== '');
+            // plain = true: text only (Read mode). Otherwise keep the diff spans (Collate mode).
+            const lineHtml = (t, plain) => lines(t).map(l => '<div class="line">' + brackets(plain ? stripTags(l) : l) + '</div>').join('');
             const ghazalOf = d => parseInt(String(d.id).split('.')[0], 10);
 
             // Group couplets by ghazal
@@ -261,7 +281,7 @@
                     let html = '<section class="ghazal"><h3 class="ghazal-no" id="read-title">Ghazal ' + g + '</h3>';
                     rows.forEach(d => {
                         if (!lines(d.SJ).length) return;
-                        html += '<div class="couplet-row"><span class="cid">' + esc(d.id) + '</span><div class="lines">' + lineHtml(d.SJ) + '</div><span></span></div>';
+                        html += '<div class="couplet-row"><span class="cid">' + esc(d.id) + '</span><div class="lines">' + lineHtml(d.SJ, true) + '</div><span></span></div>';
                     });
                     reader.innerHTML = html + '</section>';
                 } else {
