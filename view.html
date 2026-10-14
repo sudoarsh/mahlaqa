@@ -3,11 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Collation - Diwan of Mah Laqa Bai Chanda</title>
+    <title>Read & Collate - Diwan of Mah Laqa Bai Chanda</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* =========================================
+           READ / COLLATE PAGE STYLES
+           ========================================= */
+        .mode-switch { display: flex; justify-content: center; margin-bottom: 28px; }
+        .mode-switch .inner { display: inline-flex; background: white; border: 1px solid var(--border); border-radius: 40px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.04); }
+        .mode-btn { border: none; background: transparent; padding: 12px 38px; font-family: 'Inter', sans-serif; font-size: 1rem; font-weight: 600; color: var(--secondary); cursor: pointer; transition: all 0.2s ease; }
+        .mode-btn:hover { color: #903b35; }
+        .mode-btn.active { background: #903b35; color: #fff; }
+
+        .jump { display: flex; justify-content: center; align-items: center; gap: 10px; margin-bottom: 25px; font-family: 'Inter', sans-serif; font-size: 0.92rem; color: var(--secondary); }
+        .jump input { width: 80px; padding: 7px 10px; border: 1px solid var(--border); border-radius: 8px; font-family: 'Inter', sans-serif; font-size: 0.95rem; }
+
+        /* Read mode */
+        .read-note { max-width: 780px; margin: 0 auto 35px auto; background: white; border: 1px solid var(--border); border-left: 4px solid #903b35; border-radius: 0 10px 10px 0; padding: 18px 22px; line-height: 1.7; color: var(--secondary); font-size: 0.97rem; }
+        .read-note strong { color: var(--primary); }
+        .reader { max-width: 780px; margin: 0 auto; }
+        .ghazal { margin-bottom: 44px; padding-bottom: 12px; border-bottom: 1px solid var(--border); scroll-margin-top: 90px; }
+        .ghazal:last-child { border-bottom: none; }
+        .ghazal-no { font-family: 'Playfair Display', serif; color: var(--primary); text-align: center; font-size: 1.3rem; margin: 0 0 18px 0; }
+        .couplet-row { display: grid; grid-template-columns: 3.2rem 1fr 3.2rem; align-items: center; margin-bottom: 14px; }
+        .couplet-row .cid { font-family: 'Inter', sans-serif; font-size: 0.75rem; color: #94a3b8; }
+        .couplet-row .lines { text-align: center; }
+        .line { font-family: 'Noto Nastaliq Urdu', serif; direction: rtl; font-size: 1.5rem; line-height: 2.2; color: var(--primary); }
+        .restored { color: #903b35; }
+
+        /* Collate mode */
+        .witness-buttons { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 10px; margin-bottom: 14px; font-family: 'Inter', sans-serif; }
+        .control-label { font-weight: 600; color: var(--secondary); margin-right: 6px; }
+        .w-btn { border: 1px solid var(--border); background: white; color: #94a3b8; padding: 9px 20px; border-radius: 30px; font-family: 'Inter', sans-serif; font-size: 0.95rem; font-weight: 600; cursor: pointer; transition: all 0.2s ease; }
+        .w-btn small { font-weight: 400; margin-left: 4px; }
+        .w-btn:hover { border-color: #903b35; }
+        .w-btn.on { background: #903b35; border-color: #903b35; color: #fff; }
+        #witness-info { background: #e2e8f0; color: #334155; padding: 14px 24px; border-radius: 8px; margin: 0 auto 22px auto; max-width: 900px; font-size: 0.93rem; text-align: center; border: 1px solid #cbd5e1; min-height: 24px; line-height: 1.6; font-family: 'Inter', sans-serif; }
+        .collate-key { text-align: center; font-family: 'Inter', sans-serif; font-size: 0.85rem; color: #64748b; margin-bottom: 18px; }
+
+        #deewanTable th small { display: block; font-weight: 400; font-size: 0.72rem; opacity: 0.75; }
+        #deewanTable td:not(.id-col) { font-family: 'Noto Nastaliq Urdu', serif; direction: rtl; text-align: right; font-size: 1.15rem; line-height: 2.2; }
+        #deewanTable td .line { font-size: 1.15rem; line-height: 2.2; }
+        #deewanTable tr { scroll-margin-top: 90px; }
+        .gap { color: #cbd5e1; font-family: 'Inter', sans-serif; }
+        #deewanTable.hide-BL .col-BL, #deewanTable.hide-TO .col-TO, #deewanTable.hide-SJ .col-SJ, #deewanTable.hide-GM .col-GM { display: none; }
+
+        @media screen and (max-width: 700px) {
+            .couplet-row { grid-template-columns: 2.4rem 1fr 0; }
+            .line { font-size: 1.3rem; }
+            .mode-btn { padding: 11px 26px; }
+        }
+    </style>
 </head>
 <body>
 
@@ -16,12 +65,12 @@
         <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation">
             ☰
         </button>
-        
+
         <ul class="nav-links" id="nav-links">
             <li><a href="index.html">Home</a></li>
-            
+
             <li class="dropdown">
-                <a href="#" class="dropbtn active" style="color: #ffffff;">Context ▾</a>
+                <a href="#" class="dropbtn">Context ▾</a>
                 <div class="dropdown-content">
                     <a href="about.html">About Mah Laqa</a>
                     <a href="bibliography.html">Bibliography & Links</a>
@@ -30,10 +79,10 @@
             </li>
 
             <li class="dropdown">
-                <a href="#" class="dropbtn">The Text ▾</a>
+                <a href="#" class="dropbtn active" style="color: #ffffff;">The Text ▾</a>
                 <div class="dropdown-content">
                     <a href="sources.html">The Witnesses</a>
-                    <a href="view.html">Interactive Collation</a>
+                    <a href="view.html">Read & Collate</a>
                     <a href="analysis.html">Computational Analysis</a>
                 </div>
             </li>
@@ -43,39 +92,65 @@
     </nav>
 
     <div class="hero" style="padding: 3rem 1rem; margin-bottom: 2rem;">
-        <h1>Interactive Collation Matrix</h1>
+        <h1>The Diwan</h1>
+        <p style="font-family: 'Playfair Display', serif; font-size: 1.3rem; font-style: italic; margin: 0;">Read the 1818 text, or collate all four witnesses</p>
     </div>
 
-    <div class="container">
-        <div class="controls" id="witness-controls">
-            <span class="control-label">Active Witnesses:</span>
-            <label data-witness="BL"><input type="checkbox" class="col-toggle" value="BL" checked> BL (1799)</label>
-            <label data-witness="TO"><input type="checkbox" class="col-toggle" value="TO" checked> TO (1811)</label>
-            <label data-witness="SJ"><input type="checkbox" class="col-toggle" value="SJ" checked> SJ (1818)</label>
-            <label data-witness="GM"><input type="checkbox" class="col-toggle" value="GM" checked> GM (1906)</label>
+    <div class="container" style="max-width: 1200px;">
+
+        <div class="mode-switch">
+            <div class="inner" role="group" aria-label="View mode">
+                <button type="button" class="mode-btn active" data-mode="read" aria-pressed="true">Read</button>
+                <button type="button" class="mode-btn" data-mode="collate" aria-pressed="false">Collate</button>
+            </div>
         </div>
 
-        <div id="witness-info" style="background: #e2e8f0; color: #334155; padding: 15px 25px; border-radius: 8px; margin-top: -10px; margin-bottom: 25px; font-size: 0.95rem; text-align: center; transition: all 0.3s ease; border: 1px solid #cbd5e1; min-height: 24px;">
-            <em>Hover over a witness toggle above to view its historical context.</em>
+        <div class="jump">
+            <label for="jump-input">Go to ghazal</label>
+            <input type="number" id="jump-input" min="1" value="1">
+            <span id="jump-max"></span>
         </div>
 
-        <div class="table-wrapper">
-            <table id="deewanTable">
-                <thead>
-                    <tr>
-                        <th class="id-col">ID</th>
-                        <th class="col-BL">BL (1799)</th>
-                        <th class="col-TO">TO (1811)</th>
-                        <th class="col-SJ">SJ (1818)</th>
-                        <th class="col-GM">GM (Print)</th>
-                    </tr>
-                </thead>
-                <tbody id="tableBody"></tbody>
-            </table>
+        <!-- READ MODE -->
+        <div id="read-view">
+            <div class="read-note">
+                <strong>The text of the Diwan of Mah Laqa Bai Chanda.</strong>
+                This is the first faithful reproduction of her diwan, taken from the Salar Jung manuscript of 1818 (SJ), appended to the <em>Tārīkh-e-Dil-Afrōz</em>, from which <em>Gulzar-e-Mah Laqa</em> (1906) is derived. This text contains scribal errors. Scribal omissions are resupplied in <span class="restored">[square brackets]</span>. To see how the other witnesses read, switch to Collate.
+            </div>
+            <div class="reader" id="reader"></div>
+        </div>
+
+        <!-- COLLATE MODE -->
+        <div id="collate-view" hidden>
+            <div class="witness-buttons" id="witness-controls">
+                <span class="control-label">Witnesses:</span>
+                <button type="button" class="w-btn on" data-witness="BL" aria-pressed="true">BL <small>1799</small></button>
+                <button type="button" class="w-btn on" data-witness="TO" aria-pressed="true">TO <small>1811</small></button>
+                <button type="button" class="w-btn on" data-witness="SJ" aria-pressed="true">SJ <small>1818</small></button>
+                <button type="button" class="w-btn on" data-witness="GM" aria-pressed="true">GM <small>1906</small></button>
+            </div>
+
+            <div id="witness-info"><em>Select the witnesses to compare. Hover over or tap a button for its context.</em></div>
+            <p class="collate-key">Words in <span class="restored">[square brackets]</span> are scribal omissions resupplied by the editor. A dash means the witness does not contain that couplet.</p>
+
+            <div class="table-wrapper">
+                <table id="deewanTable">
+                    <thead>
+                        <tr>
+                            <th class="id-col">ID</th>
+                            <th class="col-BL">BL (1799)</th>
+                            <th class="col-TO">TO (1811)</th>
+                            <th class="col-SJ">SJ (1818)<small>base text</small></th>
+                            <th class="col-GM">GM (Print)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody"></tbody>
+                </table>
+            </div>
         </div>
     </div>
 
-        <!-- FOOTER -->
+    <!-- FOOTER -->
     <footer style="margin-top: 80px; padding: 40px 20px; background-color: var(--primary); color: #cbd5e1; text-align: center; font-size: 0.95rem; border-top: 3px solid var(--accent); line-height: 1.6; font-family: 'Inter', sans-serif;">
         <div style="max-width: 1200px; margin: 0 auto;">
             <p style="margin: 0 0 10px 0;">All code, data, and text for this digital edition are open source.</p>
@@ -86,7 +161,153 @@
     </footer>
 
     <script src="data.js"></script>
-    <script src="script.js"></script>
-    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            // --- MOBILE MENU ---
+            const mobileMenuBtn = document.getElementById('mobile-menu');
+            const navLinks = document.getElementById('nav-links');
+            if (mobileMenuBtn && navLinks) {
+                ['click', 'touchstart'].forEach(function (evt) {
+                    mobileMenuBtn.addEventListener(evt, function (e) {
+                        e.preventDefault();
+                        navLinks.classList.toggle('show');
+                    }, { passive: false });
+                });
+            }
+
+            // --- DATA ---
+            const reader = document.getElementById('reader');
+            const tbody = document.getElementById('tableBody');
+            if (typeof deewanData === 'undefined' || !Array.isArray(deewanData)) {
+                reader.innerHTML = '<p style="text-align:center;color:#b91c1c;">The dataset (data.js) could not be loaded.</p>';
+                return;
+            }
+            const data = deewanData;
+            const WITNESSES = ['BL', 'TO', 'SJ', 'GM'];
+
+            const INFO = {
+                BL: '<strong>BL, 1799.</strong> British Library, IO Islamic 2768. Presented by Mah Laqa Bai to John Malcolm. 97 ghazals, with a Persian dibācha naming Raja Rao Ranbha as patron.',
+                TO: '<strong>TO, 1811.</strong> Telangana Oriental Manuscript Library, MS 228. A circle copy of 98 ghazals, very close to BL.',
+                SJ: '<strong>SJ, 1818.</strong> Salar Jung Museum, Hyderabad. Appended to the Tārīkh-e-Dil-Afrōz. 125 ghazals; the base text of this edition.',
+                GM: '<strong>GM, 1906.</strong> <em>Gulzar-e-Mah Laqa</em>, ed. Ghulam Samdani Khan Gauhar, Nizam ul Matabe, Hyderabad. 125 ghazals; a posthumous lithograph derived from SJ.'
+            };
+
+            // --- HELPERS ---
+            const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            const fmt = l => esc(l).replace(/\[([^\]]*)\]/g, '<span class="restored">[$1]</span>');
+            const lines = t => String(t == null ? '' : t).split(/\r?\n/).filter(l => l.trim() !== '');
+            const lineHtml = t => lines(t).map(l => '<div class="line">' + fmt(l) + '</div>').join('');
+            const ghazalOf = d => parseInt(String(d.id).split('.')[0], 10);
+
+            const maxGhazal = data.reduce((m, d) => Math.max(m, ghazalOf(d) || 0), 0);
+            const jumpInput = document.getElementById('jump-input');
+            jumpInput.max = maxGhazal;
+            document.getElementById('jump-max').textContent = 'of ' + maxGhazal;
+
+            // --- READ VIEW (SJ only) ---
+            let readBuilt = false;
+            function buildRead() {
+                if (readBuilt) return;
+                const groups = new Map();
+                data.forEach(d => {
+                    if (!lines(d.SJ).length) return;
+                    const g = ghazalOf(d);
+                    if (!groups.has(g)) groups.set(g, []);
+                    groups.get(g).push(d);
+                });
+                let html = '';
+                groups.forEach((rows, g) => {
+                    html += '<section class="ghazal" id="g' + g + '"><h3 class="ghazal-no">Ghazal ' + g + '</h3>';
+                    rows.forEach(d => {
+                        html += '<div class="couplet-row"><span class="cid">' + esc(d.id) + '</span><div class="lines">' + lineHtml(d.SJ) + '</div><span></span></div>';
+                    });
+                    html += '</section>';
+                });
+                reader.innerHTML = html;
+                readBuilt = true;
+            }
+
+            // --- COLLATE VIEW ---
+            let collateBuilt = false;
+            function buildCollate() {
+                if (collateBuilt) return;
+                const seen = new Set();
+                let html = '';
+                data.forEach(d => {
+                    const g = ghazalOf(d);
+                    const idAttr = seen.has(g) ? '' : ' id="c' + g + '"';
+                    seen.add(g);
+                    html += '<tr' + idAttr + '><td class="id-col">' + esc(d.id) + '</td>';
+                    WITNESSES.forEach(w => {
+                        const cell = lines(d[w]).length ? lineHtml(d[w]) : '<span class="gap">—</span>';
+                        html += '<td class="col-' + w + '">' + cell + '</td>';
+                    });
+                    html += '</tr>';
+                });
+                tbody.innerHTML = html;
+                collateBuilt = true;
+            }
+
+            // --- MODE SWITCH ---
+            let mode = 'read';
+            const readView = document.getElementById('read-view');
+            const collateView = document.getElementById('collate-view');
+            const modeBtns = document.querySelectorAll('.mode-btn');
+
+            function setMode(m) {
+                mode = m;
+                modeBtns.forEach(b => {
+                    const on = b.dataset.mode === m;
+                    b.classList.toggle('active', on);
+                    b.setAttribute('aria-pressed', on);
+                });
+                if (m === 'read') { buildRead(); } else { buildCollate(); }
+                readView.hidden = (m !== 'read');
+                collateView.hidden = (m !== 'collate');
+                window.scrollTo({ top: 0 });
+            }
+            modeBtns.forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
+
+            // --- WITNESS BUTTONS ---
+            const table = document.getElementById('deewanTable');
+            const info = document.getElementById('witness-info');
+            const defaultInfo = info.innerHTML;
+            const wBtns = document.querySelectorAll('.w-btn');
+
+            function activeCount() { return document.querySelectorAll('.w-btn.on').length; }
+
+            wBtns.forEach(btn => {
+                const w = btn.dataset.witness;
+                btn.addEventListener('click', () => {
+                    const turningOff = btn.classList.contains('on');
+                    if (turningOff && activeCount() === 1) return; // keep at least one witness
+                    btn.classList.toggle('on', !turningOff);
+                    btn.setAttribute('aria-pressed', !turningOff);
+                    table.classList.toggle('hide-' + w, turningOff);
+                    info.innerHTML = INFO[w];
+                });
+                const show = () => { info.innerHTML = INFO[w]; };
+                btn.addEventListener('mouseenter', show);
+                btn.addEventListener('focus', show);
+                btn.addEventListener('mouseleave', () => { info.innerHTML = defaultInfo; });
+                btn.addEventListener('blur', () => { info.innerHTML = defaultInfo; });
+            });
+
+            // --- JUMP TO GHAZAL ---
+            function jump() {
+                const n = parseInt(jumpInput.value, 10);
+                if (!n || n < 1 || n > maxGhazal) return;
+                const el = document.getElementById((mode === 'read' ? 'g' : 'c') + n);
+                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+            jumpInput.addEventListener('change', jump);
+            jumpInput.addEventListener('keydown', e => { if (e.key === 'Enter') jump(); });
+
+            // --- START ---
+            setMode('read');
+        });
+    </script>
+
 </body>
 </html>
